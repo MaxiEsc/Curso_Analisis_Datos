@@ -1,0 +1,189 @@
+Modulo 4 - Caso practico
+
+-------------------------------------------------------------------------------------------------------
+
+Exhibe tu trabajo
+
+¡Felicitaciones por obtener tu Certificado de análisis computacional de datos de Google! Ahora es el momento de informar al mundo sobre las habilidades que adquiriste para ayudarte a avanzar en tu carrera y compartir algunos de los recursos que creaste en el trayecto. Te recomendamos agregar la obtención de este certificado a tu currículo y tu perfil de LinkedIn. Continúa leyendo y sigue estos consejos para empezar:
+Agregar el Certificado de análisis computacional de datos de Google a tu currículo y perfil de LinkedIn
+
+Es posible que ya hayas creado un currículo de analista de datos en el programa de certificación. Si no lo hiciste, hay varias plantillas digitales para crear currículos disponibles a través de Enhancv
+, Big Interview
+, Google Docs
+ o Microsoft Word.
+
+ Puedes encontrar orientación adicional para la creación de currículos en esta lección de Habilidades digitales aplicadas: Crear un currículo
+Actualizar la sección Educación o Licencias y certificaciones
+
+    Para agregar la obtención de este certificado a tu currículo, actualiza tu sección Educación o Licencias y certificaciones.
+
+    Para agregar la obtención de este certificado a la sección Licencias y certificaciones de tu perfil de LinkedIn, sigue los pasos que se enumeran en este artículo.
+
+     
+
+Ejemplo:
+
+Educación: Certificado de análisis computacional de datos de Google, Coursera 2021.
+
+Associate of Arts, KC Community College, Central, IL 2018.
+Actualizar tu sección Habilidades
+
+    Si corresponde, actualiza la sección Habilidades de tu currículo. A continuación se muestra una lista completa de las habilidades con las que este certificado fue diseñado para ayudarte a desarrollar y que podrías agregar.
+
+    Para actualizar la sección Habilidades y respaldos de tu perfil de LinkedIn, sigue los pasos que se indican en este artículo.
+
+Habilidades:
+
+    Análisis de datos
+
+    Limpieza de datos
+
+    Visualización de datos
+
+    Programación en R
+
+    Toma de decisiones basada en datos
+
+    Cálculo y análisis en SQL y en hojas de cálculo
+
+    Presentaciones efectivas
+
+Actualizar la sección Resumen o Acerca de
+
+    Si tienes una sección Resumen en tu currículo, puedes incluir esta certificación como calificación.
+
+    Para incluir un resumen que mencione esta certificación en tu perfil de LinkedIn, actualiza tu sección Acerca de siguiendo los pasos que se indican en este artículo.
+
+Ejemplo: 
+
+Persona versátil con experiencia en la recopilación, transformación y organización de datos para su análisis con el fin de ayudar a tomar decisiones informadas. Excelentes conocimientos y dominio de las plataformas para el análisis efectivo de datos, que incluyen SQL, hojas de cálculo, Tableau y lenguaje R. Sólidas destrezas analíticas, comunicacionales y organizativas. Recientemente obtuve el Certificado de análisis computacional de datos de Google, un programa riguroso y práctico que cubre todo el proceso del análisis computacional de datos.
+Agregar tu insignia
+
+Consulta el siguiente elemento del curso para obtener información sobre cómo solicitar tu insignia de obtención de la certificación y agregarla a tu perfil de LinkedIn.
+
+-------------------------------------------------------------------------------------------------------
+
+Reclama la insignia de tu Certificado de análisis computacional de datos de Google
+
+Los alumnos que completen todos los cursos de este certificado serán elegibles para obtener una insignia digital de Credly y Google.
+
+Encontrarás más detalles en las preguntas frecuentes a continuación. Para cualquier otra pregunta, incluidos problemas con tu certificado, comunícate con Servicios para alumnos de Coursera
+
+.
+Acerca de las insignias
+¿Qué es una insignia?
+
+    Una insignia es una representación visual de una credencial verificada que obtuviste. En este caso, tu credencial es el Certificado profesional de análisis computacional de datos de Google. Recibirás una insignia cuando finalices el programa y podrás compartirla en plataformas como LinkedIn para captar la atención de los posibles empleadores.
+
+¿Qué son Credly y Acclaim? 
+
+    Acclaim es una plataforma de acreditación que forma parte de Credly, un proveedor líder de servicios de credenciales digitales. Acclaim proporciona insignias para que puedas compartir fácilmente tus logros en sitios en línea como LinkedIn y que los empleadores puedan verificar tus habilidades al instante.
+
+¿Cómo agrego mis insignias a mi perfil de LinkedIn?
+
+    Sigue los pasos que figuran en este artículo de Credly
+
+ para agregar tu insignia a LinkedIn. También puedes ver este video de YouTube.
+
+Acerca de la insignia de Google
+¿Cómo puedo pedir mi insignia del Certificado de análisis computacional de datos de Google?
+
+    Cuando completes el certificado, recibirás un correo electrónico donde se te informará que has obtenido una insignia. En el correo electrónico, puedes optar por reclamar la insignia y elegir compartir esa información con el fin de que la expidan. Si decides reclamar la insignia, Coursera enviará una solicitud a Acclaim para que expida tu insignia. Si aún no tienes una cuenta de Acclaim, tendrás que crear una antes de poder aceptar y ver tu insignia.
+
+    Espera al menos una semana a partir de la fecha de finalización para que el sistema se actualice. ¡Asegúrate de revisar tu carpeta de correo no deseado en caso de que se encuentre allí!
+
+Completé el Certificado de análisis computacional de datos de Google ¿Qué hago si no recibí una invitación por correo electrónico para reclamar mi insignia?
+
+    Si esperaste una semana desde que completaste el certificado y no recibiste el correo electrónico, envía una solicitud a través del Centro de Ayuda de Acclaim.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Inscríbete en la plataforma Big Interview
+
+Dado que la preparación es clave para concretar entrevistas y conseguir un trabajo nuevo, hemos trabajado con Big Interview
+
+, una plataforma de preparación de entrevistas en línea, para crear herramientas interactivas para entrevistas específicamente diseñadas para estudiantes de análisis computacional de datos, como tú. 
+
+Nos complace poder ofrecerte 12 meses de acceso gratuito (que originalmente tiene un valor de USD 79 por mes) como parte del Certificado de análisis computacional de datos de Google. ¡Te lo has ganado!
+
+En Big Interview puedes hacer esto:
+
+    Practicar responder a las preguntas de la entrevista en un entorno grabado que te permite obtener comentarios y perfeccionar tus habilidades para presentarte a una entrevista
+
+    Preparar un currículo con la herramienta de creación de currículos
+
+Sigue los pasos que se mencionan a continuación para registrarte en tu cuenta Big Interview y empezar a practicar:
+
+    Ingresa en https://googlecerts.biginterview.com/
+
+.
+
+Haz clic en Registrarse.
+
+Regístrate con tu nombre, dirección de correo electrónico y contraseña.
+
+Inicia sesión.
+
+Ve a la página Aprender.
+
+Haz clic en Conjuntos de práctica para certificados de Google.
+
+Elige Análisis computacional de datos para empezar a practicar.
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+

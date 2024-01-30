@@ -1,0 +1,261 @@
+Modulo 1 . Introducción al proyecto final
+
+Este es un proyecto de fin de certificado que tanto Coursera como otras plataformas de aprendizaje suelen llamar proyecto final. El proyecto final reúne todo lo que has aprendido. Tendrás la oportunidad de juntar todo tu conocimiento nuevo y ponerlo en práctica con un caso práctico de análisis computacional de datos. En este vídeo, hablaremos más sobre lo que esto conlleva y cómo puede ayudarte a que te destaques en una búsqueda laboral. Los casos prácticos son proyectos de práctica de análisis computacional de datos. Cuando buscas trabajo, te pueden pedir que realices un caso práctico después de la llamada de preselección o de la primera entrevista. 
+
+El caso práctico es una forma usual en que los empleadores evalúan las destrezas laborales y llegan a conocer cómo abordas ciertos desafíos comunes relacionados con datos. 
+
+Los distintos empleadores podrían enviarte diferentes tipos de casos prácticos. Por ejemplo, podrían pedirte que limpies y analices un conjunto de datos, que propongas cómo medir el éxito de un proyecto, o que resuelvas y definas métricas de éxito para un producto específico. Por lo general, hay un límite de tiempo para el caso práctico que te han asignado. Por ejemplo, un empleador potencial podría darte algunos datos de muestra y preguntas sobre el proyecto y pedirte que crees una presentación o una nota con tus recomendaciones en 24 o 48 horas. Este límite de tiempo puede resultar algo desafiante. Pero la buena noticia es que la respuesta de tu caso práctico no tiene que ser perfecta. Lo importante es que demuestres tu proceso de pensamiento de manera que los entrevistadores puedan comprender cómo abordaste el problema. Puedes usar el proceso de análisis de datos que hemos aprendido durante este programa para guiarte. Veamos un ejemplo y analicemos todas las partes. Este caso práctico tiene toda la información que necesitamos para realizar esta tarea. Comienza aquí, con el título y el enfoque de la industria: predecir la tasa de bajas de los empleados para recursos humanos. También incluye un planteamiento del problema que describe cuál es el objetivo general. En este caso, están solicitando un análisis profundo de conceptos clave de análisis computacional de datos para predecir la tasa de bajas de los empleados en la organización y qué factores influyen para que un empleado deje la organización. Básicamente, este caso práctico tiene interés en predecir la tasa a la que los empleados podrían dejar la organización y los motivos para hacerlo. Hay algunos objetivos más específicos en la próxima sección. Nos piden que calculemos la probabilidad de que un empleado deje la empresa en los próximos cinco años. Eso es bastante claro, pero también están interesados en conocer formas para mejorar la retención de los empleados. Esta próxima sección es realmente clave. Lo que realmente les daremos una vez que hayamos completado el caso práctico son los entregables. En este ejemplo, nos están pidiendo una presentación que describa nuestros descubrimientos y nuestras recomendaciones. Por último, han incluido algunas secciones sobre los datos que usaremos para esta tarea. Aquí hay un conjunto de datos que podemos descargar. Ahora sabemos más sobre los casos prácticos y cómo se nos podrían presentar en un proceso de solicitud de empleo. Pero las personas apasionadas por el análisis computacional de datos harán algunas veces casos prácticos a su propio ritmo y los agregarán a un portfolio personal. 
+
+Un portfolio es una recopilación de casos prácticos que puede compartirse con empleadores potenciales. 
+
+Se puede almacenar en sitios web públicos como GitHub, Kaggle o Tableau, o en tu blog. También puede haber un enlace a tu portfolio en tu currículum. Esto proporcionará ejemplos de cómo abordaste tareas con datos en el pasado de las que puedas hablar en la entrevista. Estos portafolios muestran tus destrezas y te ayudan a destacarte en solicitudes de empleo. Además del caso práctico, hablaremos sobre la creación de tu portfolio y de cómo compartirlo. Esto será como una muy buena base sobre la cual puedes ir armando tu currículum. A continuación, veremos algunos muy buenos ejemplos de casos prácticos y portfolios que seguramente te inspirarán mientras comienzas los tuyos.
+
+-------------------------------------------------------------------------------------------------------
+
+Explorar algunos portafolios reales
+
+Anteriormente, aprendiste que un portfolio contiene muestras de lo que quieres compartir con posibles empleadores. Los casos prácticos son proyectos de análisis computacional de datos de práctica o ejemplo que puedes crear para tu portfolio. Luego de crear tu portfolio en línea, puedes agregar en tu currículum un enlace que te lleve a él. Tener un portfolio para mostrar quién eres y demostrar tus destrezas te ayudará a destacarte ante posibles empleadores. El caso práctico que completarás en este curso puede ser uno de los ejemplos que agregues a tu portfolio. 
+
+En esta lectura, aprenderás algunas cosas importantes para tener en cuenta al momento de crear tu portfolio. También explorarás GitHub y Kaggle, plataformas donde puedes alojar tu portfolio. Verás los perfiles profesionales de dos analistas de datos y qué incluyen en sus portfolios de Kaggle. 
+Los pormenores de la creación de tu portfolio 
+
+Primero y principal, tu portfolio debe representar tu propio trabajo. Si bien tomar ideas de otros portfolios es inspirador, copiar directamente (o solo modificar ligeramente) el trabajo de otros y compartirlo en tu propio portfolio nunca es aceptable. 
+
+Además, si trabajas en un proyecto como analista de datos, ten en cuenta que el trabajo que realizas para un empleador o cliente pertenece a su negocio. En muchos casos, no puedes compartir ese trabajo públicamente en tu portfolio personal sin el permiso directo y explícito de ellos de antemano.   
+
+Por último, debes tener cautela incluso con los conjuntos de datos abiertos o públicos. A menos que estés usando datos que hayas recolectado personalmente, pide permiso al propietario de los datos antes de publicar cualquier cosa relacionada con los datos en tu portfolio. Siempre debes asumir plena responsabilidad por lo que publicas; por este motivo, debes obtener los permisos correspondientes, según sea necesario. 
+
+Ahora repasaremos tres plataformas que puedes usar para alojar tu portfolio.
+Sitios web personales
+
+Crear un sitio web personal para alojar tu portfolio es una gran opción porque también puedes usarlo para mostrar aspectos de tu personalidad o antecedentes que contribuyen a tu marca profesional. Por ejemplo, puedes compartir una experiencia interesante que refleje tu capacidad para colaborar, ser resiliente o no darse por vencido. Independientemente de lo que decidas compartir, asegúrate de que sea algo que no te importe que sepan otras personas. 
+
+Por ejemplo, esta visualización del sitio web de Bill Yost -> https://www.billyost.net/
+
+, analista de datos, demuestra su capacidad de crear una visualización en Tableau, pero también relata una historia muy personal sobre su lucha contra el cáncer. Los empleadores potenciales obtienen una idea de sus destrezas y descubren mucho más sobre quién es al mismo tiempo.
+
+Ten en cuenta que, aunque las anotaciones en la visualización aparecen un poco abarrotadas en el espacio en blanco (según las pautas del curso Compartir datos a través del arte de la visualización -> https://www.coursera.org/learn/compartir-datos-a-traves-del-arte-de-la-visualizacion/supplement/ewNyk/consejos-profesionales-para-destacar-informacion-clave  ), el concepto de compartir una historia personal es la conclusión principal.
+
+GitHub
+
+GitHub es una plataforma alojada que los desarrolladores usan principalmente como repositorio de códigos, pero también se puede utilizar como repositorio de documentación. Uno de los consejos que recibiste en este programa es mantener un diario electrónico de cosas para recordar, especialmente para la sintaxis en SQL o R. Si algo en tu diario electrónico es especialmente útil, puedes crear un documento para tu portfolio en GitHub. Para inspirarte, consulta este documento léeme de Consejos de uso de R
+ que publicó un usuario de GitHub.
+
+Si tienes una cuenta en Kaggle, también puedes usarla como plataforma para alojar tu portfolio y antecedentes personales. Mira estos ejemplos de perfiles:
+
+Perfil de Jesse Mostipak -> https://www.kaggle.com/jessemostipak
+
+Perfil de Meg Risdal -> https://www.kaggle.com/mrisdal
+
+Sus perfiles muestran competencias en las que participaron, conjuntos de datos que crearon y debates en los que hicieron contribuciones. Las competencias de Kaggle son desafíos que las personas toman en cualquier etapa de sus carreras de programación y aprendizaje automático. Mira este vídeo de YouTube para aprender cómo ingresar en una competencia de Kaggle -> https://www.youtube.com/watch?v=GJBOMWpLpTQ
+
+. Tanto el perfil de Jesse como el de Meg incluyen, además, enlaces para seguirlas en otras plataformas de redes sociales, como LinkedIn y Twitter.
+
+Jupyter Notebook es una aplicación web de código abierto que se usa para crear documentos que contienen código en vivo, ecuaciones, visualizaciones y textos, y compartirlos con otras personas. Kaggle admite un entorno de Jupyter Notebook al que se puede acceder desde un navegador. Jesse y Meg también tienen notebooks en Kaggle. Puedes usar Kaggle para crear tus propios notebooks para que vean los potenciales empleadores.
+
+    Haz clic en el enlace de notebooks de Jesse Mostipak -> https://www.kaggle.com/jessemostipak/notebooks
+
+     para ver sus notebooks
+
+    Haz clic en el enlace de notebooks de Meg Risdal -> https://www.kaggle.com/mrisdal/notebooks
+
+ para ver sus notebooks
+
+-------------------------------------------------------------------------------------------------------
+
+Video: Qué buscan los empleadores en los analistas de datos
+
+Google es una empresa construida sobre datos. Está basada en datos. Y la idea detrás de ello es que cada persona, ya sea un ingeniero, un comerciante, un vendedor, o incluso si estás trabajando en administración, si manejas logística, papeles o nóminas de personal, todos tratamos con datos de una manera u otra. Estamos tratando de reconocer el hecho de que en todas las ocupaciones del mundo, en diferentes industrias, tener una habilidad especial y comprensión de los datos será crucial para todos. En una entrevista, lo que personalmente busco, lo que incluso mis colegas buscan es cómo se piensa en esto de forma creativa. Cuando las personas escuchan las palabras "analista de datos", piensan en ingenieros o en alguien extremadamente técnico, y solo se trata de trabajar con datos y números. Pero les ruego a las personas que revean esta percepción de que un analista de datos no solo es un científico, sino que también es un artista. El mundo entero es tu lienzo. La forma en que lo abordas e, incluso, algunas veces desafías las normas tradicionales para resolver un problema, creo que eso es muy poderoso, y realmente te pone en ventaja cuando se te compara con otras personas en entrevistas para dichos puestos. Hay una idea equivocada o mito de que cuando estás solicitando un empleo debes saber todas las respuestas correctas. Debes responder cada pregunta que te hacen correctamente. Pero eso no es así. Lo que todo entrevistador busca es ver cómo piensas, cuál es tu proceso de pensamiento, de qué manera miras determinado problema y cómo abordas la solución de esos problemas. Cuando expresas eso, es decir, hablas un poco más acerca de cómo piensas sobre cierta perspectiva, por qué piensas de esa manera, esto dice mucho de ti como persona y de tu habilidad profesional para ocupar ese puesto. Una de las cosas más fascinantes de ser analista de datos es contar historias. Miras los datos y todos los datos señalan que tienen una historia que contar. Si eres capaz de perfeccionar esta destreza, puedes contar historias increíbles. Lo que las personas recordarán no son solo los datos sino cómo cuentas esas historias a las personas o a tu público. Si hablas de la esencia básica de la historia, en vez de “esto es lo que me dicen los datos o esto es lo que los datos te dicen que hagas”, tendrás mucho más éxito. Y te garantizo que progresarás como analista de datos y tu carrera prosperará indefinidamente. Soy Rishie, gerente del plan de estudios de habilidades analíticas globales.
+
+
+-------------------------------------------------------------------------------------------------------
+
+Video: El mejor de la clase
+
+Ya hemos hablado sobre qué es un caso práctico y de por qué el hecho de agregar uno a tu portfolio podría ayudarte a que te destaques en una búsqueda laboral. Ahora, hablemos sobre algunas prácticas recomendadas para crear casos prácticos y portfolios y revisar algunos ejemplos muy buenos del trabajo de otros analistas. Cuando hablamos de casos prácticos, hay algunos consejos importantes para que tengas en cuenta. Primero, asegúrate de que tu caso práctico responda a la pregunta que se está haciendo. Veamos un caso práctico de muestra para una empresa que llamaremos Data Partners Real Estate. Les preguntaron a los candidatos: "¿Cómo calificarías el desempeño en reventa de Data Partners Real Estate durante 2020, qué está impulsando estas tendencias y cuál sería tu plan de acción?" La empresa entregó a los candidatos un conjunto de datos de mercado que incluye cosas como listados activos, visitas, contratos de reventa, puntos de precio y geolocalizaciones. Los candidatos tuvieron un día para revisar el proceso de análisis de datos y compartir una propuesta. Aquí está la presentación de un candidato. La diapositiva 2 expone la pregunta. El candidato identificó un rendimiento pobre en una banda de precio de vivienda específica que la empresa podría mejorar. Incluir aquí una rápida descripción general de las conclusiones ayuda a que el caso práctico mantenga el foco en la tarea en cuestión. Además de responder la pregunta, también debes asegurarte de que estás comunicando los pasos que has seguido y las suposiciones que hiciste sobre los datos. Una de las razones por la que los potenciales empleadores están interesados en los casos prácticos es que muestran el proceso de pensamiento y las destrezas para solucionar problemas. El hecho de que muestres los pasos que tomaste para arribar a tu conclusión puede ayudarlos a tener una buena idea de cómo trabajas. Aquí tenemos una explicación de las métricas que usan para realizar el análisis. Y, en cada diapositiva posterior, usan el título para contar su historia y explicar los pasos de su análisis. Establecen que la porción de mercado global de los contratos de reventa de esta empresa se mantuvo estable y explican que esto es el resultado de un alto crecimiento en un área y de pérdidas en otra. Luego, explican esta brecha y describen algunas causas potenciales. Y, en las notas del orador, agregaron algunas de sus suposiciones clave. Para resumir, brindaron recomendaciones a la empresa de acuerdo con la información de la base de los datos. Definieron las métricas con claridad, las conclusiones de los datos se organizaron en un orden lógico y detallado, y se aseguraron de explicar toda información previa sobre los datos que el público pudiera desconocer. En este caso, el candidato también compartió documentación de su análisis, incluidas sus consultas de SQL y hojas de cálculo. Este es un muy buen ejemplo de cómo un caso práctico puede mostrar el proceso de pensamiento de un analista. Ahora bien, todo caso práctico que completes durante una solicitud de empleo debe –por lo general– mantenerse en confidencialidad. Pero también puedes completar casos prácticos a tu propio ritmo y agregarlos a tu portfolio personal. Como hablamos anteriormente, tu portfolio es una recopilación de casos prácticos que quieres mostrar y también existen algunas prácticas recomendadas que puedes usar para crear tu portfolio. Los mejores portfolios son personales, únicos y simples. Aprendiste diferentes formas en que puedes publicar y compartir tu portfolio, por ejemplo, un blog, GitHub o Kaggle. Exploremos algunos portfolios para que podamos entender qué significa realmente personal, único y simple. Como quizás recuerdes, estos ejemplos también se presentaron en una lectura, así que siéntete libre de hacer un repaso y verificar esto por tu cuenta. Tu portafolio es una oportunidad para mostrarles a las personas quién eres, qué te interesa y qué es importante para ti. Aquí hay un ejemplo de un portfolio. De inmediato podemos decir que es muy personal con solo mirar el título: Compartiendo mi historia con el cáncer con visualizaciones de datos. Esta visualización de datos muestra la historia de salud de este analista a medida que se preparaba para una maratón mientras, al mismo tiempo, sobrellevaba un tratamiento contra el cáncer. Se trata de una historia muy personal y poderosa y habla más de su proyecto en la publicación de su blog. No obstante, también muestra su personalidad en la visualización de datos propiamente dicha. Leamos algunas de estas notas: "Mamá, si estás leyendo, envíame más galletas". "Fitbit murió; no me preocupé por alimentarlo durante nueve días". Además de la historia personal que cuentan estos datos, también obtenemos estas conclusiones sobre la personalidad del analista. El hecho de que tu portfolio cuente algo personal no significa que el foco tiene que estar por completo puesto en ti, sino que es una oportunidad para que otras personas te conozcan mejor. Es bueno agregar a tu portfolio cosas que te importen, cosas que sean interesantes para ti y cosas que te gustaría compartir. Esto destacará tus destrezas técnicas y también cómo abordas los problemas técnicos. El hecho de que tu portfolio cuente algo personal también ayuda a que sea único. Al resaltar las cosas que te interesan puedes distinguirte del resto. Veamos otro ejemplo. Este es un perfil de una usuaria de Kaggle con algunos de los <i>notebooks</i> que creó. Cada uno es básicamente un caso práctico que completó por puro placer. Tiene algunos <i>notebooks</i> en los que trabajó con los datos de los pingüinos de Palmer que usamos en R. Pero también tiene <i>notebooks</i> en los que hizo un análisis sobre un videojuego que le gusta. El uso de ejemplos comunes puede ser una gran práctica y puede demostrar destrezas prácticas para el puesto, pero agregar casos prácticos únicos e interesantes a tu portfolio lo hacen genial y memorable. Como regla general, haz que tu portfolio sea bastante simple. Nuestro objetivo es destacar nuestras destrezas como analistas de datos, de manera que no queremos distraer a nadie que esté visitando nuestro portfolio con un desorden innecesario. Aquí hay un ejemplo de un portfolio en GitHub. Este usuario creó una lista maestra de tutoriales en R que desarrolló. Es simple y directo. Hay una tabla de contenidos que lleva a diferentes páginas, lo que permite mantener la página de destino del portfolio simple y fácil de navegar. Esto no quiere decir que esta página sea aburrida. Le agregaron este arte divertido en la tapa y, aquí, hablan sobre sus propias experiencias con R. Pero incluso con todo eso, no nos distraemos con una página web desordenada. Por último, debes asegurarte de que tu portfolio sea relevante y presentable. Si sabes que te interesa cierto tipo de puesto de analista de datos, puedes adaptar tu portfolio para destacar esas destrezas. Asegúrate de mantenerlo actualizado, listo para que lo vea un empleador y, lo más importante, siéntete orgulloso de tu producto. Cuando hablamos de casos prácticos, debes asegurarte de que respondes la pregunta y comunicas los pasos que seguiste. A medida que creas tu portfolio, recuerda mantenerlo personal, único y simple. Ahora que tenemos algunas ideas de cómo crear grandes casos prácticos y portfolios, estás listo para empezar a trabajar por tu cuenta. A continuación, tomaremos el primer paso hacia la creación de nuestro propio caso práctico.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+Lista de verificación de tu portafolio y caso práctico
+
+
+Qué incluir en tu portfolio
+
+Incluso si no tienes experiencia laboral previa en análisis computacional de datos, aún puedes crear un excelente portfolio que represente tus nuevas destrezas y ofrezca información sobre quién eres. Asegúrate de incluir lo siguiente en tu portfolio:
+
+    Biografía: El enfoque principal de tu portfolio es presentarte a ti mismo de manera sólida y memorable. Escribe una introducción concisa y clara sobre ti mismo. El objetivo es capturar el interés del público y hacer que quieran conocerte para saber más. 
+
+    Página de contacto: Asegúrate de incluir una forma para que otros se comuniquen contigo, ya sea por correo electrónico, llamada telefónica (si te sientes cómodo) o nombres de usuario de redes sociales (especialmente LinkedIn). Es posible que tu sitio web tenga su propio formulario de contacto incorporado si utilizas creadores comunes de sitios web. 
+
+    Currículum: En lecturas anteriores, Agregar habilidades profesionales a tu currículum -> https://www.coursera.org/learn/proceso-de-datos-sucios-a-datos-limpios/supplement/8FBgn/como-agregar-destrezas-profesionales-a-tu-curriculum
+
+ y Agregar habilidades interpersonales a tu currículum
+
+    , aprendiste a elaborar un currículum que refleje tus destrezas y tu experiencia. Asegúrate de incluir un currículum en alguna parte de tu portfolio.
+
+    Logros: No te encuentras limitado solamente a experiencias pasadas. Se deben incluir todos los aspectos presentes destacados relacionados con la carrera que se te ocurran. Puede tratarse de cualquier certificación que hayas obtenido, eventos de análisis computacional de datos a los que hayas asistido o incluso publicaciones de blog que hayas publicado.
+
+    Una imagen tuya (opcional): Agrega un toque personal con una fotografía tuya. Todo lo que necesitas es una fotografía simple y clara que te represente bien.
+
+Qué incluir en un caso práctico
+
+Durante el proceso de entrevista, es muy probable que te enfrentes con la entrevista del caso práctico. En esta entrevista, se te proporcionará un escenario relacionado con el negocio en el que deberás analizar un problema y encontrar la mejor solución. El tiempo que tendrás para resolverlo será limitado, por lo que es mejor estar preparado para cualquier escenario que se te presente. Un excelente caso práctico constará de lo siguiente:
+
+    Introducción: Asegúrate de establecer el propósito del caso práctico. Esto incluye cuál es el escenario y una explicación sobre cómo se relaciona con un obstáculo del mundo real. Siéntete libre de anotar cualquier suposición o teoría que puedas tener dependiendo de la información proporcionada. 
+
+    Problemas: Debes identificar cuáles son los principales problemas, explicar cómo analizaste el problema y presentar los hechos que estés usando para respaldar tus resultados.
+
+    Soluciones: Describe una solución que mejoraría el problema y ten en mente algunas alternativas para demostrar que has pensado mucho en el caso práctico. No olvides incluir pros y contras para cada solución.
+
+    Conclusión: Finaliza tu presentación resumiendo los puntos clave de todas las soluciones de problemas que realizaste, destacando qué aprendiste de esto.
+
+    Próximos pasos: Elige la mejor solución y propón recomendaciones para que el cliente o la empresa las apliquen. Explica la razón de tu elección y la manera en que esto afectará el escenario de forma positiva. Sé específico y explica qué hay que hacer, quién debe hacerlo y cuándo.
+
+Ejemplos de preguntas de caso práctico en una entrevista
+
+Ten una mejor idea de las expectativas de un empleador a partir de las preguntas de caso práctico en este artículo de blog: Cuatro preguntas de caso práctico para la entrevista a analistas de datos en una startup -> https://www.holistics.io/blog/startup-data-analyst-interview-case-studies/
+.
+
+-------------------------------------------------------------------------------------------------------
+
+Revisar trayectorias profesionales en datos
+
+En una lectura del curso Aspectos básicos: Datos, datos, en todas partes -> https://www.coursera.org/learn/aspectos-basicos-datos-datos-en-todas-partes/supplement/VUMX2/funciones-y-descripciones-del-puesto-del-analista-de-datos
+
+, aprendiste sobre tres trayectorias profesionales diferentes en la ciencia de datos: analista de datos, científico de datos y especialista de datos. Esta lectura repasa la elección de carrera del analista de datos (primera columna en la tabla a continuación) para explorar cómo las destrezas que aprendiste en este programa coinciden con requisitos reales de trabajo.
+
+Aplicación de las destrezas del certificado a los requisitos laborales
+
+Las habilidades que adquieres con el Certificado de análisis computacional de datos de Google se alinean con las habilidades que requieren los puestos de analista de datos. Cuando redactas tu currículum, la manera en que presentas tus habilidades puede llamar la atención de un reclutador o gerente de contratación. Muchos asesores profesionales recomiendan que personalices tu currículum cada vez que solicites un empleo para que tu experiencia y tus destrezas se alineen lo más posible con los requisitos enumerados en la descripción del puesto.
+
+---
+
+Para cada una de las destrezas relevantes de la tabla anterior, ten en cuenta lo siguiente: 
+
+    Posibles frases de descripciones del puesto
+
+    Ejemplos de destrezas coincidentes de este certificado 
+
+Revisemos las habilidades para los analistas de datos y examinemos frases comunes que puedes encontrar en las descripciones del puesto.
+
+---
+
+<-- Destreza: consultas en base de datos -->				
+
+-Frase para describir el puesto
+
+Recopilar datos utilizando un lenguaje de secuencias de comandos como SQL
+
+-Destrezas de este programa que podrías incluir en tu currículum
+
+Realizar búsquedas en SQL - Ordenar y filtrar datos usando consultas de SQL - Convertir tipos de datos usando funciones de SQL
+
+
+<-- Destreza: Visualización de datos -->
+
+-Frase para describir el puesto
+
+Visualizar conclusiones de datos y comunicar tus resultados a equipos de otras organizaciones
+
+-Destrezas de este programa que podrías incluir en tu currículum	
+
+Crear visualizaciones de datos con Tableau - Crear elementos visuales en hojas de cálculo - Crear presentaciones a partir del análisis de datos
+
+<-- Destreza: Paneles -->
+
+-Frase para describir el puesto
+
+Crear y capacitar usuarios de nuevos paneles
+	
+-Destrezas de este programa que podrías incluir en tu currículum
+
+Identificar las necesidades de datos de los usuarios - Crear paneles con Tableau - Usar la metodología de Design Thinking para mejorar paneles
+
+<-- Destreza: Informes -->
+
+-Frase para describir el puesto		
+
+Crear informes integrales
+
+-Destrezas de este programa que podrías incluir en tu currículum
+
+Crear informes de limpieza de datos - Crear y mantener registros de cambios - Crear informes en R Markdown
+
+<-- Destreza: Hojas de cálculo -->	
+
+-Frase para describir el puesto
+
+Explorar y analizar conjuntos de datos con hojas de cálculo
+
+-Destrezas de este programa que podrías incluir en tu currículum	
+
+Limpiar datos en hojas de cálculo - Ordenar y filtrar datos en hojas de cálculo - Crear tablas dinámicas en hojas de cálculo
+
+<-- Destreza: Programación -->
+
+Esta es un área en la que potencialmente puedes distinguirte de otros candidatos cuando presentas tu solicitud a un puesto de analista de datos. Se considera que la programación es una destreza más avanzada o de nivel superior y es posible que ni siquiera esté en una descripción de trabajo para un puesto de analista de datos júnior. Aprendiste a usar R para el análisis de datos como parte de este programa, y agregar destrezas de programación a tu currículum podría hacer que tu solicitud se destaque.
+
+-Frase para describir el puesto
+
+Conocimiento de algunos lenguajes de programación y un enfoque organizado y metódico del trabajo	
+
+-Destrezas de este programa que podrías incluir en tu currículum
+
+Instalar y usar el paquete tidyverse en R - Ejecutar scripts en RStudio - Crear visualizaciones de datos en RStudio
+
+Apuntar a puestos más técnicos
+
+Si tu objetivo es trabajar en un puesto más técnico como científico de datos, el Certificado de análisis computacional de datos de Google es un buen punto de partida. Pero es posible que debas buscar oportunidades de aprendizaje adicionales para mejorar tus destrezas, como por ejemplo:
+
+    Completar otros certificados profesionales (Coursera ofrece una gran variedad)
+
+    Inscribirte en cursos universitarios como estudiante de medio tiempo o de tiempo completo y solicitar pasantías pagas 
+
+    Continuar estudiando una carrera universitaria de cuatro años, como informática, ciencia de datos o sistemas de información de gestión 
+
+Para más información sobre trayectorias profesionales en ciencia de datos, incluidos puestos más técnicos, consulta este artículo en Medium: Trayectorias profesionales dentro de la ciencia de datos -> https://medium.com/ds3ucsd/career-paths-within-data-science-4243679c04b9 .
+
+
+-------------------------------------------------------------------------------------------------------
+
+Próximos pasos
+
+El siguiente diagrama brinda una descripción general de los próximos pasos que tomarás para finalizar este curso. Completarás un caso práctico, crearás un portafolio en línea, actualizarás tu perfil en LinkedIn y te prepararás para entrevistas para el puesto de analista de datos. 
+
+Las secciones de esta lectura te dirigirán a recursos en este curso y otros cursos en el programa que te ayudarán a completar cada paso.
+
+1. Seleccionar y desarrollar un caso práctico 2. Elegir entre estos dos casos de empresas: - Membresías del servicio de bicicletas compartidas - Suscripciones del servicio de streaming O 2. Crear tu propio caso de negocio para analizar 3. Crear tu portafolio en línea y agregar tu caso práctico 4. Incluir un enlace a tu portafolio en línea en tu perfil de LinkedIn 5. Practicar una presentación concisa para tu caso práctico y prepararte para entrevistas para el puesto de analista de datos
+Seleccionar y desarrollar un caso práctico
+
+En este curso, tienes opciones para seleccionar y desarrollar un caso práctico. Puedes elegir una de las dos pistas posibles. 
+
+La primera pista consta de dos casos que ya están definidos. Puedes elegir uno de estos casos y continuar con el análisis de datos para responder las preguntas que se presentan para abordar los problemas del negocio. Para obtener más información, consulta los detalles de la pista 1
+
+. 
+
+La segunda pista te permite designar tu propio caso práctico sobre un tema que sea de tu interés. Puedes practicar todas las fases excepto la de actuar del proceso de análisis de datos: Preguntar, preparar, procesar, analizar, compartir y actuar. Para obtener más información, consulta los detalles de la pista 2
+. También puedes volver a ver el vídeo Seis pasos del análisis de datos
+
+ para repasar los pasos del proceso de análisis de datos.
+
+Después de familiarizarte con los detalles de cada pista, consulta la información de Próximos pasos: elige la pista
+
+ y decide qué camino quieres seguir.
+Crear tu portafolio en línea
+
+Después de completar tu caso práctico, crearás un portafolio en línea para guardarlo y exhibirlo. Consulta Crear tu portafolio en línea
+
+. Proporciona una descripción general de las plataformas que podrían alojar tu portafolio y tu caso práctico. 
+Actualizar tu perfil de LinkedIn
+
+En un curso anterior, aprendiste sobre crear presencia en línea con una cuenta de LinkedIn en Introducción a LinkedIn
+
+. Accede nuevamente a tu perfil de LinkedIn y agrega un enlace a tu portafolio en línea.
+Practicar una presentación concisa para tu caso práctico
+
+Puedes empezar a prepararte para entrevistas creando una presentación concisa para tu caso práctico. Consulta Lo que hace una gran presentación
+
+ para comprender los tipos de preguntas que debes preparar. Trata de incluir aspectos de tu presentación concisa en tus respuestas a las preguntas de muestra provistas en la lectura. Luego, practica la presentación de tu caso práctico como parte de tus respuestas planificadas a las preguntas más frecuentes de la entrevista.
+

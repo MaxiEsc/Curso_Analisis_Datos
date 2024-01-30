@@ -1,0 +1,285 @@
+Modulo 2 - Introduccion a la creacion de tu portfolio
+
+Introducción a la creación de tu portafolio
+
+En esta parte del curso, prepararás un caso práctico que podrás incluir en tu portafolio en línea. Todos los recursos proporcionados te ayudarán a lograr este objetivo (denominado el Proyecto final del análisis computacional de datos de Google).
+
+Como dice un viejo refrán: se aprende haciendo. Ya has aprendido la importancia de cada fase en el proceso de análisis de datos cuando trabajas con un conjunto de datos. Pronto aprenderás la importancia de tener un portafolio en línea. El Proyecto final de análisis computacional de datos de Google te permitirá efectivamente aunar ambos conocimientos en un conjunto de datos que has elegido a lo largo del proceso de análisis de datos para tu portafolio. 
+
+Completar tu proyecto final te permitirá practicar lo siguiente:
+
+    Recorrer las fases del proceso de análisis de datos: Preguntar, Preparar, Procesar, Analizar y Compartir
+
+    Establecer una tarea empresarial de manera clara
+
+    Importar datos desde un conjunto de datos existente
+
+    Documentar la limpieza de datos que realizas en el conjunto de datos
+
+    Analizar los datos 
+
+    Crear visualizaciones de datos en tus análisis
+
+    Resumir los hallazgos clave detectados en tus análisis
+
+    Documentar tus conclusiones y recomendaciones
+
+    Crear y publicar tu caso práctico 
+
+Tu caso práctico mostrará estas habilidades fundamentales a los posibles empleadores y también lo que aprendiste a través del Certificado de análisis computacional de datos de Google. Representará tus conocimientos y capacidades en tu portafolio.
+
+
+-------------------------------------------------------------------------------------------------------
+
+video: Los primeros casos en tu caso practico
+
+A continuación, harás una actividad que te ayudará a comenzar. Pero antes de eso, quiero contarte un poco más sobre los diferentes enfoques que puedes usar para empezar tu proyecto. Hay dos pistas posibles que puedes usar para dar forma a tu caso práctico y que te ayuden a empezar. En la Pista 1, podrás elegir una pregunta empresarial similar a la que podrían preguntarte los entrevistadores. Tienes varias opciones diferentes para elegir, con tareas empresariales específicas y distintos conjuntos de datos para usar. En la Pista 2, se te pedirá que encuentres un conjunto de datos públicos para explorar algo que te interese personalmente. Esto podría ser cualquier cosa. Desde analizar un videojuego que te guste, hasta un estudio sobre la población de fauna silvestre que te interese. Esta es la opción más flexible, y tendrás más libertad para crear algo que sea realmente personal para ti. Según lo que quieras hacer con tu caso práctico, podrías elegir una u otra opción. Por ejemplo, si quieres crear un caso práctico que puedas usar para demostrar tus habilidades laborales para futuras entrevistas, entonces, la Pista 1 podría ser más útil para ti, pero si hay algo que te interese personalmente, algo que te gustaría explorar más, la Pista 2 puede ser útil para crear un portfolio flexible. O si te interesan la Pista 1 y la 2, puedes usar ambas. Una vez que hayas decidido la pista que más te interesa, usarás el esquema del caso práctico para que te ayude a comenzar tu proyecto. El esquema sigue las fases del ciclo de vida del análisis de datos que hemos usado a lo largo de este programa. Completarás cada fase, desde formular las preguntas correctas hasta preparar, procesar y analizar tus datos, y finalmente crear tu presentación y compartirla en tu portfolio. Cada fase tendrá preguntas clave y actividades que pueden guiarte a lo largo del proceso. Si en algún momento necesitas revisar algo, siempre puedes volver a cualquier parte del programa como ayuda. A modo de recordatorio rápido, los datos con los que trabajarás en este proyecto serán públicos y de código abierto. Estos datos son maravillosos para demostrar tus habilidades como analista de datos, pero es esencial evitar el plagio, así que debes citar las fuentes. Los datos públicos, de código abierto se pueden buscar con facilidad y no queremos hacerlo pasar como nuestro propio trabajo. El plagio puede tener graves consecuencias negativas, tanto legales como personales. El atractivo de nuestro trabajo como analistas de datos es que podemos compartir y colaborar entre nosotros. Así que recordemos reconocer el mérito de nuestras fuentes. Espero que te entusiasme empezar tu caso práctico. Realmente me encanta ver el potencial de tus logros. Después de esto, podrás empezar a trabajar en el esquema.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+Próximos pasos, elegir tu pista
+
+Un caso práctico es una de las formas habituales que los empleadores utilizan para evaluar tus habilidades y observar cómo abordarías un proyecto relacionado con los datos. Por ejemplo, podrían pedirte que limpies y analices un conjunto de datos, crees una propuesta sobre cómo medir el éxito de un proyecto o averiguar y definir métricas de éxito para un determinado proyecto. 
+
+En este curso, practicarás cómo trabajar con un caso práctico. Puedes cumplir el requisito del caso práctico mediante una de las dos pistas que se presentan a continuación.
+
+Pista 1: Trabajar con las preguntas y los conjuntos de datos existentes
+	
+
+Pista 2: Elegir tus propias preguntas y conjunto de datos
+
+Demostrar destrezas laborales para las entrevistas futuras mediante el uso de cierto conjunto de datos para tu análisis. 
+	
+
+Crear un portafolio más flexible sobre un interés personal que tengas.
+
+Pista 1 -> https://www.coursera.org/learn/completa-un-caso-practico/supplement/bY66y/detalles-de-la-pista-1
+
+i seleccionas la Pista 1, puedes elegir alguna de las dos opciones a continuación para completar el requisito de tu caso práctico.
+
+    Caso práctico: Análisis de bicicletas compartidas Cyclistic 
+
+Esta es una oportunidad para analizar los datos históricos de viajes en bicicletas a fin de identificar tendencias. Es importante entender cómo difiere el comportamiento de los ciclistas ocasionales de los ciclistas con membresías pagas. Este análisis ayudará a los ejecutivos a tomar decisiones sobre los programas y las estrategias de marketing para convertir a los ciclistas ocasionales en ciclistas habituales con membresías anuales. 
+
+Consulta  Caso práctico 1: Cómo lograr el éxito rápido de un negocio de bicicletas compartidas -> https://www.coursera.org/learn/completa-un-caso-practico/supplement/7PGIT/caso-practico-1-como-lograr-el-exito-rapido-de-un-negocio-de-bicicletas
+
+ para obtener más información sobre este caso práctico. 
+
+    Caso práctico: Análisis de producto de Bellabeat
+
+Esta es una oportunidad para analizar los datos de actividad física disponibles públicamente con el fin de conocer cómo los consumidores usan estos productos. Identificar las tendencias en estos datos será fundamental. Esto ayudará a Bellabeat, fabricante de productos de alta tecnología orientados a la salud de la mujer, a determinar la estrategia de marketing futura. Consulta Caso práctico 2: Cómo puede hacer una empresa de bienestar para tomar decisiones inteligentes
+ para conocer más detalles sobre este caso práctico. -> https://www.coursera.org/learn/completa-un-caso-practico/supplement/ZsmDD/caso-practico-2-como-puede-hacer-una-empresa-de-bienestar-para-tomar-decisiones
+
+Pista 2 -> https://www.coursera.org/learn/completa-un-caso-practico/item/zbwbs
+
+Si seleccionas la Pista 2, debes buscar un conjunto de datos públicos que se focalice en un área que te parezca interesante. ¿Te interesa la vivienda para las personas sin hogar? ¿Te interesa la conservación de los espacios abiertos para uso público? ¿Te interesa averiguar si Bitcoin es una buena inversión? La Pisa 2 te da libertad para investigar cualquier tema que te guste, pero asume que tú serás tu propio director durante el desarrollo de tu caso práctico desde cero. Tendrás que proponer todos los requisitos del análisis. 
+
+Consulta estos recursos para obtener información adicional antes de seleccionar esta pista más avanzada:
+
+    Descarga el Caso práctico 3: Recorre tu propio camino en relación con los casos prácticos -> https://www.coursera.org/learn/completa-un-caso-practico/supplement/vcS93/caso-practico-3-recorre-tu-propio-camino-en-relacion-con-los-casos-practicos
+
+: Estas instrucciones describen qué implica seleccionar conjuntos de datos públicos y el proceso para crear tu propio caso práctico.
+
+Recursos para explorar otros casos prácticos -> https://www.coursera.org/learn/completa-un-caso-practico/item/ZQGDM
+
+    : Esta lectura describe cómo explorar otros casos prácticos para inspirarse utilizando Medium, GitHub, Tableau y Kaggle.
+
+Explorar conjuntos de datos públicos -> https://www.coursera.org/learn/preparar-datos-para-la-exploracion/supplement/8yrhM/explorar-conjuntos-de-datos-publicos
+: Esta lectura proporciona una lista de fuentes de conjuntos de datos públicos que puedes explorar para crear tu caso práctico. ¿Te entusiasmó cuando te preguntaron si estabas interesado en averiguar si Bitcoin es una buena inversión? Esta lectura incluye un enlace a los datos históricos de Bitcoin en Kaggle.
+
+
+-------------------------------------------------------------------------------------------------------
+
+Detalles de la Pista 1
+
+En el trabajo
+
+La primera pista involucra un caso práctico similar al que podrían pedirte en una entrevista laboral. Te asignarán una tarea empresarial, un conjunto de datos y una lista de entregables específicos que debes presentar a los interesados. La primera pista te ayudará a crear un caso práctico que podrías incluir en tu portafolio para demostrar destrezas laborales en futuras entrevistas. Puedes elegir entre dos casos. Una vez que decides qué paquete de caso práctico usarás, leerás los detalles, completarás el análisis y crearás tu caso práctico ya terminado. 
+
+Si esta pista te interesa, explora las opciones de casos prácticos y decide cuál quieres realizar. Los paquetes de casos prácticos disponibles para descargar tienen todo lo que necesitas para completar tu caso práctico. Después, estarás listo para cargar y compartir tu caso práctico con posibles empleadores.
+
+
+-------------------------------------------------------------------------------------------------------
+
+Caso práctico 1: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
+
+En este caso práctico, analizarás datos para una empresa ficticia de bicicletas compartidas con el fin de ayudarlos a atraer más ciclistas. A lo largo del camino, realizarás numerosas tareas del mundo real, típicas de un analista de datos júnior, en las que aplicarás los pasos del proceso de análisis de datos: Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar. Cuando hayas terminado, tendrás un caso práctico de portafolio listo para poder demostrar tus conocimientos y habilidades a los posibles empleadores.
+
+
+-------------------------------------------------------------------------------------------------------
+
+Caso práctico 2: ¿Cómo puede hacer una empresa de bienestar para tomar decisiones inteligentes?
+
+En este caso práctico, analizarás datos para Bellabeat, fabricante de productos de alta tecnología orientados a la salud de la mujer. Analizarás los datos de dispositivos inteligentes para conocer cómo los clientes usan sus dispositivos inteligentes. Tu análisis te guiará en futuras estrategias de marketing de tu equipo. A lo largo del camino, realizarás numerosas tareas del mundo real, típicas de un analista de datos júnior, en las que aplicarás los pasos del proceso de análisis de datos: Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar. Cuando hayas terminado, tendrás un caso práctico de portafolio listo para poder demostrar tus conocimientos y habilidades a los posibles empleadores.
+
+-------------------------------------------------------------------------------------------------------
+
+Detalles de la Pista 2
+Elige tu propia aventura
+
+La segunda pista implica encontrar un conjunto de datos públicos que se focalice en algo que sea de tu interés. Podrías elegir cualquier tema sobre el que quieras analizar datos, por ejemplo, el uso de bicicletas públicas en tu barrio, la migración de la fauna local, las ventas de consolas de videojuegos o cualquier otra cosa que te apasione. Puedes seguir los pasos en el paquete de casos prácticos para guiarte en este proceso. El paquete de casos prácticos proporciona recomendaciones sobre conjuntos de datos públicos, ejemplos de tareas empresariales y pasos para completar tu análisis. Esta pista es la más flexible, pero esa flexibilidad significa que puede ser más desafiante. Tendrás que usar todo lo que has aprendido hasta ahora para completar este caso práctico. 
+
+Si esta pista te interesa, explora el paquete de casos prácticos para conocer más detalles, encontrar el conjunto de datos públicos que quieres usar y completar tu análisis. Después, estarás listo para cargar y compartir tu caso práctico ya completo.
+
+-------------------------------------------------------------------------------------------------------
+
+Caso práctico 3: Recorre tu propio camino en relación con los casos prácticos
+
+¿Estás interesado en forjar tu propio camino? Este caso práctico te ofrece la oportunidad de elegir una pregunta empresarial que te interese especialmente. Necesitarás encontrar tu propio conjunto de datos, crear la tarea empresarial, decidir quiénes integrarán tu audiencia, etcétera. A lo largo del camino, realizarás numerosas tareas del mundo real, típicas de un analista de datos júnior, en las que aplicarás los pasos del proceso de análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar. Cuando hayas terminado, tendrás un caso práctico de portafolio listo para poder demostrar tus conocimientos y habilidades a los posibles empleadores.
+
+-------------------------------------------------------------------------------------------------------
+
+Recursos para explorar otros casos prácticos
+
+La inspiración está en todos lados. Para el caso práctico que incluirás en tu portfolio, puedes obtener ideas que provengan de tus pasatiempos, viajes, hijos, voluntariado e, incluso, de algo tan común como esperar en una fila. Por ejemplo, podrías crear un caso práctico que estudie el efecto que producen los tiempos de espera del cliente en las ventas de la empresa. 
+
+Supongamos que te gusta pescar. Puedes crear un caso práctico para tu portfolio que se relacione con ese pasatiempo. Es útil explorar Medium, GitHub, Tableau y Kaggle para hacerse una idea de lo que otras personas ya crearon y encontrar algo de inspiración. 
+Cómo hacer una búsqueda en Medium
+
+Para buscar casos prácticos en Medium, dirígete a medium.com/search -> https://medium.com/search
+
+. 
+
+Escribe la palabra “pesca”, por ejemplo. Medium te traerá un montón de artículos relacionados con la pesca. También puedes explorar temas relacionados con la pesca haciendo clic en otras etiquetas de la derecha: Medioambiente, Viajes, Pesca y viajes, Actividades al aire libre y mucho más.
+
+Cómo hacer una búsqueda en GitHub
+
+Para buscar casos prácticos en GitHub, dirígete a github.com/search -> https://github.com/search
+
+.
+
+Si escribes “pesca” en el campo de búsqueda, GitHub devolverá más de 4,000 resultados. Si escribes “caso práctico de pesca” en el campo de búsqueda, GitHub devolverá un resultado: un caso práctico de pesca de murciélago marino. Probablemente no sea una buena coincidencia para ti.
+
+Cómo hacer una búsqueda en Tableau
+
+Para buscar casos prácticos en Tableau, dirígete a public.tableau.com -> http://public.tableau.com/
+
+ y usa la barra de búsqueda en la parte superior de la página.
+
+Por ejemplo, haz clic en el ícono de búsqueda (la lupa) y escribe “pesca”. El término “pesca” devuelve más de 400 resultados, pero si escribes el hashtag “#pesca”, tendrás cuatro resultados interesantes.
+
+Cómo hacer una búsqueda en Kaggle
+
+Para buscar casos prácticos en Kaggle, dirígete a kaggle.com -> https://www.kaggle.com/
+ y usa la barra de búsqueda. Por ejemplo, si escribes “pesca” en la barra de búsqueda, en la parte superior de la página, obtendrás resultados similares a los que se muestran a continuación
+
+El notebook “R Markdown - Pesca por países” en Kaggle podría ser prometedor. A través de este notebook, descubres que hay un conjunto de datos de dominio público llamado “Extracción pesquera nominal anual: explorar el impacto de la sobrepesca en la cuenca del Atlántico Nordeste”.
+
+Probablemente hayas acabado de encontrar un excelente conjunto de datos que puedes utilizar para crear tu propio caso práctico. No te gustaría repetir el mismo análisis relacionado con la sobrepesca, pero los datos podrían revelar otro patrón digno de ser analizado. 
+Conclusión clave
+
+Puedes usar el mismo procedimiento que seguiste en el ejemplo de la pesca para buscar casos prácticos y datos sobre cualquier otro tema que te interese. Incluir en tu portafolio casos prácticos que son significativos para ti desde un punto de vista personal les da a los posibles empleadores una mejor idea del tipo de persona que eres y en qué se inspira tu trabajo.
+
+-------------------------------------------------------------------------------------------------------
+
+Video : Potencial ilimitado con casos practicos de analisis computacional de datos
+
+Es un logro maravilloso. Y todo es producto del arduo trabajo que dedicaste para practicar tus habilidades como analista de datos. Si realmente disfrutaste este proceso, siéntete libre para probar un camino diferente o elegir otro escenario de negocio. Puedes usar una y otra vez la guía que aplicaste para terminar tu primer caso práctico. Y cuanto más la uses, más mejorarás de maneras inesperadas. Además, sumar otros casos prácticos a tu portafolio lo fortalecerá aún más. Próximamente vamos a cambiar un poco la marcha. Ahora que tienes un portafolio sobre el caso práctico completado, podemos empezar a hablar sobre cómo analizar tu portafolio con los reclutadores, y algunas formas de resaltar tus habilidades. Aquí es donde realmente empezamos a darle un buen uso al portafolio. Y tendrás muchas más oportunidades para practicar esto.
+
+
+-------------------------------------------------------------------------------------------------------
+
+Video: Compartir tu portfolio 
+
+Terminar el caso práctico es un gran paso, pero todavía debemos crear un portafolio y compartir nuestro análisis en línea. Cuentas con muchas opciones para tener tu propio portafolio en línea. Así que hablemos sobre los lugares donde puedes publicar tu caso práctico y cómo adoptar esa decisión. Cuando pienses en dónde quieres compartir tu portafolio, hay dos preguntas que pueden ayudarte a tomar una decisión. Primero, ¿qué plataformas coinciden con tus intereses y pasiones? Y segundo, ¿a quieres dedicar más tiempo después de este programa? Tienes algunas opciones. Podrías usar Kaggle, GitHub, un blog o Tableau para compartir tu trabajo. Ahora hablemos sobre qué puede ofrecerte cada una de estas opciones. 
+
+Kaggle te ofrece una amplia comunidad de ciencia de datos a la que puedes sumarte. Organiza muchos concursos para que los usuarios participen y ofrece toda clase de oportunidades de aprendizaje. Esta es una gran opción si te gusta conectar con otros analistas de datos. 
+
+GitHub se usa principalmente para lenguajes de programación como R o Python. Tiene una configuración más técnica que otras plataformas. De todos modos, es un excelente lugar para compartir con otros usuarios tu código y el fundamento que sustenta tu análisis. Y si quieres conocer el trabajo de otros analistas de datos, GitHub es un excelente lugar para estar. 
+
+Las plataformas de blogs como Medium, WordPress y Google Sites son personalizadas y las puedes adquirir. Los blogs no están tan focalizados en el código como Kaggle y GitHub, así que tendrás que almacenar tu código en algún otro lugar. Y es posible que haya algunos pasos adicionales para mostrar el código en los blogs. Pero puedes exhibir tu experiencia, escribir sobre tu propio proceso y mostrar el liderazgo de pensamiento en tu área. 
+
+Tableau para alojar tu trabajo. Ya tienes cierta experiencia con Tableau por el trabajo que hiciste aquí. Es una gran opción si te focalizas en la visualización de los datos. Además, puedes crear paneles interactivos con las herramientas de Tableau que se pueden compartir con facilidad. 
+
+Elegir dónde alojar tu portafolio es una decisión importante, pero por suerte ahora tienes algunas ideas sobre cómo podría ayudarte cada plataforma. Y, con el tiempo, podrías terminar usando varias plataformas que se adapten a tus necesidades específicas. Lo importante es recordar las dos preguntas que comentamos antes. ¿Qué plataformas coinciden con tus intereses y pasiones? Y ¿a qué quieres dedicar más tiempo después de este programa? Crear tu plataforma en línea para compartirla es uno de los últimos pasos en este proyecto final. A continuación, tenemos algunas actividades para ayudarte a recorrer ese proceso. Después nos volveremos a encontrar aquí para empezar a hablar sobre tus próximos pasos.
+
+-------------------------------------------------------------------------------------------------------
+
+Crear tu portafolio en línea 
+
+Esta lectura te proporciona una lista de verificación sobre qué incluir en tu portafolio, dónde puedes configurar cuentas para alojarlo y cómo agregarle contenido. 
+Qué incluir
+
+Aprendiste que un portafolio representa tus habilidades y muestra algunos de tus proyectos previos a los posibles empleadores. Mantén tu portafolio:
+
+    Personal: Muestra quién eres, qué cosas te interesan y qué es importante para ti.
+
+    Simple: Exhibe tu trabajo con una navegación fácil y sin páginas desordenadas.
+
+    Relevante: Relaciona tu trabajo con las habilidades incluidas en las descripciones del puesto.
+
+    Presentable: Haz hincapié en la calidad de las muestras que expones.  
+
+    Único: Muestra tu propio trabajo, cita las fuentes del contenido para evitar plagios.
+
+Dónde configurar cuentas
+
+Elige una plataforma para alojar tu portafolio. Medium, Google Sites y Wordpress son buenas opciones para blogs. GitHub y Kaggle son mejores para código. Y por último, como sabes, Tableau es excelente por las visualizaciones. A continuación, crea una cuenta en la plataforma que hayas elegido. Echa un vistazo a estos pasos para configurar cuentas en diversas plataformas: 
+
+: 
+
+Configurar una cuenta en GitHub -> https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account
+
+Configurar una cuenta en Kaggle -> https://www.kaggle.com/questions-and-answers/122858
+
+Configurar una cuenta en Tableau Public  – Haz clic en el botón “Registrarse” -> https://public.tableau.com/s/
+
+Configurar una cuenta en Medium -> https://help.medium.com/hc/en-us/articles/115004915268-Sign-in-or-sign-up-to-Medium
+
+Configurar una cuenta en WordPress -> https://wordpress.com/start/user
+
+Configurar un sitio en Google Sites -> https://support.google.com/sites/answer/6372878?hl=en&ref_topic=7184580
+
+
+Cómo agregar contenido a tu portafolio
+
+Por último, en la tabla a continuación, consulta algunos enlaces a artículos que pueden ayudarte a gestionar tu portafolio. Los artículos son gratuitos, pero algunos sitios limitan la cantidad de artículos que puedes ver por mes. En ese caso, marca el artículo para leerlo más tarde.
+
+Plataforma
+	
+GitHub
+	
+
+8 pasos para publicar tu portafolio en GitHub -> https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84
+
+: Sigue los pasos que se mencionan en este artículo para crear un repositorio para tu portafolio.
+
+Kaggle
+	
+
+Guía de Kernels Kaggle para principiantes -> https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606
+: Sigue este tutorial para crear un Kernel y compartirlo (hacerlo público). Publicar tu primer conjunto de datos en Kaggle -> https://medium.com/analytics-vidhya/publishing-your-first-dataset-on-kaggle-6be8c37e59e8
+
+: Sigue los pasos que se indican en este artículo para publicar tu propio conjunto de datos y hacerlo público.
+
+Tableau
+	
+
+Toda visualización creada en Tableau Public ya es pública por defecto. Para añadir una visualización de Tableau a otro sitio alojado se necesita mucho más. Por ese motivo, probablemente sea mejor vincular a las visualizaciones de Tableau cuando tu portafolio esté alojado en un sitio web personal o en otra plataforma, como GitHub.
+
+Medium
+	
+Primeros pasos con una publicación Medium -> https://help.medium.com/hc/en-us/articles/115004681607-Getting-started-with-a-Medium-publication
+
+: Sigue el proceso que se describe en esta guía para crear tu propia publicación.
+
+WordPress 	  
+Para publicar -> https://wordpress.com/learn/get-published/
+		
+: Sigue estas instrucciones para crear páginas o publicar contenido en tu sitio.
+
+Google Sites
+	
+
+Publicar y compartir tu sitio -> https://support.google.com/sites/answer/6372880
+: Sigue estas instrucciones para publicar tu sitio y compartirlo públicamente. 
+
+Usar un dominio personalizado para tu sitio -> https://support.google.com/sites/answer/9068867
+: Consulta estas instrucciones si quieres usar una URL personalizada para tu portafolio.
+
+-------------------------------------------------------------------------------------------------------
+
+lo interesante de usar kaggle es la oportunidad de usar algo tan estructurado y mas sencillo para manejar sus funcionalidades basicas, en mi caso si tuviera que realizar un repositorio extra lo haria en github ya que lo he usado mas tiempo.

@@ -1,0 +1,566 @@
+Herramientas y las fases de los datos.
+
+herramientas de datos
+
+incluyen hojas de calculo, bases de datos, lenguajes de consulta y software de visualizacion.
+
+<-_________________________________________________________________________________________->
+
+Etapas del ciclo de vida de los datos.
+
+asociado con el proceso de crecimiento de una mariposa, los datos tiene un ciclo propio de vida 
+comenzando con planificar, capturar, gestionar, analizar, archivar, destruir.
+
+Planificacion: Ocurre mucho antes de iniciar un proyecto de análisis. Durante la planificación, una empresa decide qué tipo de datos necesita, cómo se gestionarán a lo largo de su ciclo de vida se establece las responsabilidades y sus resultados optimos.
+
+Capaturar: Se recopilan los datos de distintas fuentes y se incorporan en la organizacion. Los datos son creados en demasia por dia y su metodo de recoleccion son infinitos por dia. algo comun es recogerlos de fuentes externas.
+se suelen recoger los datos de las empresas desde sus bases de datos(es una coleccion de datos almacenados en un sistema de informatico) almacenadas en sus sistemas informaticos.
+ 
+Gestionar: Como se cuidan los datos, responde a como, donde se almacenan, que herramientas se utilizan y como conservarlos en el tiempo.
+
+Analizar: Los datos se utilizan para resolver los problemas, tomar decisiones para respaldar objetivos empresariales.
+
+Archivar: Implica almacenar en lugar en donde esten seguros para su utilizamiento, aunque es poco probable que se vuelvan a usar.
+
+Destruir: Fase de datos poco dolorosa debido que para la eliminacion se utilizaria un software de eliminacion seguro, esto es con el fin y a cuenta de proteger la informacion confidencial de los clientes con su privacidad.
+
+resumen simple:
+
+Aprendiste que el ciclo de vida de los datos consta de seis etapas. Aquí hay un resumen:
+
+    Planificar: Decide qué tipo de datos se necesitan, cómo se gestionarán y quién será responsable de ellos.
+
+    Capturar: Recopila o reúne datos de varias fuentes distintas.
+
+    Gestionar: Cuida y brinda mantenimiento a los datos. Esto incluye determinar cómo y dónde se almacenan y las herramientas utilizadas para hacerlo.
+
+    Analizar: Utiliza los datos para resolver problemas, tomar decisiones y respaldar los objetivos empresariales.
+
+    Archivar: Mantén almacenados los datos relevantes para referencias futuras y a largo plazo.
+
+    Destruir: Elimina los datos almacenados y todas las copias compartidas.
+
+Advertencia: Ten cuidado de no mezclar o confundir las seis etapas del ciclo de vida de los datos (Planificar, Capturar, Administrar, Analizar, Archivar y Destruir) con las seis fases del ciclo de vida del análisis de datos (Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar). No deben usarse ni referirse indistintamente.
+
+ejemplos para tener en cuenta:
+
+El Servicio de Pesca y Vida Silvestre de los Estados Unidos  utiliza el siguiente ciclo de vida de los datos:
+
+    Planificar
+
+    Adquirir
+
+    Mantener
+
+    Acceder
+
+    Evaluar
+
+    Archivar
+
+Servicio Geológico de los Estados Unidos (USGS)
+
+El USGS utiliza el siguiente ciclo de vida de los datos:
+
+    Planificar
+
+    Adquirir
+
+    Procesar
+
+    Analizar
+
+    Preservar
+
+    Publicar/Compartir
+
+También se realizan varias actividades transversales o generales durante cada etapa de su ciclo de vida:
+
+    Describir (metadatos y documentación)
+
+    Gestionar la calidad
+
+    Realizar copias de seguridad y asegurar
+
+Instituciones financieras
+
+Las instituciones financieras pueden adoptar un enfoque ligeramente diferente del ciclo de vida de los datos, tal como se describe en The Data Life Cycle
+
+ (El ciclo de vida de los datos), un artículo publicado en la revista Strategic Finance:
+
+    Capturar
+
+    Calificar
+
+    Transformar
+
+    Utilizar
+
+    Informar
+
+    Archivar
+
+    Depurar
+
+Escuela de Negocios de Harvard (HBS)
+
+Un ciclo de vida final de datos informado en una investigación realizada por la Universidad de Harvard consta de ocho etapas:
+
+    Generación
+
+    Recolección
+
+    Procesamiento
+
+    Almacenamiento
+
+    Gestión
+
+    Análisis
+
+    Visualización
+
+    Interpretación
+
+Conclusión clave
+
+Comprender la importancia del ciclo de vida de los datos lo preparará para ser un analista de datos exitoso. Cada etapa del ciclo de vida de los datos variará de una empresa a otra o según la industria o el sector. Los datos históricos son importantes tanto para el Servicio de Pesca y Vida Silvestre de EE.UU. como para el USGS, por lo que su ciclo de vida de los datos se centra en archivar y respaldar datos. Los intereses de Harvard se enfocan en la investigación y la enseñanza, por lo que su ciclo de vida de los datos incluye la visualización y la interpretación, aunque estos suelen asociarse con el ciclo de vida de análisis de datos. En el ciclo de vida de los datos de la HBS, tampoco se incluye una etapa para depurar o destruir datos. Por el contrario, el ciclo de vida de los datos en el sector financiero identifica claramente las etapas de archivo y depuración. En resumen, aunque los ciclos de vida de los datos varían, existe un principio de gestión de datos universal: se debe controlar cómo se manejan los datos para que sean precisos y estén seguros y disponibles para satisfacer las necesidades de su organización.
+
+
+<-_________________________________________________________________________________________->
+
+seis fases de analisis de los datos.
+
+seis se basan en los pasos del análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar.
+
+Preguntar : se realizan dos cosas, problema a resolver y comprender las espectativas de los interezados. Estos ultimos tienen una parte importante en el proyecto. Son personas que han dedicado tienpo y recursos en el proyecto por lo que esperan resultados favorables en el proyecto. 
+
+Concepto de los interezados: Los interesados tienen una participación en el proyecto.
+Son personas que han dedicado tiempo y recursos a un proyecto, y están interesadas en el resultado.
+
+Preparar: Procesos en el cual los analistas de datos recopilan y almacenan datos que usaran para el proximo proceso de analisis. Se comprenderan sobre los diferented tipos de datos y como identificar que tipos de analisis y como identificar que tipos de daros son los mas útiles para resolver un problema en particular. Tambien descubriras por que estran importante 
+
+Procesos: Los analistas de datos se encuentran y eliminan cualquier error e inexactitud que puedan interferir con los resultados. Esto suele implicar la limpieza de los datos, conversion de los mismos en formatos utiles, combinar dos o mas conjuntos de datos para lograr su que la informacion sea mas completa.
+
+Analizar: Implica el uso de herramientas, para transformar y organizar esa informacion a fin de poder extraer conclusiones utiles, hacer predicciones e impulsar una toma de decisiones fundamentada.
+
+Compartir: En este paso vemos la interpretacion de los analistas de datos con los datos y como los comparten para ayudar a los interezados a tomas decisiones basadas en los datos. Aqui destaca la visualizacion del analista, con el objetivo de que otras persona consigan la compresion de los datos.
+
+Actuar: Este es el ultimo paso para el analista, en donde de pone a trabajar la resolucion sobre el problema inicial del negocio, y actuar según lo aprendido.
+
+
+RESUMEN 
+
+1. Preguntar: Haz preguntas efectivas, define el problema, aplica el pensamiento estructural, comunícate con otras personas 
+
+2. Preparar: Comprende cómo se generan y recopilan los datos; identifica y usa diferentes formatos, tipos y estructuras de datos; asegúrate de que los datos sean imparciales y creíbles, y organiza y protege los datos 
+
+3. Procesar: Crea y transforma datos, mantén la integridad de los datos, prueba los datos, limpia los datos y verifica e informa sobre los resultados de la limpieza 
+
+4. Analizar: Usa herramientas para formatear y transformar datos, ordena y filtra los datos, identifica patrones y saca conclusiones, haz predicciones y recomendaciones, y toma decisiones basadas en los datos
+
+5. Compartir: Comprende la visualización, crea imágenes efectivas, da vida a los datos, usa los datos para contar historias y comunícate para ayudar a otras personas a comprender los resultados 
+
+6. Actuar: Aplica tus ideas, resuelve problemas, toma decisiones y crea algo nuevo
+
+<-_________________________________________________________________________________________->
+
+Ejemplo de Procesos de datos
+
+Preguntar:
+Debes formular todas las preguntas correctas en la etapa inicial del proyecto para poder entender mejor lo que tus líderes y los interesados necesitan obtener de este análisis.
+Los tipos de preguntas que generalmente hago son: ¿Cuál es el problema que estamos tratando de resolver? ¿Cuál es el propósito de este análisis? ¿Qué queremos aprender de él? 
+
+Preparar:
+Debemos pensar qué tipo de datos necesitamos para responder esas preguntas clave. Podría ser cualquier cosa, datos cuantitativos o datos cualitativos. Podría ser algo transversal o puntos en el tiempo versus longitudinal durante un largo período. Debemos reflexionar sobre el tipo de datos que necesitamos para responder a las preguntas que nos hemos propuesto responder en función de lo que aprendimos cuando hicimos las preguntas correctas. 
+
+Procesar: 
+Esto comienza con la limpieza. Para mí, es la parte más divertida del proceso de análisis de datos. Podemos pensar en ello como la introducción o el apretón de manos, el saludo a tus datos. Es la oportunidad de comprender su estructura, sus peculiaridades, sus matices, y realmente puedes entender en profundidad con qué tipo de datos vas a trabajar, así como comprender qué potencial tienen para responder a todas tus preguntas. Esto es muy importante también, porque es cuando se ejecutan todos nuestros controles de calidad. 
+
+Analizar: 
+Implica la posibilidad de ser lo mas imparciales y objetivos posibles. Para esto, la primera cosa que hacemos es ejecutar una serie de análisis que ya hemos planificado con anticipación en función de las preguntas que ya sabemos que queremos responder desde los inicios del proceso. Hay una cosa que, tal vez, es lo más difícil de este proceso en particular, lo más difícil de analizar datos, es que nosotros, los analistas, estamos entrenados para detectar patrones. 
+
+Compartir:
+Habitualmente, en una encuesta del compromiso de los empleados, comenzamos por compartir las conclusiones de alto nivel con nuestro equipo ejecutivo. Queremos que tengan una vista amplia de lo que se siente en la organización y asegurarnos de que no habrá sorpresas a medida que indaguen más profundamente en los datos para entender qué sienten los equipos y qué sienten los empleados. Todo este trabajo, desde hacer las preguntas correctas o recopilar los datos, hasta analizar y compartir, no significa nada si no actuamos en función de lo que aprendimos.
+
+
+Actuar: 
+Aquí es donde usamos todos esos conocimientos basados en datos para decidir qué tipos de intervenciones queremos introducir, no solo a nivel de la organización, sino también en el equipo. Podríamos detectar, por ejemplo, que la organización está trabajando en algunas intervenciones para ayudar a mejorar parte de la experiencia del empleado, mientras que los equipos individuales tienen funciones adicionales, responsabilidades que desempeñar, para reforzar algunos de esos esfuerzos o introducir otros nuevos a fin de conocer mejor a su equipo: en donde están las fortalezas y las áreas de oportunidad. 
+
+<-_________________________________________________________________________________________-><-_________________________________________________________________________________________-><-_________________________________________________________________________________________->
+
+Herramientas y las fases de los datos.
+
+herramientas de datos
+
+incluyen hojas de calculo, bases de datos, lenguajes de consulta y software de visualizacion.
+
+<-_________________________________________________________________________________________->
+
+Etapas del ciclo de vida de los datos.
+
+asociado con el proceso de crecimiento de una mariposa, los datos tiene un ciclo propio de vida 
+comenzando con planificar, capturar, gestionar, analizar, archivar, destruir.
+
+Planificacion: Ocurre mucho antes de iniciar un proyecto de análisis. Durante la planificación, una empresa decide qué tipo de datos necesita, cómo se gestionarán a lo largo de su ciclo de vida se establece las responsabilidades y sus resultados optimos.
+
+Capaturar: Se recopilan los datos de distintas fuentes y se incorporan en la organizacion. Los datos son creados en demasia por dia y su metodo de recoleccion son infinitos por dia. algo comun es recogerlos de fuentes externas.
+se suelen recoger los datos de las empresas desde sus bases de datos(es una coleccion de datos almacenados en un sistema de informatico) almacenadas en sus sistemas informaticos.
+ 
+Gestionar: Como se cuidan los datos, responde a como, donde se almacenan, que herramientas se utilizan y como conservarlos en el tiempo.
+
+Analizar: Los datos se utilizan para resolver los problemas, tomar decisiones para respaldar objetivos empresariales.
+
+Archivar: Implica almacenar en lugar en donde esten seguros para su utilizamiento, aunque es poco probable que se vuelvan a usar.
+
+Destruir: Fase de datos poco dolorosa debido que para la eliminacion se utilizaria un software de eliminacion seguro, esto es con el fin y a cuenta de proteger la informacion confidencial de los clientes con su privacidad.
+
+resumen simple:
+
+Aprendiste que el ciclo de vida de los datos consta de seis etapas. Aquí hay un resumen:
+
+    Planificar: Decide qué tipo de datos se necesitan, cómo se gestionarán y quién será responsable de ellos.
+
+    Capturar: Recopila o reúne datos de varias fuentes distintas.
+
+    Gestionar: Cuida y brinda mantenimiento a los datos. Esto incluye determinar cómo y dónde se almacenan y las herramientas utilizadas para hacerlo.
+
+    Analizar: Utiliza los datos para resolver problemas, tomar decisiones y respaldar los objetivos empresariales.
+
+    Archivar: Mantén almacenados los datos relevantes para referencias futuras y a largo plazo.
+
+    Destruir: Elimina los datos almacenados y todas las copias compartidas.
+
+Advertencia: Ten cuidado de no mezclar o confundir las seis etapas del ciclo de vida de los datos (Planificar, Capturar, Administrar, Analizar, Archivar y Destruir) con las seis fases del ciclo de vida del análisis de datos (Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar). No deben usarse ni referirse indistintamente.
+
+ejemplos para tener en cuenta:
+
+El Servicio de Pesca y Vida Silvestre de los Estados Unidos  utiliza el siguiente ciclo de vida de los datos:
+
+    Planificar
+
+    Adquirir
+
+    Mantener
+
+    Acceder
+
+    Evaluar
+
+    Archivar
+
+Servicio Geológico de los Estados Unidos (USGS)
+
+El USGS utiliza el siguiente ciclo de vida de los datos:
+
+    Planificar
+
+    Adquirir
+
+    Procesar
+
+    Analizar
+
+    Preservar
+
+    Publicar/Compartir
+
+También se realizan varias actividades transversales o generales durante cada etapa de su ciclo de vida:
+
+    Describir (metadatos y documentación)
+
+    Gestionar la calidad
+
+    Realizar copias de seguridad y asegurar
+
+Instituciones financieras
+
+Las instituciones financieras pueden adoptar un enfoque ligeramente diferente del ciclo de vida de los datos, tal como se describe en The Data Life Cycle
+
+ (El ciclo de vida de los datos), un artículo publicado en la revista Strategic Finance:
+
+    Capturar
+
+    Calificar
+
+    Transformar
+
+    Utilizar
+
+    Informar
+
+    Archivar
+
+    Depurar
+
+Escuela de Negocios de Harvard (HBS)
+
+Un ciclo de vida final de datos informado en una investigación realizada por la Universidad de Harvard consta de ocho etapas:
+
+    Generación
+
+    Recolección
+
+    Procesamiento
+
+    Almacenamiento
+
+    Gestión
+
+    Análisis
+
+    Visualización
+
+    Interpretación
+
+Conclusión clave
+
+Comprender la importancia del ciclo de vida de los datos lo preparará para ser un analista de datos exitoso. Cada etapa del ciclo de vida de los datos variará de una empresa a otra o según la industria o el sector. Los datos históricos son importantes tanto para el Servicio de Pesca y Vida Silvestre de EE.UU. como para el USGS, por lo que su ciclo de vida de los datos se centra en archivar y respaldar datos. Los intereses de Harvard se enfocan en la investigación y la enseñanza, por lo que su ciclo de vida de los datos incluye la visualización y la interpretación, aunque estos suelen asociarse con el ciclo de vida de análisis de datos. En el ciclo de vida de los datos de la HBS, tampoco se incluye una etapa para depurar o destruir datos. Por el contrario, el ciclo de vida de los datos en el sector financiero identifica claramente las etapas de archivo y depuración. En resumen, aunque los ciclos de vida de los datos varían, existe un principio de gestión de datos universal: se debe controlar cómo se manejan los datos para que sean precisos y estén seguros y disponibles para satisfacer las necesidades de su organización.
+
+
+<-_________________________________________________________________________________________->
+
+seis fases de analisis de los datos.
+
+seis se basan en los pasos del análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar.
+
+Preguntar : se realizan dos cosas, problema a resolver y comprender las espectativas de los interezados. Estos ultimos tienen una parte importante en el proyecto. Son personas que han dedicado tienpo y recursos en el proyecto por lo que esperan resultados favorables en el proyecto. 
+
+Concepto de los interezados: Los interesados tienen una participación en el proyecto.
+Son personas que han dedicado tiempo y recursos a un proyecto, y están interesadas en el resultado.
+
+Preparar: Procesos en el cual los analistas de datos recopilan y almacenan datos que usaran para el proximo proceso de analisis. Se comprenderan sobre los diferented tipos de datos y como identificar que tipos de analisis y como identificar que tipos de daros son los mas útiles para resolver un problema en particular. Tambien descubriras por que estran importante 
+
+Procesos: Los analistas de datos se encuentran y eliminan cualquier error e inexactitud que puedan interferir con los resultados. Esto suele implicar la limpieza de los datos, conversion de los mismos en formatos utiles, combinar dos o mas conjuntos de datos para lograr su que la informacion sea mas completa.
+
+Analizar: Implica el uso de herramientas, para transformar y organizar esa informacion a fin de poder extraer conclusiones utiles, hacer predicciones e impulsar una toma de decisiones fundamentada.
+
+Compartir: En este paso vemos la interpretacion de los analistas de datos con los datos y como los comparten para ayudar a los interezados a tomas decisiones basadas en los datos. Aqui destaca la visualizacion del analista, con el objetivo de que otras persona consigan la compresion de los datos.
+
+Actuar: Este es el ultimo paso para el analista, en donde de pone a trabajar la resolucion sobre el problema inicial del negocio, y actuar según lo aprendido.
+
+
+RESUMEN 
+
+1. Preguntar: Haz preguntas efectivas, define el problema, aplica el pensamiento estructural, comunícate con otras personas 
+
+2. Preparar: Comprende cómo se generan y recopilan los datos; identifica y usa diferentes formatos, tipos y estructuras de datos; asegúrate de que los datos sean imparciales y creíbles, y organiza y protege los datos 
+
+3. Procesar: Crea y transforma datos, mantén la integridad de los datos, prueba los datos, limpia los datos y verifica e informa sobre los resultados de la limpieza 
+
+4. Analizar: Usa herramientas para formatear y transformar datos, ordena y filtra los datos, identifica patrones y saca conclusiones, haz predicciones y recomendaciones, y toma decisiones basadas en los datos
+
+5. Compartir: Comprende la visualización, crea imágenes efectivas, da vida a los datos, usa los datos para contar historias y comunícate para ayudar a otras personas a comprender los resultados 
+
+6. Actuar: Aplica tus ideas, resuelve problemas, toma decisiones y crea algo nuevo
+
+<-_________________________________________________________________________________________->
+
+Ejemplo de Procesos de datos
+
+Preguntar:
+Debes formular todas las preguntas correctas en la etapa inicial del proyecto para poder entender mejor lo que tus líderes y los interesados necesitan obtener de este análisis.
+Los tipos de preguntas que generalmente hago son: ¿Cuál es el problema que estamos tratando de resolver? ¿Cuál es el propósito de este análisis? ¿Qué queremos aprender de él? 
+
+Preparar:
+Debemos pensar qué tipo de datos necesitamos para responder esas preguntas clave. Podría ser cualquier cosa, datos cuantitativos o datos cualitativos. Podría ser algo transversal o puntos en el tiempo versus longitudinal durante un largo período. Debemos reflexionar sobre el tipo de datos que necesitamos para responder a las preguntas que nos hemos propuesto responder en función de lo que aprendimos cuando hicimos las preguntas correctas. 
+
+Procesar: 
+Esto comienza con la limpieza. Para mí, es la parte más divertida del proceso de análisis de datos. Podemos pensar en ello como la introducción o el apretón de manos, el saludo a tus datos. Es la oportunidad de comprender su estructura, sus peculiaridades, sus matices, y realmente puedes entender en profundidad con qué tipo de datos vas a trabajar, así como comprender qué potencial tienen para responder a todas tus preguntas. Esto es muy importante también, porque es cuando se ejecutan todos nuestros controles de calidad. 
+
+Analizar: 
+Implica la posibilidad de ser lo mas imparciales y objetivos posibles. Para esto, la primera cosa que hacemos es ejecutar una serie de análisis que ya hemos planificado con anticipación en función de las preguntas que ya sabemos que queremos responder desde los inicios del proceso. Hay una cosa que, tal vez, es lo más difícil de este proceso en particular, lo más difícil de analizar datos, es que nosotros, los analistas, estamos entrenados para detectar patrones. 
+
+Compartir:
+Habitualmente, en una encuesta del compromiso de los empleados, comenzamos por compartir las conclusiones de alto nivel con nuestro equipo ejecutivo. Queremos que tengan una vista amplia de lo que se siente en la organización y asegurarnos de que no habrá sorpresas a medida que indaguen más profundamente en los datos para entender qué sienten los equipos y qué sienten los empleados. Todo este trabajo, desde hacer las preguntas correctas o recopilar los datos, hasta analizar y compartir, no significa nada si no actuamos en función de lo que aprendimos.
+
+
+Actuar: 
+Aquí es donde usamos todos esos conocimientos basados en datos para decidir qué tipos de intervenciones queremos introducir, no solo a nivel de la organización, sino también en el equipo. Podríamos detectar, por ejemplo, que la organización está trabajando en algunas intervenciones para ayudar a mejorar parte de la experiencia del empleado, mientras que los equipos individuales tienen funciones adicionales, responsabilidades que desempeñar, para reforzar algunos de esos esfuerzos o introducir otros nuevos a fin de conocer mejor a su equipo: en donde están las fortalezas y las áreas de oportunidad. 
+
+<-_________________________________________________________________________________________->
+
+Estructuracion de los datos
+
+Para registrar los datos en una tabla, debes comprender cómo se estructura una tabla:
+
+    Una tabla consta de filas y columnas
+
+    Cada fila es una observación diferente
+
+    Cada columna es un atributo diferente de esa observación
+
+Por ejemplo, aquí hay una recopilación de observaciones en un registro de aprendizaje sobre cuántas tazas de café se consumen cada día:
+
+    19/10, 2,5 tazas de café
+
+    20/10, 2 tazas de café
+
+    21/10, 1 taza de café
+
+    22/10, 1,5 tazas de café
+
+    23/10, 1,5 tazas de café
+
+Hay cinco puntos de datos. Cada dato consta de una fecha y el número de tazas de café consumidas ese día. Puedes estructurar esto como una tabla de seis filas y dos columnas. Esto incluye cinco filas de datos y una fila de encabezado con títulos:
+
+Fecha  		Tazas de café/día
+
+19/10  		2,5
+
+20/10  		2
+
+21/10 		1
+
+22/10 		1,5
+
+23/10 		1,5
+
+También puedes crear una tabla con datos más detallados. Por ejemplo, si tus datos también contenían información sobre agregados, como crema y azúcar, podría verse así:
+
+    19/10, 2,5 tazas, crema, azúcar
+
+    20/10, 2 tazas, sin crema, sin azúcar
+
+    21/10, 1 taza, crema, azúcar
+
+    22/10, 1,5 tazas, crema, sin azúcar
+
+    23/10, 1,5 tazas, crema, azúcar
+
+Puedes representar esto agregando dos columnas más a la tabla, una titulada “Crema” y otra, “Azúcar”. 
+
+Fecha 		Tazas de café/día  		Crema 		Azúcar
+19/10 		2,5 				Sí 		Sí
+
+20/10 		2 				No 		No
+
+21/10 		1  				Sí 		Sí
+
+22/10 		1,5 				Sí 		No
+
+23/10 		1,5 				Sí 		Sí
+
+<-_________________________________________________________________________________________->
+<-_________________________________________________________________________________________-><-_________________________________________________________________________________________->
+
+Exploracion de las herramientas para el analista de datos
+
+Un vistazo a las herramientas del analista de datos. Entre las que predominan las hojas de cálculo, los lenguajes de consulta y las herramientas de visualización. 
+
+Las hojas de calculo son deminantes la herramientas como microsoft excel y google sheets. tambien considerada hoja digital. con caracterisica como las formulas y funciones.
+en resumen Una fórmula es un conjunto de instrucciones que realiza un cálculo específico con los datos de una hoja de cálculo. Las fórmulas pueden hacer cosas básicas como sumar, restar, multiplicar y dividir, pero eso no es todo. También puedes usar fórmulas para encontrar el promedio de un conjunto de números, buscar un valor determinado, encontrar la suma de un conjunto de valores que cumplen con una regla en particular y mucho más. Una función es un comando preestablecido que realiza automáticamente un proceso o tarea específicos con los datos de una hoja de cálculo. 
+
+La siguiente herramienta es el lenguaje de consulta:  
+Un lenguaje de consulta es un idioma de programación informático que te permite encontrar y
+manipular datos en una base de datos. Aprenderás sobre algo llamado lenguaje de consulta estructurado, mayormente conocido como SQL. El SQL es un lenguaje que permite que los analistas de datos se comuniquen con una base de datos. Una base de datos es una colección de datos almacenados en un sistema informático. El SQL es el lenguaje de consulta estructurado más utilizado por dos razones:
+es fácil de entender y funciona muy bien con todo tipo de bases de datos. 
+
+por si acaso la definicion de base de datos: .
+Una base de datos es una colección de datos almacenados en un sistema informático.
+
+Queda la visualizacion de datos: Es la representacion grafica de la informacion, esta puede ser presentada mediante graficos, tablas, mapas entre otros.
+Puede ser mas efectivo debido a que las personas procesan mas rapido y mas facilitan su comprension con las imagenes que con las palabras.
+
+cuando se piensa en el proceso de analisis de datos, luego que los datos se preparan, procesa y se analizan el conocimiento se visualiza de una manera mas simple para entender y  compartir. lo que facilita las conclusiones y la toma de decisiones, para idear una correcta estrategia.
+con tableau y looker. 
+ Tableau debido a su simpleza para crear elementos visuales muy fáciles de entender. Esto significa que incluso los usuarios sin conocimientos técnicos pueden obtener la  información que necesitan. 
+ Looker también es popular entre los analistas de datos porque les proporciona una manera fácil de crear imágenes basadas en los resultados de una consulta. Con Looker, puedes darles a los interesados una imagen completa de tu trabajo, con los datos de visualización y los datos reales relacionados con ella. Todas las herramientas de visualización tienen excelentes funciones que son útiles en diferentes 
+situaciones. 
+
+<-_________________________________________________________________________________________->
+
+Resumen 
+
+Hojas de cálculo
+
+Los analistas de datos dependen de las hojas de cálculo para recopilar y organizar los datos. Dos aplicaciones populares de hojas de cálculo que probablemente usarás mucho en el futuro, cuando seas analista de datos, son Microsoft Excel y Google Sheets.
+
+Las hojas de cálculo estructuran los datos de una manera comprensible y te permiten hacer lo siguiente:
+
+    Recopilar, almacenar, organizar y ordenar información
+
+    Identificar patrones y reunir los datos de una manera que se adapte a cada proyecto de datos específico
+
+    Crear excelentes visualizaciones de datos, como gráficos y tablas.
+
+Bases de datos y lenguajes de consulta
+
+Una base de datos es una colección de datos estructurados almacenados en un sistema informático. Algunos programas populares de lenguaje de consulta estructurado (SQL) incluyen MySQL, Microsoft SQL Server y BigQuery.
+
+Funciones de los lenguajes de consulta:
+
+    Hacen que los analistas puedan aislar información específica de unas bases de datos
+
+    Facilitan el aprendizaje y la comprensión de las solicitudes realizadas a las bases de datos
+
+    Permiten que los analistas seleccionen, creen, agreguen o descarguen datos de una base de datos para su análisis
+
+Herramientas de visualización
+
+Los analistas de datos usan un conjunto de herramientas de visualización, como gráficos, mapas, tablas y cuadros, entre otras. Dos herramientas de visualización populares son Tableau y Looker.
+
+Funciones de estas herramientas:
+
+    Convierten los números complejos en una historia que las personas pueden entender
+
+    Ayudan a los interesados a sacar conclusiones que permiten tomar decisiones informadas y elaborar estrategias empresariales eficaces
+
+    Tienen múltiples características
+
+- Con la sencilla función de arrastrar y soltar de Tableau, los usuarios pueden crear gráficos interactivos en paneles y hojas de trabajo
+
+- Looker se comunica directamente con una base de datos, con lo cual puedes conectar tus datos directamente a la
+
+herramienta de visualización que elijas
+
+En la carrera de analista de datos, también se usan lenguajes de programación, como R y Python, muy utilizados para el análisis estadístico, la visualización y otros análisis de datos.
+
+<-_________________________________________________________________________________________->
+
+Elegir la herrienta adecuada para la tarea.
+
+Cuando trabajes como analista de datos, tendrás que definir cuál es el programa o la solución adecuados para el proyecto en el que estés participando. En esta lectura, aprenderás más sobre cómo elegir qué herramienta necesitas y cuándo.
+
+Dependiendo de la fase del proceso de análisis de datos en la que estés, deberás usar diferentes herramientas. Por ejemplo, si te estás enfocando en crear visualizaciones complejas y llamativas, las herramientas de visualización que revisamos anteriormente son la mejor opción. Sin embargo, si te estás enfocando en organizar, limpiar y analizar datos, probablemente deberás elegir entre hojas de cálculo y bases de datos con consultas. Las hojas de cálculo y las bases de datos ofrecen formas de almacenar, administrar y usar datos. El contenido básico de ambas herramientas son conjuntos de valores. Sin embargo, también hay algunas diferencias clave:
+
+Hojas de cálculo   					Bases de datos
+
+Aplicaciones de software    				Almacenes de datos a los que se 							accede mediante un lenguaje de 								consulta (por ejemplo, SQL)
+
+Estructurar datos en formato de filas y columnas 	Estructurar datos usando reglas y 							relaciones
+
+Organizar la información en celdas  			Organizar la información en 								colecciones complejas
+
+Proporcionar acceso a una cantidad limitada de datos  	Proporcionar acceso a grandes 								cantidades de datos
+
+Ingreso manual de los datos   				Ingreso de datos estricto y coherente
+
+Generalmente, un usuario a la vez  			Múltiples usuarios
+
+Controlado por el usuario  				Controlado por un sistema de gestión 							de bases de datos
+
+No tienes que elegir uno u otro porque cada uno sirve para algo distinto. En general, los analistas de datos trabajan con una combinación de los dos, ya que ambas herramientas son muy útiles en el análisis de datos. Por ejemplo, puedes almacenar datos en una base de datos y, luego, exportarlos a una hoja de cálculo para analizarlos. O bien, si estás recopilando información en una hoja de cálculo y se vuelve excesiva para esa plataforma en particular, puedes importarla a una base de datos. Más adelante en este curso, aprenderás que hay lenguajes de programación como R que te permiten tener un mayor control de los datos, su análisis y las visualizaciones que creas. 
+
+A medida que avanzas en el aprendizaje de estas importantes herramientas, obtendrás el conocimiento suficiente para elegir la herramienta adecuada para cualquier trabajo de datos.
+
+
+Comprendido hasta el momento.
+
+Proceso de analisis de datos: - Preguntar.
+-Preguntar
+-Procesar
+-Analizar
+-Compartir
+-Actuar
+
+Ciclo de vida de los datos - Planificar.
+-Capturar
+-Gestionar
+-Analizar 
+-Archivar
+-Destruir
+
+
+
+

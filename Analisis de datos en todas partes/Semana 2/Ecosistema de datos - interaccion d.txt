@@ -1,0 +1,147 @@
+Ecosistema de datos - interaccion de los mismos detos
+
+estos llevan una serie de pasos en orden
+
+se producen, se gestionan, se almacenan, se organizan, se analizan y se conparten los datos.
+
+diferencia entre los cientificos de datos y los analistas de datos.
+
+los cientificos de datos crean nuevas formas de modelar y comprender lo desconocido mediante el uso de los datos sin procesar. 
+Estos suelen formular preguntas con los datos desconcidos en concreto,entre otras cosas.
+Los científicos de datos crean nuevas preguntas con los datos.
+
+el analista de datos 
+analistas encuentran respuestas a las preguntas existentes y crean información a partir de las fuentes de datos es la recopilacion, la transformacion, y organizacion de los datos en orden para la creacion de   conclusiones, hacer predicciones e impulsar la toma de decisiones ya informada. 
+
+Podemos decir en terminos simples que el analisis de datos es la ciencia de los datos.
+
+Identifica los ejemplos del mundo real de cómo una empresa podría tomar decisiones basadas en datos. Selecciona todas las opciones correctas.
+
+Programación de un cierto número de empleados de restaurantes para que trabajen en función de la cantidad promedio de almuerzos por día
+Correcto
+
+Entre algunos ejemplos del mundo real en cuanto a la toma de decisiones basadas en datos se incluyen sugerir música nueva a un cliente, programar a un cierto número de empleados de restaurantes para que trabajen y elegir soluciones de comercio electrónico basadas en hechos establecidos. La toma de decisiones basada en datos se define como el uso de hechos para guiar la estrategia empresarial. 
+
+Elegir soluciones de comercio electrónico basadas en las preferencias de compra de los clientes
+
+Correcto
+
+Entre algunos ejemplos del mundo real en cuanto a la toma de decisiones basadas en datos se incluyen sugerir música nueva a un cliente, programar a un cierto número de empleados de restaurantes para que trabajen y elegir soluciones de comercio electrónico basadas en hechos establecidos. La toma de decisiones basada en datos se define como el uso de hechos para guiar la estrategia empresarial. 
+
+Tomar decisiones de gasto basadas en el instinto del contador de la empresa
+
+Sugerir música nueva a un cliente en función de su historial de escucha
+Correcto
+
+Entre algunos ejemplos del mundo real en cuanto a la toma de decisiones basadas en datos se incluyen sugerir música nueva a un cliente, programar a un cierto número de empleados de restaurantes para que trabajen y elegir soluciones de comercio electrónico basadas en hechos establecidos. La toma de decisiones basada en datos se define como el uso de hechos para guiar la estrategia empresarial. 
+
+Datos + conocimiento empresarial = misterio resuelto
+
+Combinar datos con conocimiento empresarial, además de un toque de instinto, será una parte habitual de tu proceso como analista de datos junior. La clave está en averiguar la combinación exacta de cada proyecto en particular. Muchas veces, dependerá de los objetivos de tu análisis. Por eso los analistas a menudo preguntan: «¿Cómo defino el éxito de este proyecto?»
+
+Además, intenta hacerte estas preguntas sobre un proyecto para encontrar el equilibrio perfecto:
+
+    ¿Qué tipo de resultados se necesitan?
+
+    ¿A quién se informará?
+
+    ¿Estoy respondiendo la pregunta que se está haciendo?
+
+    ¿Con qué rapidez hay que tomar una decisión?
+
+Por ejemplo, si estás trabajando en un proyecto urgente, es posible que tengas que confiar en tus propios conocimientos y experiencia más de lo habitual. No hay tiempo suficiente para analizar a fondo todos los datos disponibles. Pero si tienes un proyecto que implica mucho tiempo y recursos, entonces la mejor estrategia es centrarse más en los datos. Dependerá de ti, el analista de datos, tomar la mejor decisión posible. Probablemente combines datos y conocimientos de un millón de formas diferentes a lo largo de tu carrera de análisis de datos. Y cuanto más practiques, mejor conseguirás encontrar la combinación perfecta. 
+
+Ciclo de vida del análisis de datos de EMC
+
+El ciclo de vida del análisis de datos de EMC Corporation es cíclico con seis pasos:
+
+    Descubrimiento
+
+    Preprocesamiento de datos
+
+    Planificación de modelos
+
+    Construcción de modelos
+
+    Comunicación de los resultados
+
+    Puesta en funcionamiento
+
+EMC Corporation ahora es Dell EMC. Este modelo, creado por David Dietrich, refleja la naturaleza cíclica de los proyectos del mundo real. Las fases no son hitos estáticos; cada paso se conecta y conduce al siguiente, y eventualmente se repite. Las preguntas clave ayudan a los analistas a probar si han logrado lo suficiente como para avanzar y garantizar que los equipos hayan dedicado tiempo necesario en cada una de las fases y no empiecen a modelar antes de que los datos estén listos. Es un poco diferente del ciclo de vida del análisis de datos en el que se basa este programa, pero tiene algunas ideas básicas en común: la primera fase está interesada en descubrir y formular preguntas; los datos deben prepararse antes de poder analizarse y utilizarse; y luego se deben compartir los hallazgos y actuar en consecuencia.
+
+Para obtener más información, consulta The Genesis of EMC's Data Analytics Lifecycle
+
+ (La génesis del ciclo de vida del análisis computacional de datos de EMC).
+Ciclo de vida iterativo de SAS
+
+Una empresa llamada SAS, proveedora líder de soluciones de análisis computacional de datos, creó un ciclo de vida iterativo. Se puede utilizar para producir resultados repetibles, fiables y predictivos:
+
+    Preguntar
+
+    Preparar
+
+    Explorar
+
+    Modelar
+
+    Implementar
+
+    Actuar
+
+    Evaluar
+
+El modelo SAS enfatiza la naturaleza cíclica de su modelo al visualizarlo como símbolo infinito. Su ciclo de vida tiene siete pasos, muchos de los cuales hemos visto en los otros modelos, como Preguntar, Preparar, Modelar y Actuar. Pero este ciclo de vida es un poco diferente; incluye un paso posterior a la fase Actuar, diseñado para que los analistas evalúen sus soluciones y, potencialmente, vuelvan a la fase Preguntar. 
+
+Para obtener más información, consulta Managing the Analytics Life Cycle for Decisions at Scale
+
+ (Administración del ciclo de vida de los análisis para tomar decisiones a escala).
+Ciclo de vida del análisis computacional de datos basado en proyectos
+
+Un ciclo de vida del análisis de datos basado en proyectos consta de cinco sencillos pasos:
+
+    Identificación del problema
+
+    Diseño de requisitos de datos
+
+    Preprocesamiento de datos
+
+    Realización de análisis de datos
+
+    Visualización de datos
+
+El ciclo de vida de este proyecto de análisis de datos fue desarrollado por Vignesh Prajapati. No incluye la sexta fase ni lo que denominamos la fase Actuar. Sin embargo, abarca igualmente muchos de los mismos pasos de los ciclos de vida que ya hemos descrito. Comienza por identificar el problema, preparar y procesar datos antes del análisis y termina con la visualización de datos.
+
+Para obtener más información, consulta Understanding the data analytics project life cycle
+
+(Descripción del ciclo de vida del proyecto de análisis computacional de datos).
+Ciclo de vida del análisis de big data
+
+Los autores Thomas Erl, Wajid Khattak y Paul Buhler propusieron un ciclo de vida de análisis de big data en su libro, Big Data Fundamentals: Concepts, Drivers & Techniques (Aspectos básicos del big data: conceptos, eje impulsor y técnicas). Su ciclo de vida sugiere fases divididas en nueve pasos:
+
+    Evaluación de casos de negocio
+
+    Identificación de datos
+
+    Adquisición y filtrado de datos
+
+    Extracción de datos
+
+    Validación y limpieza de datos
+
+    Agregación y representación de datos
+
+    Análisis de datos
+
+    Visualización de datos
+
+    Utilización de los resultados del análisis
+
+Este ciclo de vida parece tener tres o cuatro pasos más que los modelos de ciclo de vida anteriores. Pero, en realidad, lo que hacen es dividir aquello a lo que nos hemos referido como Preparar y Procesar en pasos más pequeños. Hace hincapié en las tareas individuales necesarias para recopilar, preparar y limpiar datos antes de la fase de análisis.
+
+Para obtener más información, consulta Big Data Adoption and Planning Considerations
+
+ (Consideraciones a la hora de adoptar y planificar big data).
+Conclusión clave
+
+Desde nuestro viaje a las pirámides y los datos del Antiguo Egipto hasta ahora, la forma en que analizamos los datos ha evolucionado (y sigue haciéndolo). El proceso de análisis de datos es como la arquitectura de la vida real: hay diferentes formas de hacer las cosas, pero las ideas fundamentales aparecen en cada modelo del proceso. Ya sea que utilices la estructura de este certificado de Google Data Analytics o una de las muchas otras iteraciones que has aprendido, estamos aquí para guiarte en tu camino hacia los datos.
+

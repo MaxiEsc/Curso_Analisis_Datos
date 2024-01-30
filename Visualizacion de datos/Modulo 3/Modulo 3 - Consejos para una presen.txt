@@ -1,0 +1,358 @@
+Modulo 3 - Contar historias con datos
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: 
+
+La narrativa es la forma más antigua de enseñar. Los seres humanos han compartido conocimiento por medio de historias durante decenas de miles de años, allá por los tiempos cuando los televisores y las computadoras eran las paredes de una cueva. De hecho, los científicos confirmaron que las pinturas en las cuevas fueron creadas por seres humanos que utilizaban el arte para transmitir las historias de su imaginación. Actualmente, la narrativa es aún la forma más natural de educar. Eso es porque las historias facilitan el aprendizaje al ayudarnos a procesar y recordar la información. Cada persona cuenta una historia, incluso si solo compartimos con un amigo cómo nos fue en el día. Muchos expertos creen que el cerebro del ser humano organiza los eventos automáticamente con un comienzo, un desarrollo y un desenlace. Si pensamos las cosas de esta forma, como historias, nos ayuda a encontrarle sentido al pasado, al presente y al futuro. Como si eso fuera poco, las historias nos ayudan a relacionarnos con otras personas y a crear conexiones humanas importantes. No es de extrañarse que las personas se sientan cautivadas por las historias. A lo largo de la historia, muchos inventos importantes han modificado las maneras de contar las historias. Por ejemplo, el invento de la imprenta dio lugar a periódicos, revistas y libros. El invento de la cámara con imágenes en movimiento hizo posible las películas, y pronto aparecieron la televisión, los vídeos, el formato a pedido y los servicios de streaming, que nos permiten disfrutar todo tipo de historias en cualquier lugar y momento. El invento de las herramientas de visualización de datos cambió nuevamente la forma en la que las personas cuentan las historias. Como aprendiste... 
+
+La visualización de datos es la representación y presentación de datos para contribuir a la comprensión. 
+
+Próximamente, descubrirás cómo utilizar la visualización de datos para transformar los datos en una historia significativa que no solo se relacione con las personas sino que también les importe. También comenzarás a trabajar con paneles y filtros para paneles. 
+
+Un panel es una herramienta que organiza la información, generalmente a partir de varios conjuntos de datos en una ubicación central para realizar un seguimiento, análisis y simple visualización mediante gráficos y mapas. 
+
+Y al igual que los filtros, las hojas de cálculo y las consultas. 
+
+Un filtro para panel es una herramienta que muestra solo los datos que cumplen con un criterio específico mientras se oculta el resto. 
+
+Pronto sabrás cómo utilizar estas herramientas para narrar historias que motiven y persuadan a las personas a tomar medidas basadas en los datos que presentes. Finalmente, comprenderás los atributos clave de las historias basadas en datos y las maneras efectivas de comunicarlas y todas las clases de situaciones empresariales. ¿Listo para convertirte en un narrador experto? Pasemos al siguiente capítulo de tu historia del análisis computacional de datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Dar vida a las ideas
+
+Stephen Few, innovador, autor, maestro, y experto en visualización de datos, dijo una vez: 
+
+"Los números tienen una importante historia que contar. Dependen de ti para que les des una participación clara y convincente". 
+
+Los hechos y las cifras son muy importantes en el mundo de los negocios, pero rara vez dejan una impresión duradera. Para crear comunicaciones sólidas que convenzan y hagan que las personas piensen en tomar medidas, necesitas la narrativa de datos. 
+
+La narrativa de datos significa comunicar el significado de un conjunto de datos con elementos visuales y narración que se personalizan para cada público en particular. 
+
+Una narrativa es otro término para una historia. En este vídeo, aprenderás acerca de los pasos de la narrativa de datos. Los pasos son los siguientes: cautivar a tu público, crear elementos visuales atractivos y contar la historia de manera interesante. Aquí presentamos un ejemplo de la industria del streaming musical. Algunas empresas envían a sus clientes una revisión anual por correo electrónico. Este correo destaca las canciones que más escucharon los usuarios y, a veces, los felicita por ser uno de los principales fanáticos de un artista en particular. Esta es una manera mucho más emocionante de compartir datos más que simplemente una copia impresa de la actividad del cliente. También le recuerda al oyente acerca del tiempo que pasa disfrutando del servicio, una buena manera de generar lealtad del cliente. Aquí tienes otro ejemplo, algunas empresas que comparten viajes utilizan la narrativa de datos para mostrar a sus clientes cuántas millas recorrieron y cómo eso equivale a gastar menos dinero en combustible, reducir las emisiones de carbono y ahorrar tiempo que, de lo contrario, podrían haber perdido por el tránsito. Para el pasajero es realmente fácil ver con claridad el valor del servicio mediante un elemento visual simple y divertido. Las historias de datos como estas mantienen al cliente cautivado y le hacen pensar que sus elecciones son importantes porque las empresas se toman el tiempo para crear algo solo para ellos, y, lo más importante, las historias son interesantes. Saber cómo llegar a las personas de esta manera es una parte esencial de la narrativa de datos. Las imágenes nos pueden transportar a un nivel del subconsciente. Este es el concepto de cautivar a las personas mediante la visualización de datos. Hasta ahora aprendiste sobre la importancia de centrarte en tu público. A continuación, seguirás avanzando a partir de ese conocimiento, descubrirás que existen tres pasos en la narrativa de datos, y el primero es saber cómo captar la atención de tu público. 
+
+Compromiso
+Esto consiste en captar y mantener el interés y la atención de una persona. 
+
+Cuando tu público está comprometido, es mucho más probable que te conectes con él y que lo convenzas de ver la misma historia que ves tú. Toda historia de datos debe comenzar captando la atención del público, todos los narradores exitosos tienen en cuenta a la persona que escucha primero. Por ejemplo, cuando una maestra de jardín de infantes elige libros para su clase, elegirá los que sean adecuados para niños de cinco años. Si eligiéramos novelas para nivel secundario, el tema complejo probablemente confundiría a los niños, se aburrirían y no prestarían atención. El segundo paso es crear elementos visuales atractivos. En otras palabras, deseas mostrar la historia de tus datos, no simplemente contarla. Los elementos visuales deben llevar a tu público a un recorrido sobre cómo cambian los datos con el tiempo o destacar el significado oculto de los números. Aquí presentamos un ejemplo, supongamos que una empresa de cosméticos realiza un seguimiento de tiendas que compran su producto y de la cantidad que compran. Podrías comunicar los datos a las demás personas en una hoja de cálculo como esta, o podrías crear un elemento visual colorido como un gráfico circular, que facilita ver qué tiendas son más o menos rentables como socios empresariales. Ese es un enfoque mucho más claro y visualmente interesante. Ahora, el tercer y último paso es contar la historia mediante una narrativa interesante. Una narrativa tiene un comienzo, un desarrollo y un desenlace. Debe conectar los datos que recopilaste con el objetivo del proyecto y explicar con claridad las conclusiones importantes provenientes de tu análisis. Para hacer esto, es importante que tu narrativa de los datos sea organizada y concisa. Pronto aprenderás cómo lograrlo utilizando diapositivas para el análisis durante una reunión y una presentación formal. Analizaremos cómo el contenido, los elementos visuales y el tono de tu mensaje cambian dependiendo de la manera en la que lo comunicas. Y, hablando de comunicaciones empresariales, una de las varias maneras en las que las empresas utilizan la visualización para contar historias de datos, es mediante nubes de palabras. Las nubes de palabras son una visualización de datos muy simple. Estas palabras se presentan en distintos tamaños según la frecuencia de aparición en tu conjunto de datos. Esta es una excelente manera de captar la atención de una persona y de desbloquear las historias a partir de bloques grandes de texto donde no podría verse nunca cada palabra sola. Las nubes de palabras se pueden utilizar de muchas maneras. En las redes sociales, pueden mostrarte qué temas aparecen en las publicaciones con mayor frecuencia, o puedes utilizarlas en blogs para destacar las ideas que más interesan a los lectores. Esta nube de palabras se creó utilizando texto del programa de este curso. Cuenta una historia cautivante donde el análisis computacional de datos, el análisis, SQL y las hojas de cálculo son, naturalmente, algunos de los personajes principales. Sigamos dando vuelta a las páginas de tu historia sobre el análisis computacional de datos. Hay mucha acción y aventura por delante.
+
+__________________________________________
+
+Los 3 pasos de la narrativa de datos: 
+-> Cautivar a tu público.
+-> Crear elementos visuales atractivos.
+-> Contar la historia de manera interesante.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Historias de datos eficaces
+
+En el análisis computacional de datos, la narrativa de datos es comunicar el significado de un conjunto de datos con elementos visuales y una narrativa personalizada para un público en particular. En el periodismo de datos, los periodistas atraen a su público de lectores combinando visualizaciones, narrativa y contexto en artículos basados en datos. Resulta que los analistas de datos y los periodistas de datos tienen mucho en común. Como analista de datos junior, podrías aprender algunas cosas sobre la narrativa eficaz del periodismo de datos. Sigue leyendo para explorar el papel y el trabajo de un periodista de datos para contar una buena historia.
+
+Nota: Esta lectura hace referencia a un artículo publicado enThe New Yorker. Las personas que no tienen una suscripción pueden acceder a varios artículos gratuitos cada mes. Si ya alcanzaste tu límite mensual de artículos gratuitos, marca el artículo y vuelve a esta lectura más adelante.
+Recorrido por un artículo basado en datos
+
+Ben Wellington
+, colaborador deThe New Yorkery profesor del Pratt Institute, utilizó el portal de datos abiertos de la ciudad de Nueva York
+ para rastrear las quejas por ruido de las solicitudes de servicio registradas. Analizó los datos para obtener una comprensión más cuantitativa de la procedencia del ruido y de los barrios más ruidosos. A continuación, presentó sus hallazgos en el artículo Mapa de los barrios más ruidosos de Nueva York
+
+.
+
+Primero, haz clic en el enlace de arriba para leer el artículo y familiarizarte con las visualizaciones de los datos. A continuación, ¡únete al recorrido de los datos! Serás dirigido a tres visualizaciones (paradas del recorrido) para observar cómo cada una de ellas ayudó a reforzar la narrativa general del artículo.
+Parada 1: Establecer el contexto
+
+Al principio de la capacitación, aprendiste que el contexto es importante para entender los datos.El contextoes la condición en la que algo existe o sucede. Basándose en la categorización de las quejas por ruido, el periodista de datos estableció el contexto en el artículo definiendo lo que la gente consideraba ruido.
+
+En el artículo, revisa la tabla combinada y el gráfico de barras
+
+ que clasifica las quejas por ruido. Evalúa la visualización:
+
+    ¿Cómo ayuda la visualización a establecer el contexto? La tabla combinada y el gráfico de barras son eficaces para resumir las categorías de ruido como porcentajes de las quejas registradas. Esto ayuda a establecer el contexto respondiendo a la pregunta “¿qué es el ruido?”. Obsérvese que el periodista de datos creó una tabla combinada y un gráfico de barras en lugar de un gráfico circular. Con 11 categorías de ruido, una lista con un gráfico de barras que muestra las proporciones relativas es una representación elegante. Un gráfico circular con 11 categorías habría sido más difícil de leer.
+
+    ¿Cómo ayuda la visualización a aclarar los datos? Si se suman los porcentajes de las categorías en la tabla combinada y el gráfico de barras, el total es del noventa y ocho por ciento. Hay una diferencia del dos por ciento que no se puede contabilizar en la visualización. Por lo tanto, en lugar de aclarar los datos, la visualización realmente provoca un poco de confusión. Una lección es que siempre hay que asegurarse de que los porcentajes se suman correctamente. A veces, redondear los decimales hacia arriba o hacia abajo hace que los porcentajes no sumen el 100%.
+
+    ¿Observas una mejor práctica de visualización de datos? Aprendiste que una tabla complementaria en Tableau muestra los datos de una manera diferente en caso de que algunos miembros del público prefieran las tablas. Parece que el periodista de datos tuvo la misma idea al utilizar una tabla combinada y un gráfico de barras.Nota:Como recordatorio, una tabla complementaria en Tableau se muestra justo al lado de una visualización. Una tabla complementaria muestra los mismos datos que la visualización, pero en formato de tabla. Puedes volver a ver el vídeo Ser creativo
+
+    , que incluye un ejemplo de tabla complementaria.
+
+Parada 2: Análisis de variables
+
+Tras establecer el contexto identificando las categorías de ruido, el periodista de datos describe su análisis de los datos de ruido. Un análisis interesante es la distribución de las quejas por ruido en función de la hora del día.
+
+En el artículo, revisa el gráfico de áreas superpuestas
+
+ para la distribución de las quejas por ruido según la hora del día. Evalúa la visualización:
+
+    ¿Cómo se comporta la visualización frente a la regla de los cinco segundos? Recordemos que la regla de los cinco segundos establece que se debe entender lo que se transmite en los primeros cinco segundos de ver un gráfico. Suponemos que esta visualización funciona bastante bien. Los gráficos de áreas para la música alta y los ladridos de los perros ayudan al público a comprender que el mayor número de quejas por este tipo de ruido se produjo durante las horas de la noche y la madrugada (entre las 10:00 p.m. y las 2:00 a.m.). Obsérvese también que el código de colores de la leyenda se ajusta a los colores del gráfico. La leyenda de un gráfico normalmente tiene la categoría más grande en la parte superior, pero el periodista de datos eligió ordenar la leyenda para que la categoría más grande, “Música alta o fiesta” aparezca en la parte inferior. ¿Cuánto tiempo crees que esta alineación ahorró a los lectores?
+
+    ¿Cómo ayuda la visualización a aclarar los datos? A diferencia de la visualización de la parada anterior, esta visualización hace un mejor trabajo al mostrar claramente que todos los porcentajes suman 100%.
+
+    ¿Observas una mejor práctica de visualización de datos? Como práctica recomendada, tanto el eje x como el eje y deberían estar etiquetados. Pero, el periodista de datos eligió incluir % o A.M. y P.M. con cada marca en un eje. En consecuencia, no es necesario etiquetar el eje x “Hora del día” y el eje y “Porcentaje de quejas por ruido”. Esto demuestra que un poco de creatividad con el etiquetado puede ayudar a conseguir un gráfico más limpio.
+
+Parada 3: Sacar conclusiones
+
+Después de describir cómo se analizaron los datos, el periodista de datos comparte qué barrios son los más ruidosos utilizando una variedad de visualizaciones: tabla combinada y gráfico de barras
+, mapa de densidad
+ y mapa de barrios
+
+.
+
+En el artículo, revisa el mapa de barrios
+
+ para ver qué tan cerca está un barrio ruidoso de un barrio tranquilo. Evalúa la visualización:
+
+    ¿Cómo ayuda la visualización a demostrar lo que se quiere decir? El periodista de datos observó que uno de los barrios más ruidosos estaba justo al lado de uno de los más tranquilos. El mapa del barrio es eficaz para enfatizar esta observación como un área azul oscuro frente a un área blanca.
+
+    ¿Cómo ayuda la visualización a aclarar los datos? La visualización clasifica los datos por barrios y permite al público comprender cuando el periodista se centra específicamente en los barrios de Williamsburg, East Williamsburg y North Side/South Side.
+
+    ¿Observas una mejor práctica de visualización de datos? Cada barrio está directamente etiquetado, por lo que no es necesaria una leyenda.
+
+Fin del recorrido: Inspirarse
+
+¡Esperamos que hayas disfrutado de tu recorrido por el trabajo de un periodista de datos! Que esto sirva de inspiración para que tu narrativa de datos sea lo más atractiva posible. Para obtener más información sobre la narrativa eficaz de datos, lee estos artículos:
+
+    ¿Qué es la narrativa de datos?
+
+El arte de contar historias en analítica y ciencia de datos | ¿Cómo crear historias de datos?
+
+Utilizar los datos y la analítica para contar una historia
+
+Contar una historia significativa con los datos
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Hablarle al publico
+
+Cuando deseas comunicar algo a las demás personas, una gran historia puede ayudarte a llegar a su corazón y mente y a que se abran más a lo que tienes para decirles. En otras palabras, las historias hacen que las personas se involucren. Como ya aprendiste, el primero de los tres pasos de la narrativa de datos nos enseña que para que una historia sea exitosa, debes enfocarte en la persona que está escuchando. Los analistas de datos hacen esto asegurándose de que están cautivando a su público. Eso es lo que exploraremos juntos ahora. Primero, debes conocer a tu público. Piensa en el ejemplo de contarle a una persona un chiste que escuchó muchas veces antes y esperar que se ría en el remate. No es probable. Para obtener la respuesta que estás buscando, debes comprender el punto de vista de tu público. Eso significa pensar en cómo tu proyecto de datos podría afectarlo. Es de ayuda que te hagas unas preguntas. ¿Qué papel juega este público? ¿Cuál es su interés en este proyecto? ¿Qué esperan obtener de las conclusiones de datos que presento? Supongamos que estás analizando datos de lectores de clientes para ayudar a un editor de una revista a decidir si debería cambiar de ediciones trimestrales a ediciones mensuales. Si tu público de interesados incluye personas de una empresa de impresiones, se verán afectadas porque el cambio significa que deben realizar un pedido de papel y tinta con mayor frecuencia. También es posible que deban asignar más miembros del personal al proyecto. O, si los interesados incluyen a los autores y editores de la revista, es posible que quieras tener en cuenta que tus recomendaciones podrían cambiar la manera en la que trabajan. Por ejemplo, es posible que necesiten escribir y editar historias más rápido de lo que están acostumbrados. Una vez que hayas considerado las respuestas a esas preguntas, es hora de elegir tu mensaje principal. Cada parte de tu historia fluye desde este punto clave, por lo que debe ser claro y directo. Con eso en mente, pensemos en el mensaje clave para el proyecto de datos sobre nuestra revista simbólica. Tal vez los datos de los lectores de los clientes muestran que las suscripciones a la revista impresa se redujeron recientemente. Descubres en los datos de una encuesta que esto ocurre principalmente porque los lectores piensan que la información está desactualizada, por eso, este hallazgo sugiere que los lectores probablemente apreciarían un ciclo de publicación que les haga llegar la información en sus manos más a menudo. Pero eso no es todo. Los datos de tu encuesta de lectores muestran que los lectores prefieren artículos más cortos con conclusiones rápidas. Los datos generan muchos puntos de decisión posibles. El volumen y la variedad de información que tienes frente a ti parecen un desafío. Para obtener el mensaje clave, deberás tomar distancia y detectar solo las partes más útiles. No todos los datos son relevantes para las preguntas que intentas responder. Una gran parte de ser analista de datos es saber cómo eliminar los datos menos importantes. Una manera de hacer esto es con algo que se denomina "poner de relieve". 
+
+Poner de relieve significa explorar los datos para identificar rápidamente las conclusiones más importantes. 
+
+Hay muchas maneras de poner algo de relieve, pero a muchos analistas de datos les gusta utilizar notas adhesivas en una pizarra, cómo la manera en la que los arqueólogos le encontraban sentido a los utensilios que descubrían en una excavación. Para hacerlo, escribes cada conclusión de tu análisis en un trozo de papel, las distribuyes y las muestras en una pizarra. Luego, las examinas. Es importante que no te enredes en cada mínimo detalle. Por el contrario, busca ideas y mensajes conocidos universalmente. Intenta encontrar ideas o conceptos que surjan una y otra vez o números y palabras que se repitan con frecuencia. Tal vez, buscas cosas que aparentemente estén relacionadas o que formen patrones. Destaca estos elementos o agrúpalos en tu pizarra. Luego, explora tus descubrimientos. Halla el significado oculto de los números. La idea es identificar qué conclusiones probablemente ayuden más a resolver tu problema empresarial o te den las respuestas que estuviste buscando. Esto es cómo "poner de relieve" puede conducirte hacia tu mensaje clave. Recuerda mantener tu mensaje clave claro y conciso, ya que un mensaje demasiado largo como este que se ve en la pantalla es menos probable que transmita la conclusión más importante. Aquí hay un mensaje claro y conciso que probablemente cautive a tu público porque es breve y directo. Por supuesto, independientemente del tiempo y del esfuerzo que hayas invertido en analizar a tu público, puedes predecir con exactitud cómo reaccionarán a tus recomendaciones. Pero si sigues los pasos que analizamos, es mucho más probable que obtengas buenos resultados. En un próximo vídeo, aprenderás cómo lidiar con situaciones que no se dan de acuerdo con el plan. Está bien. Esto nos pasa a todos. ​
+
+___________________________________________________
+
+Un analista de datos utiliza la puesta en relieve para señalar los datos más relevantes derivados de su análisis y eliminar los detalles menos importantes. Poner los datos de relieve implica explorar los datos para identificar rápidamente los puntos de vista más importantes.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video Periodismo de datos
+
+Y eso significa que mido la inversión en publicidad de los clientes y descubro maneras en las que pueda funcionar mejor para ellos en el futuro. En el transcurso de mi profesión, trabajé en cuatro campos distintos, pero lo que tienen en común todos es mi habilidad para comprender los datos a fin de obtener la información que necesito extraer y transmitirla de manera simple y convincente. Un ejemplo realmente anterior de esto proviene de un hombre que se llama John Snow. Fue médico en Londres en la década de 1850 y vivió durante un brote de cólera, y, en ese momento, la teoría era que el cólera se diseminaba por el aire o por el "mal humor". La gente realmente no sabía qué causaba la enfermedad, pero él creía que la enfermedad era provocada por beber agua realmente contaminada y repugnante del Támesis. Por lo tanto, se dedicó a entrevistar a personas que estaban enfermas y les preguntaba de dónde habían obtenido el agua, y descubrió que, al mapear los datos, todas las personas habían obtenido agua de la misma bomba. Por ese motivo habló con las autoridades y les pidió que desmantelaran la bomba; extrajeron la bomba y el brote finalizó. Esto inició un campo de la epidemiología realmente sólido, pero también es un gran ejemplo del periodismo de datos. Más recientemente, antes de Google, trabajé como periodista de datos, y eso significaba utilizar los datos para contar historias. Trabajé en el Chicago Tribune durante tres años. Trabajaba mucho durante la temporada de elecciones y en momentos gráficos importantes de Olympics donde hay muchos datos interesantes y una necesidad de comprenderlos. El campo del periodismo de datos cambió mucho con el tiempo, pero no tanto como posiblemente pienses. Tenemos mucho más acceso a los datos y datos de los que realmente nunca habíamos hecho un seguimiento antes, pero aún el trabajo de los periodistas de datos consiste en entender realmente qué significan estos datos. Cada vez contamos con más datos. No es realmente útil para un lector solo decir: "Aquí hay un enlace a una base de datos". Todavía tienes que descubrir el significado oculto y comprender realmente cuál es la perspectiva de los datos. Las herramientas que un periodista utilizaría para comprender algo, por ejemplo, "consultar a un experto, compenetrarse a fondo con una historia" son muy similares a las herramientas que necesito en Google para comprender de verdad la inversión de los medios de comunicación y hacer una recomendación verdaderamente clara sobre qué debería hacer una persona en el futuro. Mi consejo es comprender las herramientas que tienes disponibles y saber cómo funcionan, pero nunca para dejar que esas herramientas abrumen tu historia. Como nunca miro solo a un dato, sé que esto se creó utilizando Data Studio o Microsoft Excel. Quiero saber qué dicen los datos y cuál es el punto de vista de un periodista de datos detrás de esa historia. No dejes que la manera en la que creas algo influya en lo que realmente dice. Las personas simplemente desean saber qué extrajiste y qué información nueva hallaste en todo el trabajo arduo que hiciste. Me encanta el campo del periodismo de datos porque es justo cómo funciona mi cerebro. Soy siempre ese tipo de persona que hace un garabato en los márgenes o un gráfico rápido para comprender verdaderamente los datos subyacentes, y eso me obliga a encontrar un punto de vista y compartirlo con otras personas. Me encanta el hecho de que a través de los datos puedo comunicarme con un gran público y puedo ayudarlos a comprender el mundo que los rodea.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Contar una historia de datos 
+
+Descripción general
+
+Aprendiste cómo la narrativa y la visualización de datos pueden ser herramientas poderosas para comunicar tus hallazgos de datos a tu público. Ahora, completarás una entrada en tu registro de aprendizaje para reflexionar sobre la narrativa y la visualización de datos. Cuando completes esta entrada, tendrás una mayor comprensión de cómo puedes combinar estos conceptos para comunicarte de manera más efectiva. Esto te ayudará cuando empieces a compartir tus propias visualizaciones y presentaciones como analista de datos.
+Narrativa y visualización de datos
+
+Antes de que escribas tu respuesta en la plantilla de registro de aprendizaje vinculada a continuación, tómate un momento para considerar cómo se utilizan la narrativa y la visualización de datos para comunicarlos.
+
+La narrativa de datos es comunicar el significado de un conjunto de datos con elementos visuales y una narrativa personalizada para un público en particular.
+
+Por ejemplo, algunas empresas de streaming de música envían a sus clientes un correo de “revisión anual”. En estos correos, informan a sus clientes sobre los artistas y las canciones que más les gustaron. De este modo, las empresas utilizan los datos de sus clientes para contar una historia.
+
+La visualización de datos es la representación y presentación de datos para ayudar a su comprensión. Se pueden utilizar gráficos, tablas, nubes de palabras y otras representaciones visuales para ayudar al público a ver y entender claramente los datos.
+
+Los efectos de la narrativa y la visualización de datos pueden ser poderosos. La narrativa y la visualización de datos pueden cautivar al público, hacer que las historias sean memorables, tocar el corazón de las personas e inspirarlas a actuar.
+
+Reflexión
+
+Ahora que pensaste más en la narrativa y visualización de datos, tómate un momento para reflexionar sobre estos conceptos. En la plantilla de tu registro de aprendizaje, escribe 2 o 3 oraciones (entre 40 y 60 palabras) en respuesta a cada pregunta que aparece a continuación:
+
+    ¿Qué es lo más interesante que aprendiste en la semana 3 hasta ahora?
+
+    ¿Qué aspectos de la narrativa y visualización de datos quieres explorar con más detalle? ¿Por qué esos aspectos son importantes o interesantes para ti?
+
+    ¿Qué historias relacionadas con tu propia vida o sociedad tienes curiosidad por contar utilizando datos?
+
+    Si pudieras contar cualquier historia utilizando datos, ¿cuál sería y por qué?
+
+Cuando hayas terminado la entrada en la plantilla de registro de aprendizaje, asegúrate de guardar el documento para que se pueda acceder a tu respuesta. Esto te ayudará a seguir aplicando el análisis de datos a tu vida cotidiana. También podrás hacer un seguimiento de tu avance y crecimiento como analista de datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Fundamentos de los paneles en Tableau
+
+¿Alguna vez condujiste un automóvil cuando una de las luces de advertencia del panel se encendió repentinamente? Tal vez el medidor de combustible comenzó a parpadear porque tenías poco combustible. Es útil tener ese tipo de alertas frente a ti, claramente te indican que debes prestar atención al nivel de combustible. ¿Podrías imaginarte si los automóviles no tuvieran paneles? Nunca sabríamos si nos estamos quedando sin combustible. No tendríamos idea si la presión de los neumáticos es baja o si es hora de hacer un cambio de aceite. Sin paneles, si nuestros automóviles comienzan a mostrar cambios, tendríamos que utilizar el manual del usuario, examinar toda la información incluida e intentar descubrir el problema nosotros mismos. Los paneles de los automóviles le facilitan a los conductores el hecho de comprender y responder ante cualquier problema con sus vehículos porque constantemente realizan un seguimiento y análisis del estado de su automóvil. Pero tal como aprendiste, los paneles no son solo para los automóviles. Las empresas también los utilizan para compartir información, para involucrar a las personas con planes y objetivos empresariales, y para descubrir posibles problemas. Al igual que el panel de un automóvil, los paneles del análisis computacional de datos contienen muchísima información y la hacen realidad de manera clara y visualmente interesante. Esto es extremadamente importante cuando se narra una historia con datos, que es el motivo por el que es una parte importante del número dos de nuestros tres pasos en la narrativa de datos. 
+
+Aprendiste que un panel es una herramienta que organiza la información desde varios conjuntos de datos en una ubicación central para realizar un seguimiento, análisis y simple visualización mediante tablas, cuadros y gráficos. 
+
+Los paneles lo hacen monitoreando constantemente los datos entrantes en vivo. Como analizamos, puedes crear paneles que están diseñados específicamente para hablar con tus interesados. Puedes pensar en la persona que analizará los datos, qué necesita obtener y cómo los utilizará. Luego, puedes crear un panel con la información perfecta solo para ellos. Esto es útil porque las personas pueden confundirse y distraerse cuando se les presentan muchos datos. Un panel mantiene las cosas en orden, prolijas y fáciles de entender. Al diseñar un panel, es mejor comenzar solo con los puntos de datos más importantes, y, si luego descubres que falta algo, siempre puedes volver y mejorar el panel o crear uno nuevo. Una parte importante del diseño del panel es la ubicación o disposición de los cuadros, gráficos u otros elementos visuales. Estos elementos deben ser cohesivos, es decir, deben estar equilibrados y hacer un buen uso del espacio en el panel. Luego de decidir qué información debe aparecer en tu panel, es posible que necesites cambiarle el tamaño y reorganizarlo para que funcione mejor para tus usuarios. Una opción en Tableau es elegir entre un diseño vertical o un diseño horizontal. 
+
+Un diseño vertical ajusta la altura. 
+Un diseño horizontal cambia el tamaño del ancho de las vistas y de los objetos que contiene. 
+
+Además, como puedes ver aquí, distribuir uniformemente los elementos dentro del diseño te ayudará a crear un gráfico de datos claro y organizado. Puedes seleccionar los diseños en mosaico o flotante. 
+
+Los elementos en mosaico son parte de la cuadrícula de una sola capa que automáticamente cambia de tamaño en función del tamaño general del panel. 
+
+Los elementos flotantes pueden superponerse a otros objetos. 
+
+En este ejemplo, el mapa y los diagramas de dispersión están en mosaico, no se superponen. Esto realmente ayuda a aclarar de qué se tratan los datos, lo cual es valioso debido a que la mayoría de las personas en el mundo aprenden mediante elementos visuales, procesan información en función de lo que observan. Es por eso por lo que compartir tus paneles con los interesados es una práctica muy valiosa. Ahora, hay algo muy importante que hay que tener en cuenta con respecto a eso. Compartir los paneles con las demás personas probablemente significa que perderás el control de la narrativa; es decir, no estarás allí para contar la historia de  tus datos ni compartir tus mensajes clave. Los paneles colocan el poder de la narrativa en manos del espectador. Eso significa que los espectadores elaborarán su propia narrativa y sacarán sus propias conclusiones, pero no permitas que eso te impida ser colaborador y abierto. Simplemente, comprende los riesgos que implica compartir tus paneles. Después de todo, compartir información y recursos significa que habrá más personas trabajando para solucionar un problema importante o que presenten la siguiente buena idea. Esto conlleva más conexiones, que pueden resultar en prácticas nuevas e innovaciones verdaderamente emocionantes.
+_______________________________________________________________________________
+
+En Tableau, los elementos en mosaico no pueden superponerse a otros objetos. Forman parte de una cuadrícula de una sola capa que se redimensiona automáticamente en función del tamaño total del panel. Puedes poner capas de elementos flotantes sobre otros objetos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Paneles e información estática
+
+Anteriormente, aprendiste sobre la narrativa de datos y la interpretación de tu conjunto de datos a través de una narrativa. En esta lectura, explorarás la importancia de utilizar cuadros de mando e información estática para que tus datos sean aún más claros.
+
+Los paneles y la información estática permiten al cliente o al usuario tener el control de su narrativa. Con los paneles, cualquiera puede utilizar los datos y tomar sus propias decisiones. Un panel puede construirse sobre información o datos estáticos, es decir, datos que no cambian una vez que fueron registrados. Esto permite controlar de forma estricta la narrativa y la forma en que los datos se presentan visualmente, ya sea a través de gráficos, tablas, etc.
+En vivo o estático
+
+Identificar si los datos son activos o estáticos depende de ciertos factores:
+
+    ¿Qué antigüedad tienen los datos?
+
+    ¿Cuánto tiempo falta para que los datos sean obsoletos o dejen de ser válidos para tomar decisiones?
+
+    ¿Es necesario actualizar regularmente estos datos o análisis para que sigan siendo valiosos?
+
+Los datos estáticos implican proporcionar capturas de pantalla o instantáneas en las presentaciones o construir paneles utilizando instantáneas de datos. Los datos estáticos tienen pros y contras.
+
+PROS
+
+    Pueden controlar de forma estricta una narrativa puntual de los datos y la información
+
+    Permiten explicar en profundidad análisis complejos a un público más amplio
+
+CONTRAS
+
+    La información empieza a perder valor inmediatamente y continúa haciéndolo cuanto más tiempo permanecen los datos en un estado estático
+
+    Las instantáneas no pueden seguir el ritmo de los cambios en los datos
+
+Los datos activos significan que se pueden crear paneles, informes y vistas conectadas a los datos actualizados automáticamente.
+
+PROS
+
+    Se pueden crear paneles más dinámicos y escalables
+
+    Proporcionan los datos más actualizados a las personas que los necesitan en el momento en que los necesitan
+
+    Permiten obtener vistas actualizadas de los datos con la capacidad de construir una “única fuente de verdad” escalable para diversos casos de uso
+
+    Permiten tomar medidas inmediatas sobre los datos que cambian con frecuencia
+
+    Alivian el tiempo y los recursos dedicados a los procesos de cada análisis
+
+CONTRAS
+
+    Pueden requerir recursos de ingeniería para mantener las canalizaciones activas y escalables, lo que puede estar fuera del alcance de la asignación de recursos de datos de algunas empresas
+
+    Sin la capacidad de interpretar los datos, se puede perder el control de la narrativa, lo que puede provocar un caos de datos (es decir, que los equipos lleguen a conclusiones contradictorias basadas en los mismos datos)
+
+    Pueden causar potencialmente una falta de confianza si los datos no se manejan adecuadamente
+
+Conclusiones clave
+
+Los analistas deben familiarizarse con el negocio y los datos para poder recomendar cuándo es necesario actualizar el análisis estático o cuándo debe actualizarse. Además, este conocimiento de los datos les ayudará a argumentar las recomendaciones de los tipos de análisis, visualizaciones y datos adicionales para los tipos de decisiones que la empresa necesita tomar.
+
+Ten a mano esta hoja de cálculo de la encuesta a clientes
+
+, ya que te será útil para el siguiente vídeo.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: De los filtros a los graficos
+
+Hasta ahora, nos centramos mucho en comprender a nuestro público. Ya sea que intentes cautivar a la gente con la narrativa de datos o crear paneles diseñados para una cierta persona o grupo, comprender a tu público es fundamental. Como aprendiste, puedes crear paneles que se personalicen para cumplir con los distintos requisitos de los interesados. Para hacer esto, es importante pensar en qué persona será la que analice los datos y qué necesita de ellos. En este vídeo, seguiremos explorando cómo crear elementos visuales atractivos para contar una historia de datos interesante y persuasiva. Un filtro es una buena herramienta para hacerlo. Aprendiste sobre filtros, hojas de cálculo y consultas, pero a modo de recordatorio, "filtrar" significa mostrar solo los datos que cumplen con criterios específicos mientras se oculta el resto. 
+
+El filtrado funciona de la misma manera con los paneles, puedes aplicar distintos filtros para los diferentes usuarios en función de sus necesidades. 
+
+Tableau te permite limitar los datos que ves en función de los criterios que especifiques. Tal vez, deseas filtrar datos y los datos se configuran para mostrar solo los últimos seis meses, o tal vez deseas ver información de un cliente en particular. Puedes incluso limitar el número de filas o columnas en una vista. Para explorar estas opciones, veamos nuestro ejemplo de felicidad mundial. Supongamos que tus interesados estaban interesados solo en algunos de los temas que afectan la felicidad general. Filtrar solo el producto interno bruto, la familia, la generosidad, la libertad, la confianza y la salud, y luego crear diagramas de dispersión individuales para cada uno permitiría conocer este dato. 
+También puedes utilizar filtros para destacar u ocultar los puntos de datos individuales. Por ejemplo, si tienes un diagrama de dispersión con valores atípicos, es posible que desees explorar cómo se vería tu diagrama sin esos valores. No obstante, ten en cuenta que esto es simplemente un ejemplo para mostrarte cómo funcionan los filtros; no es correcto anular un punto de datos simplemente porque es un valor atípico. Los valores atípicos podrían ser observaciones importantes, a veces incluso las más interesantes, así que asegúrate de colocarte el sombrero de detective de datos e investigar ese valor atípico antes de decidir si lo eliminas de tu panel. Aquí mostramos cómo hacerlo. Para filtrar puntos de datos de la vista, podemos elegir un solo punto de datos o hacer clic y arrastrarlo en la vista para seleccionar varios puntos. Elijamos solo uno. Luego, en el consejo emergente de la herramienta, seleccionaremos "excluir" para ocultarlo o podríamos haber elegido hacerlo de otra manera, manteniendo solo los puntos de datos seleccionados. Aquí tienes otro ejemplo. Si tus datos están en una tabla, puedes filtrar filas o columnas enteras desde tu vista. Para hacerlo, seleccionaremos las filas que queremos en la vista. Luego, en el consejo emergente de la herramienta, elegiremos mantener solo esos países. Nuevamente, podrías haber seleccionado también los puntos de datos que queríamos excluir y elegir esa opción en cambio. O, si lo deseas, podemos incluso filtrar previamente un panel de Tableau. Esto significa que tus interesados no deben filtrar los datos por su cuenta. Básicamente, al realizar el filtrado para ellos, puedes ahorrarles tiempo y esfuerzo y orientarlos hacia los datos importantes en los que deseas que se enfoquen. Personalmente, creo que lo mejor acerca de los filtros es que te permiten enfocarte en lo que es importante. A veces, trabajo con un conjunto de datos enorme, y deseo concentrarme solo en un área específica, por eso agrego un filtro para limitar los datos que se visualizan en mi panel. Esto elimina el desorden y me proporciona un elemento visual simple y claro. Utilizo mucho los filtros cuando trabajo con datos sobre el rendimiento de una campaña publicitaria. Los filtros me ayudan a aislar tácticas específicas, tales como una búsqueda o avisos de YouTube, para analizar cuáles funcionan mejor y cuáles podrían mejorarse. El hecho de limitar y personalizar la información que estoy observando me permite ver con más facilidad la historia que los números ocultan. Y, como seguramente ya habrás notado, ¡me encanta una buena historia de datos! Como analista de datos, a menudo dependerás de las hojas de cálculo para crear visualizaciones rápidas de tus datos a fin de contar una historia. Vamos a practicar cómo crear un gráfico en una hoja de cálculo. Para continuar, utiliza el enlace de la hoja de cálculo de la lectura anterior, también incluida en el vídeo. Utilizaremos Google Sheets, por lo que esto podría verse un poco diferente en otras plataformas de hojas de cálculo, como Excel. Bien, comencemos filtrando solo los datos sobre cuántos clientes compran paquetes de software básico, plus o premium. Para comenzar, selecciona la columna para el paquete de software e inserta un gráfico. La hoja de cálculo sugiere el tipo de gráfico que crees mejor para nuestros datos, pero podemos elegir cualquier tipo de gráfico que te guste. Los gráficos de la hoja de cálculo también te permiten asignar diferentes estilos, títulos de acceso, una leyenda y muchas otras opciones. Siéntete libre de explorar las distintas funcionalidades más adelante. También abordaremos esto en una lectura. Existen muchas opciones distintas entre las cuales elegir. Digamos que también contamos con datos sobre el país de origen de nuestros clientes y el puntaje de satisfacción general del software que compraron. En primer lugar, resalta las columnas A y B, luego haz clic en "Insertar" y luego, nuevamente, en "Gráfico" en "Tipo de gráfico". Deseas seleccionar la opción del primer mapa. ¡Ya está! Ahora, tenemos un mapa que resume los puntajes de la encuesta para clientes por país. También podemos personalizar este gráfico si hacemos clic en "personalizar" en la esquina superior derecha. Digamos que quisimos cambiar nuestros colores de rojo y verde a un gradiente, de modo que sea más accesible. Podemos hacerlo mediante un clic en "geo" y luego cambiamos el color mínimo a una gama más clara de azul, el color intermedio a la gama intermedia de azul y el color máximo a la gama más oscura de azul para mostrar el espectro de puntuaciones de bajo a alto. Ahora, tenemos un mapa que muestra donde los encuestados están más satisfechos con su software en azul oscuro y menos satisfechos con el software en celeste. Y esto será más fácil de entender para cualquier persona de nuestro público que tenga problemas para distinguir los colores. Tableau y las hojas de cálculo son herramientas comunes para crear visualizaciones de datos. Si utilizas sus funcionalidades integradas, como los filtros y los gráficos, puedes concentrarte en la información que sea más importante y crear elementos visuales atractivos para tu público. Y ahora que hemos explorado algunas maneras de crear elementos visuales, es hora de comenzar a preparar nuestra narrativa de datos. A continuación, vamos a hablar más sobre cómo narrar historias con datos y sobre cómo organizar las presentaciones.
+_______________________________________________________
+
+¿Para cuál de las siguientes tareas se pueden utilizar filtros en Tableau?
+Los filtros en Tableau pueden utilizarse para limitar la información, personalizarla o resaltar un punto de datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Las ventajas de trabajar directamente desde una hoja de calculo es que el manejo de la información de la misma es mas dinámico y mas ordenado que desde tableau por lo que eso incluye que desde el comienzo del curso tenemos mas experiencia manejando google spreadsheets que el mismo tableau lo cual puede ser la razón de mi opinión
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Crea tu primer panel en Tableau
+
+Aprovecha lo que aprendiste sobre las visualizaciones de datos y crea un panel. 
+
+Tableau contiene muchas otras funcionalidades para crear paneles que se actualizan en tiempo real y que incluyen visualizaciones interactivas.
+
+Los paneles son importantes en el análisis de datos porque permiten que las personas los visualicen de forma interactiva y dinámica, lo que puede ayudar a mejorar tus presentaciones sobre datos. Las visualizaciones de datos son más útiles cuando se presentan en un formato de panel a las partes interesadas, ya que con los paneles puedes ubicar toda la información clave en el mismo lugar para facilitar la comprensión de los aspectos realmente importantes. Además, muchos paneles se actualizan constantemente para reflejar datos nuevos y pueden ser interactivos. Independientemente del estilo de panel que elijas, te pueden ayudar a presentar los datos a las partes interesadas de forma eficaz. 
+
+Abre Tableau 
+
+Deberás navegar y acceder a la app en línea de Tableau Public
+. También puedes consultar literatura sobre cómo crear una cuenta, un perfil, y cargar y vincular conjuntos de datos con la app de Tableau Public. Cómo usar Tableau Public
+
+.
+
+Accede al conjunto de datos
+
+Haz clic en este vínculo para crear tu propia copia del conjunto de datos de CO2
+
+.
+
+Si no tienes una Cuenta de Google, puedes hacer clic a continuación para descargar el conjunto de datos de CO2 directamente:
+
+Carga el conjunto de datos 
+
+1.Ahora que accediste a Tableau Public, entra al panel de la fuente de datos haciendo clic en la pestaña Create y, luego, en la opción Web Authoring, en la parte superior de la página de destino. Luego, haz clic en el botón central titulado “Upload from computer” y selecciona el conjunto de datos de CO2 que se descargó en tu dispositivo. 
+
+2.Una vez que se haya cargado el conjunto de datos, dirige tu atención a la parte inferior de las pestañas de fuente de datos que están en la esquina inferior izquierda de la ventana. Así, se abrirá la carpeta de fuentes de datos que Tableau Public creó de forma predeterminada en tu máquina. En el futuro, deberás guardar los conjuntos de datos con los que estés trabajando en la carpeta de fuentes de datos. Te recomendamos mantener tus archivos de datos en un solo lugar para que estén organizados. 
+
+3.Observa que todas las pestañas dentro del conjunto de datos están organizadas en una barra de herramientas vertical ubicada en el lado izquierdo de la página.
+
+4.Arrastra la hoja titulada “CO2 Data Cleaned” (Datos limpios de CO2) de la barra izquierda a la mitad de la página y haz clic en la opción del botón “Update Automatically” después de arrastrar el ícono de hoja.
+
+5.Vuelve a la pestaña titulada Sheet 1 en la parte inferior de la página y haz clic en ella. En ese momento, aparecerá una ventana nueva con un panel vertical llamado “Tables”.
+
+6.Arrastra el ícono verde “# Year” hasta la casilla Columns que se encuentra en la parte superior de la página.
+
+7.Arrastra el ícono verde “# CO2 (kt)” hasta la casilla Rows que se encuentra en la parte superior de la página.
+
+8.Arrastra el ícono azul “Abc Region” al ícono Colors que contiene los puntos de 4 colores.
+
+9.Ya creaste tu primer panel de cronograma básico, que indica el nivel de CO2 (kilotones) emitidos desde distintas partes del mundo entre 1960 y 2012. 
+
+10.También puedes hacer un análisis preliminar del número de categorías, filas, rangos de datos y cualquier valor nulo que aparezca en la página de la fuente de datos. Esto te dará una idea de los tipos y estilos de panel que se pueden generar a partir del conjunto de datos. 
+
+Crea paneles adicionales 
+
+Encuentra aquí
+
+ las instrucciones para crear tipos de paneles adicionales con Tableau.
+
+Video: Consejos para una presentacion convincente
+
+Los negocios en todas partes conocen el poder de utilizar datos para resolver problemas y lograr objetivos. Sin embargo, todos los datos del mundo no te llevarán a ningún lado si los interesados no pueden comprenderlos o si no pueden centrarse en lo que les estás contando. Es por eso por lo que deseas crear presentaciones que estén organizadas lógicamente, que sean interesantes y que comuniquen tus mensajes clave con claridad. Una presentación efectiva respalda tu narrativa haciéndola más interesante que las palabras sueltas. Comienza con cómo deseas organizar las conclusiones de tus datos. La narrativa que compartes con los interesados necesita personajes, un entorno, una trama, una gran revelación y un "momento eureka", simplemente como cualquier historia. Los personajes son aquellas personas afectadas por tu historia. Podrían ser los interesados, los clientes y otras personas. Al agregar información sobre tus personajes en tu historia, tienes una gran oportunidad para incluir un relato personal y aportar más contexto humano a los hechos que los datos revelaron y de pensar por qué importan. A continuación, está el entorno, que describe qué ocurre, la frecuencia con la que ocurre, las tareas involucradas y otro tipo de información de contexto acerca del proyecto de datos que describe la situación actual. La trama, a veces denominada conflicto, es lo que crea tensión en la situación actual. Podría ser un desafío de la competencia, un proceso poco eficaz que debe solucionarse o una nueva oportunidad que la empresa no puede desaprovechar. Esta complicación de la situación actual debe revelar el problema que está resolviendo tu análisis y debe obligar a los personajes a actuar. La gran revelación, o resolución, es la manera en que los datos demostraron que puedes resolver el problema que están enfrentando los personajes al ser más competitivos, mejorando un proceso, inventando un sistema nuevo, o cualquiera sea la meta fundamental de tu proyecto de datos. Finalmente, tu "momento eureka" se da cuando compartes tus recomendaciones y explicas el motivo por el que piensas que ayudarán a que tu empresa sea exitosa. Cuando trabajo en una presentación, aquí es por donde me gusta comenzar, también. Utilizar los elementos básicos para describir tu presentación podría ser un buen lugar para comenzar y puede ayudarte a organizar tus hallazgos en una historia clara. Y una vez que decides sobre estas cinco partes clave de tu historia, es hora de pensar en cómo sincronizar tu narrativa con los elementos visuales interesantes porque a medida que continúas aprendiendo, una historia de datos interesante y persuasiva necesita elementos visuales atractivos y persuasivos.
+
+__________________________________________________
+
+Una narrativa de datos eficaz incluye personajes, un escenario, una trama, una gran revelación y un momento eureka. Describe la diferencia entre la gran revelación y el momento eureka.
+
+La gran revelación incluye la manera en que los datos demostraron que el problema puede resolverse. El momento eureka es cuando se comparten las recomendaciones.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Compartir una narrativa
+
+Ahora que conoces lo básico sobre cómo preparar las partes clave de tu historia de datos, el personaje, el entorno, la trama, la gran revelación y el "momento eureka", es hora de pensar en los elementos visuales y sobre cómo debe ser tu presentación con diapositivas. Siempre es bueno recordar que tu presentación se refleja en ti. Si es desprolija, desorganizada, o está llena de imágenes que no respaldan tu historia, tu público podría perder fácilmente la confianza en tus resultados y recomendaciones. Por otro lado, si tu presentación con diapositivas se ve profesional y atractiva, tienes una mejor oportunidad de captar la atención de tu público y de que se mantengan enfocados en tus puntos principales. Los temas son una buena herramienta para esto. Controlan el color, los tipos y tamaños de fuente, el formato y la ubicación de los textos y los elementos visuales. Algunos temas son divertidos y creativos, mientras que otros tienen un aspecto más profesional. Al elegir un tema que coincida con el tono y la información que estás comunicando, tu presentación tendrá un aspecto coherente y podrá respaldar el argumento que intentas llevar a cabo. Luego, viene el título. Es bueno incluir un título y un subtítulo que describan lo que vas a presentar. Debes incluir la fecha de tu presentación también, especialmente si incluyes datos que probablemente cambien con el tiempo. Especificar una fecha, por ejemplo, una "fecha de elaboración" o "fecha de la última actualización" le proporciona a la persona que ve tu presentación un contexto importante. Una buena presentación con diapositivas guía al público a través de tus puntos de comunicación principales, pero no repite cada palabra que pronuncias ni proporciona mucha información escrita. Parte de tu trabajo es elegir qué información incluir. Esto podría ser una descripción de lo que se muestra en el gráfico, el primer paso en un proceso, un conjunto de indicaciones, o un mensaje importante que quieres estar seguro de que tu público entienda y recuerde. Además, asegúrate de ajustar el tamaño de la fuente para que el público pueda leer fácilmente lo que escribiste. Una buena regla es mantener los textos en menos de cinco líneas y 25 palabras por diapositiva. Básicamente, deseas que tu público se centre en lo que estás diciendo, no que esté ocupado leyendo las diapositivas. Además, elige tus palabras con cuidado. Siempre es inteligente evitar términos coloquiales, abreviaturas que las personas podrían no conocer, y palabras o frases que son específicas de una región en particular. Ahora hablemos de los elementos visuales. Estos elementos ayudan a que el público comprenda rápidamente el contenido de cada diapositiva. Pueden ayudarte a exponer un punto de vista de una manera que las palabras no podrían hacerlo por sí mismas. Los buenos elementos visuales no dan lugar a ningún tipo de interpretación porque el significado se comprende al instante. Cuando incluyas elementos visuales en una diapositiva, intenta no compartir muchos detalles a la vez. Elige solo los puntos de datos que respaldan tus propósitos, en especial, tu mensaje clave. Me gustaría preguntarme: "¿Qué es lo más importante que deseo que mi público aprenda de mi análisis?" Eso me ayuda a decidir con qué elementos visuales probablemente me haré entender más. 
+
+Si tienes varias cosas importantes que necesitas incluir, no las comprimas en una sola diapositiva, por el contrario, crea un elemento visual nuevo para cada punto. Luego, añade una flecha, una llamada u otro elemento etiquetado claramente para guiar la atención de tu público hacia lo que deseas que observe. Por último, cuando obtienes tu gran revelación y momento eureka, tus elementos visuales deben comunicar estos mensajes con claridad y entusiasmo. Estos son los descubrimientos más poderosos de tu análisis, haz que se sienta así. Antes de que te vayas, hay una última cosa que me gustaría compartir. Es un consejo rápido para saber cuándo copiar y pegar, vincular o incrustar un elemento visual en una presentación con diapositivas. 
+
+Esto puede presentar un desafío para los analistas de datos nuevos, pero existen algunos puntos simples que hay que tener en cuenta. Cuando copias y pegas un elemento visual en tu presentación, puedes editarlo directamente dentro de la presentación con diapositivas. Si tu gráfico o los puntos de datos existen en otros lugares, por ejemplo, en un panel de Tableau, los cambios que realices no los afectará. Ahora, esto también significa que tus elementos visuales no se actualizarán si cambia el conjunto de datos original. Es decir, tu elemento visual posiblemente no refleja la información más reciente, pero si lo vinculas dentro de la presentación, el elemento visual se aloja dentro de su propio archivo original, y la presentación con diapositivas se conecta a dicho archivo con la URL del elemento visual. Dado que los dos archivos ahora están vinculados, cuando realices cambios en el archivo original, por ejemplo, en una hoja de cálculo, los cambios aparecerán automáticamente en tu presentación. Esto puede ser útil si los datos probablemente cambian con el tiempo. Tu presentación con diapositivas siempre estará actualizada. Por último, un objeto incrustado también se aloja en el archivo fuente original, pero la diferencia es que no se actualiza automáticamente si el archivo fuente cambia. La copia incrustada es completamente independiente. De manera similar, puedes realizar cambios en ella en tu presentación sin que esto afecte el gráfico o los puntos de datos del archivo fuente original. La principal diferencia entre pegar, vincular e incrustar objetos tiene que ver con el lugar donde los guardas y con la manera en la que los actualizas luego de colocarlos en tu presentación con diapositivas. Ahora, que comienzas a comprender cómo crear buenas presentaciones con diapositivas, dedica unos minutos a practicar lo que aprendiste. Crea una nueva presentación con diapositivas y selecciona un tema adecuado. Añade el texto, los elementos visuales y una revelación emocionante al final. Intenta pegar, vincular e incrustar elementos visuales de diferentes fuentes para ver cómo se comportan de manera distinta. Puedes diseñar una presentación sobre cualquier conjunto de datos que te interese. No debe ser larga ni estar llena de información. Simplemente, sigue los primeros pasos y diviértete contando tu propia historia de datos.
+
+____________________________________________________________________________
+
+Los analistas de datos suelen utilizar temas para que sus presentaciones sean más coherentes y profesionales. ¿Qué controlan los temas para que esto sea posible? 
+
+Los temas hacen que las presentaciones sean más coherentes y profesionales al controlar el color, los tipos y tamaños de letra y la posición del texto y los elementos visuales.
+

@@ -1,0 +1,993 @@
+Modulo 2 - Programar con RStudio
+
+Te dimos una descripción general de R y RStudio. Ahora nos enfocaremos en la programación y codificación real que harás usando RStudio. Llegué muy lejos en mi profesión sin saber nada de programación antes de darme cuenta de que necesitaba aprender sobre eso. Conocer R fue una experiencia de aprendizaje valiosa. Tomó algo de tiempo, y acudí a los usuarios de R más experimentados con muchas preguntas. Finalmente, todo confluyó a mi favor. Estar abierto a aprender nuevas destrezas es una parte muy importante de tu carrera profesional. Ahora también puedo ayudarte a aprender algunas nuevas destrezas. Comenzaré por compartir los fundamentos de la programación usando R y RStudio. Anteriormente, explicamos cómo R es como el motor de un automóvil y RStudio es como el acelerador, el volante y el tablero todo en uno. Conocer los fundamentos te ayudará a mantener tu automóvil R funcionando sin problemas. Estos fundamentos se parecen y, a la vez, difieren de las otras plataformas de análisis que conociste bien: hojas de cálculo y SQL. Luego pasaremos a la codificación en RStudio. Hablaremos sobre la sintaxis para hacer cálculos, además de los estándares y las convenciones de nomenclatura para todo código. También exploraremos la herramienta R conocida como una canalización, que usaremos para hacer una secuencia de código que sea más fácil para trabajar y de leer. Luego, analizaremos los paquetes en R. Si bien no recibirás estos paquetes directamente en la puerta de tu casa, son entregados por la comunidad R. Estos paquetes contienen funciones reutilizables y más, y generalmente son creados por usuarios para usuarios como tú. Conoceremos un conjunto de paquetes llamados Tidyverse. Aprenderás cómo instalar Tidyverse para que puedas comenzar a usarlo en RStudio. También trabajaremos con algunos de los paquetes Tidyverse más populares como ggplot2 para visualización. Podrás poner en práctica lo que aprendiste sobre RStudio en la próxima parte del programa, donde empezarás a trabajar con datos. Como explicamos antes, en este programa, usaremos la versión en el navegador de RStudio: RStudio Cloud. Pero RStudio también está disponible para descarga.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Conceptos fundamentales de programación 
+
+Cada vez que aprendas una nueva habilidad, ya sea desde cocinar hasta conducir o bailar, deberías siempre empezar por los fundamentos. Programar en R no es diferente. Para sentar esta base, debes familiarizarte con...
+
+Los conceptos básicos de R: 
+-> Funciones 
+-> Comentarios 
+-> Variables  
+-> Tipos de datos 
+-> Vectores  
+-> Canalizaciones. 
+
+Algunos de estos términos podrían sonar familiares. Por ejemplo, nos encontramos con funciones en hojas de cálculo y SQL. Para repasar rápidamente... 
+
+Las funciones (R) son un cuerpo de código reutilizable para realizar tareas específicas en R. 
+
+Las funciones comienzan con nombres de funciones como <i>print</i> o <i>paste</i> y, por lo general, van seguidos de uno o más argumentos entre paréntesis. 
+
+Un argumento (R) es información que una función en R necesita para ejecutarse. 
+
+Esta es una función simple en acción. Siéntete libre de unirte e inténtalo en RStudio usando tu cuenta en la nube. Echa un vistazo a la lectura para más detalles sobre cómo empezar. Puedes poner en pausa el vídeo cada vez que lo necesites. Abriremos RStudio Cloud para empezar. Iniciaremos nuestra función en la consola con <i>print</i> como nombre de la función. Este nombre de la función mostrará lo que sea que incluyamos en los valores entre paréntesis. Escribiremos un paréntesis de apertura seguido de una comilla. Tanto el paréntesis de cierre como la comilla de cierre emergen automáticamente porque RStudio reconoce esta sintaxis. Ahora tenemos que agregar la siguiente cadena de texto. Escribiremos "Coding in R". Luego presionaremos Enter. ¡Éxito! El código muestra las palabras "Coding in R". Si deseas descubrir más sobre la función <i>print</i> o cualquier función, todo lo que tienes que hacer es escribir un signo de pregunta, el nombre de la función y un paréntesis de apertura y otro de cierre. Ejemplo ?print().
+
+
+Esto muestra una página en la ventana Ayuda, que te ayuda a aprender más sobre las funciones con las que estás trabajando. Recuerda que las funciones distinguen mayúsculas y minúsculas, por lo tanto, al escribir <i>Print</i> con un P mayúscula se muestra un mensaje de error. Las funciones son geniales, pero escribir muchos valores puede llevar bastante tiempo. Para ahorrar tiempo, podemos usar variables para representar los valores. Esto nos permite señalar los valores cada vez que lo necesitemos con solo la variable. Anteriormente, aprendimos sobre las variables en SQL. 
+
+Una variable (R) es una representación de un valor en R que puede almacenarse para su uso posterior durante la programación. 
+
+Las variables también pueden llamarse objetos. Como analista de datos, encontrarás que las variables son muy útiles en el momento de programar. Por ejemplo, si quieres filtrar un conjunto de datos, asigna una variable a la función que usaste para filtrar los datos. De esa manera, todo lo que tendrás que hacer es usar esa variable para filtrar los datos más tarde. Al nombrar una variable en R, puedes usar una frase corta. El nombre de una variable debe comenzar con una letra y también puede contener números y guiones bajos. Por lo tanto, la variable 5penguin no funcionaría bien porque empieza con un número. También, al igual que las funciones, los nombres de las variables distinguen mayúsculas y minúsculas. Usar todas letras minúsculas es una buena práctica cuando sea posible. Ahora, antes de codificar una variable, agreguemos un comentario. 
+
+Los comentarios (R) son útiles cuando quieres describir o explicar qué pasa en tu código. Úsalos tanto como sea posible para que tú y todos puedan comprender el razonamiento detrás del código. Los comentarios deben usarse para hacer un script de R más legible. Un comentario no debe tratarse como un código, por lo tanto, pondremos # por delante. Luego, agregaremos nuestro comentario. Este es un ejemplo de una variable. Ahora, sigamos con nuestro ejemplo. Tiene sentido usar un nombre de variable para conectar con lo que la variable está representando. 
+
+Por lo tanto, escribiremos el nombre de la variable primera_variable. Luego, después del nombre de la variable, escribiremos un signo <, seguido de -. Esto es un operador de asignación (<.). Asigna el valor a la variable. Parece una flecha, lo que tiene sentido, ya que señala desde el valor hacia la variable. Hay otros operadores de asignación que también funcionan, pero siempre es bueno usar solo un tipo en tu código. Luego, agregaremos el valor que nuestra variable representará. Usaremos el texto, "Esta es mi variable". Si escribimos la variable y presionamos Ejecutar, se ejecutará el valor que la variable representa. E
+sta es una manera muy básica de usar una variable. Pronto, aprenderás más maneras de usar variables en tu código. Por ahora, asignemos una variable a un tipo de datos diferentes, numérico. Nombraremos a esto segunda_variable, y escribiremos nuestro operador de asignación. Le daremos el valor numérico 12.5. El panel Entorno arriba, a la derecha, de nuestro espacio de trabajo ahora muestra nuestras dos variables y sus valores. Hay otros dos tipos de datos en R, por ejemplo, valores lógicos, fecha y hora y fecha. R tiene algunas opciones para tratar con estos tipos de datos. Más adelante las exploraremos. Con funciones, comentarios, variables y tipos de datos, tienes una buena base para trabajar con R. Los revisaremos a lo largo del programa, y te mostraremos cómo se usan de diferentes maneras durante el análisis. Finalizaremos con dos conceptos, vectores y canalizaciones fundamentales más. En pocas palabras... 
+
+Un vector (R) es un grupo de elementos de datos del mismo tipo almacenados en una secuencia en R. 
+
+Puedes crear un vector usando la función combinada. En R, esta función es solo la letra c seguida de los valores que quieres en tu vector dentro de los paréntesis. Muy bien, creemos un vector. Imagina que este vector es para datos de medición que necesitamos analizar. Empezaremos nuestro código con la variable vec_1 para asignar al vector. Luego, escribiremos c y el paréntesis de apertura. Luego, escribiremos nuestra lista de números separados por comas. Luego, cerraremos el paréntesis y presionamos Enter osea vec_1 <- c(34,45,65,765). Esta vez, cuando escribimos nuestra variable y presionamos Enter, muestra nuestro vector. Podemos usar este vector en cualquier lugar en nuestro análisis con solo su nombre de variable vec_1. Los valores en el vector se aplicarán automáticamente a nuestro análisis. Esto nos lleva al último de nuestros fundamentos: canalizaciones. 
+
+Una canalización (R) es una herramienta en R para expresar una secuencia de varias operaciones con "%<%". 
+
+Una canalización está representada por un signo %, seguido de un signo > y otro signo %. Se usa para aplicar el resultado de una función en otra función. Las canalizaciones pueden hacer que tu código sea más fácil de leer y comprender. Por ejemplo, esta canalización filtra y ordena los datos. Más tarde, aprenderemos cómo funciona cada parte de la canalización. Por lo tanto, estos son los seis súper fundamentos: funciones, comentarios, variables, tipos de datos, vectores y canalizaciones. Todos juntos trabajan como una base para el uso de R. Es suficiente por ahora, por lo tanto, siéntete libre de volver a mirar cualquiera de estos vídeos si necesitas repasar algo. Cuando estés listo, hay mucho más que aprender sobre R y RStudio.
+_______________________________________________________
+
+En R, el argumento es la información que la función necesita para ejecutarse.
+
+El nombre de una variable puede contener números y guiones bajos, pero debería comenzar con una letra.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+En programación, una estructura de datos es un formato para organizar y almacenar datos. Es importante que conozcas las estructuras de datos porque las usarás con frecuencia cuando utilices R para el análisis de datos. Las estructuras de datos más comunes en el lenguaje de programación R incluyen: 
+
+    Vectores
+
+    Marcos de datos
+
+    Matrices
+
+    Rangos
+
+Piensa en una estructura de datos como en una casa donde se alojan tus datos.
+
+Esta lectura se va a focalizar en los vectores. Más adelante, aprenderás más sobre marcos de datos, matrices y rangos. 
+
+Existen dos tipos de vectores: vectores atómicos y listas. Luego, aprenderás sobre las propiedades básicas de los vectores atómicos y las listas, y cómo utilizar el código R para crearlos. 
+Vectores atómicos 
+
+Primero, repasaremos los diferentes tipos de vectores atómicos. Luego, aprenderás cómo utilizar el código R para crear, identificar y nombrar a los vectores. 
+
+Anteriormente, aprendiste que un vector es un grupo de elementos de datos del mismo tipo almacenado en una secuencia en R. No puedes tener un vector que contenga valores lógicos y numéricos. 
+
+Existen seis tipos primarios de vectores atómicos: lógicos, enteros, dobles, carácter (que contiene cadenas), complejos y sin formato. Los dos últimos, complejo y sin formato, no son comunes en el análisis de datos, de modo que nos vamos a concentrar en los primeros cuatro. Juntos, los vectores entero y doble son conocidos como vectores numéricos porque ambos contienen números. Esta tabla resume los cuatro tipos primarios: 
+
+Tipo				Descripción 	 				Ejemplo
+	
+Lógico  			Verdadero/Falso 				TRUE
+
+Entero  			Valores enteros positivos y negativos		3
+
+Doble 				Valores decimales 				101.175
+
+Carácter  			Cadena/valores de carácter 			“Coding”
+
+ 
+
+Este diagrama ilustra la jerarquía de relaciones entre estos cuatro tipos principales de vectores:
+
+Crear vectores  
+
+Una forma de crear un vector es utilizar la función c() (llamada función "combinar"). La función c() en R combina valores múltiples en un vector. En R, esta función es solo la letra "c" seguida de los valores que deseas colocar en tu vector, entre paréntesis, separados por una coma: c(x, y, z, …).
+
+Por ejemplo, puedes utilizar la función c() para almacenar datos numéricos en un vector. 
+
+c(2.5, 48.5, 101.5)
+
+Para crear un vector de números enteros utilizando la función c(), debes colocar una "L" directamente después de cada número.
+
+c(1L, 5L, 15L)
+
+También puedes crear un vector que contenga caracteres o valores lógicos. 
+
+c(“Sara” , “Lisa” , “Anna”)
+
+c(TRUE, FALSE, TRUE)
+Determinar las propiedades de los vectores 
+
+Cada vector que creas tendrá dos propiedades clave: tipo y longitud.  
+
+ Puedes determinar con qué tipo de vector estás trabajando mediante el uso de la función typeof(). Coloca el código para el vector dentro del paréntesis de la función. Cuando ejecutes la función, R te dirá de qué tipo es. Por ejemplo: 
+
+typeof(c(“a” , “b”))
+
+#> [1] "character"
+
+ Observa que el resultado de la función typeof en este ejemplo es la palabra “character”. Del mismo modo, si utilizas la función typeof en un vector con valores enteros, el resultado va a incluir “integer” :
+
+typeof(c(1L , 3L))
+
+#> [1] "integer"
+
+Puedes determinar la longitud de un vector existente, es decir, el número de elementos que contiene, utilizando la función length(). En este ejemplo, podemos utilizar un operador de asignación para asignar al vector la variable x. Luego, aplicamos la función length() a la variable. Cuando ejecutamos la función, R nos indica que la longitud es 3.
+
+x <- c(33.5, 57.75, 120.05)
+
+length(x)
+
+#> [1] 3
+
+También puedes verificar si un vector es de un tipo específico mediante la función is: is.logical() is.double(), is.integer(), is.character(). En este ejemplo, R resulta TRUE porque el vector contiene valores enteros. 
+
+x <- c(2L, 5L, 11L)
+
+is.integer(x)
+
+#> [1] TRUE
+
+En este ejemplo, R arroja un valor de FALSE porque el vector no contiene caracteres, sino valores lógicos.
+
+y <- c(TRUE, TRUE, FALSE)
+
+is.character(y)
+
+#> [1] FALSE
+Nombrar vectores 
+
+Se puede poner nombre a todos los tipos de vectores. Los nombres son útiles para escribir códigos legibles y describir objetos en R. Puedes nombrar los elementos de un vector con la función names(). A modo de ejemplo, asignemos la variable x a un nuevo vector con tres elementos. 
+
+x <- c(1, 3, 5)
+
+Puedes utilizar la función names() para asignar un nombre diferente a cada elemento del vector. 
+
+names(x) <- c("a", "b", "c")
+
+
+Ahora bien, cuando ejecutes el código, R mostrará que el primer elemento del vector se llama a, el segundo b, y el tercero c.
+
+x 
+
+#> a b c 
+
+#> 1 3 5
+
+Recuerda que un vector atómico solo puede contener elementos del mismo tipo. Si deseas almacenar elementos de diferentes tipos en la misma estructura de datos, puedes utilizar una lista. 
+Crear listas
+
+Las listas son diferentes de los vectores atómicos porque sus elementos pueden ser de cualquier tipo, por ejemplo, fechas, marcos de datos, vectores, matrices y más. Las listas pueden también contener otras listas. 
+
+Puedes crear una lista con la función list(). Del mismo modo que la función c(), la función list() es solo list eguida de los valores que deseas colocar en tu lista entre paréntesis: list(x, y, z, …). En este ejemplo, creamos una lista que contiene cuatro tipos de elementos diferentes: carácter ("a"), valor entero (1L), doble (1.5),  y lógico (TRUE). 
+
+list("a", 1L, 1.5, TRUE)
+
+Como ya mencionamos, las listas pueden contener otras listas. Si lo deseas, puedes almacenar una lista dentro de otra y continuar así. 
+
+list(list(list(1 , 3, 5)))
+Determinar la estructura de las listas 
+
+Si deseas saber qué tipos de elementos contiene una lista, puedes utilizar la función str(). Para ello, coloca el código para la lista dentro del paréntesis de la función. Cuando ejecutes la función, R mostrará la estructura de datos de la lista mediante la descripción de sus elementos y tipos.
+
+Apliquemos la función str() a nuestro primer ejemplo de una lista. 
+
+str(list("a", 1L, 1.5, TRUE))
+
+Cuando ejecutamos la función, R nos indica que la lista contiene cuatro tipos de elementos y que esos elementos son de cuatro tipos diferentes: carácter (chr), entero (int), número (num) y lógico  (logi). 
+
+#> List of 4
+
+#>  $ : chr "a"
+
+#>  $ : int 1
+
+#>  $ : num 1.5
+
+#>  $ : logi TRUE
+
+Utilicemos la función str() para descubrir la estructura de nuestro segundo ejemplo.  Primero, asignemos la lista a la variable z para facilitar la introducción de la función str(). 
+
+z <- list(list(list(1 , 3, 5)))
+
+Vamos a ejecutar la función. 
+
+str(z)
+
+#> List of 1
+
+#>  $ :List of 1
+
+#>   ..$ :List of 3
+
+#>   .. ..$ : num 1
+
+#>   .. ..$ : num 3
+
+#>   .. ..$ : num 5
+
+La sangría de los símbolos $ refleja la estructura anidada de esta lista. Bien, aquí hay tres niveles (de modo que hay una lista dentro de otra lista).  
+Poner nombre a las listas
+
+A las listas, como a los vectores, se les puede colocar un nombre. Puedes nombrar los elementos de una lista cuando la creas con la función list():
+
+list('Chicago' = 1, 'New York' = 2, 'Los Angeles' = 3)
+
+$Chicago
+
+[1] 1
+
+$`New York`
+
+[1] 2
+
+$`Los Angeles`
+
+[1] 3
+Recurso adicional 
+
+Para conocer más sobre vectores y listas, puedes consultar  R for Data Science, Chapter 20: Vectors
+. "R for Data Science" es un recurso clásico para aprender cómo utilizar R tanto para la ciencia como para el análisis de datos. Allí encontrarás todo desde la limpieza hasta la visualización y comunicación de datos. Si quieres más detalles acerca del tema de los vectores y las listas, este capítulo es un excelente lugar para comenzar. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Fechas y horas en R
+
+En esta lectura, aprenderás cómo trabajar con fechas y horas en R, utilizando el paquete lubridate. Más adelante, utilizarás las herramientas en el paquete lubridate para convertir tipos de datos en R en formatos de fecha y fecha-hora.
+
+Cargar los paquetes tidyverse y lubridate
+
+Antes de empezar a trabajar con fechas y horas, deberás cargar los paquetes tidyverse y lubridate. Lubridate es parte de tidyverse.
+
+Primero, abre RStudio. 
+
+Si todavía no instalaste tidyverse, puedes utilizar la función install.packages () para ello:
+
+    install.packages("tidyverse") 
+
+Luego, carga los paquetes tidyverse y lubridate utilizando la función library(). Primero, carga los componentes principales de tidyverse para que estén disponibles en tu sesión actual de R:
+
+    library(tidyverse)
+
+Luego, carga el paquete lubridate:
+
+    library(lubridate)
+
+Ahora estás listo para conocer las herramientas en el paquete lubridate. 
+Trabajar con fechas y horas 
+
+Esta sección abarca los tipos de datos para fechas y horas en R y cómo convertir cadenas en formatos de fecha-hora.
+Tipos
+
+En R, hay tres tipos de datos que hacen referencia a un instante en el tiempo:
+
+    Una fecha ("2016-08-16")
+
+    Una hora de un día (“20:11:59 UTC")
+
+    Y una fecha-hora. Esto es una fecha más una hora ("2018-03-31 18:15:48 UTC")
+
+La hora se expresa en UTC, que quiere decir Hora Universal Coordinada, más comúnmente conocida como tiempo civil. Este es el estándar principal que regula los relojes y la hora mundial.
+
+Por ejemplo, para obtener la fecha actual puedes ejecutar la función today(). La fecha aparece como mes, año y día. 
+
+today()
+
+#> [1] "2021-01-20"
+
+Para obtener la fecha-hora actual puedes ejecutar la función now(). Observa que la hora aparece expresada hasta con los segundos más cercanos. 
+
+now()
+
+#> [1] "2021-01-20 16:25:05 UTC"
+
+Al trabajar con R, hay tres modos posibles de crear formatos de fecha-hora: 
+
+    Desde una cadena
+
+    Desde una fecha individual
+
+    Desde un objeto de fecha/hora existente
+
+R crea fechas en el formato estándar yyyy-mm-dd (año-mes-día) por defecto.
+
+Veamos cada una.
+Convertir a partir de una cadena 
+
+Los datos de fecha/hora a menudo se expresan como cadenas. Puedes convertir cadenas en fechas y fecha-hora utilizando las herramientas provistas por lubridate. Estas herramientas automáticamente trabajan sobre el formato de fecha/hora. Primero, identifica el orden en el año, el mes y el día que aparecen en tus fechas. Luego, ordena las letras y, m y d (año, mes y día) en el mismo orden. Eso te dará el nombre de la función lubridate que analizará tu fecha. Por ejemplo, para la fecha 2021-01-20, utilizarás el orden ymd:
+
+ymd("2021-01-20")
+
+Cuando ejecutes la función en R, el resultado para la fecha será el formato yyyy-mm-dd. 
+
+#> [1] "2021-01-20"
+
+Funciona de la misma forma en cualquier orden. Por ejemplo, mes, día y año. R arroja como resultado la fecha en el formato yyyy-mm-dd.
+
+mdy("January 20th, 2021")
+
+#> [1] "2021-01-20"
+
+O día, mes y año. R arroja como resultado la fecha en el formato yyyy-mm-dd.
+
+dmy("20-Jan-2021")
+
+#> [1] "2021-01-20"
+
+Estas funciones también toman números que no están entre comillas y los convierte al formato yyyy-mm-yy.
+
+ymd(20210120)
+
+#> [1] "2021-01-20"
+Crear componentes de fecha-hora
+
+La función ymd() y sus variantes crean fechas. Para crear una fecha-hora desde una fecha, agrega un guion bajo y una o más de las letras h, m y s (horas, minutos y segundos) al nombre de la función:
+
+ymd_hms("2021-01-20 20:11:59")
+
+#> [1] "2021-01-20 20:11:59 UTC"
+
+mdy_hm("01/20/2021 08:01")
+
+#> [1] "2021-01-20 08:01:00 UTC"
+Optativo: Cambiar entre objetos existentes de fecha-hora 
+
+Para finalizar, quizás quieras cambiar entre una fecha-hora y una fecha.
+
+Puedes utilizar la función as_date() para convertir una fecha-hora en una fecha. Por ejemplo, escribe la fecha-hora actual en el paréntesis de la función now(). 
+
+as_date(now())
+
+#> [1] "2021-01-20"
+Recursos adicionales
+
+Para saber más acerca del trabajo con fechas y horas en R, revisa los siguientes recursos:
+
+    lubridate.tidyverse
+
+    : Esta es la entrada "lubridate" de la documentación oficial de tidyverse, que ofrece una guía de referencia completa sobre los diferentes paquetes tidyverse. Revisa este enlace para obtener un panorama de la principales funciones y conceptos.
+
+    Fechas y horas con lubridate: Hoja de referencia
+
+: Esta "hoja de referencia" te brinda un mapa detallado de todas las cosas diferentes que puedes hacer con el paquete lubridate. No necesitas conocer toda esta información, pero la hoja de referencia es una referencia útil para toda pregunta que pudieras tener sobre cómo trabajar con fechas y horas en R. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Otras estructuras comunes de datos
+
+En esta lectura, continuarás con el tema de las estructuras de datos con una introducción a las matrices y marcos de datos. Aprenderás sobre las propiedades básicas de cada estructura y los modos simples de aprovecharlas utilizando un código R. También explorarás brevemente el tema de archivos, que se utilizan a menudo en el acceso y almacenamiento de los datos y su información relacionada.
+Estructuras de datos
+
+Piensa en una estructura de datos como en una casa donde se alojan tus datos.
+
+Marcos de datos
+
+Los marcos de datos son la manera más común de almacenar y analizar datos en R, de modo que es importante comprender qué son y cómo se crean. Un marco de datos es un conjunto de columnas que contienen datos, que es similar a una hoja de cálculo o una tabla SQL. Cada columna tiene un nombre en la parte superior que representa una variable e incluye una observación por fila. Los marcos de datos ayudan a resumir los datos y ponerlos en un formato fácil de leer y usar. 
+
+Por ejemplo, el marco de datos más abajo muestra un conjunto de datos "diamonds", que es uno de los conjuntos de datos precargados en R. Cada columna contiene una sola variable que se relaciona con los diamantes: quilate, corte, color, claridad, profundidad, etc. Cada fila representa una sola observación.
+
+Hay pocas cosas importantes para tener en cuenta cuando trabajas con marcos de datos: 
+
+    Primero, se debe poner un nombre a las columnas. 
+
+    Segundo, los marcos de datos incluyen muchos tipos diferentes de datos, por ejemplo, números, valores lógicos o caracteres.
+
+    Finalmente, los elementos en la misma columna deben ser de un mismo tipo.
+
+Conocerás más acerca de los marcos de datos más adelante en el programa, pero este es un gran punto de partida. 
+
+Si necesitas crear manualmente un marco de datos en R, puedes utilizar la función date.frame(). La función data.frame() considera a los vectores como entradas. En el paréntesis, escribe el nombre de la columna, seguido de un signo igual y, luego, el vector que deseas escribir para esa columna. En este ejemplo, la columna x es un vector con elementos 1, 2 y 3 y la columna y es un vector con elementos 1.5, 5.5, 7.5. 
+
+data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5))
+
+Si ejecutas la función, R muestra el marco de datos en filas y columnas ordenadas. 
+
+   x y
+
+1  1 1.5
+
+2  2 5.5
+
+3  3 7.5
+
+En la mayoría de los casos, no necesitarás crear un marco de datos manualmente ya que, en general, importarás los datos desde otra fuente, por ejemplo, un archivo .csv, una base de datos relacional o un programa de software.
+Archivos
+
+Repasemos cómo crear, copiar y eliminar archivos en R. Para más información sobre cómo trabajar con archivos en R, consulta  Documentación en R: Archivos
+
+. La documentación en R es una herramienta que te facilitará encontrar y navegar por la documentación de casi todos los paquetes de R en CRAN. Es una guía útil de referencia para funciones en código R. Veamos algunas otras de las funciones más útiles para trabajar con archivos. 
+
+Utiliza la función dir.create para crear una nueva carpeta o directorio, o para guardar tus archivos. Escribe el nombre de la carpeta en el paréntesis de la función.
+
+dir.create ("destination_folder")
+
+Utiliza la función file.create() para crear un archivo en blanco. Escribe el nombre y tipo de archivo entre paréntesis en la función. En general, tus tipos de archivos serán .txt, .docx o .csv.  
+
+file.create (“new_text_file.txt”) 
+
+file.create (“new_word_file.docx”) 
+
+file.create (“new_csv_file.csv”) 
+
+Si el archivo se crea exitosamente cuando ejecutas la función en R, el valor obtenido será TRUE (si no, R arrojará como resultado FALSE). 
+
+file.create (“new_csv_file.csv”)
+
+[1] TRUE 
+
+Se puede copiar un archivo mediante la función file.copy(). Entre paréntesis, agrega el nombre del archivo a copiar. Luego, escribe una coma y agrega el nombre de la carpeta de destino a la que quieres copiar el archivo. 
+
+file.copy (“new_text_file.txt” , “destination_folder”)
+
+Puedes eliminar archivos de R utilizando la función unlink(). Escribe el nombre del archivo entre los paréntesis de la función.
+
+unlink (“some_.file.csv”)
+
+Recurso adicional
+
+Si quieres aprender más sobre cómo trabajar con marcos de datos, matrices y rangos en R, consulta la sección de manejo de datos,  Limpieza y transformación de datos
+
+, de la Introducción al curso de R de Stat Education. Esta sección incluye módulos sobre marcos de datos, matrices y rangos (y más) y cada módulo contiene ejemplos útiles de conceptos claves de la codificación.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Optativo: Matrices 
+
+Una matriz es un conjunto bidimensional de elementos de datos. Esto significa que tiene filas y columnas. Por el contrario, un vector es una secuencia unidimensional de elementos de datos. Pero como los vectores, las matrices pueden solo contener un único tipo de datos. Por ejemplo, no puedes tener tanto valores lógicos como numéricos en una matriz. 
+
+Para crear una matriz en R, puedes utilizar la función matrix(). La función matrix() tiene dos argumentos principales que debes escribir dentro del paréntesis. Primero, agrega un vector. El vector contiene los valores que quieres colocar en la matriz. Luego, agrega al menos una dimensión de matriz. Puedes elegir especificar el número de filas o columnas utilizando el código nrow = para las filas o ncol =. para las columnas. 
+
+Por ejemplo, imagina que quieres crear una matriz de 2x3 (dos filas por tres columnas) que contenga los valores 3-8. Primero, escribe un vector que contenga la serie de números: c(3:8). Luego, escribe una coma. Al finalizar, escribe nrow = 2  para especificar el número de filas. 
+
+matrix(c(3:8), nrow = 2)
+
+Si ejecutas la función, R muestra una matriz con tres columnas y dos filas (a las que, en general, nos referimos como "2x3") que contienen los valores numéricos 3, 4, 5, 6, 7, 8. R coloca el primer valor (3) del vector en la fila superior y la fila de la izquierda de la matriz, y continúa la secuencia de izquierda a derecha. 
+
+    [,1] [,2] [,3]
+
+[1,]    3    5    7
+
+[2,]    4    6    8
+
+También puedes elegir especificar el número de columnas (ncol = ) en lugar del número de filas  (nrow = ). 
+
+matrix(c(3:8), ncol = 2)
+
+Cuando ejecutes la función, R intuirá automáticamente cuál es el número de filas.
+
+    [,1] [,2] 
+
+[1,]    3    6    
+
+[2,]    4    7    
+
+[3,]    5    8   
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Operaciones y cálculos
+
+Te mostramos cómo tu trabajo como analista de datos se puede hacer de diferentes maneras con distintas herramientas. Eso es así en este programa, y será así cuando comiences tu trabajo. Operaciones y cálculos son dos conceptos que vimos antes. A continuación, volveremos a ellos y aprenderemos cómo usar operadores en R para un rango de tareas, incluidos los cálculos. Un operador es uno de de los componentes clave de un cálculo. Cuando hablamos por primera vez sobre los operadores, 
+
+Operador un símbolo que designa el tipo de operación o cálculo a realizar en una fórmula. 
+
+Esto sucede cuando usamos operadores en código R. Así que veamos algunos de estos operadores en R. Imagina que tenemos en nuestras manos algunos datos de ventas en comercio electrónico que necesitamos analizar. Hemos aprendido cómo usar operadores para completar cálculos sobre los datos de ventas y para algunas otras tareas también. Durante nuestro análisis, usaremos variables que R almacenará para que podamos consultarlos cuando necesitemos hacerlo. Usaremos operadores de asignación, con los que trabajamos antes para hacer esto. 
+
+Los operadores de asignación se usan para asignar valores a las variables y los vectores. 
+
+Si tenemos un conjunto de cifras de ventas que queremos incluir en un vector, podemos usar un operador de asignación para asignarlas a una variable. Aquí hay un ejemplo. Ahora, cuando queremos usar las cifras de ventas, escribimos el tipo de variable que asignamos. A continuación, veamos los operadores aritméticos. 
+
+Operadores aritméticos se usan para completar cálculos matemáticos y podrían parecer familiares. 
+
+Los signos más hacen sumas en las variables, y los signos menos hacen restas. Usamos un asterisco para hacer multiplicaciones y una barra inclinada para hacer una división. Hay otros operadores aritméticos también, pero estos son suficientes para empezar. Tratemos de hacer un cálculo para nuestros datos de ventas en RStudio. Siéntete libre de continuar por tu cuenta a medida que avanzamos en estos pasos. Completaremos nuestro trabajo en un script para asegurarnos de que nuestros cálculos queden guardados. Como analista que desarrolla un código en R, pasarás la mayoría de tu tiempo en scripts. Cuando guardas un script, tendrás un registro completo de tu trabajo. Usarás la consola principalmente para mostrar los resultados de tu programación. También, aunque no estamos haciendo un análisis profundo aquí, sigue siendo una buena idea guardar nuestro trabajo para un fácil acceso más adelante si lo necesitamos. Primero, agreguemos un comentario. Después del numeral, escribiremos "nuestros primeros cálculos". Comenzaremos por asignar las cifras de ventas de los primeros dos trimestres del año a las variables. Antes de completar nuestro primer cálculo, lo asignaremos a una nueva variable, mitaddeaño_ventas. Luego, agregaremos nuestras cifras trimestrales usaremos el signo más como nuestro operador de suma. Ejecutémoslo y obtengamos el total de nuestros datos de ventas. Cuando ejecutamos el código en un script, el resultado aparece en la consola. Este total ahora se asigna a la variable mitaddeaño_ventas. Podemos revisar esto escribiendo mitaddeaño_ventas en la consola y presionando Enter. Notarás que los cálculos en R funcionan de de manera similar a los cálculos en las hojas de cálculo y SQL. Es útil para crear contactos en las herramientas con las que estás trabajando. Hagamos un cálculo más usando nuestras ventas totales de los dos primeros trimestres, representados por mitaddeaño_ventas. Lo multiplicaremos por dos, para tener una idea general de las ventas totales del año. Usaremos un asterisco como nuestro operador aritmético. Encontrarás que hay otras maneras de realizar estos tipos de cálculos. Pero estos son excelentes ejemplos de cómo funcionan los operadores, tanto para los cálculos como para otras operaciones. Por ahora, guardemos nuestro script para que podamos volver a usar estas mismas variables si necesitamos continuar trabajando con nuestros datos de ventas. Al igual que en otros formatos, simplemente hacemos clic en "Guardar como" y luego escribimos un nombre de archivo. La extensión de nuestro archivo se aplica automáticamente al nombre de nuestro archivo. Cerraremos nuestro script. Cuando estemos listos para seguir analizando los datos de las ventas, podemos volver a abrirlo usando el menú Archivo. Hay otras categorías de operadores que aprenderás más adelante. Pero saber cómo los operadores de asignación y aritméticos te ayudan a programar cálculos es un buen punto para empezar. Estamos avanzando sin dudas en R y RStudio. Sigamos aprendiendo más sobre canalizaciones, otra excelente herramienta en R.
+
+________________________________________________________
+
+Un analista de datos escribe el siguiente cálculo en su programación R:
+basket_1 * 20 + basket_2 * 15 
+¿Qué operadores aritméticos está utilizando el analista de datos?
+
+En el cálculo basket_1 * 20 + basket_2 * 15, el analista está realizando operaciones aritméticas de suma y utiliza el operador para suma (+) y para multiplicación con el operador de multiplicación (*). 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Operadores lógicos e instrucciones condicionales
+
+Anteriormente, aprendiste que un operador es un símbolo que nombra al tipo de operación o cálculo que se realizará en una fórmula. En esta lectura, aprenderás sobre los principales tipos de operadores lógicos y cómo se pueden utilizar para crear instrucciones condicionales en código R.
+
+Operadores lógicos
+
+Los operadores lógicos arrojan un tipo de dato lógico, por ejemplo, TRUE o FALSE. 
+
+Existen tres tipos principales de operadores lógicos:
+
+    AND (algunas veces representado como & o && en R)
+
+    OR (algunas veces representado como | o || en R)
+
+    NOT (!)
+
+Repasa más abajo el resumen de los operadores lógicos.
+El operador AND (“&”)
+
+    El operador AND requiere de dos valores lógicos. El resultado es  TRUE si cada uno de los valores por separado es TRUE. Esto significa que TRUE & TRUE dan como resultado  TRUE. Sin embargo, FALSE & TRUE, TRUE & FALSE y FALSE & FALSE arrojan como resultado FALSE.
+
+    Si ejecutas el código correspondiente en R, obtienes los siguientes resultados
+
+    > TRUE & TRUE
+    [1] TRUE
+    > TRUE & FALSE
+    [1] FALSE
+    > FALSE & TRUE
+    [1] FALSE
+    > FALSE & FALSE
+    [1] FALSE
+
+    Es posible ilustrar esto mediante el uso de los resultados de nuestras comparaciones. Imagina que creas una variable x que es igual a 10.
+
+    x <- 10
+
+     Para revisar si x es mayor que 3 pero menor que 12, puedes utilizar
+
+    x > 3 & x < 12
+
+    Cuando ejecutas la función, R arroja el resultado TRUE.
+
+    [1] TRUE
+
+    TRUE La primera parte,  x > 3 dará como resultado  TRUE  ya que 10 es mayor que 3. La segunda parte, x < 12  también dará como resultado TRUE a que 10 es menor que 12. Como ambos valores dan TRUE, el resultado de la expresión AND es TRUE. El número 10 se ubica entre los números 3 y 12.
+
+    Sin embargo, si x es igual a 20, la expresión x > 3 & x < 12 arrojará un resultado diferente.
+
+    x <- 20
+    x > 3 & x < 12
+    [1] FALSE
+
+     Aunque x > 3 es TRUE (20 > 3), x < 12 es FALSE (20 < 12). entonces, toda la expresión dará como resultado FALSE (TRUE & FALSE = FALSE). De modo que el resultado de R será FALSE. 
+
+Operador OR (“|”)
+
+    El operador OR (|) trabaja de un modo similar el operador AND (&). La diferencia principal consiste en que, al menos, uno de los valores de la operación OR deber ser TRUE para que toda la operación OR dé como resultado TRUE. Sin embargo, TRUE | TRUE, TRUE | FALSE, y FALSE | TRUE arrojan como resultado TRUE. Cuando ambos valores dan FALSE, el resultado es  FALSE. 
+
+    Si escribes el código, obtienes los siguientes resultados: 
+
+    > TRUE | TRUE
+    [1] TRUE
+    > TRUE | FALSE
+    [1] TRUE
+    > FALSE | TRUE
+    [1] TRUE
+    > FALSE | FALSE
+    [1] FALSE
+
+    Por ejemplo, supón que creaste una variable y igual a 7. Para revisar si y es menor que 8 o mayor que 16, puedes utilizar la siguiente expresión:
+
+
+    y <- 7
+    y < 8 | y > 16
+
+    El resultado comparativo es TRUE (7 es menor que 8) | FALSE (7 no es mayor que 16). Ya que un solo valor de una expresión OR debe ser TRUE para que toda la expresión sea TRUE, R arroja como resultado TRUE. 
+
+    [1] TRUE
+
+    Ahora, imagina que y es 12. La expresión y < 8 | y > 16 ahora da FALSE (12 < 8) | FALSE (12 > 16). Ambas comparaciones dan como resultado FALSE, de modo que es resultado es  FALSE.
+
+    y <- 12
+    y < 8 | y > 16
+    [1] FALSE
+
+El operador NOT (“!”)
+
+    El operador NOT (!) simplemente niega el valor lógico al que se aplica. En otras palabras, !TRUE da FALSE y !FALSE da TRUE.
+
+    Cuando ejecutas el código, obtienes lo siguiente:
+
+    > !TRUE
+     [1] FALSE
+    > !FALSE
+    [1] TRUE
+
+    Igual que en el caso de los operadores OR y AND, puedes utilizar el operador NOT en combinación con los operadores lógicos. Cero se considera FALSE y los números que no son cero se consideran TRUE. El operador NOT da como resultado el valor lógico opuesto.  
+
+
+
+    Imagina que tienes una variable x que es igual a 2:
+
+
+
+    x <- 2
+
+    El operador NOT da como resultado FALSE porque toma el valor lógico opuesto de un número que no es cero (TRUE).
+
+
+
+    > !x
+    [1] FALSE
+
+-----------------
+
+Ahora veamos un ejemplo de cómo puedes utilizar operadores lógicos para analizar los datos. Imagina que estás trabajando con un conjunto de datos airquality que fue precargado en RStudio. Contiene datos sobre las mediciones de la calidad del aire en Nueva York desde mayo hasta septiembre de 1973. 
+
+El marco de datos tiene seis columnas: Ozone (la medición de ozono), Solar.R (la medición solar), Wind (la medición del viento), Temp (la temperatura en grados Fahrenheit), y Month y Day de esas mediciones (cada fila representa una combinación específica de mes y día). 
+
+Ahora veamos cómo los operadores AND, OR y NOT pueden ser de ayuda en esta situación.
+Ejemplo del operador AND
+
+Imagina que quieres especificar las filas que son extremadamente soleadas y ventosas, que defines como con una medición Solar de más de 150 y una medición de Wind de más de 10.  
+
+En R, puedes expresar esta instrucción lógica como Solar.R > 150 & Wind > 10.
+
+Ejemplo del operador OR
+
+Luego, imagina que quieres especificar las filas que son extremadamente soleadas o ventosas, que defines como con una medición Solar de más de 150 y una medición de Wind de más de 10. 
+
+En R, puedes expresar esta instrucción lógica como Solar.R > 150 | Wind > 10.
+
+Ejemplo del operador NOT
+
+Ahora, imagina que quieres concentrarte en las mediciones del clima por días que no son el primer día del mes.
+
+En R, puedes expresar esta instrucción lógica como Día != 1.
+
+Para finalizar, imagina que quieres concentrarte en escenarios que no son extremadamente soleados ni ventosos, basándote en tus definiciones previas de extremadamente soleado y ventoso. En otras palabras, la siguiente instrucción no debería ser verdadera: ya sea que haya una medición Solar mayor que 150 o una medición de Wind mayor que 10.
+
+Observa que esta instrucción es la opuesta de la instrucción OR utilizada anteriormente. Para expresar esta instrucción en R, puedes colocar un signo de exclamación (!) frente a la instrucción OR previa: !(Solar.R > 150 | Viento > 10). R aplicará el operador NOT a todo lo que se encuentre entre paréntesis. 
+
+Optativo: Instrucciones condicionales 
+
+Una instrucción condicional es una declaración de que si una determinada condición se mantiene, entonces, debe producirse un determinado evento. Por ejemplo, "Si la temperatura está por encima del punto de congelamiento, entonces, saldré a caminar". Si la primera condición es verdadera (la temperatura está por encima del punto de congelamiento), entonces la segunda condición sucederá (salir a caminar). Las instrucciones condicionales en código R tienen una lógica similar. 
+
+Veamos ahora cómo crear instrucciones condicionales en R utilizando tres instrucciones relacionadas: 
+
+    if() 
+
+    else()
+
+    else if()
+
+instrucción if
+
+La instrucción if establece una condición y si la condición arroja como resultado TRUE, el código R asociado a la instrucción if se ejecuta.
+
+En R, escribes el código para la condición entre los paréntesis de la instrucción if. El código que debe ser ejecutado si la condición da TRUE se escribe entre llaves (expr.) Observa que en este caso, las segundas llaves se colocan en su propia línea del código e identifican el final del código que quieres ejecutar. 
+
+if (condition) {
+
+ expr
+
+}
+
+Por ejemplo, creemos una variable x igual a 4.
+
+x <- 4
+
+Luego, creemos una instrucción condicional: si x es mayor que 0, entonces R imprimirá la cadena "x es un número positivo". 
+
+if (x > 0) {
+
+  print("x is a positive number")
+
+}
+
+Dado que x=4, la condición es verdadera (4 > 0). Por lo tanto, cuando ejecutas el código, R imprime la cadena "x es un número positivo".
+
+[1] "x is a positive number"
+
+Pero si cambias x a un número negativo, como -4, entonces, el resultado de la condición será FALSE (-4 > 0). Si ejecutas el código, R no ejecutará el código impreso. En su lugar, aparecerá una línea en blanco.
+instrucción else
+
+La instrucción else se utiliza en combinación con una instrucción if. Así se estructura el código en R: 
+
+if (condition) {
+
+  expr1
+
+} else {
+
+ expr2
+
+}
+
+El código asociado a la instrucción else se ejecuta cada vez que la condición de la instrucción if no sea TRUE. En otras palabras, si la condición es TRUE, entonces R ejecutará el código en la instrucción if (expr1); si la condición no es TRUE, entonces R ejecutará el código else en la instrucción else (expr2). 
+
+Veamos un ejemplo. Primero creemos una variable x igual a 7.  
+
+x <- 7
+
+Ahora, establezcamos las siguientes condiciones: 
+
+    Si x es mayor que 0, R imprimirá "x es un número positivo".
+
+    Si x es menor que o igual a 0, R imprimirá "x es un número negativo o cero".
+
+En nuestro código, la primera condición (x > 0) será parte de la instrucción if. La segunda condición de x menor que o igual a 0 queda implícita en la instrucción else. Si x > 0, R imprimirá "x es un número positivo". De otro modo, R imprimirá "x es un número negativo o cero". 
+
+x <- 7
+
+if (x > 0) {
+
+ print ("x is a positive number")
+
+} else {
+
+ print ("x is either a negative number or zero")
+
+}
+
+Dado que 7 es mayor que 0, la condición de la instrucción if es verdadera. Por lo tanto, cuando ejecutas el código, R imprime "x es un número positivo".
+
+[1] "x is a positive number"
+
+Pero si haces que x sea igual a -7, la condición de la instrucción if no será verdadera (-7 no es mayor que 0). Por lo tanto, R ejecutará el código en la instrucción else. Cuando ejecutas el código, R imprime "x es un número negativo o cero". 
+
+x <- -7
+
+if (x > 0) {
+
+ print("x is a positive number")
+
+} else {
+
+ print ("x is either a negative number or zero")
+
+}
+
+[1] "x is either a negative number or zero"
+instrucción else if
+
+En algunos casos, podrías querer personalizar aún más tu instrucción condicional agregando una condición else if. La instrucción else if se ubica entre la instrucción if y la instrucción else. Esta es la estructura del código: 
+
+if (condition1) {
+
+ expr1
+
+} else if (condition2) {
+
+ expr2
+
+} else {
+
+ expr3
+
+}
+
+Si la condición if (condición1) se cumple, entonces R ejecuta el código en la primera expresión (expr1). Si la condición if no se cumple, y la condición else if (condición2) se cumple, entonces R ejecuta el código en la segunda expresión (expr2). Si ninguna de las dos condiciones se cumple, R ejecuta el código en la tercera expresión (expr3). 
+
+En nuestro ejemplo anterior, utilizando solo las instrucciones if y else, R puede solo imprimir "x es un número negativo o cero" si x es igual a 0 o x es menor que 0. Imagina que quieres que R imprima la cadena "X es cero" si x es igual a 0. Necesitas agregar otra condición utilizando la instrucción else if.
+
+Veamos un ejemplo. Primero creemos una variable x igual a 1 negativo ("-1").  
+
+Ahora, quieres establecer las siguientes condiciones:
+
+    Si x es menor que 0, imprimir "x es un número negativo".
+
+    Si x es igual a 0, imprimir " x es cero".
+
+    De otro modo, imprimir "x es un número positivo".
+
+En el código, la primera condición será parte de la instrucción if, la segunda condición será parte de la instrucción else if y la tercera condición será parte de la instrucción else. Si x < 0, R imprimirá "x es un número negativo". Si x = 0, R imprimirá "x es cero". De otro modo, R imprimirá "x es un número positivo". 
+
+x <- -1
+
+if (x < 0) {
+
+ print("x es un número negativo")
+
+} else if (x == 0) {
+
+ print("x es cero")
+
+} else {
+
+ print("x es un número positivo")
+
+}
+
+Como -1 es menor que 0, la condición de la instrucción if resulta TRUE y R imprime "x es un número negativo". 
+
+[1] "x es un número negativo"
+
+Si haces que x sea igual a 0, R comprobará primero la condición if (x < 0) y determinará que es FALSE. Entonces, R evaluará la condición else if. Esta condición, x==0, es TRUE. Por ello, en este caso R imprimirá "x es cero". 
+
+Si haces que x sea igual a 1, ambas condiciones, if y else, arrojarán como resultado FALSE. De modo que R ejecutará la instrucción else e imprimirá "x es un número positivo".
+
+Tan pronto como R descubre una condición que resulta TRUE, R ejecuta el código correspondiente e ignora el resto. 
+Recurso adicional
+
+Para saber más acerca de las operaciones lógicas y las instrucciones condicionales, consulta el tutorial de DataCamp  Condicionales y flujo de control en R
+
+. DataCamp es un recurso muy popular para quienes estudian programación informática. El tutorial abunda en ejemplos útiles de aplicaciones de codificación para operadores lógicos e instrucciones condicionales (y operadores relacionales) y ofrece un buen panorama de cada tema y las conexiones entre ellos. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+¿Qué función puedes utilizar para crear un diagrama para cada tipo de corte de diamante?
+
+facet_wrap() es una función de R que se usa para crear subdiagramas que son diagramas individuales que representan una parte específica de un conjunto de datos más amplio. En actividades venideras, aprenderás más funciones útiles para programar en R.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: El regalo que nunva acaba
+
+Debo decir, que recibir un paquete es uno de los placeres de la vida. No importa si es un paquete sorpresa o algo que tú mismo ordenaste. Es emocionante abrir tu paquete para descubrir qué hay dentro. No es de extrañar que esos vídeos de desempaque en YouTube sean tan populares. Bien, R tiene una clase diferente de paquete que los usuarios de R pueden abrir. 
+
+Estos paquetes son unidades de código R reproducible y hacen que sea más fácil hacer un seguimiento del código. 
+
+Fueron creados por miembros de la comunidad R para hacer un seguimiento de las funciones R que ellos escriben y vuelven a usar. Estos miembros de la comunidad podrían poner los paquetes a disposición de otros usuarios. Es una de las cosas maravillosas de formar parte de esta comunidad. 
+
+Los paquetes en R incluyen: 
+-> Funciones en R reutilizables  
+-> Documentación sobre las funciones, incluido cómo usarlas. 
+-> También contienen muestras de conjuntos de datos  
+-> Pruebas para verificar tu código para asegurarte de que hace lo que quieres que haga. 
+
+Por defecto, R incluye un conjunto de paquetes denominados Base R que están disponibles para su uso en RStudio cuando empiezas tu primera sesión de programación. También hay paquetes recomendados que están cargados, pero no instalados. Antes de usar las funciones de uno de estos paquetes, tuviste que cargarlo con un comando <i>library</i> como <i>library boot</i>, por ejemplo. Descubramos con qué paquetes que ya tenemos en RStudio trabajaremos en nuestra consola en lugar de, por ahora, un script porque estamos practicando y no necesitamos guardar este código para más tarde. Para revisar nuestros paquetes, ejecutaremos el comando installed.packages y allí está nuestra lista. Concentrémonos en el paquete y en las columnas prioritarias. La columna del paquete da el nombre del paquete como grupo o gráficos. La columna prioritaria nos dice qué se necesita para usar funciones del paquete. Si te encuentras con la palabra "base" en la columna prioritaria, entonces, el paquete ya está instalado y cargado. Puedes usar todas las funciones de ese paquete tan pronto como abras RStudio. Si encuentras la palabra "recommended", entonces el paquete está instalado, pero no cargado. También observarás una lista de paquetes en la parte inferior derecha de nuestro espacio de trabajo. Esta lista incluye una breve descripción de cada paquete. Para cargar el paquete <i>class</i> y otros paquetes no instalados, deberemos usar la función <i>library</i> seguida del nombre del paquete. Y ahora el paquete <i>class</i> tiene una marca de verificación junto a él, por lo tanto, ha sido cargado con éxito para su uso. Si deseas aprender incluso más sobre tus paquetes cargados, puedes hacer clic en sus nombres en la pestaña paquetes. Esto abre la pestaña Ayuda y muestra temas relacionados con el paquete que seleccionaste. También puedes usar la función <i>help</i> en tu programación para llamar a la pestaña Ayuda. Si bien los paquetes preinstalados te brindan muchas funciones útiles, hay incluso paquetes que expandirán más tus destrezas de programación. Puedes encontrar miles de paquetes R con solo hacer una búsqueda en línea. Una de las fuentes de paquetes más comúnmente usadas es CRAN. 
+
+CRAN significa Comprehensive R Archives Network. Se trata de un archivo en línea con paquetes R, código fuente, manuales y documentación. 
+
+Cuando empieces a trabajar con R, podrás hacer tus propias búsquedas para encontrar paquetes en CRAN o en cualquier otro lugar. Sin embargo, casi siempre es más fácil buscar con tu motor de búsqueda favorito. Por lo tanto, los paquetes son una parte bastante grande en el uso de R. Te dan la mayoría de lo que necesitas para completar tu programación durante el proceso de análisis de datos. ¡Quién sabe! Podrías incluso convertir tu propio código en paquetes para que otros los usen. A continuación, seguiremos desempaquetando paquetes R.
+____________________________________________
+
+Los paquetes de R incluyen funciones en R reutilizables y documentación acerca de cómo utilizar esas funciones, muestras de conjuntos de datos y pruebas para revisar el código. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Paquetes R disponibles
+
+Para aprovechar R al máximo para tu análisis de datos, deberás instalar paquetes. Los paquetes son unidades de códigos R reproducibles que puedes utilizar para agregar funcionalidad a R. La mejor parte es que la comunidad R crea y comparte paquetes, de modo que otros usuarios puedan acceder a ellos. En esta lectura, aprenderás más sobre los paquetes más usados y dónde encontrarlos.
+
+Los paquetes se pueden encontrar en repositorios, que son colecciones de paquetes útiles listos para instalar. Puedes encontrar repositorios en Bioconductor
+, R-Forge
+, rOpenSci
+ o GitHub
+, pero el repositorio más utilizado es la Red general de archivos R o CRAN
+
+. CRAN almacena los códigos y documentos que te ayudarán a instalar paquetes en tu propio espacio de RStudio. 
+Documentación de los paquetes 
+
+Los paquetes no incluyen solo el código, sino también documentación con información sobre el autor del paquete, su función y sobre otros paquetes que deberás descargar. Cuando utilizas CRAN, puedes encontrar el paquete de documentación en el archivo descriptivo DESCRIPTION. 
+
+Consulta el documento de Karl Broman llamado R Package Primer
+
+ para más información.
+Elegir los paquetes correctos
+
+Con tantos paquetes dando vueltas, puede ser difícil saber cuáles serán los más útiles para tu biblioteca o directorio de paquetes instalados. Afortunadamente, existen excelentes recursos disponibles.
+
+    Tidyverse
+
+: La colección de tidyverse de paquetes de R está diseñada especialmente para trabajar con datos. Es una biblioteca estándar para la mayoría de los analistas de datos, pero también puedes descargar los paquetes en forma individual. 
+
+Listado rápido de paquetes R útiles
+
+: Esta es la lista de apoyo de RStudio donde encontrarás paquetes útiles con instrucciones de instalación y la descripción de su funcionalidad. 
+
+Vista de tareas de CRAN
+
+    : Este es un índice de los paquetes CRAN ordenados por tarea. Puedes buscar el tipo de tarea que necesitas realizar y te traerá una página con paquetes relacionados con la tarea para que explores.  
+
+Descubrirás más paquetes a lo largo de este curso y a medida que utilices R con frecuencia, pero este es un gran punto de partida para crear tu propia biblioteca. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Bienvenido a tidyverse
+
+Como vimos anteriormente, los paquetes son una gran parte de lo que hace que R sea excelente. 
+
+"Los paquetes ofrecen una combinación de código, funciones en R reutilizables, documentación descriptiva, pruebas para verificar la operabilidad y muestras de conjuntos de datos." 
+
+Y para muchos analistas de datos, en la parte superior de la lista de paquetes útiles está tidyverse. 
+
+Tidyverse (R) una colección de paquetes en R con una filosofía de diseño común para la manipulación, exploración y visualización de datos. 
+
+Usar tidyverse puede ayudarte a trabajar a tu manera durante gran parte de todo el proceso de análisis de datos. Los paquetes en tidyverse trabajan juntos de manera natural. Empecé a aprender sobre tidyverse cuando trabajaba en un proyecto de encuestas. Sentí como si estuviera adentrándome en una zona R más avanzada. Comprendí los conceptos básicos, pero ahora estaba descubriendo cómo tidyverse mejora los conceptos básicos. Ahí fue cuando me entusiasmé más con trabajar en R. Me di cuenta de que cuanto más me ponía a aprender sobre tidyverse, más obtenía de él. Además de eso, el apoyo de la comunidad para tidyverse es también fuerte. Es una de las razones por las que la mayoría de los usuarios en R consideran a tidyverse una parte clave de la programación. Los principios asociados con tidyverse, que aprenderás aquí y en tu trabajo, fueron ampliamente adoptados por la comunidad R. Encontrarás muchos tutoriales y ejemplos relacionados con tidyverse en línea que te muestran estos principios y cómo se aplican al análisis computacional de datos. Bien, instalemos tidyverse. Puedes continuar por ti mismo, usando tu cuenta en la nube de RStudio. Echa un vistazo a la lectura para obtener más detalles. Anteriormente, aprendiste cómo encontrar paquetes de Base R usando la función <i>install packages</i>. Para instalar paquetes como tidyverse que no están en Base R, usaremos la función <i>install packages</i>. Como vimos anteriormente, esta función llama a tidyverse y a otros paquetes de CRAN. Hablamos sobre por qué se creó CRAN. Ya que los paquetes que no están en Base R en su mayoría son creados por usuarios de R, la gente necesita una manera confiable de revisar y validar el código enviado. CRAN se asegura de que cualquier contenido en R abierto al público cumpla con los estándares de calidad requeridos. Por lo tanto, si proviene de CRAN, puedes sentirte bien sabiendo que el paquete es auténtico y válido. Otra fuente importante de paquetes y otro contenido de R es GitHub. Ahora, regresaremos a la instalación de tidyverse. Primero escribiremos install.packages. Luego, entre paréntesis, escribiremos tidyverse entre comillas. Las comillas no siempre son necesarias, pero una práctica recomendada es usar comillas para asegurarnos de que estamos haciendo lo correcto. Presionaremos Enter y esperaremos a que RStudio instale tidyverse. Cuando hacemos clic en nuestra pestaña paquetes, nos encontramos con muchos paquetes nuevos en la lista. Eso es tidyverse. Posiblemente hayas observado que ninguno de los paquetes está marcado. Necesitaremos cargarlos primero antes de que podamos usarlos. Pero esa es una lista muy larga. Por lo tanto, carguemos el paquete llamado tidyverse ahora usando la función <i>library</i>. El resultado muestra que no solo se cargó el paquete tidyverse, sino también ocho paquetes más. También muestra una lista de conflictos. 
+
+Los conflictos suceden cuando los paquetes tienen funciones con los mismos nombres que otras funciones. 
+
+Básicamente, el último paquete cargado es aquel cuyas funciones se usarán, por lo que usaremos las funciones de tidyverse. Pero es importante tener en cuenta que estos mensajes solo aparecen una vez. A medida que te vayas acostumbrando a R, podrás averiguar si deseas usar ciertas funciones por sobre otras. Los paquetes cargados son ggplot2, tibble, tidyr, readr, purrr, dplyr, stringr y forcats. Estos paquetes son el núcleo de tidyverse porque los usarás en casi cada análisis. Todos trabajan juntos para hacer que tu análisis de datos sea eficiente y no presente problemas. Con estos paquetes, tidyverse te ayuda a hacer todo, desde importar y transformar datos hasta explorar y visualizarlos. Echaremos un vistazo a este núcleo de paquetes pronto, y los usaremos incluso más a medida que continuemos trabajando en RStudio. Si estás trabajando por tu cuenta en R, puedes echar un vistazo a algunos de los otros paquetes también. Los paquetes disponibles en tidyverse cambian mucho, pero siempre puedes comprobar las actualizaciones ejecutando tidyverse_update() en tu consola. Puedes, entonces, actualizar los paquetes en un par de maneras. Si usas la función <i>update packages</i>, actualizará todos tus paquetes. Eso puede llevar un tiempo. Por lo tanto, si solo deseas actualizar un paquete, puedes volver a usar la función <i>install</i> <i>packages</i> con el nombre del paquete como tu argumento entre paréntesis. Deberías actualizar los paquetes regularmente para asegurarte de que tienes la última versión en tu código. Las notificaciones de conflictos son solo un tipo de mensaje que puede aparecer en la consola. También podrías encontrar mensajes de advertencia y error. Una búsqueda rápida usando la pestaña Ayuda por lo general te dirá qué significa el mensaje y qué, si lo hay, necesitarás para abordarlo. A continuación, seguiremos moviéndonos por tidyverse. Descubrirás más sobre por qué tidyverse es una parte integral de R.
+__________________________________________________
+
+Tidyverse es una colección de paquetes de R con una filosofía de diseño en común. Los paquetes de tidyverse son útiles especialmente para manipular, explorar y visualizar datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Mas sobre tidyverse 
+
+¿Alguna vez hiciste un recorrido de un punto de referencia famoso o una ciudad desconocida? Puede ser bastante interesante. Tienes que aprender todo sobre las características del punto de referencia o la ciudad. Al final, conoces todo sobre ellos bastante bien, y puedes compartir lo que aprendiste con otros. Estamos aquí para realizar una clase de recorrido diferente: un recorrido por tidyverse. Para este recorrido, no viajaremos a ningún lugar especial, pero te ayudaremos a aprender sobre las características interesantes de tidyverse. Y una vez que las conozcas un poco mejor, podrás sin duda compartir con otros lo que aprendiste. Para este recorrido nos enfocaremos en los paquetes núcleo de tidyverse que vimos anteriormente: ggplot2, tidyr, readr, dplyr, tibble, purrr, stringr y forcats. También aprendimos cómo instalarlos y cargarlos en RStudio. Una vez cargados, no necesitarás hacer nada más con sus paquetes reales. Ellos harán lo suyo a medida que programas. Y, ¿qué es lo suyo? Bien, depende, pero hay cuatro paquetes que son una parte esencial del flujo de trabajo para los analistas de datos: 
+
+Paquetes mas esenciales o mas usados por los analistas
+->ggplot2. 
+->dplyr.
+->tidyr. 
+->readr. 
+
+Lo más probable es que uses estos con mayor frecuencia que los otros. 
+
+->Ggplot2 se usa para visualización de datos, especialmente diagramas. 
+
+Ggplot2 (R), puedes crear una variedad de visualización de datos al aplicar propiedades visuales diferentes a las variables de datos. Aquí hay un ejemplo de ggplot2 en acción. Tendrás tu propia oportunidad de usar ggplot2 más adelante. 
+
+-> Tidyr (R) es un paquete que se usa para limpieza de datos para generar datos ordenados. Cubrimos datos ordenados o limpios anteriormente, pero, a modo de recordatorio, son datos donde cada parte de la tabla de datos o marco de datos es del tipo correcto en el lugar correcto. Tidyr funciona con datos en formato ancho y datos en formato largo para asegurarse de que esto funciona. 
+
+Readr (R), que se usa para importar datos. La función más común de readr es read_csv. Esto importará un archivo CSV en R. Un archivo CSV contiene datos separados por comas en un formato de tablas. Para leer correctamente un conjunto de datos con readr, combinas la función con una especificación de columna. La especificación de columna describe cómo debería cada columna convertirse en el tipo de datos más apropiado. Es bueno tener en cuenta que, en general, esto no es necesario porque readr lo averiguaría por ti automáticamente. Nos encontraremos con funciones readr a medida que continuemos explorando R. 
+
+->Dplyr (R) ofrece un conjunto consistente de funciones que te ayudan a completar algunas tareas comunes de manipulación de datos. 
+
+Por ejemplo, la función <i>select</i>, escoge variables según sus nombres, y la función <i>filter</i> encuentra casos donde determinadas condiciones son ciertas. Y, sí, dplyr es otro paquete que abordaremos más tarde. Hay mucho que esperar, por lo tanto, esos son los fabulosos cuatro del tidyverse. Todos ellos harán que tu programación en R sea más sencilla y eficiente. Los otros cuatro paquetes son definitivamente útiles también, pero podrías no usarlos tan a menudo. Tibble trabaja con marcos de datos. Purrr trabaja con funciones y vectores que ayudan a que tu código sea más fácil de escribir y más expresivo. Stringr incluye funciones que hacen que sea más fácil trabajar con cadenas. Forcats proporciona herramientas que resuelven problemas comunes con factores. A modo de recordatorio...
+
+Los factores (R) almacenan datos categóricos en R donde los valores de datos están limitados y generalmente se basan en un grupo finito como país o año. 
+
+Usar tidyverse y sus paquetes te ayudará a ajustar tu análisis. Y, además de tidyverse, también aprendiste los fundamentos de R desde variables hasta vectores y más. Exploraste los diferentes operadores en R y viste cómo pueden ayudarte a completar cálculos. Tuviste la oportunidad de echar un vistazo a las canalizaciones y cómo pueden hacer que tu programación sea más eficiente. Y abriste paquetes para averiguar cómo son una parte importante de las cosas que puedes hacer en R. Cubrimos mucho material con solo algunos vídeos, por lo que este podría ser un buen momento para que hagas un pequeño repaso. Puedes volver a mirar videos y repasar cualquier otro recurso que pueda ayudarte a incluso comprender mejor todos los términos, conceptos y procesos que son parte de R. Más adelante, empezarás a trabajar con datos en R, que incluye una exploración más completa de cómo tidyverse impacta en tu proceso. Verás tibble, readr y otros paquetes tidyverse en acción.
+_______________________________________________________
+
+¿Qué paquete de tidyverse se utiliza para la visualización de datos?
+El paquete ggplot2 se utiliza para la visualización de datos, especialmente de diagramas. Puedes utilizar ggplot2 para crear múltiples visualizaciones diferentes aplicando diversas propiedades a las variables de datos.
+
+La función read_csv() forma parte del paquete readr. Importa un archivo .CSV para utilizarlo en R.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Trabajo con canalizaciones 
+
+Anteriormente presentamos algo llamado canalizaciones. Una canalización es una herramienta en R que te ayuda a hacer que tu código sea más eficiente y más fácil de leer y comprender. En este vídeo, analizaremos las canalizaciones en más detalle. A modo de recordatorio... 
+
+una canalización es una herramienta en R para expresar una secuencia de varias operaciones. En otras palabras, toma el resultado de una instrucción y lo convierte en la entrada de la siguiente instrucción. 
+
+En lugar de escribir funciones dentro de otras funciones, podrías usar el operador de canalización para hacer el mismo trabajo. En programación, decimos que está anidado. 
+
+Anidado describe código que realiza una función particular y está incluido dentro del código que realiza una función más amplia. 
+
+Puedes pensar en una canalización como una manera de codificar la frase. Supongamos que tenemos datos de ventas y necesitas encontrar la media o el promedio. Puedes crear una canalización accediendo a los datos y luego agrupándolos y resumiendo los datos agrupados mediante una función <i>mean</i>. Veamos un ejemplo. Primero, abriremos RStudio. Luego, empezaremos con un nuevo script para que podamos guardar nuestro trabajo. Lo guardaremos como exploración ToothGrowth. Usaremos un conjunto de datos ToothGrowth, que ya está instalado en R. Este conjunto de datos contiene datos sobre el efecto de la vitamina C en el crecimiento de los dientes de los cerdos de guinea. Es un conjunto de datos conocido que nos ayuda a aprender sobre cómo funcionan las canalizaciones. Para cargar cualquier conjunto de datos ya instalado, usamos la función <i>data</i>. Luego, agregamos el nombre del conjunto de datos, ToothGrowth. Ahora los datos están cargados, podemos revisarlos con la función <i>View</i>. Observa cómo <i>View</i> comienza con una V mayúscula. Es un buen recordatorio de que las funciones y variables distinguen mayúsculas y minúsculas en R. En un script, usamos el botón Ejecutar para ejecutar nuestro código. El resultado generalmente aparece en la consola. Pero con <i>View</i>, aparece una nueva pestaña en el script que muestra el contenido del conjunto de datos. Ahora, digamos que necesitamos filtrar y ordenar estos datos para organizarlos para un análisis. Sin canalizaciones, podríamos hacer esto anidando los comandos o creando una secuencia de marcos de datos. Hablaremos más sobre los marcos de datos pronto. Empecemos por filtrar el conjunto de datos. Ten en cuenta que primero queremos instalar y cargar la función de filtro correcta, que viene como parte del paquete. Instalar un paquete puede llevar unos minutos. Esta función viene como parte del paquete dplyr. Asignarás un nombre al nuevo conjunto de datos y luego la función <i>filter</i>. Esto filtra los datos para que solo veamos las filas donde la dosis de vitamina C es exactamente 0.5. Esto incluye ambos tipos de vitamina C usada en el estudio. El jugo de naranja u OJ en nuestro conjunto de datos, y el ácido ascórbico o VC. Luego, lo clasificaremos con la función <i>arrange</i>. Incluiremos el nombre del conjunto de datos del filtro seguido del nombre de la columna que queremos ordenar. En este caso, <i>len</i> quiere decir longitud del diente. Cuando ejecutamos esta función, el resultado aparece en la consola. Los datos se organizan en orden ascendente por <i>len</i>. El resultado solo muestra filas donde la cantidad de dosis es 0.5. Los datos se filtraron y ordenaron según nuestro código. Intentemos otra manera de obtener el mismo resultado. 
+
+Función anidada, que es una función que está completamente contenida dentro de otra función. 
+
+Así es la función anidada para filtrar y ordenar este conjunto de datos. Observa que la función <i>filter</i> de nuestro código es la función anidada. Con funciones anidadas, leemos de adentro hacia afuera. El código primero filtra los datos. Luego, los organiza u ordena. Ahora ejecutemos esto. Ajustamos el código, pero obtenemos el mismo resultado. Ahora, usaremos una canalización. A modo de recordatorio, el operador usado para señalar una canalización es un signo de porcentaje seguido por un signo mayor que y otro signo de porcentaje. También puedes usar atajos de teclado para insertar operadores de canalización. Control Shift M para PC y Chromebooks, y comando Shift M para Mac. Empezaremos con esta canalización asignándola a una variable. Luego, escribiremos el nombre del conjunto de datos de donde estamos extrayendo los datos, ToothGrowth. Usaremos nuestro atajo de teclado para agregar el operador de canalización después de eso. Ahora podemos presionar Enter para ir a la línea siguiente. RStudio automáticamente agrega sangría a la línea siguiente, reconociendo que es parte de la canalización. Luego, filtraremos los datos. No tenemos que señalar el conjunto de datos dentro del paréntesis, como lo hicimos en ejemplos anteriores, porque empezamos nuestra canalización con él. La canalización aplica automáticamente el conjunto de datos a cada paso. ¡Muy bien! Finalicemos nuestra canalización en una nueva línea con la función <i>arrange</i> y ordenemos los datos. Ya que esta es nuestra última línea del código, no necesitamos un operador de canalización. Por último, haz clic en "Ejecutar" y listo, obtenemos el mismo resultado que nuestros otros métodos. Nuestra canalización está configurada para llamar al conjunto de datos y, luego, filtrar el conjunto de datos y ordenarlo. Los tres métodos funcionan, pero puedes ver cómo las canalizaciones ayudan a hacer que tu programación sea más eficiente y esté menos desordenada. Esto significa menos posibilidades de errores y una mejor legibilidad para cualquiera que mire tu código, y debido a la estructura de una canalización, podemos agregar fácilmente o cambiar el código sin tener que volver a comenzar. Hagamos eso. Basándonos en nuestro ejemplo, digamos que también queríamos calcular la longitud promedio de los dientes o <i>len</i> para cada uno de los dos suplementos en el estudio: jugo de naranja u OJ y ácido ascórbico o VC. Reemplazaremos la función <i>arrange</i> por la función <i>group by</i>. Esta función agrupará nuestros resultados por los dos suplementos. Escribimos supp en el paréntesis y agregamos una canalización. Esta vez estamos agregando una canalización porque tenemos otra línea de código para agregar. Agrupamos por y, luego, resumimos. Nuestro argumento, que viene después de la función <i>summarize</i> parece bastante complejo, pero básicamente le indica a R qué hacer con los valores faltantes y para asegurarse que los datos sean agrupados correctamente cuando agregamos la función <i>summarize</i>. Ahora, ejecutaremos nuestra nueva canalización y tendremos la longitud promedio del diente cuando la dosis es igual a 0.5 para cada uno de nuestros suplementos. Muy bien. Ahora, hay un par de cosas para recordar cuando usamos canalizaciones. Primero, es importante agregar el operador de canalización al final de cada línea de la operación canalizada, excepto la última. Otra regla de oro es verificar tu código una vez que programaste tu canalización. Recuerda, RStudio agrega automáticamente las sangrías a las líneas de código que son parte de una canalización. Si una línea en tu código no tiene sangrías, probablemente no fue agregada a la canalización. Eso podría llevar a un error de instrucción. Luego, puedes revisar la operación canalizada para verificar partes de tu código a corregir. Con los otros métodos te mostramos que encontrar las partes confusas resultaría un mayor desafío. Otra razón para usar canalizaciones cada vez que puedas. Canalizaciones o canalización, y las funciones que son parte del proceso de canalización, crean componentes para reunir los análisis en R. En los próximos vídeos, aprenderás cómo usar estos componentes para limpiar, transformar y analizar tus datos. Por ahora, siéntete libre de tomarte tu tiempo para revisar e, incluso, practicar las funciones, las operaciones y otros elementos en R y RStudio que ya cubrimos.
+
+_______________________________________________________
+
+Una función anidada es una función contenida dentro del código que realiza una función más amplia. Una función anidada lleva a cabo su propia función específica dentro del código.
+
+The pipe operator is %>%. You can use it in R programming to call out a pipe to express a sequence of multiple operations.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Recursos R con más ayuda
+
+La comunidad R está repleta de usuarios dedicados que se ayudan mutuamente para encontrar soluciones a los problemas y nuevas maneras de utilizar R. También hay un gran número de excelentes blogs donde puedes encontrar tutoriales y otros recursos. Aquí mencionamos algunos:
+
+    Posit
+
+: El mejor lugar para encontrar ayuda con R es el propio R. Puedes escribir ‘?’ o el comando help() para buscar en R. También puedes abrir el panel de ayuda para encontrar más recursos. 
+
+Blog de Posit:
+ El blog de Posit es un excelente lugar para encontrar información sobre Posit, incluyendo las novedades de la empresa.  Puedes leer las  publicaciones destacadas
+
+ más recientes o utilizar la barra de búsqueda y la lista de categorías a la izquierda de la página para explorar temas específicos que podrían resultarte interesantes o buscar una publicación específica. 
+
+Stack Overflow:
+
+ El blog Stack Overflow publica opiniones y consejos de otros codificadores. Es un gran punto de partida para estar en contacto con las conversaciones que ocurren en una comunidad. 
+
+R-Bloggers:
+
+ El blog R-bloggers cuenta con tutoriales útiles y artículos con noticias publicados por otros usuarios de R en la comunidad. 
+
+Tutoriales de R-Bloggers para aprender R:
+ Este blog R-Bloggers compila algunos tutoriales básicos de R y también tiene enlaces a guías más avanzadas.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Consejos para codificar
+
+Me encontré con obstáculos que me impedían hacer cierto análisis porque, con mi escaso conocimiento técnico, me llevaba una excesiva cantidad de tiempo. Así que comencé a aprender por mis propios medios algunas cosas como SQL para poder acceder a los datos a través de la base de datos actual de la empresa de la que disponía, de modo de poder manipular los datos para entenderlos mejor. Puedo decirte que, al principio, es un proceso muy frustrante para encarar porque lleva mucho tiempo y esfuerzo hacer algo que parece muy simple o algo que debería ser muy sencillo de hacer en las hojas de cálculo, pero puede ser muy difícil cuando recién estás aprendiendo a codificar. Pero es también una de las cosas más satisfactorias que hice porque una vez que logras entender algo, se abre un mundo completamente nuevo. Aprender a codificar fue una revolución en mi trabajo. Recuerdo cuando al principio comencé como analista, todos los datos que utilizaba estaban en hojas de cálculo y debía realizar un análisis y crear fórmulas para manipular, comprender y analizar los datos. Ahora que comenzamos a tener más y más datos, las fórmulas hubieran tardado horas en realizar su proceso y recuerdo que, en un momento, pasé varias horas creando una fórmula y luego ejecutándola, lo que llevó más de diez horas. Así que dejé mi computadora abierta y la dejé corriendo durante la noche, me desperté y todavía estaba corriendo. Adelantándonos en el tiempo, un año después, luego de aprender SQL y Python, puede ejecutar el mismo tipo de análisis en milisegundos. Así que, entender realmente de qué se trata es lo que estás intentando lograr. La codificación te ayuda a manipular y analizar datos a un ritmo que anteriormente o sin conocimientos de codificación sería muy difícil de hacer. Un aspecto importante de cualquier tipo de script, o cuando estás codificando, es estructurarlo para que sea legible en general. La mayoría de las veces, vas a trabajar en un equipo. Es importante que cuando escribas un script entiendas cómo funciona, pero también que algún colega pueda acercarse y comprender qué es lo que estás tratando de hacer con ese script. Ahora bien, es muy importante que no solo funcione y sea eficiente, sino que tampoco sobreabunden las palabras, es decir, que no sea extremadamente complicado. Ahora bien, un aspecto importante de la legibilidad es que si estás repasando tu código y te das cuenta de que escribiste lo mismo varias veces, o si estás usando la misma lógica o algoritmo muchas veces, ese es un momento donde realmente puedes consolidar tu código y hacerlo más conciso, lo cual ayuda mucho a la legibilidad, y también a cualquier persona que se acerca y trata de leer tu código; eso te demandará de aquí a dos semanas. Porque te aseguro que cuando empieces a codificar, lo que tiene sentido ahora para ti puede no tenerlo de acá a tres semanas. Un aspecto importante de la legibilidad y la comprensión en general de tu código es utilizar comentarios. Los comentarios son una forma de escribir algo en un lenguaje estandarizado, como el inglés, y una forma en que alguien pueda entenderlo, pero que la computadora no lo reconozca como un código real. Así que, explicar cada línea que escribas o explicar una sección completa de tu código en un comentario le permite a otra persona leer tu código y saber exactamente qué estás tratando de lograr con el código que has escrito. Ahora bien, sin comentarios dejas que las demás personas sigan tu código y lo interpreten, lo que no es una tarea fácil para otra persona porque puede tener una manera diferente de codificar lo mismo que estás haciendo tú. Documentar tu trabajo es un aspecto importante. La documentación explicará en profundidad qué es lo que exactamente trata de hacer tu código, por qué fue creado, cuál es su propósito y sus limitaciones. Este último concepto es un poco difícil de comprender mientras encaras por primera vez el aprendizaje de un lenguaje de codificación y tratas de crearlo para que permita la escalabilidad a la vez que le otorgas dinamismo. Bueno, cuando digo crear algo que admita escalabilidad, lo que quiero decir es, si estás creando un script de código específico para resolver una tarea en la que estés trabajando en este momento, querrás asegurarte y responder la siguiente pregunta: ¿Este código será o podrá ser utilizado en el futuro para algo más? Bien, si la respuesta es sí, es importante que tu código esté disponible para ser escalable. Esto significa que se ejecute de manera eficiente, de modo que si el tamaño de los datos sufre manipulaciones o incrementos, eso no complique demasiado tu código y pueda manejar cargas de datos grandes y pequeñas. Otro aspecto de esto es que tu código sea dinámico. Esto significa que no hay que rigidizar los valores en tu código, de modo que no cambien cuando sea necesario. Así que estas son solo algunas de las mejores prácticas, y a a medida que progreses como analista de datos, encontrarás muchas, muchas más. Siempre hay más que aprender, siempre hay más para entender, pero esto debería ayudarte al comienzo de tu camino para entender la codificación.
+
+<----------------------------------------------------------------------------------------------------------------------->

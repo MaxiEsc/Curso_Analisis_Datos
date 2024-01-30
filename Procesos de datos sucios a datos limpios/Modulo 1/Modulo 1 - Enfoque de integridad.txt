@@ -1,0 +1,469 @@
+Modulo 1 - Enfoque de integridad
+
+vamos a hablar sobre la integridad de los datos y algunos riesgos que podrías correr al trabajar como analista de datos. 
+
+"Un análisis robusto depende de la integridad de los datos." 
+
+Si los datos que estás usando están comprometidos de alguna manera, tu análisis no será tan sólido como debería. 
+
+La integridad de los datos: 
+Consiste en la exactitud, integridad, consistencia y confiabilidad de los datos a lo largo de su ciclo de vida. 
+
+Esto puedo sonar como muchas cualidades para que los datos estén a la altura de las circunstancias. Pero créeme, vale la pena verificar todas estas cualidades por completo antes de proceder con tu análisis. De lo contrario, tu análisis podría ser erróneo. No porque hayas hecho algo mal, sino porque los datos con los cuales estabas trabajando eran erróneos desde el principio. Cuando la integridad de los datos es baja, puede causar cualquier inconveniente desde la pérdida de un píxel en una imagen hasta una decisión médica incorrecta. En algunos casos, una pieza faltante puede hacer que todos tus datos se tornen inservibles. La integridad de los datos puede estar comprometida de muchas formas diferentes. 
+Existe la posibilidad de que los datos puedan estar comprometidos cada vez que se |replican|, |transfieren| o |manipulan| de cualquier forma. 
+
+La replicación de datos es el proceso de almacenar datos en varios sitios. 
+
+Si estás replicando datos en distintos momentos en distintos lugares, existe la posibilidad de que tus datos no estén sincronizados. Esos datos carecen de integridad porque distintas personas pueden no utilizar los mismos datos para sus conclusiones, lo cual puede causar inconsistencias. 
+
+La transferencia de datos, que es el proceso de copiar datos desde un dispositivo de almacenamiento a la memoria o de una computadora a otra. 
+
+Si tu transferencia de datos se interrumpe, podrías terminar con un conjunto de datos incompletos, lo cual podría no ser útil para tus necesidades. 
+
+La manipulación de datos implica modificar los datos para que estén más organizados y sean más fáciles de leer. La manipulación de datos tiene como objetivo hacer que el proceso de análisis de datos sea más eficiente, pero un error durante el proceso puede comprometer la eficacia. 
+
+Por último, los datos también pueden estar comprometidos por un |error humano|, |virus|, |malware|, |piratería informática| y |fallas del sistema|, que pueden llevar a más dolores de cabeza. Voy a parar aquí. Estas son suficientes potenciales malas noticias para digerir. Pasemos a algunas potenciales buenas noticias. En muchas empresas, el almacén de datos o el equipo de ingeniería de datos se encarga de garantizar la integridad de los datos. Próximamente, aprenderemos sobre cómo verificar la integridad de los datos como analista de datos. Pero quédate tranquilo, alguien más por lo general te cubrirá la espalda. Luego de averiguar con qué datos estás trabajando, es importante que compruebes dos veces que tus datos están completos y son válidos antes de analizarlos. Esto te ayudará a asegurar que tu análisis y conclusiones son precisas. Verificar la integridad de los datos es un paso crucial en el procesamiento de tus datos para tenerlos listos para el análisis, ya sea que tú u otra persona en la empresa lo hagan. Luego, aprenderás más sobre integridad de datos 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Más información sobre la integridad de datos y el cumplimiento normativo
+
+Este documento refleja la importancia de la integridad de datos y brinda un ejemplo con datos de una empresa global. Las definiciones de los términos clave sobre integridad de datos serán proporcionadas al final de este documento. 
+Escenario: fechas del calendario de una empresa global
+
+Las fechas del calendario se presentan en una amplia gama de formas abreviadas. Según el lugar donde vives, se puede usar una forma abreviada diferente. 
+
+    En algunos países, 12/10/20 (DD/MM/AA) significa 12 de octubre de 2020. 
+
+    En otros países, el estándar oficial es AAAA-MM-DD, por lo tanto el 12 de octubre de 2020 pasa a ser 2020-10-12. 
+
+    En los Estados Unidos, la forma aceptada es mes, día, año (MM/DD/AA), por lo tanto el 12 de octubre de 2020 será 10/12/20.
+
+Ahora, piensa lo que podría suceder si estás trabajando como analista de datos para una empresa internacional y no tienen en cuenta los diferentes formatos de las fechas. La integridad de datos resultante puede ser cuestionable. El análisis de los datos sería inexacto. ¿Qué pasaría si pidieras stock de más para diciembre cuando en realidad lo necesitaban para octubre?
+
+Un buen análisis depende de la integridad de los datos, y la integridad de los datos generalmente depende del uso de un formato único. Por lo tanto, es importante verificar varias veces el formato de las fechas para asegurarse de que lo que creías que era el 10 de diciembre de 2020 en realidad era el 12 de octubre de 2020 y viceversa.
+
+A continuación, se incluyen algunos temas para tener en cuenta:
+
+    La replicación de datos puede comprometer la integridad de los datos: Siguiendo con el ejemplo anterior, imagina que pides a tus colegas internacionales que verifiquen las fechas y se ajusten a un formato. Entonces, un analista copia un gran conjunto de datos para controlar las fechas. Sin embargo, por temas relacionados con la memoria, se copia solamente parte del conjunto de datos. El analista podría así verificar y estandarizar datos incompletos. En consecuencia, una parte del conjunto de datos se certificaría como conforme, pero la totalidad del conjunto de datos aún tendría fechas sin verificar. Dos versiones de un mismo conjunto de datos pueden provocar resultados inconsistentes. Una auditoría final de los resultados podría ser necesaria para descubrir qué fue lo que sucedió y corregir todas las fechas. 
+
+    La transferencia de datos puede comprometer la integridad de los datos: Otro analista controla las fechas en una hoja de cálculo y elije importar los datos validados y estandarizados de nuevo a la base de datos. Pero supongamos que el campo de datos de la hoja de cálculo se clasificó erróneamente como campo de texto durante el proceso de importación (transferencia) de datos. Ahora, algunas de las fechas en la base de datos quedaron registradas como cadenas de texto. En este punto, se deben limpiar los datos deben para poder restaurar su integridad. 
+
+    La manipulación de datos puede comprometer la integridad de los datos: Al controlar las fechas, otro analista se da cuenta de lo que parece ser un registro duplicado en la base de datos y lo borra. Pero, en realidad, el analista borró un registro único de una filial de la empresa y no un registro duplicado de la empresa. A tu conjunto de datos ahora le faltan datos y los datos deben ser restaurados para que sean exhaustivos.
+
+Conclusión
+
+Afortunadamente, la integridad de los datos se puede mantener con un formato de fecha estándar y el cumplimiento normativo por parte de todas las personas y de los sistemas que trabajan con los datos. Pero más allá de dónde provienen tus datos, siempre debes asegurarte de controlar si los datos son válidos, están completos y limpios antes de comenzar cualquier tipo de análisis. 
+
+Referencias: Restricciones de datos y ejemplos
+
+A medida que avances en tu recorrido por los datos, encontrarás muchos tipos de restricciones relacionadas con los datos (o criterios que determinan su validez). La tabla que aparece a continuación detalla definiciones y ejemplos de términos sobre limitaciones de datos que podrías encontrar. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Equilibrio entre los objetivos y la integridad de los datos
+
+recordemos comprobar la integridad de los datos. 
+
+"También es importante comprobar que los datos que uses estén alineados con el objetivo comercial." 
+
+Esto agrega otra capa al mantenimiento de la integridad de tus datos porque los datos que estás usando podrían tener limitaciones con las que deberías lidiar. El proceso de hacer coincidir los datos con los objetivos comerciales puede ser bastante directo. Aquí te presentamos un ejemplo rápido. Digamos que eres un analista para una empresa que produce y vende autopartes. Si necesitas responder una pregunta sobre la ganancia generada por la venta de una pieza determinada, entonces deberías utilizar la tabla de ganancias del conjunto de datos. Si la pregunta es sobre opiniones de los clientes, deberías utilizar la tabla de opiniones para analizar los puntajes promedio. Pero antes de ahondar en cualquier análisis, debes considerar unas pocas limitaciones que pueden afectarlo. Si los datos no se limpiaron adecuadamente, no podrás usarlos. Deberás esperar hasta que se realice una limpieza exhaustiva. Ahora, 
+
+digamos que estás intentando saber cuánto gasta el cliente promedio. Observas que los datos del mismo cliente aparecen en más de una línea. Eso se denomina dato duplicado. 
+
+Para corregirlo, quizá debas cambiar el formato de los datos o quizá debas cambiar la forma en la que calculas el promedio. De lo contrario, parecerá que los datos corresponden a dos personas distintas y estarás atascado en cálculos engañosos. Puedes darte cuenta también de que no hay suficientes datos para completar un análisis preciso. Quizá tengas datos de ventas equivalentes a tan solo un par de meses. Existe una pequeña posibilidad de que podrías esperar a obtener más datos, pero es más probable que debas cambiar tu proceso o encontrar fuentes alternativas de datos mientras cumples con tu objetivo. Me gusta pensar en un conjunto de datos como en una fotografía. Toma esta fotografía. ¿Qué estás mirando? A menos que seas un viajero experto o conozcas el área, puede ser difícil elegir entre estas dos imágenes. Visualmente, es muy claro cuando no estamos viendo toda la imagen. Cuando obtienes el panorama completo, te das cuenta de que....¡estás en Londres! Con datos incompletos, es difícil ver el panorama completo para obtener un sentido real de qué sucede. A veces, confiamos en los datos porque si aparecen en filas y columnas, parecería que todo lo que necesitamos está ahí con solo realizar una consulta. Pero eso no es cierto. Recuerdo un momento cuando comprendí que no tenía suficientes datos y debía encontrar una solución. Estaba trabajando para una empresa minorista en línea y me pidieron que resolviera cómo acortar el plazo de entrega de las compras. Por lo general, una entrega más rápida hace que los clientes estén más felices. Cuando comprobé el conjunto de datos, encontré muy poca información sobre el seguimiento. Estábamos perdiendo algunos detalles importantes. De modo que, junto con los ingenieros de datos, creamos nuevos procesos para rastrear información adicional, como la cantidad de paradas en un viaje. Con esos datos, redujimos el tiempo que se tardaba desde la compra hasta la entrega y vimos una mejora en la satisfacción del cliente. ¡Eso se sintió genial! Aprender cómo resolver problemas con los datos mientras no pierdes de vista tu objetivo te ayudará a tener éxito en tu carrera como analista de datos. Y tu camino hacia el éxito continúa. Próximo paso: aprenderás más sobre cómo alinear los datos con los objetivos. Sigue así.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Objetivos y datos alineados
+
+Puedes obtener información muy valiosa y tomar decisiones precisas cuando los datos están alineados con los objetivos de negocios. Como analista de datos, la alineación es algo que deberás juzgar. Una buena alineación significa que los datos son relevantes y pueden ayudarte a resolver un problema corporativo o a decidir qué acción tomar para lograr un objetivo comercial específico. 
+
+En este sentido, revisarás los objetivos de negocios relacionados con tres escenarios. Explorarás cómo los datos limpios y los objetivos corporativos bien alineados pueden ayudarte a tomar decisiones más precisas. Además, aprenderás cómo las nuevas variables que descubras a través del análisis de datos pueden ayudarte a crear restricciones de datos para alinear datos con un objetivo de negocios.  
+Limpieza de datos + alineación al objetivo de negocio = conclusiones precisas
+Objetivo comercial
+
+Los administradores de cuentas en Impress Me, una empresa de servicios de contenido en línea, quieren conocer la rapidez con que sus usuarios pueden ver el contenido después de que se activan sus suscripciones. 
+
+Para comenzar, el analista de datos verifica si los datos exportados a las hojas de cálculo están limpios y confirma que los datos que necesita se encuentren disponibles (cuando los usuarios acceden al contenido). Con esta información, el analista decide si hay una buena alineación de los datos respecto del objetivo comercial. Lo único que falta entonces es darse cuenta exactamente cuánto tiempo le lleva a cada usuario ver el contenido después de que se activa su suscripción.
+
+A continuación, se incluyen los pasos del procesamiento de datos que realiza el analista para un usuario de una cuenta llamada V&L Consulting. (Estos pasos deberían repetirse para cada cuenta que se suscribe y para cada usuario relacionado con esa cuenta).
+
+Consejo de expertos 1
+
+En el proceso detallado arriba, el analista podría usar la función VLOOKUP para buscar los datos en los Pasos 1, 2 y 3 para completar los valores en la hoja de cálculos mencionada en el Paso 4. VLOOKUP
+
+ es la función de una hoja de cálculo que busca cierto valor en una columna y arroja la información relacionada. Se puede ahorrar mucho tiempo usando la función VLOOKUP. Sin ella, tienes que buscar fechas y nombre de forma manual.
+
+Puedes consultar más información en la página VLOOKUP
+
+ del Centro de asistencia de Google para conocer cómo usar la función en Google Sheets.
+Consejo de expertos 2
+
+En el Paso 4 del proceso mencionado, el analista podría usar la función DATEDIF para calcular automáticamente la diferencia entre las fechas de la columna C y la columna D. Esta función calcula el número de días entre dos fechas. 
+
+Puedes consultar más información en la página DATEDIF
+ del Soporte técnico de Microsoft para conocer cómo se usa esta función en Excel. La función DAYS360
+
+ hace lo mismo en hojas de cálculo con datos contables que utilizan un año de 360 días (12 meses de 30 días).
+
+Puedes consultar más información en la página DATEDIF
+
+ del Centro de asistencia de Google para conocer cómo usar la función en Google Sheets.
+Alineación con el objetivo comercial + limpieza de datos adicional = conclusiones precisas 
+Objetivo comercial
+
+Recientemente, la empresa de software Cloud Gate llevó a cabo una serie de seminarios públicos como introducción a sus productos de manera gratuita. El analista de datos y el gerente del programa del webinar quieren identificar a las empresas con cinco o más asistentes a estas sesiones. Quieren darle esta lista de empresas a los gerentes de ventas para que hagan un seguimiento para posibles ventas.  
+
+Limpieza de datos
+
+Los datos de asistencia al webinar parecían estar alineados con el objetivo comercial. Pero el analista de datos y el gerente del programa decidieron que hacía falta realizar una limpieza de datos antes del análisis. Creen que se necesita llevar a cabo una limpieza de datos porque:
+
+    El nombre de la empresa no era un campo obligatorio. Si el nombre de la empresa quedaba vacío, podría obtenerse de la dirección de correo electrónico. Por ejemplo, si la dirección de correo electrónico es username@google.com, el campo del nombre de la empresa se podría completar con Google para el análisis de datos. Este paso de limpieza de datos supone que personas con direcciones de correo electrónico corporativo asistieron al webinar con fines comerciales.
+
+    Los asistentes podían ingresar cualquier nombre. Sin embargo, dado que su asistencia a una serie de webinars se está controlando, deben validar sus nombres con direcciones de correo específicas. Por ejemplo, si Joe Cox asistió a dos webinars, pero accedió como Joe Cox en uno de ellos y como Joseph Cox en el otro, podría ser contabilizado como dos personas diferentes. Para evitar esto, necesitan controlar la dirección de correo electrónico específica para determinar si era la misma persona. Luego de la validación, Joseph Cox podría ser modificado a Joe Cox para que coincida con el otro nombre.
+
+Alineación con el objetivo comercial + nuevas variables descubiertas + restricciones = conclusiones precisas 
+Objetivo comercial
+
+Una empresa de tutoría extraescolar, A+ Education, quiere conocer si hay un número mínimo de horas de tutoría requerido para que los alumnos mejoren los resultados de sus evaluaciones al menos un 10%. 
+
+The data analyst thinks there is good alignment between the data available and the business objective because:
+
+    Students log in and out of a system for each tutoring session, and the number of hours is tracked
+
+    Assessment scores are regularly recorded  
+
+El analista de datos considera que hay una buena alineación entre los datos disponibles y el objetivo comercial porque:
+
+    Los estudiantes inician y cierran sesión en un sistema para asistir a casa sesión de tutoría y se controla el número de horas
+
+    Los resultados de las evaluaciones se registran regularmente  
+
+Restricciones de datos para nuevas variables
+
+Luego de mirar los datos, el analista de datos descubre que hay otras variables a considerar. Algunos alumnos tienen sesiones semanales constantes y otros tienen sesiones programadas de manera más aleatoria, a pesar de que el número de horas de tutoría es la misma. Finalmente, los datos no se alinean tan bien con el objetivo comercial, por lo tanto el analista agrega una restricción de datos para enfocarse solamente en los alumnos con sesiones semanales constantes. Esta modificación ayuda a obtener una visión más precisa sobre el tiempo de inscripción que se necesita para alcanzar una mejora del 10% en los resultados de evaluaciones. 
+Conclusiones clave
+
+Espero que estos ejemplos te hayan brindado un panorama de lo que estabas buscando aprender sobre la alineación de datos con tu objetivo comercial. 
+
+    Cuando tienes datos claros y una buena alineación, puedes obtener información precisa y sacar conclusiones respaldadas por datos.
+
+    Si hay una buena alineación, pero se necesita limpiar los datos, limpia los datos antes de realizar el análisis. 
+
+    Si los datos se alinean solo parcialmente con un objetivo, cómo puedes modificar el objetivo o usa restricciones
+
+     de datos para asegurarte de que el subconjunto de datos se alinea mejor con el objetivo comercial.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video:Que hacer en caso de datos insuficientes.
+
+Todos los analistas estuvieron en la situación en la que los datos son insuficientes para el objetivo comercial. Considerando la cantidad de datos que se generan diariamente, puede ser difícil de creer, pero es verdad. Entonces, 
+
+"Veamos qué puedes hacer cuando tus datos no son suficientes." 
+
+Veremos cómo establecer límites para el alcance de tu análisis y qué datos deberías incluir. En un momento, fui analista de datos en un centro de soporte. Todos los días recibíamos preguntas de los clientes, que se registraban como tickets de soporte. Me pidieron una proyección del número de tickets de soporte entrantes por mes para determinar cuántas personas adicionales necesitábamos contratar. Era muy importante tener una cantidad suficiente de datos que se remontasen como mínimo a un par de años atrás porque debía informar cambios interanuales y estacionales. Si solo hubiera tenido disponibles los datos del año en curso, no hubiera sabido que es normal un pico en enero y tiene que ver con las personas que piden reembolsos después de las fiestas. Como tenía una cantidad suficiente de datos, pude sugerir la contratación de más personal en enero para estar preparados. Es inevitable que aparezcan desafíos, pero las buenas noticias son que una vez que conoces tu objetivo comercial, podrás reconocer si tienes suficientes datos. Y si no los tienes, podrás resolverlo antes de comenzar tu análisis. Ahora, veamos algunas de esas limitaciones con las que puedes encontrarte y cómo puedes manejar 
+
+Distintos tipos de datos insuficientes. 
+
+Digamos que estás trabajando en la industria del turismo y necesitas saber cuáles son los planes de viaje buscados con más frecuencia. 
+
+.Si solamente usas datos de un sitio de reservas, te estás limitando a los datos de una fuente únicamente. Otros sitios de reservas pueden mostrar distintas tendencias que quisieras considerar para tu análisis. Si una limitación como esta afecta tu análisis, puedes detenerte aquí y consultar nuevamente con los interesados para trazar un plan. 
+
+.Si tu conjunto de datos se sigue actualizando, significa que todavía hay ingreso de datos y pueden no estar completos. Por lo tanto, si hay una atracción turística nueva y estás analizando el interés y la concurrencia, probablemente no haya suficientes datos para que determines las tendencias. Por ejemplo, podrías querer esperar un mes para recolectar más datos. También puedes comprobar con los interesados y pedirles ajustar el objetivo. Por ejemplo, podrías analizar tendencias semana por semana en lugar de mes a mes. También podrías basar tu análisis en tendencias de los últimos tres meses y decir: "Así es como se vería la concurrencia a la atracción para el mes cuatro". Puedes no tener suficientes datos para saber si este número es demasiado alto o demasiado bajo. Pero le dirías a los interesados que es tu mejor cálculo basado en los datos que tienes actualmente. 
+
+.Por otra parte, tus datos podrían ser más antiguos y ya no ser pertinentes. Los datos desactualizados sobre la satisfacción al cliente no incluirán las respuestas más recientes. De modo que estarás confiando en las calificaciones para hoteles o alquileres de verano que podrían ya no ser precisos. En este caso, tu mejor opción sería encontrar un nuevo conjunto de datos para trabajar. 
+
+.Los datos limitados geográficamente también pueden ser poco confiables. Si tu empresa es global, no querrías usar datos limitados a viajes en solo un país. Querrías un conjunto de datos que incluyera a todos los países. De modo que esa es una de las limitaciones más comunes que encontrarás y algunas de las formas de resolverlas. Puedes identificar las tendencias con los datos disponibles o esperar más datos si el tiempo lo permite; también puedes hablar con los interesados y ajustar tu objetivo; o puedes buscar un conjunto de datos nuevo. La necesidad de tomar esas decisiones dependerá de tu rol en la empresa y posiblemente de las necesidades de la industria en general. Pero aprender cómo abordar los datos insuficientes siempre es una forma genial de prepararte para el éxito. Tus facultades como analista de datos están fortaleciéndose. Y justo a tiempo. Después de aprender más sobre limitaciones y soluciones, también aprenderás sobre poder estadístico, otra herramienta fantástica para que uses.
+
+Distintos tipos de datos insuficientes. 
+-> Si solamente usas datos de un sitio de reservas
+-> Si tu conjunto de datos se sigue actualizando
+-> Si tus datos podrían ser más antiguos y ya no ser pertinentes
+-> Si los datos limitados geográficamente también pueden ser poco confiables
+
+Formas de manejar los datos insuficientes
+-> Identificar las tendencias de datos disponibles
+-> Buscar un conjunto de datos nuevos
+-> Puedes hablar con los interesados y ajustar los objetivos
+-> Buscar datos nuevos.
+________________________________________________________________________
+ Si tienes que completar tu análisis con datos insuficientes, ¿cómo tratarías esta limitación?
+
+Si tienes datos insuficientes, puedes identificar tendencias con los datos disponibles y calificar tus resultados de acuerdo con ello.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Qué hacer cuando encuentras un problema en tus datos
+
+Cuando te preparas para realizar un análisis de datos, podrías darte cuenta de que no tienes los datos que necesitas o que no son suficientes. En algunos casos, puedes usar lo que se conoce como datos indirectos en lugar de datos reales. Considéralo como si se tratara de reemplazar aceite por manteca en una receta, cuando no tienes manteca. En otros casos, puede no haber un sustituto razonable y tu única opción será recopilar más datos.
+
+Considera los siguientes problemas y sugerencias sobre datos y cómo los puedes resolver.
+
+cuadro de texto en imagen
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video:La importancia del tamaño de la muestra
+
+antes hablamos de tener el tipo correcto de datos para cumplir con tus objetivos comerciales y la importancia de tener la cantidad correcta de datos para asegurarte de que tu análisis sea lo más preciso posible. Quizás recuerdes que para los analistas de datos. 
+
+Una Población representa a todos los valores de datos posibles de un conjunto de datos determinado. 
+
+Si puedes usar el 100% de una población en tu análisis, ¡es genial! Pero a veces recabar información sobre una población entera no es posible. Consume mucho tiempo o es muy caro. Por ejemplo, digamos que una organización internacional quiere saber más sobre dueños de mascotas que tienen gatos. Tu tarea es determinar qué tipo de juguetes prefieren los dueños de gatos en Canadá. Pero hay millones de dueños de gatos en Canadá, de manera que obtener datos de todos ellos sería un desafío enorme. Pues bien, ¡no temas! Permíteme presentarte..... ¡al tamaño de la muestra! Cuando utilizas un: 
+
+Tamaño de muestra o una muestra, usas una parte de una población que es representativa de la población. 
+
+El objetivo es obtener suficiente información de un grupo pequeño dentro de una población para formular predicciones o conclusiones sobre la población total. El tamaño de la muestra ayuda a asegurar el grado respecto del cual puedes estar confiado en que tus conclusiones representan con precisión a la población. Para los datos sobre dueños de gatos, un tamaño de la muestra podría incluir datos sobre cientos o miles de personas en lugar de millones. Usar una muestra para análisis es más rentable y lleva menos tiempo. Si se hace con cuidado y a conciencia, puedes obtener los mismos resultados usando un tamaño de muestra en lugar de intentar encontrar a cada uno de los dueños de los gatos para averiguar cuáles son sus juguetes favoritos. Sin embargo, existe una desventaja potencial. Cuando utilizas únicamente una muestra pequeña de una población, puede llevar a la incertidumbre. No puedes estar el 100% seguro de que tus estadísticas son una representación precisa y completa de la población. Esto lleva a un sesgo del muestreo, que se trató anteriormente en el programa. 
+
+El sesgo del muestreo ocurre cuando una muestra no es representativa de la población en su conjunto. 
+
+ Esto significa que algunos miembros de la población están siendo sobre o subrepresentados. Por ejemplo, si la encuesta usada para recoger datos de los dueños de gatos solamente incluyó a personas con teléfonos inteligentes; entonces, los dueños de gatos que no tienen un teléfono inteligente no estarían representados en los datos. Utilizar un muestreo aleatorio puede ayudar a resolver algunos de esos problemas relacionados con el sesgo del muestreo. 
+
+El muestreo aleatorio es una forma de seleccionar una muestra de una población de manera que cada tipo posible de la muestra tenga una posibilidad igual de ser elegido. 
+
+Volviendo a los dueños de gatos, usar una muestra aleatoria de dueños de gatos significa que los dueños de gatos de cada tipo tienen una posibilidad igual de ser elegidos. Los dueños de gatos que viven en departamentos en Ontario tendrían la misma posibilidad de ser representados que aquellos que viven en casas en Alberta. Como analista de datos, encontrarás que crear tamaños de muestras usualmente se hace aún antes de recibir los datos. Pero aun así es bueno que sepas que los datos que vas a analizar son representativos de una población y sirven para tu objetivo. También es bueno saber con qué te encontrarás a continuación en tu recorrido por los datos. En el próximo vídeo, tendrás la opción de sentirte aún más cómodo con los tamaños de las muestras.
+____________________________________________________________________________
+¿Cuáles son algunos de los posibles desafíos asociados al uso del 100% de la población en el análisis de datos? 
+Usar el 100% de una población consume tiempo y es caro.
+Las empresas generalmente determinan los tamaños de las muestras antes de que los analistas vean los datos.
+
+Las empresas generalmente determinan los tamaños de las muestras del análisis de datos de modo que los analistas sepan que los conjuntos de datos resultantes son representativos de una población.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Cómo calcular el tamaño de la muestra
+
+Antes de profundizar en el tamaño de la muestra, puedes familiarizarte con los siguientes términos y condiciones
+
+Puntos para recordar al momento de determinar el tamaño de tu muestra
+
+Al planificar el tamaño de una muestra, hay algunos puntos para tener en cuenta:
+
+    No utilizar muestras menores de 30. Está probado estadísticamente que 30 es el tamaño mínimo de muestra a partir del cual el resultado promedio de la muestra comienza a representar el resultado promedio de la población.
+
+    El nivel de confianza comúnmente utilizado es 95%, pero 90% puede funcionar en algunos casos. 
+
+Aumentar el tamaño de la muestra para cumplir con ciertas necesidades del proyecto:
+
+    Para un mayor nivel de confianza, utilizar un tamaño de muestra más grande
+
+    Para disminuir el margen de error, utilizar un tamaño de muestra más grande
+
+    Para una mayor significancia estadística, utilizar un tamaño de muestra más grande
+
+Nota: Las calculadoras de tamaños de las muestras utilizan fórmulas estadísticas para determinar el tamaño de una muestra. ¡Encontrarás más información sobre este tema en el curso! Mantente atento.
+¿Por qué un tamaño mínimo de muestra de 30?
+
+Esta recomendación está basada en el Teorema del límite central (TLC) del campo de probabilidades y estadísticas. A medida que aumenta el tamaño de la muestra, los resultados se asemejan más a la distribución normal (en forma de campana) de una gran cantidad de muestras. El mínimo de la muestra es 30 para que el teorema TLC sea válido. Los investigadores que se basan en el análisis de regresión (métodos estadísticos para determinar las relaciones entre variables controladas y dependientes) también prefieren un mínimo de muestra de 30.
+
+¿Te interesa conocer más sobre este tema? Sin ahondar en los cálculos matemáticos, lee estos artículos: 
+
+    Teorema del límite central (TLC)
+
+: Este artículo de Investopedia explica el Teorema del límite central y describe brevemente cómo se aplica a un análisis de un índice bursátil. 
+
+Fórmula del tamaño de la muestra
+
+    : Este artículo sobre Soluciones estadísticas brinda más detalles sobre los motivos por los cuales algunos investigadores utilizan un mínimo de muestra de 30.
+
+Los tamaños de muestras varían según el problema del negocio
+
+El tamaño de la muestra variará en base al tipo de problema del negocio que estés intentando resolver. 
+
+Por ejemplo, si vives en una ciudad con una población de 200,000 personas y 180,000 personas responden una encuesta, este es un tamaño de muestra grande. Pero sin hacer eso, ¿qué tamaño debería tener una muestra más pequeña para ser aceptable? 
+
+¿Estaría bien si las 200 personas encuestadas representan a cada uno de los distritos en la ciudad? 
+
+Respuesta: Depende de lo que esté en juego. 
+
+    Una muestra de 200 podría ser lo suficientemente grande si tu problema comercial es descubrir qué opinan los residentes sobre la nueva biblioteca.
+
+    Una muestra de 200 podría no ser lo suficientemente grande si tu problema comercial es determinar cómo votarían los residentes para financiar la biblioteca
+
+Podrías probablemente aceptar un margen de error más amplio en una encuesta sobre qué opinan los residentes sobre la nueva biblioteca versus la encuesta sobre cómo votarían para financiarla. Por ese motivo, seguramente utilizarías un tamaño de muestra mayor para la encuesta sobre la votación.
+
+Los tamaños de encuestas más grandes son más costosos
+
+También debes evaluar el costo frente al beneficio de obtener resultados más precisos con un tamaño de muestra más grande. Alguien que intenta conocer las preferencias de los consumidores sobre una nueva línea de productos no necesitaría un tamaño de muestra tan grande como alguien que intenta conocer los efectos de una nueva droga. En el caso de la seguridad de los medicamentos, los beneficios superan el costo adicional de utilizar un tamaño de muestra más grande. Pero para las preferencias de los consumidores, una muestra más pequeña podría brindar resultados aceptables a menor costo.
+
+El beneficio de conocer los aspectos básicos
+
+Conocer los aspectos básicos te ayudará a tomar decisiones correctas al momento de elegir el tamaño de la muestra. Siempre puedes plantear tus dudas en caso de que te encuentres con tamaños de muestras que sean demasiado pequeñas. Una calculadora de tamaño de muestras también es una gran herramienta para utilizar en este caso. Las calculadoras de tamaños de muestras te permiten ingresar el nivel de confianza y el margen de error deseados para una población de un tamaño determinado. Luego, calculan el tamaño de la muestra para lograr estadísticamente esos resultados. 
+
+Para obtener más información, mira el vídeo Cómo determinar el mejor tamaño de una muestra
+ para conocer cómo funciona una calculadora de tamaños de muestras, o lee el artículo sobre la Calculadora de tamaño de muestras
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Como usar el poder estadistico
+
+El poder estadístico es la probabilidad de obtener resultados significativos de una prueba. 
+
+Creo que este no es un superpoder con el cual hayan soñado. Aun así, es un poder bastante genial. Para los analistas de datos, tus proyectos pueden comenzar con la prueba o el estudio. 
+
+La prueba de hipótesis es una forma de ver si una encuesta o experimento tiene resultados significativos. 
+
+Aquí hay un ejemplo: Digamos que trabajas en una cadena de restaurantes que está planificando una campaña de marketing para sus nuevos batidos. Debes realizar una prueba de publicidad en un grupo de clientes antes de realizarla a nivel nacional. En la prueba, quieres verificar si a los clientes les gusta o no la campaña. También quieres descartar cualquier factor externo a la publicidad que pueda llevarlos a indicar que no les gusta ese aviso. Utilizar a todos tus clientes llevaría mucho tiempo y sería muy caro. Por lo tanto, necesitas saber cuántos clientes necesitarás para demostrar que la publicidad es efectiva. Cincuenta probablemente no serían suficientes. Incluso si eligieras 50 clientes al azar, podrías terminar con clientes a quienes no les gustan para nada los batidos. Y si eso sucede, no podrás medir la efectividad de tu publicidad para obtener más pedidos de batidos dado que ninguno de los que están en el tamaño de la muestra los pediría. Es por eso por lo que necesitas un tamaño mayor de muestra: para que puedas asegurarte de obtener un buen número de todos los tipos de personas para tu prueba. Usualmente, cuanto más grande es el tamaño de la muestra, mayor será la posibilidad de obtener resultados estadísticamente significativos con tu prueba. Y ese es el poder estadístico. En este caso, usar tantos clientes como sea posible mostrará las diferencias reales entre los grupos a quienes les gusta o no versus las personas cuya decisión no estaba basada en absoluto en la publicidad. Existen formas de calcular con precisión el poder estadístico, pero no vamos a verlas ahora. Puede que necesites hacer ese cálculo por ti mismo como analista de datos. Por ahora, debes saber que el poder estadístico generalmente se muestra como un valor de uno. De manera que si tu poder estadístico es 0.6; es lo mismo que decir 60%. En la prueba de la publicidad del batido, si calculaste un poder estadístico de 60%, eso significa que existe un 60% de posibilidades de que obtengas un resultado estadísticamente significativo en la eficacia de la publicidad. "Estadísticamente significativo" es un término utilizado en estadísticas. Si quieres aprender más sobre el significado técnico, puedes buscar en línea. Pero en términos básicos, si una prueba es estadísticamente significativa, eso significa que los resultados de la prueba son reales y no un error causado por factores aleatorios. De manera que hay 60% de chances de que los resultados de la prueba de publicidad del batido sean confiables y reales y un 40% de chances de que el resultado de la prueba sea incorrecto. Usualmente, se necesita un poder estadístico de al menos 0.8 u 80% para considerar que tus resultados son estadísticamente significativos. Consideremos un escenario más. Quedémonos con los batidos porque, bueno, porque me gustan los batidos. Imagina que trabajas en una cadena de restaurantes que quiere lanzar un nuevo batido con sabor a torta de cumpleaños con sabor a batido. El costo de producción de este batido será más caro que el de tus otros batidos. Tu empresa espera que el entusiasmo por el nuevo sabor atraiga a más clientes y dinero para compensar el costo. Quieren probarlo primero en algunos restaurantes. Entonces, pensemos cuántos locales deberías usar para que tus resultados sean confiables. Primero, deberías pensar qué es lo que evita que consigas resultados estadísticamente significativos. ¿Hay otros restaurantes que estén ofreciendo otras promociones que puedan atraer a nuevos clientes? ¿Algunos de esos restaurantes tienen clientes que siempre compran el producto más nuevo, sin importar qué es? ¿Algunos de esos restaurantes comenzaron algunas construcciones que evitarían que los clientes fueran al restaurante? Para lograr un poder estadístico más alto, deberías considerar todos estos factores antes de decidir cuántos locales incluir en el tamaño de la muestra para tu estudio. Quieres asegurarte de que cualquier efecto se deba, más probablemente, al nuevo sabor del batido, no a otros factores. Los efectos mensurables serían un incremento en las ventas o el número de clientes en los locales en el tamaño de tu muestra. Muy bien, eso es todo por ahora. Próximamente, vamos a explorar los tamaños de las muestras en detalle, para obtener una mejor idea de cómo impactan en tus pruebas y estudios. Mientras tanto, has aprendido un poco más sobre los batidos y los superpoderes. Y, por supuesto, sobre el poder estadístico. Lamentablemente, solo el poder estadístico puede ser realmente útil para los analistas de datos. Sin embargo, ponerme mi capa y volar a comprar un batido justo ahora suena bastante bien.
+_____________________________________________________________________________________
+
+¿Qué poder estadístico generalmente se considera como el mínimo para significancia estadística?
+ Un poder estadístico de 0.8 u 80% generalmente se considera como el mínimo para significancia estadística.
+
+"El poder estadístico se puede calcular e informar respecto de un experimento completo a fin de realizar comentarios sobre la confianza que uno puede tener en las conclusiones sacadas de los resultados del estudio. También se puede usar como herramienta para calcular el número de observaciones o el tamaño de la muestra con el fin de detectar un efecto en un experimento".
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Qué hacer cuando no hay datos
+
+Anteriormente aprendiste cómo podías hacer un análisis utilizando datos indirectos si no tienes datos. Debido a que puedes tener algunas preguntas sobre los datos indirectos, en esta lectura te daremos algunos ejemplos de los tipos de conjunto de datos que pueden servir como fuentes de datos alternativos.
+Ejemplos de datos indirectos
+
+A veces, los datos que respaldan un objetivo comercial no serán de fácil acceso. Aquí es donde los datos indirectos son útiles. A continuación, podrás observar escenarios con ejemplos de datos indirectos:
+
+Conjunto de datos abiertos (de acceso público)
+
+Si eres parte de una gran organización, es posible que tengas acceso a una gran cantidad de fuentes de datos. Pero si buscas algo específico o algo que no pertenezca a tu misma línea de negocios, también puedes utilizar conjuntos de datos abiertos o de acceso público. (En este artículo puedes encontrar una brece explicación de la diferencia entre los datos abiertos y públicos: Hacia la ciencia de datos
+
+).
+
+Aquí hay un ejemplo. Recientemente se ha puesto a disposición la versión nasal de una vacuna. Una clínica quiere saber qué esperar respecto de las contraindicaciones, pero recién ha comenzado a recopilar datos de primera fuente de sus pacientes. Una contraindicación es una condición que puede hacer que un paciente no se aplique una vacuna por el daño que le podría ocasionar si lo hace. Para calcular el número posible de contraindicaciones, los analistas de datos toman de referencia un conjunto de datos abierto de un ensayo de la versión inyectable de la misma vacuna. El analista selecciona un subconjunto de datos con perfiles de pacientes que más se acercan a la composición de los pacientes de la clínica. 
+
+Hay muchas formas de compartir datos y colaborar con el aporte de datos dentro de una comunidad. Kaggle (kaggle.com
+), mencionada anteriormente, tiene conjuntos de datos en diversos formatos que incluyen desde el más básico hasta archivos en formato de valores separados por comas (CVS).
+
+Conjuntos de datos CSV, JSON, SQLite y BigQuery
+
+    CSV: Analiza este conjunto de datos Clientes de tarjetas de crédito
+
+, que tiene información de 10,000 clientes con su respectiva edad, salario, estado civil, tarjeta de crédito y categoría, etc. (CC0: Dominio público, Sakshi Goyal). 
+
+JSON: Analiza este conjunto de datos de JSON sobre Vídeos de YouTube que son tendencia
+
+ (CC0: Dominio público, Mitchell J).
+
+SQLite: Analiza este conjunto de datos de SQLite con datos de hace 24 años sobre Incendios forestales en los Estados Unidos
+
+ (CC0: Dominio público, Rachael Tatman).
+
+BigQuery: Analiza este conjunto de datos de Google Analytics 360
+
+     de la Tienda de Merchandising de Google (CC0 Dominio público, Google BigQuery).
+
+Consulta la documentación para conjuntos de datos
+ de Kaggle para obtener más información y busca y explora conjuntos de datos por tu cuenta en kaggle.com/datasets
+
+.
+
+Tal como sucede con otros tipos de conjuntos de datos, deberás estar atento a los datos ‘Nulos’ y a los duplicados en los conjuntos de datos abiertos. Los datos nulos generalmente significan que un campo de datos no fue asignado (quedó vacío), pero a veces el término Nulo puede ser interpretado como el valor 0. Es importante entender cómo se utilizó el término Nulo antes de comenzar a analizar un conjunto de datos con datos Nulos. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Como determinar el mejor tamaño de la muestra
+
+vamos a ver en más detalle los tamaños de las muestras y la integridad de los datos. Si alguna vez estuviste en una tienda donde entregan muestras, sabes que ese es uno de los pequeños placeres de la vida. ¡Al menos para mí! Esas pequeñas muestras también son una forma muy inteligente de parte de las empresas para conocer más sobre sus productos a través de los clientes sin tener que entregar a todos una muestra gratis. Muchas empresas usan el tamaño de las muestras de manera similar. Toman una parte de algo más grande. En este caso, una muestra de una población. Algunas veces, realizarán pruebas complejas en sus datos para ver si cumplen con sus objetivos comerciales. Nosotros no profundizaremos en todos los cálculos que se necesitan para hacer todas estas pruebas de manera efectiva. En cambio, nos enfocaremos en la "idea general": ver el proceso y qué comprende. A modo de recordatorio: 
+
+El tamaño de la muestra es una parte de una población que es representativa de toda la población. 
+
+Para las empresas, es una herramienta muy importante. Puede resultar caro y llevar mucho tiempo analizar una población entera de datos. Utilizar un tamaño de muestra generalmente es lo más lógico e, incluso, puede derivar en conclusiones válidas y útiles. Existen calculadoras disponibles en línea que pueden ayudarte a calcular el tamaño de la muestra. Debes ingresar el nivel de confianza, el tamaño de la población y el margen de error. Ya hemos hablado antes sobre el tamaño de la población. Para avanzar, aprenderemos sobre el nivel de confianza y el margen de error. Conocer estos conceptos te ayudará a entender por qué los necesitas para calcular el tamaño de la muestra. 
+
+El nivel de confianza es la probabilidad de que tu muestra refleje de manera precisa la mayor parte de la población. 
+
+Puedes considerarlo como si se tratase de la confianza en cualquier otra cosa. Es la intensidad que sientes y te permite saber si puedes confiar en algo o en alguien. 
+"Tener el 99% de confianza es lo ideal. Pero la mayoría de las industrias esperan como mínimo tener un 90 o 95% de nivel de confianza." 
+Las industrias como la farmacéutica generalmente quieren un nivel de confianza que sea lo más alto posible cuando utilizan un tamaño de muestra. Esto tiene sentido porque se realizan pruebas en medicamentos y es necesario tener certeza de que funcionan y son seguros para el uso masivo. Para otros estudios, las organizaciones quizá solo deben saber que los resultados de las pruebas o las encuestas los están llevando por la dirección correcta. Por ejemplo, si una empresa de pintura está realizando pruebas en colores nuevos, está bien un nivel de confianza menor. También debes considerar el margen de error de tu estudio. Aprenderás más acerca de este tema pronto, pero básicamente indica si los resultados del tamaño de tu muestra se aproximan o no a lo que serían tus resultados si usaras toda la población que está representada en el tamaño de tu muestra. Piénsalo de esta manera. Digamos que el director de una escuela secundaria te pide un estudio sobre las preferencias de dulces de los estudiantes. Necesitan conocer un tamaño de muestra apropiado y lo necesitan ahora. La escuela tiene una población de 500 estudiantes, y están pidiendo un nivel de confianza del 95% y un margen de error del 5%. Incluimos una calculadora en la hoja de cálculo, pero también puedes encontrar fácilmente este tipo de calculadora buscando "calculadora de tamaño de muestras" en Internet. Del mismo modo que en esas calculadoras, nuestra hoja de cálculo no muestra ningún tipo de cálculos más complejos para determinar el tamaño de la muestra. Todo lo que debemos hacer es ingresar los números de nuestra población, el nivel de confianza y el margen de error. Y cuando escribimos 500 para el tamaño de la población, 95 para nuestro porcentaje de nivel de confianza, 5 para nuestro porcentaje de margen de error el resultado es aproximadamente 218. Para este estudio, eso significa que un tamaño apropiado de muestra sería 218. Si encuestáramos a 218 estudiantes y encontráramos que el 55% de ellos prefiere el chocolate, entonces podríamos estar bastante seguros de que esto sería verdad para los 500 estudiantes. 218 es el número mínimo de personas que necesitamos encuestar con base en nuestro criterio de 95% como nivel de confianza y 5% como margen de error. En caso de que te preguntes, el nivel de confianza y el margen de error no deben sumar 100%. Son independientes uno de otro. Entonces, digamos que cambiamos nuestro margen de error de 5% a 3%. Por lo tanto, nuestro tamaño de muestra debería ser más grande, aproximadamente 341 en lugar de 218, para hacer que los resultados del estudio sean más representativos de la población. Practica libremente con la calculadora en línea. Conocer el tamaño de muestra y cómo calcularlo te ayudará cuando trabajes con datos. Tenemos más conocimientos útiles para ofrecerte, incluso sobre el margen de error.
+____________________________________________________________________________________________
+Para calcular el tamaño de la muestra usando una calculadora en línea, es necesario ingresar: 
+
+-> El nivel de confianza 
+-> El margen de error 
+-> El tamaño de la población.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Calculadora de tamaño de muestra
+
+En esta lectura, aprenderás los conceptos básicos de las calculadoras de tamaño de muestras, cómo utilizarlas y cómo interpretar los resultados. Una calculadora de tamaño de muestras te indica cuántas personas necesitas para la encuesta (o cuántas cosas necesitas evaluar) para obtener resultados que representen a la población objetivo. Veamos algunos términos con los que te encontrarás al utilizar una calculadora de tamaño de muestras:
+
+    Nivel de confianza: El grado de probabilidad de que el tamaño de tu muestra refleje con precisión a la mayoría de la población.
+
+    Margen de error: Cantidad máxima que se espera que los resultados de la muestra difieran de los de la población real.
+
+    Población: Es el número total del cual deseas extraer tu muestra.
+
+    Muestra: Es una parte representativa de la población.
+
+    Tasa de respuesta estimada: Si estás realizando una encuesta de personas, esta tasa representa qué porcentaje esperas que complete tu encuesta de las personas que recibieron la encuesta.
+
+Cómo usar una calculadora de tamaño de muestras
+
+Para usar una calculadora de tamaño de muestras, necesitas conocer el tamaño de la población, el nivel de confianza y el margen de error aceptable que se definió para poder ingresar esa información en la herramienta. Si cuentas con toda esa información, a continuación, podrás ver ejemplos sobre cómo funciona la calculadora de tamaño de muestras:
+
+    Calculadora de tamaño de muestras de surveymonkey.com
+
+Calculadora de tamaño de muestras de raosoft.com
+
+Qué hacer con los resultados
+
+Después de que hayas cargado la información en alguna de estas calculadoras, aparecerá el tamaño de muestra sugerido. Recuerda que el tamaño de muestra calculado es el número mínimo que debes utilizar para alcanzar lo que cargaste como nivel de confianza y margen de error esperado. Si estás trabajando con una encuesta, también deberás pensar cuál es la tasa de respuesta estimada para definir cuántas encuestas necesitas enviar. Por ejemplo, si necesitas un tamaño de muestra de 100 personas y tu tasa de respuesta estimada es del 10%, necesitarás enviar tu encuesta a 1,000 personas para alcanzar las 100 respuestas que necesitas para tu análisis. 
+
+Ahora que conoces los conceptos básicos, intenta realizar algunos cálculos utilizando las calculadoras de tamaño de muestras y vuelve a esta lectura si necesitas repasar algunas definiciones. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Evaluar la confibilidad de tus datos
+
+Anteriormente hablamos sobre el margen de error sin explicarlo del todo. Bien, vamos a ver qué está bien o mal en este vídeo, ya que explicaremos mejor qué es el margen de error. Incluso incluiremos un ejemplo de cómo calcularlo. Como analista de datos, es importante que calcules el tamaño de las muestras y las variables como el nivel de confianza y el margen de error antes de comenzar a realizar cualquier tipo de pruebas o encuestas. Es la mejor forma de asegurar la objetividad de tus resultados y te brinda una mayor posibilidad de obtener resultados estadísticamente importantes. Pero si ya conoces el tamaño de la muestra, como, por ejemplo, cuando recibes resultados de encuestas para analizar; entonces, puedes calcular el margen de error tú mismo. De ese modo tendrás una mejor idea de cuál es la diferencia entre tu muestra y tu población. Empezaremos por el principio con una definición más completa. 
+
+El margen de error es el máximo que se espera que difieran los resultados de la muestra de los de la población real. 
+
+Pensemos en un ejemplo de margen de error. Sería genial encuestar o realizar una prueba sobre una población entera, pero generalmente es imposible o poco práctico. Entonces, en cambio, se toma una muestra de la población más grande. Basado en el tamaño de la muestra, el margen de error resultante nos mostrará lo distinto que pueden ser los resultados comparados con los resultados si hubiéramos encuestado a toda la población. El margen de error te ayuda a entender lo confiable que son los datos de la prueba de tu hipótesis. Cuanto más cerca a cero esté el margen de error, más cerca los resultados de tu muestra coincidirán con los resultados de la población total. Por ejemplo, digamos que realizaste una encuesta nacional utilizando una muestra de la población. Le preguntaste a personas que trabajan cinco días a la semana si les gustaría la idea de trabajar cuatro días a la semana. De modo que tu encuesta dice que el 60% prefiere una semana de cuatro días. El margen de error fue del 10%, lo cual indica que entre el 50 y 70% de las personas les gustó la idea. De esta manera, si tuviéramos que encuestar a todos los trabajadores de cinco días en toda la nación, entre el 50 y el 70% estaría de acuerdo con nuestros resultados. Ten en cuenta que nuestro rango es entre el 50 y el 70%. Esto es así porque el margen de error se cuenta en ambas direcciones de los resultados de la encuesta de 60%. Si estableces un nivel de confianza de 95% para tu encuesta, habrá una posibilidad del 95% de que las respuestas de toda la población estén entre el 50 y el 70% que dirán que sí, que quieren una semana laboral de cuatro días. Dado que tu margen de error se superpone con la marca de 50%, no puedes asegurar que al público le agrada la idea de una semana laboral de cuatro días. En ese caso, tendrás que decir que tu encuesta fue no concluyente. Ahora, si querías un margen de error más bajo, por ejemplo, 5% con un rango entre 55 y 65%, podrías incrementar el tamaño de la muestra. Pero si te indicaron el tamaño de la muestra, puedes calcular el margen de error tú mismo. De ese modo, puedes decidir por ti mismo el nivel de probabilidad de que tus resultados sean estadísticamente significativos con base en tu margen de error. En general, a mayor cantidad de personas que incluyas en tu encuesta, será más probable que tu muestra sea representativa de toda la población. Disminuir el nivel de confianza también tendría el mismo efecto, pero eso haría menos probable que tu encuesta sea precisa. Es decir que, 
+
+Para calcular el margen de error, necesitas tres cosas: 
+
+-> El tamaño de la población. 
+-> El tamaño de la muestra.  
+-> El nivel de confianza. 
+
+Y del mismo modo que con el tamaño de la muestra, puedes encontrar muchas calculadoras en línea si buscas "calculadora de margen de error". Pero vamos a mostrarte en una hoja de cálculo del mismo modo que cuando calculamos el tamaño de la muestra. Digamos que estás realizando un estudio sobre la eficacia de un medicamento nuevo. Tienes un tamaño de muestra de 500 participantes cuya enfermedad afecta al 1% de la población mundial. Es decir, aproximadamente 80 millones de personas, que es la población para tu estudio. Dado que es un estudio sobre medicamentos, necesitas tener un nivel de confianza del 99%. También necesitas tener un margen de error bajo. Vamos a calcularlo. Vamos a escribir los números para la población, el nivel de confianza y el tamaño de la muestra, en las celdas correspondientes de la hoja de cálculo. Y nuestro resultado es un margen de error cercano a 6%, más o menos. Cuando el estudio del medicamento esté completo, aplicarás el margen de error a tus resultados para determinar su nivel de confiabilidad. Las calculadoras como esta en las hojas de cálculo son una de las muchas herramientas que puedes utilizar para asegurar la integridad de tus datos. Y también es bueno recordar que verificar la integridad de los datos y alinearlos con tus objetivos te pondrá en buena forma para completar tus análisis. Tener conocimientos sobre tamaño de muestras, poder estadístico, margen de error y otros temas que hemos tratado ayudará a que tus análisis se realicen sin problemas. Son muchos conceptos nuevos para asimilar. Si te gustaría revisarlos en cualquier momento, puedes encontrarlos todos en el glosario, ¡o puedes ver nuevamente el vídeo! Pronto explorarás los pros y los contras de los datos limpios. ¡La aventura de los datos continúa! ¡Y me alegra que avances con ellos! ¡Tú puedes! nteriormente hablamos sobre el margen de error sin explicarlo del todo. Bien, vamos a ver qué está bien o mal en este vídeo, ya que explicaremos mejor qué es el margen de error. Incluso incluirem: agregado a la selección Presiona [CTRL + S] para guardar como nota. (Requerida) ​
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+ Todo sobre el margen de error
+
+El margen de error es la cantidad máxima que se espera que los resultados de la muestra difieran de los de la población real. El margen de error, técnicamente, indica el rango de valores por debajo y sobre el resultado promedio de la muestra. Se espera que el resultado promedio de toda la población se ubique en ese rango. Podríamos comprender mejor el concepto del margen de error con los ejemplos que aparecen a continuación.
+
+Margen de error en béisbol
+Imagina que estás jugando al béisbol y que te toca batear. El público grita desaforadamente y tú te preparas para intentar golpear la pelota. El lanzador lanza una bola rápida a unos 90-95 mph, que tarda unos 400 milisegundos (ms) en llegar al guante del receptor. Haces un swing y fallas el primer lanzamiento porque te demoraste un poquito. Te preguntas si deberías haber hecho el swing un poco antes o un poco después para conseguir atajarla y hacer un jonrón. Esa diferencia de tiempo puede considerarse el margen de error, y nos indica lo cerca o lo lejos que estuvo tu velocidad de reacción respecto del promedio de velocidad de reacción necesaria para atajar la pelota.    
+
+Margen de error en el área de marketing
+
+El margen de error también es importante en el área de marketing. Utilicemos las pruebas A/B como ejemplo. La prueba A/B (o prueba dividida) analiza dos variaciones de la misma página web para determinar qué página es más exitosa para atraer tráfico de usuarios y generar ingresos. El tráfico de usuarios que se monetiza se conoce como tasa de conversión. La prueba A/B permite a los profesionales del marketing probar los mensajes de correo electrónico, los anuncios y las páginas destino para encontrar los datos de lo que funciona y lo que no. Los profesionales del marketing utilizan el intervalo de confianza (determinado por la tasa de conversión y el margen de error) para interpretar los resultados. 
+
+Por ejemplo, vamos a suponer que realizas una prueba A/B para comparar la efectividad de dos asuntos de correo electrónico diferentes para tentar a las personas a abrir el mensaje. Descubres que el texto del asunto A: “Oferta especial solo para ti” tuvo un índice de apertura del 5% en comparación con el texto del asunto B: “No te pierdas esta oportunidad” que tuvo un 3%. 
+
+¿Eso significa que el texto del asunto A es mejor que el texto del asunto B? Depende de tu margen de error. Si el margen de error fue del 2%; entonces, el índice de apertura o el intervalo de confianza del texto del asunto A se encuentra entre el 3% y el 7%. Dado que la base inferior del intervalo se solapa con los resultados del texto del asunto B en un 3%, no se puede concluir que exista una diferencia estadísticamente significativa entre el texto del asunto A y el B. Es importante evaluar el margen de error al momento de sacar conclusiones basadas en los resultados de la prueba. 
+¿Quieres calcular tu margen de error? 
+
+Todo lo que necesitas es el tamaño de la población, el nivel de confianza y el tamaño de la muestra. Para entender mejor esta calculadora, analiza estos términos:
+
+    Nivel de confianza: Es un porcentaje que indica la probabilidad de que tu muestra incluya de manera precisa a la mayor parte de la población 
+
+    Población: El número total del cual extraes tu muestra
+
+    Muestra: Es una parte representativa de la población
+
+    Margen de error: Cantidad máxima que se espera que los resultados de la muestra difieran de los de la población real
+
+En muchos casos, se utiliza un nivel de confianza del 90% al 95%. Pero, dependiendo de tu industria, podrías querer establecer un nivel de confianza más estricto. El nivel de confianza del 99% es razonable para algunas industrias, por ejemplo, para la industria farmacéutica.  
+
+Como ya has establecido el tamaño de tu población, el tamaño de la muestra y el nivel de confianza, carga la información en una calculadora de margen de error como las que aparecen a continuación: 
+
+    Calculadora de margen de error de Good Calculators (calculadoras en línea gratuitas)
+
+Calculadora de margen de error de CheckMarket
+
+Conclusión clave
+
+El margen de error se utiliza para determinar qué tan cerca se encuentran los resultados de tu muestra con los resultados que hubieras obtenido si hubieras consultado a toda la población. El margen de error te ayuda a entender e interpretar los resultados de la encuesta o de la prueba en la vida real.  Calcular el margen de error es particularmente útil al momento que te entregan los datos para analizar. Luego de usar la calculadora para calcular el margen de error, conocerás cuánto pueden diferir los resultados de la muestra de los resultados de la población completa. 

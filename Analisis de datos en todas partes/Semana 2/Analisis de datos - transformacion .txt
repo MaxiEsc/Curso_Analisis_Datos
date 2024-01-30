@@ -1,0 +1,69 @@
+
+Analisis de datos - transformacion de datos en conocimiento
+
+Los seis pasos del proceso de análisis de datos que has estado aprendiendo en este programa son: preguntar, preparar, procesar, analizar, compartir y actuar. Estos seis pasos se aplican a cualquier análisis de datos. Continúa leyendo para ver cómo un equipo de analistas de personas utilizó estos seis pasos para responder a una pregunta de negocios.
+
+Ejemplo a la problematica .
+
+¿cómo puede la organización mejorar la tasa de retención de los nuevos empleados? 
+
+1- Preguntar por los datos
+
+preguntas clave
+
+    ¿Qué crees que necesitan aprender los nuevos empleados para tener éxito en su primer año de trabajo?
+
+    ¿Has recopilado datos de nuevos empleados antes? Si es así, ¿podemos tener acceso a los datos históricos?
+
+    ¿Crees que los gerentes con tasas de retención más altas ofrecen a los nuevos empleados algo adicional o único?
+
+    ¿Cuál sospechas que es una de las principales causas de insatisfacción entre los nuevos empleados?
+
+    ¿En qué porcentaje te gustaría que aumente la retención de empleados en el próximo ejercicio económico?
+
+2- Preparar los datos
+
+Todo comenzó con una preparación sólida. El grupo creó un cronograma de tres meses y decidió cómo quería transmitir su avance a las partes interesadas. También durante este paso, los analistas identificaron qué datos necesitaban para lograr el resultado exitoso que identificaron en el paso anterior; en este caso, los analistas optaron por recopilar los datos de una encuesta en línea de nuevos empleados. Desarrollaron preguntas específicas para hacer acerca de la satisfacción de los empleados con los diferentes procesos empresariales, como la contratación y la incorporación, y su compensación general. Se establecieron reglas respecto de quién tendría acceso a los datos recopilados; en este caso, las personas ajenas al grupo no tenían acceso a los datos brutos, sino que solo podían ver datos resumidos o combinados. Por ejemplo, la compensación de una persona no estaría disponible, pero podrían verse los rangos salariales para grupos de personas. Para finalizar, determinaron qué información específica se recopilaría y la mejor manera de presentar los datos visualmente. Los analistas evaluaron los posibles problemas relacionados con el proyecto y los datos, y cómo evitarlos.+
+
+3 - Procesar los datos
+
+El grupo envió la encuesta. Los grandes analistas saben cómo respetar tanto sus datos como a las personas que los proporcionan. Dado que los empleados proporcionaron los datos, era importante asegurarse de que todos dieran su consentimiento para participar. Los analistas de datos también se aseguraron de que los empleados entendieran cómo se recopilarían, almacenarían, gestionarían y protegerían sus datos. Con el fin de mantener la confidencialidad y proteger y almacenar los datos de forma efectiva, el acceso se otorgó a un número limitado de analistas. La recopilación y el uso ético de los datos es una de las responsabilidades que tiene un analista de datos. Luego, se limpiaron los datos para garantizar que estuvieran completos, y fueran correctos y pertinentes. Algunos datos se agregaron y resumieron sin revelar las respuestas individuales. Los datos sin procesar se cargaron en un almacén de datos interno para obtener una capa de seguridad adicional.
+
+4- Analizar los datos
+
+Así como se aseguraron de que los datos estuvieran bien protegidos, los analistas también compartieron cuidadosamente el informe. Solo los gerentes que cumplieron o superaron el número mínimo de colaboradores directos con respuestas a la encuesta eran elegibles para recibir el informe. El grupo presentó por primera vez los resultados a los gerentes elegibles para asegurarse de que tuvieran el panorama completo. Luego, les pidieron que entregaran los resultados a sus equipos. Esto dio a los gerentes la oportunidad de comunicar los resultados con el contexto correcto. Como resultado, podrían tener conversaciones de equipo productivas sobre los próximos pasos para mejorar la participación de los empleados.
+
+5 - Compartir los datos
+
+Así como se aseguraron de que los datos estuvieran bien protegidos, los analistas también compartieron cuidadosamente el informe. Solo los gerentes que cumplieron o superaron el número mínimo de colaboradores directos con respuestas a la encuesta eran elegibles para recibir el informe. El grupo presentó por primera vez los resultados a los gerentes elegibles para asegurarse de que tuvieran el panorama completo. Luego, les pidieron que entregaran los resultados a sus equipos. Esto dio a los gerentes la oportunidad de comunicar los resultados con el contexto correcto. Como resultado, podrían tener conversaciones de equipo productivas sobre los próximos pasos para mejorar la participación de los empleados.
+
+6 - Actuar con los datos 
+
+La última etapa del proceso para el equipo de analistas fue trabajar con los líderes de su empresa y decidir cuál era la mejor manera de implementar los cambios y tomar medidas basadas en los hallazgos. Los analistas recomendaron estandarizar el proceso de contratación y evaluación de todos los nuevos empleados y basarse en las prácticas más eficientes y transparentes. Un año después, se distribuyó la misma encuesta a los empleados. Los analistas anticiparon que una comparación entre los dos conjuntos de resultados indicaría que el plan de acción funcionó. Resulta que los cambios mejoraron la tasa de retención de los nuevos empleados y las acciones tomadas por los líderes fueron exitosas.
+
+
+Manejo de datos en la toma de decisiones
+
+se utilizan hechos para como guia en la estrategia de negocios.
+Las organizaciones de distintas industrias tienen el poder de tomar mejores
+decisiones basadas en datos gracias al trabajo de los analistas de datos.
+El primer paso de este proceso es descubrir la necesidad del negocio.
+Por lo general, suele ser un problema que hay que resolver. 
+
+
+Los expertos en la materia tienen la capacidad de observar los resultados del análisis de datos e identificar cualquier incoherencia, dar sentido a las zonas grises y eventualmente validar las decisiones que se tomen. 
+
+Análisis de datos y análisis computacional de datos suenan igual, pero en realidad son muy diferentes. El análisis de datos.
+Ya has aprendido que el análisis de datos es la recopilación, transformación y organización de los datos para sacar conclusiones, hacer predicciones e impulsar una toma de decisiones informada.
+El análisis computacional de datos, en los términos más sencillos, es la ciencia de los datos.
+Es un concepto muy amplio que abarca todo, desde el trabajo de gestión y el uso de los datos hasta las herramientas y los métodos que los trabajadores de datos usan todos los días. Así que, cuando pienses en datos, análisis de datos y el ecosistema de datos, es importante entender que todo esto encaja en la definición de análisis computacional de datos.
+Muy bien, ahora que sabes un poco más sobre el ecosistema de datos y las diferencias entre el análisis de datos y el análisis computacional de datos, estás listo para analizar cómo se usan los datos a fin de tomar decisiones eficaces.
+Podrás ver la toma de decisiones basada en datos en acción. 
+
+
+La ciencia de datos se define como crear nuevas formas de modelar y entender lo desconocido mediante el uso de datos sin procesar.
+
+La toma de decisiones basada en datos.
+Recopilan información sobre lo que los clientes escuchan actualmente, la analizan y, luego, la usan para hacer sugerencias de lo que las personas podrían disfrutar más en el futuro.
+Esto mantiene contentos a los clientes, que vuelven por más, lo que a su vez significa más ingresos para la empresa.
+

@@ -1,0 +1,471 @@
+Modulo 4 - Reunir todos los elementos
+
+Video: Dar la presentacion dentro de un marco
+
+Si te aseguras de estar pensando en quién es tu público y en lo que necesita saber, podrás contar tu relato de una manera más efectiva. En este vídeo aprenderemos a utilizar un <i>framework</i> estratégico que ayudará a tu público a comprender las conclusiones más importantes de tu presentación. Para que tu público pueda acceder a los datos que hallaste, necesitarás un <i>framework</i> que guíe tu presentación. Esto ayuda a crear conexiones lógicas que se relacionan con las tareas empresariales y las métricas. A modo de recordatorio, una tarea empresarial es la pregunta o el problema que responde tu análisis de datos. El <i>framework</i> que elijas le brinda a tu público el contexto para que pueda comprender mejor tus datos. Además de eso, te ayuda a mantenerte enfocado en la información más importante durante tu presentación. El <i>framework</i> para tu presentación comienza cuando comprendes la tarea empresarial. Los datos sin procesar no significan demasiado para la mayoría de las personas, pero si presentas tus datos en el contexto de la tarea empresarial, a tu público le será más fácil conectar con ellos. Esto hace que tu presentación sea más informativa y y te ayuda a capacitar a tu público con conocimientos. Por eso es fundamental comprender la tarea empresarial previamente. Aquí hay un ejemplo. Digamos que trabajamos con una cadena de supermercados. 
+
+Tareas de negocios: Nos pidieron que identificáramos tendencias y búsquedas en línea de aguacates para ayudarles a tomar decisiones sobre el abastecimiento estacional. 
+
+Durante nuestra presentación, queremos asegurarnos de que seguimos enfocándonos en esta tarea y que enmarcamos nuestra información con ella. Echemos un vistazo a esta presentación de diapositivas de ejemplo. Podemos comenzar nuestra presentación enmarcándola con la tarea empresarial que está aquí. En esta segunda diapositiva, agregué objetivos para el debate. Comienza así: "Compartir una descripción general de las búsquedas en línea históricas de aguacates". Debajo, hay una explicación más detallada: "Veremos cómo crecieron las búsquedas de aguacates año tras año y lo que eso significa para tu empresa". Luego, "examinaremos las tendencias estacionales en las búsquedas en línea de aguacates utilizando los datos históricos". Esto es importante porque "comprender las tendencias estacionales puede ayudarnos a proyectar las necesidades de abastecimiento y a informar las planificaciones". Y finalmente, "debatiremos sobre las posibles áreas para seguir explorando". Aquí es donde abordaremos los pasos siguientes de la presentación. Este esquema claro de la presentación le permite al público saber qué esperar. También le permite saber cómo conectaremos la información que compartimos con la tarea empresarial. Como quizás recuerden, ya hemos hablado sobre narrar una historia con datos. Pueden pensar en esto como una esquematización de la narrativa. Podemos seguir los mismos pasos con nuestros ejemplos de visualización de datos. Si mostramos este gráfico visual de búsquedas anuales de aguacates, quizás queramos enmarcarlo diciendo que este gráfico muestra los meses con más búsquedas en línea de aguacates durante el año pasado, así que podemos esperar que este interés en los aguacates caiga en los mismos meses durante este año. Incluso podemos utilizar eso en nuestras notas del orador para la diapositiva. Ese es un gran lugar para agregar puntos importantes que quieras recordar durante tu presentación con anticipación. Tu público no puede ver esas notas en el modo presentación, así que son grandes recordatorios que puedes consultar mientras presentas. Además, incluso puedes compartir tu presentación con las notas del orador anticipadamente para que el contenido sea más accesible para tu público. En base a los datos, el supermercado puede anticipar la demanda y realizar un plan para abastecerse de los aguacates suficientes para cumplir con los intereses de los clientes. Esa es una de las formas en que podemos usar la tarea empresarial para enmarcar nuestros datos y hacerlos más fáciles de comprender. También querrás asegurarte de que estás esquematizando y conectando con las métricas de tu empresa al mostrar las métricas empresariales que utilizas. Puedes ayudar a tu público a comprender el impacto que tendrán tus hallazgos. Piensa en las métricas que utilizamos para nuestra presentación de aguacates. Hicimos un seguimiento del número de búsquedas en línea de aguacates durante distintos meses y algunos años para anticipar las tendencias y la demanda. Si explicas esto en tu presentación, será más fácil para tu público comprender cómo usamos nuestros datos. Estos puntos de datos por sí solos (las fechas o el número de búsquedas) no son útiles para tu público, pero cuando explicamos cómo se combinan como métricas, los datos que compartimos tienen mucho más sentido. Aquí hay otra visualización de datos potencial que queremos utilizar. Podemos enmarcarla para nuestro público si incluimos algunas de nuestras métricas. Hay una explicación sobre el período de tiempo que cubren estos datos: "Nuestros datos muestran consultas de búsqueda en Google desde 2004 hasta 2018". También se explica de dónde recolectamos estos datos: "Las consultas de búsqueda solo están limitadas a Estados Unidos". Y una rápida explicación sobre cómo medimos las tendencias: "Los puntajes de tendencias de Google están normalizados en 100". Entonces, una vez que nuestro público comprende las métricas que usamos para organizar estos datos, podrán entender el gráfico con mayor claridad. Utilizar un <i>framework</i> estratégico para guiar tu presentación puede ayudar a tu público a comprender tus hallazgos, y de eso se trata la fase compartir del proceso de análisis de datos. A continuación, aprenderemos más sobre cómo entrelazar datos en tus presentaciones.
+____________________________________________________________
+
+Cuando creas una presentación para compartir con los interesados, ¿cuál es el propósito del framework?
+
+El propósito del framework consiste en crear conexiones lógicas que se relacionan con la tarea empresarial. Además, le brinda a tu audiencia cierto contexto sobre tus datos y ayuda a dirigir la atención a la información más importante.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Incorporar datos a tu presentacion
+
+Ya sabemos cómo utilizar nuestras tareas empresariales y las métricas para enmarcar nuestros hallazgos de datos durante una presentación. Ahora hablemos sobre cómo colocar los datos en tu presentación para ayudarle al público a comprender y a interpretar mejor tus hallazgos. En primer lugar, es útil para el público comprender los datos que estaban disponibles durante la recolección de datos. También puedes decirles si han aparecido algunos datos relevantes nuevos, o si descubriste que necesitabas datos diferentes. Para nuestro análisis, usamos datos sobre búsquedas en línea de aguacates durante varios años. Los datos que recolectamos incluyen todas las búsquedas con la palabra "aguacate", así que incluyen muchos tipos diferentes de búsquedas. Esto le ayuda al público a comprender qué datos está viendo en realidad y qué preguntas podrían responder. Con los datos que recolectamos en las búsquedas que contenían la palabra aguacate podemos responder preguntas sobre el interés general en los aguacates. Pero si queremos saber más sobre algo específico, como el guacamole, es probable que necesitemos recolectar datos diferentes para entender mejor esa parte de nuestra búsqueda de datos. A continuación, vamos a establecer la hipótesis inicial. 
+
+La hipótesis inicial es una teoría que intentas comprobar o refutar con datos. 
+
+En este ejemplo, nuestra tarea empresarial era recopilar precios mensuales promedio. Nuestra hipótesis es que esto mostrará tendencias claras que pueden ayudar a la cadena de supermercados a planificar la demanda de aguacates el próximo año. 
+
+Lo ideal es definir la hipótesis al comienzo de la presentación. Así, cuando presentes tus datos, el público podrá ponerlos en el contexto adecuado. 
+
+A continuación, explicarás la solución de tus tareas empresariales con ejemplos y visualizaciones. Un buen ejemplo es el gráfico que utilizamos la vez pasada, en el que se podía visualizar claramente la búsqueda del puntaje de tendencia para la palabra aguacate año tras año. Puede llevar tiempo ahondar en los datos sin procesar, pero un buen ejemplo o visualización puede facilitar la comprensión de tu público durante una presentación. Recuerda que presentar tus visualizaciones eficazmente es tan importante como el contenido, si no más. Y ahí es donde el método McCandless que vimos anteriormente puede ser de ayuda. Entonces, repasemos los pasos de ese método y luego los aplicaremos a nuestra propia visualización de datos. 
+El método McCandless va de lo general a lo particular, como si construyéramos una pirámide. Comenzamos con la información más básica: 
+
+El nombre del gráfico que estás presentando. Esto dirige la atención del público. Abramos la presentación de diapositivas con la que estuvimos trabajando antes. Tenemos el <i>framework</i> que exploramos la vez pasada y nuestros dos ejemplos de visualización de datos. Si seguimos el método McCandless, presentaremos el nombre de nuestro gráfico. Aquí podemos ver con claridad el nombre de este gráfico, "tendencias de búsqueda anuales de aguacates". Cuando lo presentemos, nos aseguraremos de compartir el título con el público para que sepa dónde enfocarse y de qué trata el gráfico. 
+
+Luego, debemos responder las preguntas obvias que el público podría tener antes de que las haga. Comenzamos con la información de alto nivel y continuamos hasta el mínimo nivel de detalle que pueda ser útil para el público. De esta forma, el público no se distraerá tratando de entender algo que podría haberse explicado cuando se presentó el gráfico. Agregamos información sobre cuándo, dónde y cómo se recopilaron estos datos para enmarcar esta visualización de datos. Pero también respondemos la primera pregunta que muchos interesados harán: "¿De dónde vienen estos datos y qué abordan?" Entonces, si regresamos al segundo gráfico de nuestra presentación, podemos pensar algunas preguntas obvias que nuestro público podría tener cuando ve este gráfico por primera vez. 
+
+Esta visualización de datos es muy interesante, pero puede ser difícil de entender a primera vista, entonces el público podría tener preguntas acerca de cómo leerla. Si sabemos eso, podemos agregar una explicación en nuestras notas del orador para responder estas preguntas cuando presentamos el gráfico. "Aquí puede verse el tiempo circular, con los meses de invierno arriba y los de verano debajo. Cuanto más lejos del centro están los elementos, más consultas sobre 'aguacates' se hicieron en esa época". Algunas de las respuestas a estas preguntas se encuentran en la presentación. Una vez que hayamos respondido cualquier pregunta posible que el público pueda tener, explicaremos la información que proporciona tu visualización de datos. Es importante que todos estén en la misma página antes de pasar a los detalles de apoyo. Podemos agregar algunas conclusiones clave en esta diapositiva para ayudarle al público a comprender la información más importante del gráfico. Aquí, le informamos al público que estos datos muestran una tendencia estacional consistente año tras año. También podemos ver que hay poco interés en aguacates en internet desde octubre hasta diciembre. Esta información es importante y definitivamente queremos compartirla. Aunque los aguacates son una fruta estacional de verano, el pico de búsquedas se encuentra en enero y febrero. A muchas personas en Estados Unidos les gusta mirar el Super Bowl y comer papas fritas con guacamole en esta época del año. Ahora el público sabe qué conclusiones queremos que tenga antes de continuar. 
+
+El cuarto paso del método McCandless es señalar ciertos datos que respalden esa información. Esta es tu oportunidad de sorprender realmente al público, así que brinda tantos ejemplos como puedas. Con nuestros gráficos de aguacates, sería conveniente señalar ejemplos específicos. En nuestro gráfico de tendencias mensuales podemos señalar las semanas específicas que tenemos aquí. "Durante la semana del 25 de noviembre de 2018, el puntaje de búsqueda fue de aproximadamente 49, pero durante la semana del 4 de febrero el puntaje de búsqueda fue de 90. Aquí puede verse el ascenso y el descenso del interés de búsqueda en línea, con la ayuda de algunos datos muy geniales que hay en nuestros gráficos". 
+
+Finalmente, es hora de contarle al público por qué es importante. Este es el momento "¿y ahora qué?". ¿Por qué esta información es interesante o importante para el público? Este es un buen momento de presentar el posible impacto empresarial de la solución y las medidas claras que los interesados pueden tomar. Quizás recuerdes que esquematizamos esto en nuestro <i>framework</i> al principio de nuestra presentación. Entonces, expliquemos en qué ayudan estos datos a los interesados del supermercado. En primer lugar, pueden tener en cuenta que hay un menor interés en aguacates entre los meses de octubre y diciembre. También pueden prepararse para el aumento de interés en aguacates durante el Super Bowl, a fines de enero/principios de febrero. Y podrán pensar cómo optimizar las prácticas de abastecimiento en verano y primavera. Hay algunos detalles más a partir de estos puntos, pero este es el desglose básico del impacto. Y así es como utilizamos el método McCandless para mostrar las visualizaciones de datos durante nuestras presentaciones. Tengo un consejo más para darte. Tómate un segundo para comprobar y preguntarte "¿este punto de datos o este gráfico respalda la información que quiero que las personas se lleven?" Es un buen recordatorio pensar en tu público cada vez que agregues datos a una presentación. Ahora ya sabes cómo presentar datos utilizando un <i>framework</i> y cómo incorporar datos en la presentación para tu público. Y aprendiste el método McCandless de presentación de datos. A continuación, aprenderemos algunas prácticas recomendadas para crear presentaciones.
+____________________________________________________________________
+
+El metodo McCandless
+1-> Introducir el nombre del gráfico.
+2-> Responder a las preguntas obvias que el publico pueda tener.
+3-> Explicar la informacion que proporciona el gráfico de la visualización de datos.
+4-> Mencionar ciertos datos que respalden esa información.
+5-> Contarle al público por que es importante.
+____________________________________________________________________
+
+En una presentación, ¿cuál es la hipótesis inicial?
+
+Una hipótesis inicial es una teoría que intentas comprobar o refutar con datos. Lo ideal es definir la hipótesis al comienzo de la presentación
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Habilidades para dar presentaciones dirijidas a los nuevos analistas de datos
+
+Uno de los consejos que tengo es tratar de que las cosas sean "lo más simples posibles". Y lo que quiero decir con eso es que 
+
+"Presentes los conceptos de la forma más simple y clara que puedas". 
+
+Cuando entres a una sala, habrá muchas personas allí que tendrán distintos niveles de interés y de conocimiento. Ellos cuentan con niveles diferentes de experiencia en la materia. Nadie quiere hacer una presentación en una sala donde las personas se queden perplejas. Lo más molesto de algunas presentaciones con datos es que suelen incluir lo que yo llamo "gráficos desagradables". Y un gráfico desagradable tiene demasiados datos, demasiados colores; está muy lleno y no hay forma de saber qué está tratando de decir el presentador. Otro consejo que tengo para ti es que hagas tu presentación divertida. Nadie quiere estar en una sala donde estés hablando durante toda una hora y donde la única voz que escuches sea la tuya. Una de las cosas que intento hacer para evitar eso es pensar juegos divertidos o cuestionarios, reproducir un vídeo, o hacer preguntas al público para asegurarme de que está participando plenamente y de que me está respondiendo. Otro consejo que intento incorporar en mis presentaciones es la narración. A todos nos gusta una buena historia, y cuando la narras bien, puedes conectar con tu público y captar su atención de una forma en la que probablemente no lo harías si no estuvieras narrando la historia. El último consejo que tengo es que te asegures de tener un aliado en la sala. A menudo, antes de dar una presentación importante sobre datos, busco una o dos personas que sé que van a estar en la sala y les presento mi contenido con antelación. Y eso no solo me permite recibir comentarios sobre la presentación, sino también asegurarme de que alguien más está asintiendo y comprendiendo los números que estoy por presentar. Y no podría decirte cuántas veces he estado en presentaciones donde esos aliados me han rescatado. Cuando los participantes hacen muchas preguntas o quizás intentan buscar deficiencias en el análisis, esos aliados están listos para hablar y para apoyarte y darle credibilidad a lo que sea que estés presentando. La parte más desafiante de mi trabajo es el hecho de estar allí para convencer a las personas de hacer algo que quizás no tengan la confianza para hacer. Y a menudo es necesario tener muchas conversaciones y muchas rondas de convencimiento para que alguien realmente se acerque a lo que yo estaba tratando de decir o para que lo haga. Cuando ya hayas pasado alrededor de seis meses o un año creando un análisis, una historia y una narración para que alguien aplique a sus estrategias, y verdaderamente lo comprendan y lo hagan, el desafío habrá valido la pena.
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Crítica detallada de una presentación
+
+Esta lectura te orienta antes de ver los dos vídeos a continuación:
+
+    Connor: Ejemplo de una presentación de datos desordenada
+
+    Connor: Ejemplo de una buena presentación de datos
+
+Para aprovechar estos vídeos al máximo, deberías ver uno detrás del otro (de principio a fin). En el primer vídeo, Connor usa una presentación confusa y difícil de seguir. En el segundo vídeo, vuelve a hablar de lo que se puede mejorar y ayuda a la audiencia a entender mejor los datos y las conclusiones que presenta.
+Presentación confusa de datos
+
+En el primer vídeo, mira y escucha atentamente las razones específicas por las que la presentación desorganizada no alcanza para a la audiencia. Aquí tienes un anticipo:
+
+    No hay historia o no sigue un orden lógico
+
+    No tiene títulos
+
+    Tiene demasiado texto
+
+    El formato no es uniforme (no hay tema)
+
+    No hay recomendación o conclusión al final
+
+Presentación desorganizada: la audiencia no sabe a qué prestar atención
+
+El mayor problema que tienen las presentaciones desorganizadas es que no presentan un orden lógico. Observa también cómo las visualizaciones de datos son difíciles de comprender y aparecen sin ninguna introducción o explicación. La audiencia no entiende lo que está viendo ni por qué.  Cuando los miembros de la audiencia tienen que entender lo que significan los datos sin algo de ayuda, puede que se pierdan, se confundan y no sepan bien qué tienen que hacer.
+Buena presentación de datos
+
+En el segundo vídeo, se usan varias mejores prácticas para crear una presentación más adecuada sobre el mismo tema. Esta “buena” presentación es mucho más fácil de entender que la desorganizada. Aquí tienes un anticipo:
+
+    Se actualizaron el título y la fecha de la presentación
+
+    Tiene un orden o índice
+
+    Tiene diapositivas de transición
+
+    Tiene una introducción visual a los datos (que también se usa como tema reiterado)
+
+    Tiene viñetas animadas
+
+    Tiene anotaciones antes de los elementos visuales
+
+    Sigue una lógica y una progresión
+
+    Limitaciones de los datos (reservas) - lo que los datos no te pueden decir
+
+Consejo: Mientras miras este vídeo, toma notas sobre lo que Connor sugiere para crear una buena presentación. Puedes hacer las anotaciones en tu diario. Cuando crees tus propias presentaciones, repasa tus notas. Así, podrás desarrollar tu propio análisis sobre la calidad de las presentaciones.
+Buena presentación: el presentador guía a la audiencia de forma lógica a través de los datos
+
+La buena presentación guía a la audiencia de forma lógica a través de los datos, desde los objetivos al comienzo hasta las conclusiones durante el cierre. Observa cómo el orador presenta las visualizaciones de datos usando un tema común a toda la presentación y las coloca a conciencia antes de cada conclusión. Una buena presentación le brinda a la audiencia hechos y datos, ayuda a que entiendan qué significan y ofrece conclusiones sobre cómo usar ese conocimiento para modificar algo o hacer algo bien.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Ejemplo de una presentación de datos desordenada
+
+Entonces, analizaremos ejemplos específicos que tenemos. Hemos creado lo que llamamos un ejemplo desordenado de una presentación de datos. Repasaremos cada diapositiva y la presentación en su conjunto para comprender por qué en realidad no sirve para explicar un análisis específico. Tenemos una diapositiva de título: "La relación entre la salud y la felicidad en todo el mundo". De inmediato, podemos ver una imagen genérica del mundo. Es un título muy extenso. Sabemos de lo que vamos a hablar, pero aquí no hay nada realmente convincente sobre la presentación. En la primera diapositiva, cuando estamos mirando una presentación de datos, inmediatamente hay un montón de datos que se ofrecen a los asistentes, así como un montón de texto. En este momento, no saben lo que están viendo. No hubo ninguna declaración de propósitos. No tenemos una diapositiva introductoria. No saben quién soy. No saben por qué están aquí. ¿De qué estamos hablando? ¿Por qué estamos hablando sobre esto? ¿Qué deben aprender? No hay nada de eso; hemos saltado inmediatamente a los gráficos de datos específicos que les estamos mostrando. Ahora bien, un aspecto importante de toda diapositiva es que también tenga un título. Los títulos, los subtítulos y esas cosas ayudan a las personas a comprender exactamente de qué tratará la diapositiva, para que puedan saber lo que están intentando comprender mientras hablas. Si inmediatamente llegamos aquí, el público estará perdido. Las personas intentarán leer la diapositiva. Estarán intentando descifrar qué quieren decir los elementos gráficos. Es importante que te asegures de que no haya demasiada información. Ahora, si pasamos a la siguiente diapositiva, lo que vemos aquí es que los gráficos son mejores, son más fáciles de comprender. No hay más de uno. Tenemos un mapa. Tenemos elementos gráficos a colores para representar los valores numéricos en ellos. Pero, de nuevo, no hay nada que el público pueda comprender realmente. Aquí es donde puedes explicar con tus notas del orador. Pero, nuevamente, también tienes muchas palabras y ningún título. ¿Qué es lo que en realidad están tratando de obtener de esta diapositiva? Parte de una buena presentación también tiene que ver con el tema que vas a tratar o con un tema consistente. Ahora has cambiado el lugar del elemento gráfico específico. El texto está del otro lado. No significa que no puedas hacerlo, pero lo que realmente intentamos hacer en la presentación es crear cierta familiaridad, en especial con el análisis computacional de datos. Estás familiarizando a tu público con los elementos gráficos que le estás mostrando: los datos. Al final de la presentación, debería comprender los conceptos tanto como tú. Por último, tenemos la diapositiva de conclusión. Tiene título: "La risa es la mejor medicina". De nuevo, sabemos lo que estamos viendo, pero no hay un flujo lógico que muestre cómo llegamos aquí. ¿Esta presentación general fue convincente? Pusimos dos diapositivas allí. Había demasiado texto. En realidad, no explicamos nada sobre eso. De nuevo, el lugar que ocupan en la diapositiva todas estas cosas es raro. Cuando estés pensando en hacer una presentación, tienes que pensarla desde el punto de vista de tu público. En lo único en lo que esas personas estarán pensando será "¿en qué debería enfocarme? Mientras intento escuchar, mientras intento comprender, ¿dónde debería mirar?" Si tienes diapositivas como las que acabamos de mostrar, no sabrán dónde deberían estar mirando o estarán todo el tiempo leyendo y tratando de comprender, mientras tú estás hablando. Es muy importante que dirijas su mirada y te dirijas a las personas del público para que sepan exactamente qué deberían estar escuchando, qué deberían estar tratando de comprender y que sepan que tú los estás guiando hacia la conclusión general. Entonces, para resumir, lo que está mal con la presentación en general, y no con respecto a lo que vas a hablar o a lo que estás intentando llegar, sino en cuanto a la ubicación de los gráficos de datos y de los elementos gráficos que elegiste. Lo principal es que no había una narración, un flujo lógico. Comenzaste con un montón de argumentos dispersos y mucho texto para pasar luego al mapa de calor de los puntajes de felicidad, pero sin que alguien presente algo, sin proporcionar ninguna idea del concepto que está detrás de lo que intentas demostrar. No incluiste títulos, hay demasiado texto, es muy difícil de entender y no hay igualdad ni consistencia. Incluso si proporcionaste una muy buena explicación en cada diapositiva, quizás hayas perdido la atención de los asistentes porque lo que estarían intentando hacer, lo que estarían tratando de comprender es qué estaría tratando de decirles la diapositiva. Para finalizar, la parte más importante de cualquier presentación de análisis computacional de datos es la diapositiva de recomendación o de conclusión. La tenías, pero no tenía título. Los asistentes no sabían que ese era el final de la presentación, que allí era donde deberían intentar unir todas las piezas. A continuación, hablaremos sobre cómo podemos mejorar esta presentación y analizaremos cómo se vería esta presentación cuando estamos intentando explicar la correlación entre la salud y la felicidad.
+__________________________________________________________________________
+
+Ejemplo de una presentacion desordenada.
+
+Que se encuentra mal?
+-> No tiene historia, ni flujo logico
+-> No tiene titulo
+-> Demasiado texto
+-> Dificil de entender
+-> Formato desigual e inconsistente, sin temas
+-> Sin conclusion o diapositiva de recomendación 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Ejemplo de una buena presentación de datos.
+
+Ahora que sabes lo que no hay que hacer, te mostraré cómo yo abordaría una presentación. Para comenzar, puedes ver que la diapositiva de título es mucho más sencilla. Podemos ver el título, el nombre del presentador y la fecha de la presentación. Ahora quiero hablar un poco sobre la fecha que está en la parte inferior, que es un factor importante que no debes olvidar incluir. Podrías volver a esta presentación unos meses después, o incluso un año después, o puedes difundirla por toda tu empresa. Es importante saber cuándo se realizó este análisis, por qué y cuáles fueron sus circunstancias. Y lo más importante de eso es conocer las circunstancias de la empresa en el momento en que se realizó esa presentación. Así que la próxima diapositiva dará una idea lo que vas a presentar y cuándo. Comienzas con la descripción de tu propósito. ¿Qué temas vas a tratar, de qué estamos hablando? El siguiente aspecto es dónde narras la historia en realidad. Y ese es un concepto importante si esta presentación general es un relato con datos. Para finalizar, tienes tu diapositiva de conclusión. Dejarás en claro que esta es la conclusión. Aquí es donde agregarás recomendaciones si estás en un contexto comercial. Y luego tendrás un apéndice, donde puedes incluir información adicional sobre datos, gráficos de datos, así como el contexto general para la presentación que podría obstaculizar el flujo general. Entonces, ¿de qué hablamos en nuestra diapositiva de transición? Aquí es donde le haces saber al público sobre qué estamos hablando, qué estamos tratando de decirle. Hacia dónde nos dirigiremos con todas las diapositivas que siguen. Cuando observamos esta diapositiva, intento identificar factores geográficos, demográficos y/o económicos que contribuyen a tener una vida más feliz. Ese es el propósito de toda la presentación. Así que todos los que están ahora en la reunión lo saben y pensarán en esto a medida que les presentes todos los datos. La próxima sección en nuestro índice es presentar los datos. Es importante mencionar que quizás tengan títulos diferentes a medida que los vayas creando, pero ese es el tema que vamos a tratar. Reconocerás este elemento gráfico de la diapositiva desordenada, pero tiene un contexto de color diferente. Eso no es demasiado importante, pero lo que sí es importante es que cuando llegas aquí tienes un título y un elemento gráfico en la diapositiva, pero no hay texto. Y este es un aspecto importante, ya que lo que estamos tratando de hacer es conducir al público y presentarle los datos generales que estarás utilizando. Ahora bien, esta es la primera diapositiva que tiene algún tipo de contenido, así que es importante que presentes los datos subyacentes. Y ya que los datos son sobre puntos de datos geográficos, demográficos y económicos en cada país, es importante que el elemento gráfico represente eso. Si yo fuera a presentar una diapositiva como esta, comenzaría por presentarla y explicar el proceso y los datos que estamos observando. Analizamos el conjunto de datos, que consiste en datos recolectados de residentes de países europeos entre 2015 y 2017. Los datos contienen información demográfica y económica de individuos de cada país, incluyendo la población, el PBI o producto bruto interno, y el puntaje de felicidad por persona. Así, les he presentado el conjunto de datos. Todavía no hay texto, así que saben que tendrían que mirar el elemento gráfico y escucharme a mí. El siguiente aspecto, que puede ser muy utilizado pero que también vi poco utilizado, es usar animaciones en tu presentación. Las animaciones pueden utilizarse como una forma de dirigir la atención de tu público mientras hablas. Son una manera de decirles que miren hacia aquí, hacia esta parte de la diapositiva, mientras estoy hablando. También evita que se enreden demasiado o que se distraigan mientras les presentas conceptos nuevos. Recuerda que cuando presentas datos, los componentes técnicos pueden ser nuevos para muchas personas. Y, finalmente, otra forma de hacer esto es a través de anotaciones arriba de los elementos gráficos que puedan utilizarse como otra forma de dirigir su mirada y su atención general. Entonces, para reunir todos los elementos, podemos hacer que algo como una anotación aparezca cuando estás hablando acerca de ella. Si estuviéramos tratando de explicar lo que muestra el elemento gráfico, tenemos una anotación emergente que dice "puntaje de felicidad" y puntos para el puntaje en un país específico, y podemos explicar exactamente lo que muestra el elemento gráfico. De esta forma, podemos decir algo como que empezamos creando un mapa térmico del puntaje de felicidad para cada país. El número de cada país representa el puntaje general y los colores representan qué tan alto o qué tan bajo es el puntaje según la escala. Así, el país que tenga el color azul más oscuro será el país con el puntaje de felicidad más alto. El país que tenga el color rojo más oscuro, será el que tenga el puntaje de felicidad y el valor numérico general más bajos. Lo que hicimos antes de que apareciera texto en la pantalla es explicar el elemento gráfico y los datos generales que los asistentes observarán durante la presentación, para que ahora puedan comprender cuando profundicemos en este análisis específico. Así que es importante que solo utilices texto en la pantalla de manera breve y concisa, para resaltar los puntos principales de lo que estás hablando. Entonces, luego de presentar el elemento gráfico, ahora puedo profundizar el análisis. Tenemos nuestra primera viñeta: Los niveles de felicidad varían ampliamente por país. Así como se ve, mis notas del orador pueden ser algo como lo siguiente: "De todas formas, como los puntajes altos y bajos se extienden esporádicamente por el mapa, encontramos poca correlación entre la ubicación geográfica y la felicidad. Finalmente, concluimos que la ubicación geográfica por sí sola no fue un indicador sólido de felicidad". Así, como puedes ver mientras estoy hablando y explicando lo que estamos observando en los datos, el texto general se fue completando en la pantalla cuando comenzaba a hablar, y, así, el público supo exactamente dónde tenía que mirar y qué escuchar cuando yo estaba hablando. Un aspecto muy importante del flujo de toda la presentación es la transición de una diapositiva a la siguiente. Así, mientras estoy hablando de esto, puedes utilizar una viñeta, puedes utilizar tus notas del orador. De cualquier manera, debería haber alguna transición entre una diapositiva y la siguiente para que el público sepa que esta parte ha terminado y lo que viene a continuación. Para esta diapositiva utilicé mis notas del orador. Explicaré la transición, que es algo así: "Nuestro siguiente paso fue identificar las diferencias demográficas y económicas entre los países con más y menos puntaje para aislar las características correlativas entre ellos". Así que pasaremos a la próxima diapositiva. Un tema muy común podría ser un elemento gráfico diferente, pero el título general y la ubicación del texto que aparecerá estarán en el mismo lugar. Así, familiarizamos al público con el tema general de la presentación en tres diapositivas. El título nos dice inmediatamente qué temas vamos a tratar. El tema anterior fue geográfico; este tema está basado en la población. A medida que recorremos esta diapositiva y luego de ver el ejemplo desordenado, usamos muchos diagramas de dispersión, y los diagramas de dispersión no siempre son la mejor opción, ya que son un poco difíciles para que las personas sigan las presentaciones. Pero si se los explicaste una vez y los comprendieron, puedes utilizarlos en toda la presentación porque ya están familiarizadas con ellos. Como es la primera vez que aparece, es importante explicar el elemento gráfico en profundidad, así como todas sus características, de las que hablarás luego, durante la presentación. Utilizamos animaciones de nuevo. Hablamos sobre los ejes en el diagrama de dispersión. Creamos un diagrama de dispersión en el que representamos países en base a su puntaje de felicidad y a la población para ver si había una correlación entre ambos. Cuanto mayor es algo en el diagrama de dispersión, más feliz es el país. Cuanto más a la derecha esté representado el país, más grande es su población. Y la línea que aparece entre los dos prueba la correlación o si estos dos puntos diferentes están relacionados entre sí. Entonces, estas anotaciones y estas animaciones están allí para aclarar lo que el gráfico representa. Ahora, el propósito general es que estamos tratando de identificar si hay una relación entre el tamaño de la población del país y el puntaje general de felicidad. Entonces, ahora que ya explicaste este elemento gráfico, puedes analizar sus resultados. Esta diapositiva tiene una viñeta. Consiste en los resultados del análisis general que puedes encontrar en base al gráfico de datos. Descubrimos que hubo poca o ninguna correlación entre la felicidad y la población en base al análisis que realizamos. Así que todo el debate y la explicación en profundidad del elemento gráfico quedarán en las notas del orador, junto con las anotaciones generales. Nuevamente, la transición es muy importante para la próxima diapositiva. Puedes decir algo como: "A continuación, analizamos en profundidad la demografía específica de cada país, para ver si podemos identificar las características que la separan o la correlacionan con el puntaje general de felicidad del país". De nuevo, lo mismo. Tenemos el título, sabemos qué temas vamos a tratar ahora. Esa es la salud de cada país y cómo se correlaciona con la felicidad. Otra vez, tenemos un diagrama de dispersión, pero la buena noticia es que ya explicaste lo que es un diagrama de dispersión y lo que estás comparando en él. Ahora el público está familiarizado con el conjunto de datos. No tienes que revisar el elemento gráfico y explicar lo que representa. Puedes analizar las diferencias generales o el análisis que presentarás en esta diapositiva. Puedes tener algo que explique que encontramos una correlación positiva entre la felicidad y la salud o la esperanza de vida general del país. Ahora descubrimos esto porque el coeficiente de correlación entre los dos factores diferentes, felicidad y salud, era de 0.50. Acabas de presentar un nuevo concepto. Este es el momento de explicar el nuevo concepto porque; de lo contrario, podrías perder parte del público de la reunión. Este es un componente técnico de tu análisis general y es un componente importante, así que es fundamental que expliques lo que es de una manera sencilla para que todos comprendan. Puedes decir algo como lo siguiente: "Un coeficiente de correlación es una medida de fuerza y dirección de la relación lineal entre dos variables. En otras palabras, cuanto más cercano al uno se encuentra el número, más positivamente correlacionados están. Lo que significa que cuando una de las variables sube, la otra también sube. Cuanto más cerca del menos uno se encuentra el número, más negativamente correlacionados están. Lo que significa que, mientras una de las variables, como la felicidad, sube, la otra variable, como la salud, bajaría. Y cuanto más cerca del cero esté, significa que no están correlacionadas en absoluto, que es lo que vimos entre la población y la felicidad, y quiere decir que no tienen relación entre sí". Hemos explicado exactamente qué es lo que usamos como un análisis en esta diapositiva específica. Y es importante, nuevamente, que presentemos la transición a la siguiente. Entonces: "Descubrimos que hay una correlación positiva entre la felicidad y la salud, pero todavía nos preguntamos si las personas felices son saludables o si las personas saludables son felices. Sabemos que ambos factores están relacionados, pero no sabemos cuál es el causante del otro. Y, finalmente, ¿qué contribuye a una mayor esperanza de vida? Si sabemos que la mayor esperanza de vida está relacionada con la felicidad, ¿qué es lo que ayuda a crear una mayor esperanza de vida en un país?" Esas son las dos preguntas que debemos responder de aquí en adelante, antes de que termine la presentación. De nuevo, estamos creando un flujo lógico a medida que nos movemos por esta presentación. Ahora estamos observando un concepto nuevo: la riqueza en cada país. Ahora que estás usando un diagrama de dispersión y que el público está familiarizado con él, puedes agregar algunos adicionales. Puedes decir algo como lo siguiente: "Luego, analizamos cómo el PBI o el estado económico general del país se relaciona con la salud general de sus habitantes. Porque si sabemos que el PBI está relacionado con la salud y sabemos que la salud está relacionada con la felicidad, podemos inferir información adicional a partir de eso. Descubrimos que hubo una gran correlación entre el producto bruto interno y la salud general de un país específico con un coeficiente de correlación de 0.7, que es más alto que el coeficiente de correlación general para la salud y la felicidad. Luego encontramos una correlación aún mayor entre el PBI y la felicidad. Entonces, aunque al principio consideramos la salud y la felicidad, y luego el PBI y la salud, ahora estamos considerando el PBI y la felicidad, y descubrimos que posee el coeficiente de correlación más alto de las tres comparaciones. Entonces tenemos una conclusión en esta misma diapositiva, que es que descubrimos que los países más ricos tienen un nivel más alto de felicidad promedio". Esa es una buena transición hacia la conclusión general de toda la presentación. De nuevo, estás dirigiendo a tu público a través de la presentación del texto que deseas que observe. Tu primera conclusión de la presentación general. Los países más ricos y los que tienen un crecimiento económico sostenido tienden a tener un nivel más alto de felicidad promedio. Tu segunda conclusión: los países más saludables también tienden a tener una población más feliz. Sin embargo, los países más saludables también tienden a ser ricos. Y finalmente, aquí es donde vuelves al inicio. Nuestra evidencia sugiere que la riqueza, la salud y la felicidad van de la mano. También es importante hablar sobre alguna advertencia o análisis a futuro que sea necesario para responder las preguntas que puedan surgir en base a este análisis. "Hemos dicho que la evidencia sugiere que la riqueza, la salud y la felicidad van de la mano, pero eso no quiere decir que una sea la causante de la otra. Entonces, es necesario un análisis a futuro para comprender cualquier efecto causal entre ellas". Y luego tienes tu diapositiva final, y aquí es donde pueden surgir preguntas. Es importante recordar que la narración de datos es un arte. Te hemos brindado una descripción general de primer nivel, ejemplos de lo que no hay que hacer y una versión mejorada, pero no tengas miedo de ponerte en ese lugar. El estilo general de la presentación vendrá de tu personalidad y de tu conjunto de destrezas en el análisis computacional de datos. Puedes utilizar las herramientas que nosotros usamos como ayuda para crear el diseño de tu presentación, pero dependerá de ti poner todo el esfuerzo de tu parte y todas tus habilidades para ayudar a las personas a comprender el análisis computacional general que has realizado.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Consejos comprobados para dar una presentación 
+
+Hasta ahora aprendimos a utilizar un <i>framework</i> para guiar al público a través de tu presentación y a incorporar datos en ella. Ahora vamos a hablar de por qué estas destrezas de presentador son tan importantes y te daré algunos consejos simples que podrás utilizar en tus propias presentaciones. Como analista de datos, tienes dos responsabilidades clave: analizar los datos y presentar tus conclusiones con eficacia. 
+Que tengas que analizar datos puede ser bastante obvio. Después de todo, está en el título de "analista de datos". Pero el análisis de datos tiene que ver con convertir la información sin procesar en conocimiento. 
+
+Si en realidad no puedes comunicar lo que aprendiste durante tu análisis, entonces ese conocimiento no puede ayudar a nadie. Hay muchas maneras en las que los analistas de datos se comunican: correos electrónicos, notas, paneles y, por supuesto, presentaciones. Las presentaciones efectivas comienzan con los temas de los que ya hemos hablado, como crear visualizaciones efectivas y organizar tus diapositivas, pero la forma en que comuniques esos temas puede hacer una gran diferencia en qué tan bien tu público los entienda. Quieres asegurarte de que el público se retire de tu presentación sintiéndose empoderado gracias al conocimiento adquirido, y listo para tomar decisiones en base a tu análisis. Por eso es tan importante tener destrezas de presentador sólidas si eres un analista de datos. Si la idea de dar una presentación te pone nervioso, no te preocupes porque muchas personas se sienten así. Te digo un secreto: se vuelve más fácil a medida que practicas. Ahora veamos algunos consejos y trucos que podrás utilizar en tus propias presentaciones. Luego aprenderemos otros más avanzados, pero, por ahora, comencemos con lo básico. Es normal sentir que tus niveles de adrenalina aumentan antes de dar una presentación. Eso es porque estás entusiasmado de estar allí. 
+
+Para mantener ese entusiasmo bajo control, intenta respirar hondo y de forma controlada para calmar tu cuerpo. Además, eso te ayudará a canalizar todo ese entusiasmo en un estilo de presentación que muestre tu pasión por el trabajo que has hecho. Es posible que recuerdes que ya hablamos sobre utilizar el método McCandless para presentar visualizaciones de datos. Bueno, también es una buena regla general para aplicar a todas las presentaciones. 
+
+Comienza con las ideas más generales, las preguntas obvias que el público podría tener y lo que tiene que comprender para poner tus hallazgos en contexto. Luego puedes ser más específico sobre tu análisis y las conclusiones a las que llegaste. Volvamos al ejemplo de los aguacates e imaginemos cómo empezaríamos esa presentación. Luego de presentarnos y de decir el título de nuestra presentación, tenemos una diapositiva con nuestros objetivos para debatir. 
+
+Comenzamos con los objetivos más generales y luego pasamos a los más específicos. Podemos decir que nuestro primer objetivo para hoy es proporcionar una noción del estado global de las búsquedas en línea de aguacates. Luego examinaremos las oportunidades y los riesgos de las tendencias estacionales en las búsquedas en línea de aguacates. Luego analizaremos pasos más viables que pueden ser de ayuda para comenzar a sacar provecho de estas oportunidades, así como a mitigar los riesgos. 
+
+Para finalizar, nos encantaría que la tercera parte fuera un debate con el público sobre lo que piensan acerca de estos siguientes pasos. Lo que querrás descubrir con esto es cómo nuestra presentación se centra en el interés general por los aguacates en línea antes de ser más específicos sobre lo que eso significa para nuestros interesados. También aprendimos la regla de los cinco segundos. Para repasar rápidamente, cuando presentas una visualización de datos, tendrías que utilizar la regla de los cinco segundos y hacer dos preguntas. Primero, espera cinco segundos luego de mostrar una visualización de datos para permitirle al público que la procese, luego pregúntale si la comprende. Si no, tómate el tiempo para explicarla, y luego dale a tu público otros cinco minutos para que la comprenda antes de decirle la conclusión que quieres que entienda. Trata de no apresurarte cuando presentas visualizaciones de datos. Esta será la primera vez que algunas de las personas de tu público se encuentren con tus datos, y es preferible darles tiempo en tus presentaciones. Esta es nuestra primera visualización de datos en la presentación de los aguacates. Cuando lleguemos a esta diapositiva queremos presentar nuestro gráfico anual de tendencias de búsqueda de aguacates y explicar los antecedentes básicos que incluimos aquí. Tras esperar cinco segundos, podemos preguntar: "¿tienen alguna pregunta sobre este gráfico?" Digamos que uno de nuestros interesados pregunta: "¿Podrías explicar las tendencias de búsqueda de Google?" Excelente. Luego de explicarlas, esperamos otros cinco segundos, y luego podemos plantear nuestra conclusión: Las búsquedas de aguacates han aumentado cada año. Aprenderás más acerca de estos conceptos pronto, pero estos son algunos buenos consejos para comenzar. Para finalizar, cuando se trata de presentar datos, la preparación es clave. Para algunas personas, eso significa hacer ensayos generales. Para otras, significa escribir un guion y repetirlo mentalmente. Otras descubren que verse a sí mismas dando la presentación les ayuda. Trata de encontrar un método que te sirva. Lo más importante que hay que recordar es que cuanto más preparado estés, mejor será tu desempeño cuando las luces se enciendan y sea tu turno de presentar.
+___________________________________________________
+
+- 2 Responsabilidades clave:
+
+-> Analizar los datos.
+-> Presentar las conclusiones con eficacia.
+
+______________________
+
+Tips para la presentación:
+
+-> Canaliza el entusiasmo.
+-> Comienza con las ideas mas generales.
+-> Regla de los 5 segundos.(...)
+ - Espera 5 segundos despues de mostrar la visualización de datos
+ - Preguntar si se entendio la visualización de datos 
+ - Darle a la audiencia otros 5 segundos 
+ - Contarle la conclusión que deseas que comprendan
+-> La preparación es la clave.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+ Guía: Compartir resultados que surgieron de tus datos en una presentación
+
+Con esta guía, podrás hacer que tu presentación se destaque a medida que explicas la historia que cuentan tus datos. Sigue los consejos que recomendamos en esta guía y la secuencia de diapositivas que incluimos para que tu presentación realmente cautive a tu audiencia.
+
+Explicar la historia que cuentan tus datos (consejos y trucos para presentar tus datos y tus resultados)
+
+Usa los siguientes consejos y el formato que te brindamos como ejemplo para crear tu presentación.
+Consejo 1: Conoce cuál es tu mejor forma de organizarte
+
+Al igual que con cualquier buena historia, las historias que cuenten tus datos deben tener un buen argumento (tema y organización), un buen diálogo (puntos para conversar) y un final increíble o una gran revelación (resultados y conclusiones). Una forma de organizarte puede incluir, primero, un resumen de lo que analizaste y, después, las tendencias que obtuviste como resultado y posibles áreas para seguir explorando.
+
+Para saber cuál es la mejor forma de organizarte durante tu presentación, siempre ten en mente a tu audiencia. Estas dos preguntas pueden ayudarte a definir cuál es la mejor organización y a crear tu presentación.
+
+¿Quién es mi audiencia?
+
+    Si tu audiencia está conformada, por ejemplo, por ejecutivos, miembros de la junta directiva u otros tipos de gerentes de primera línea, entonces la narración debería ser de alto nivel. Esta audiencia quiere escuchar tu historia, pero quizá no tenga tiempo para escucharlacompleta. Los ejecutivos tienden a enfocarse en cierres que motiven a mejorar, corregir o inventar algo. Tu presentación debería ser breve y deberías dedicar la mayor parte del tiempo a los resultados y las recomendaciones. Consulta uno de los temas que detallamos más adelante: "Consejo 3: finalizar con tus recomendaciones".
+
+    Si tu audiencia de destino son los interesados y gerentes, entonces es posible que haya un poco más de tiempo para contarles cómo llevaste a cabo tu análisis y quizá hasta hagan preguntas más relacionadas con los datos. Ten preparados puntos para conversar sobre los aspectos de tu análisis que te guiaron a tus resultados y conclusiones finales.
+
+    Si tu audiencia de destino incluye a otros analistas y colaboradores individuales, entonces tienes toda la libertad del mundo (y, probablemente, todo el tiempo del mundo) para ahondar más en los datos, procesos y resultados.
+
+¿Cuál es el propósito de mi presentación?
+
+    Si el objetivo de tu presentación es solicitar o recomendar algo durante el cierre, puedes seguir el formato de una presentación de ventas, en la que cada diapositiva va apuntando a las recomendaciones de cierre.
+
+    Si el objetivo de tu presentación es enfocarte en los resultados de tu análisis, cada diapositiva puede ir armando un camino que lleve a los resultados. Como con Hansel y Gretel, asegúrate de incluir muchas migajas (visualizaciones de los pasos del análisis de datos) para mostrar el camino que hiciste con los datos.
+
+    Si el objetivo de tu presentación es brindar un reporte que explique el análisis de datos, tus diapositivas deberían resumir claramente tus datos y tus resultados clave. En este caso, está bien que los datos sean la estrella de la presentación o que hablen por sí solos.
+
+Consejo 2: Prepara puntos para conversar y limita la cantidad de texto que incluyes en tus diapositivas
+
+A medida que vayas armando las diapositivas de tu presentación, prepara algunos puntos para conversar (también llamadas notas del presentador) sobre lo que vas a decir.
+
+Tres consideraciones clave:
+
+    El crecimiento de nuestro mercado si lo comparamos con los costos del negocio
+
+    Necesitamos reducir los gastos generales
+
+    Los costos de investigación aumentarán durante los próximos cinco años
+
+No te olvides de que vas a hablar a la vez que la audiencia lee las diapositivas. Si tus diapositivas parecen más un documento que otra cosa, deberías volver a pensar en lo que vas a decir y, así, eliminar algo de texto de las diapositivas. Facilita el trabajo de la audiencia, que tiene que leer las diapositivas por arriba mientras presta atención a lo que dices. En general, deberías seguir la regla de los cinco segundos. La audiencia no debería tardar más de cinco segundos en leer el texto de tu diapositiva.
+
+Otra forma de organizar tu historia de forma orgánica es saber exactamente qué vas a decir a la hora de explicar cada diapositiva de la presentación. Los puntos para conversar te ayudan a evitar pausas incómodas entre temas. Las diapositivas que resumen datos a veces son repetitivas (y aburridas). Si preparas distintos puntos interesantes para conversar sobre los datos, puedes mantener alerta a tu audiencia y enfocada en los datos y su análisis.
+Consejo 3: Finaliza con tus recomendaciones
+
+Cuando escalas una montaña, el objetivo es llegar a la cima. Dar recomendaciones al finalizar tu presentación es como llegar a la cima.
+
+    Usa una diapositiva para las recomendaciones de cierre. Sé claro y conciso.
+
+    Si quieres recomendar que se haga algo, entonces brinda los pasos a seguir y describe cuál sería, para ti, un resultado exitoso.
+
+Consejo 4: Deja suficiente tiempo para presentar los datos y que te hagan preguntas
+
+Tienes que asumir de antemano que todos en la audiencia tienen vidas ocupadas. Tu presentación no puede irse por las ramas y tiene que ser lo más breve posible, así que puedes hacer lo siguiente:
+
+    Sé consciente de tu manejo del tiempo. Esto aplica para la cantidad total de diapositivas que incluiste y el tiempo que destinas a cada una.
+
+    Presenta tus datos de forma eficaz. Asegúrate de que cada diapositiva cuente una parte distinta e importante de la historia de tus datos. Si una diapositiva es parecida a alguna otra, entonces quizá quieras combinar la información de ambas.
+
+    Destina suficiente tiempo para preguntas al final o da la posibilidad de responder preguntas durante la presentación.
+
+Reunir todos los elementos: El formato de tu presentación de diapositivas
+
+En esta sección, te contamos cómo organizar todo en un ejemplo de formato de presentación con diapositivas.
+
+Primera diapositiva: Agenda
+
+Brinda una lista exhaustiva con los temas que vas a abarcar y el tiempo que vas a destinar a cada uno. Las normas de todas las empresas son distintas pero, en general, las presentaciones se extienden entre 30 minutos y una hora como máximo. Aquí hay un ejemplo de una agenda de 30 minutos de duración:
+
+    Presentaciones (4 minutos)
+
+    Resumen del proyecto y objetivos (5 minutos)
+
+    Datos y su análisis (10 minutos)
+
+    Recomendaciones (3 minutos)
+
+    Pasos materializables (3 minutos)
+
+    Preguntas (5 minutos)
+
+Segunda diapositiva: Propósito
+
+No todos conocen tu proyecto ni saben por qué es importante. No pasaron las últimas dos semanas pensando en el análisis de los datos ni en los resultados del proyecto como tú. Esta diapositiva resume el propósito de tu proyecto y por qué le incumbe a tu audiencia.
+
+Aquí tienes un ejemplo de una declaración de propósito:
+
+El fortalecimiento del centro de servicio es una iniciativa importante para ahorrar dinero. El objetivo de este proyecto es definir qué repercusión tendría fortalecer el centro de servicio en los tiempos de respuesta a los clientes.
+Tercera diapositiva: Datos/ análisis
+
+Primero que nada, ten en cuenta que es posible contar la historia de tus datos en una sola diapositiva si resumes la información clave sobre los datos y el análisis. Quizá quieras incluir un apéndice con algunas diapositivas de respaldo que contengan datos o información al final de la presentación.
+
+Pero si eliges contar tu historia con más de una diapositiva, ten en cuenta lo siguiente:
+
+    Por lo general, las diapositivas siguen un orden lógico (principio, cuerpo y final) para contar la historia en su totalidad.
+
+    Cada diapositiva debería presentar la que sigue con un orden lógico. Las indicaciones visuales en las diapositivas o las verbales de tus puntos para conversar deberían explicarle a la audiencia que estás por pasar a la diapositiva que sigue.
+
+    Recuerda no usar demasiado texto en las diapositivas. Si tienes dudas, repasa el segundo consejo, que trata sobre cómo preparar los puntos para conversar y limitar la cantidad de texto en las diapositivas.
+
+    La información de alto nivel que la audiencia lee en las diapositivas no debería ser la misma que tú incluyes en tus puntos para conversar. Debería haber un buen balance entre las dos cosas para que la historia sea buena. No está bueno leer las diapositivas o decir las palabras que ves allí.
+
+¿Quieres agregar más elementos visuales en las diapositivas? Prueba con animaciones. Por ejemplo, podrías hacer lo siguiente:
+
+    Hacer aparecer cada punto de la lista gradualmente a medida que lo explicas en la diapositiva.
+
+    Mostrar solo el elemento visual importante para lo que estás diciendo (hacer desaparecer gradualmente los elementos visuales que no son importantes).
+
+    Usar flechas o globos para apuntar a cierta zona de un elemento visual que estás usando.
+
+Cuarta diapositiva: Recomendaciones
+
+Si contaste bien tu historia en las diapositivas anteriores, tu audiencia ya se imagina lo que dirás en las recomendaciones. En esta parte, puede que recibas muchas preguntas sobre cómo tus datos respaldan tus recomendaciones. Prepárate para explicar de distintas formas cómo tus datos respaldan tu conclusión o recomendaciones. Si usas distintas palabras para decir lo mismo, también ayudas a algún miembro de la audiencia que no esté entendiendo esa explicación en particular.
+Quinta diapositiva: Llamada a la acción
+
+A veces, puedes incluir la llamada a la acción en la diapositiva de recomendaciones. Pero, si quieres incluir distintas acciones o actividades recomendadas, es mejor que uses una diapositiva para eso.
+
+Volvamos al ejemplo de la declaración de propósito: El fortalecimiento del centro de servicio es una iniciativa importante para ahorrar dinero. El objetivo de este proyecto es definir qué repercusión tendría fortalecer el centro de servicio en los tiempos de respuesta a los clientes.
+
+Supongamos que, gracias al análisis de datos, descubriste que fortalecer el centro de servicio afecta los tiempos de respuesta a los clientes. Una posible llamada a la acción podría ser examinar si es necesario modificar los procesos para que los tiempos de respuesta a los clientes vuelvan a ser los mismos que antes del fortalecimiento.
+Cierre: Pide opiniones
+
+Después de dar la presentación ante la audiencia, reflexiona sobre cómo contaste la historia de tus datos y cómo puedes obtener opiniones para seguir mejorando. Quizá puedas pedirle a tu gerente o a otro analista de datos que te diga lo que piensa sobre la forma en que contaste la historia o sobre la presentación en general. Las opiniones de otros siempre nos ayudan a mejorar. Cuando tengas que escribir una nueva historia para tus datos (o una secuela para la que ya contaste), estarás listo para impresionar aún más a la audiencia.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Presenta como un profesional 
+
+Ahora ya conoces algunas formas de organizar e incorporar datos en tus presentaciones. También viste por qué son tan importantes las destrezas de presentación efectivas si eres un analista de datos. Ahora puedes comenzar a hacer presentaciones como un profesional. A continuación, compartiré contigo algunos consejos profesionales y las prácticas recomendadas. ¡Empecemos! Hemos hablado acerca de lo importante que es tu público a lo largo de este programa, y es especialmente importante para las presentaciones. También es importante recordar que no todas las personas pueden experimentar tus presentaciones de la misma manera. Enviar tu presentación por correo electrónico y reflexionar sobre qué tan accesible es tu visualización de datos antes de que empiece tu presentación, puede garantizarte que tu trabajo es accesible y comprensible. Pero durante la presentación real puede ser tentador concentrarse en lo que nos resulta más interesante y emocionante, y no en lo que el público en realidad necesita escuchar. A veces, incluso los mejores públicos pueden perder la atención y distraerse, pero estos son algunos pasos que puedes seguir durante tu presentación final para ayudarte a seguir enfocado en tu público y a mantener su atención. 
+
+Primero, intenta tener en cuenta que tu público no siempre entenderá los pasos que seguiste para llegar a la conclusión. El trabajo tiene sentido para ti porque tú lo realizaste; a eso se le llama la maldición del conocimiento. Básicamente, significa que el hecho de que tú sepas algo puede dificultar que pienses que tu público no lo sabe. Es importante recordar que tu público no tiene el mismo contexto que tú, así que debes centrarte en la información que necesita para llegar a la misma conclusión a la que tú llegaste. Anteriormente, vimos algunas herramientas útiles que puedes agregar a tus presentaciones para que te ayuden con esto. En primer lugar, responder preguntas básicas sobre el origen de los datos y qué abarcan: ¿Cómo se recolectaron? ¿Se centran en un momento o lugar específico? También puedes incluir tu hipótesis orientativa y los objetivos que impulsaron tu análisis. También puede ser útil que incluyas cualquier suposición o método que hayas utilizado para llegar a tus conclusiones. Por ejemplo, en nuestra presentación de aguacates agrupamos los meses por temporadas y observamos las tendencias generales. 
+
+Para finalizar, explica tu conclusión y cómo llegaste a ella. Tu público ya tiene demasiada información también. Quizás los asistentes estén pensando en sus propios proyectos laborales o en lo que quieren almorzar. No quieren ser irrespetuosos y no quiere decir que no están interesados, solo son personas ocupadas con mucho que hacer. Trata de que tu presentación se mantenga centrada y vaya al grano para evitar que se distraigan. Evita narrar historias que lleven a tu público hacia otra línea de pensamiento, y trata de no dar demasiados detalles sobre cosas que no le interesan a tu público. Quizás hayas encontrado una nueva base de datos SQL muy interesante, pero a menos que tu presentación sea sobre bases de datos deberías dejar esa información de lado. 
+
+Tu público también podría distraerse fácilmente con la información de tu presentación. Por ejemplo, si incluyes muchas cosas en un gráfico, el público necesitará más tiempo para analizarlo. Evita incluir información en tus presentaciones que piensas que no será productiva para debatir con tu público; comparte la cantidad adecuada de contenido para que tu público siga concentrado y esté listo para actuar. 
+
+También es bueno observar que la forma en que presentas la información es tan importante como lo que estás presentando, y tengo algunas prácticas recomendadas para dar presentaciones. 
+Primero, presta atención a cómo hablas. Tus oraciones deben ser cortas. 
+No uses palabras largas si puedes usar palabras cortas. 
+Haz pausas intencionales para darle tiempo a tu público para pensar en lo que acabas de decir. 
+Trata de que el tono de tus oraciones sea uniforme para que no confundan tus frases con preguntas. También trata de ser consciente de cualquier hábito nervioso que tengas. Quizás hablas más rápido, mueves los dedos de los pies o te tocas el cabello cuando estás nervioso. Es completamente normal, y todos lo hacemos, pero esos hábitos pueden distraer a tu público. Cuando estás hablando, trata de quedarte quieto y de moverte con un propósito. Mantén una buena postura y haz contacto visual con las personas que integran tu público. Finalmente, recuerda que puedes practicar y mejorar estas habilidades con cada presentación. Acepta y pide retroalimentación de las personas en quienes confías. La retroalimentación es un regalo y una oportunidad para crecer. Con eso, has completado otro módulo. Las destrezas para realizar presentaciones que aprendiste aquí, como utilizar <i>frameworks</i>, incorporar datos en tu presentación y las prácticas recomendadas que puedes utilizar durante tus presentaciones reales te ayudarán a comunicar tus resultados al público de manera mucho más efectiva.
+________________________________________________
+
+La audiencia:
+-> No siempre entenderá los pasos que seguiste para llegar a la conclusión.
+-> Ya posee demasiada información en su mente.
+-> Tu publico también puede distraerse con facilidad.
+
+Como hablar:
+-> Manten oraciones cortas.
+-> Haz pausas intesionales.
+-> Trata de que el tono de tus oraciones sea uniforme para. 
+ 
+Mientras hablas (Dentro de los habitos nerviosos)
+-> Mantenerse quieto y solo moverse con algún proposito.
+-> Mantener una buena compostura.
+-> Manten contanto visual con las personas que integran su publico.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Anticipate a las preguntas.
+
+hablemos sobre cómo puedes estar seguro de estar preparado para las preguntas y las respuestas. Para los principiantes, conocer las preguntas de antemano puede marcar una gran diferencia. No tienes que saber leer las mentes, pero hay ciertas cosas que puedes hacer para estar preparado. Para este ejemplo, regresaremos a la presentación que creamos sobre salud y felicidad en el mundo. Reunimos estas diapositivas, las limpiamos un poco y ya estamos listos para la presentación real. Ahora veamos algunas formas en las que podemos anticipar preguntas posibles antes del momento de las preguntas y respuestas, para tener más tiempo para pensar en las respuestas. 
+
+-> Comprender las expectativas de los interesados te ayudará a predecir las preguntas que podrían hacer. 
+
+Como dijimos anteriormente, es importante establecer las expectativas de los interesados al principio del proyecto. Recuerda sus expectativas mientras estés planificando presentaciones y sesiones de preguntas y respuestas. 
+
+-> Asegúrate de comprender con claridad el objetivo y lo que los interesados querían cuando te pidieron que asumieras este proyecto. 
+
+Para este proyecto, nuestros interesados querían saber cuáles eran los factores que contribuían a tener una vida feliz en todo el mundo. Nuestro objetivo era identificar si había factores geográficos, demográficos y/o económicos que contribuyeran a llevar una vida más feliz. Si sabemos eso, podemos empezar a pensar en las posibles preguntas sobre ese objetivo que podrían tener. 
+
+-> Al final del día, si no comprendiste correctamente las expectativas de los interesados o los objetivos del proyecto, no podrás anticipar o responder correctamente sus preguntas. 
+
+Piensa en estas cosas al principio y cuando planifiques la sesión de preguntas y respuestas. Una vez que estés seguro de comprender correctamente las expectativas de los interesados y los objetivos del proyecto, puedes comenzar a identificar preguntas posibles. 
+
+-> Una buena manera de identificar las preguntas del público es hacer una prueba de tu presentación. Me gusta llamarla "la prueba con un colega". 
+
+Muéstrale tu presentación o tu visualización de datos a un colega que todavía no conoce tu trabajo y fíjate qué preguntas te hace. Podría tener las mismas dudas que tu público real. Dijimos que la retroalimentación era un regalo, así que no tengas miedo de buscarla y pedirles a tus colegas que te brinden sus opiniones. Digamos que expusimos nuestra presentación a un colega, le mostramos nuestras visualizaciones de datos y le preguntamos qué dudas tenía. Nos dijo que no estaba seguro de cómo medíamos la salud y la felicidad con nuestros datos en esta diapositiva. Es una buena pregunta. Podríamos agregar esa información en nuestra presentación sin problema. A veces, las dudas que surgen durante las pruebas con colegas nos pueden ayudar a revisar nuestra presentación. Otras veces, nos ayudan a anticipar preguntas que podrían surgir durante la presentación, incluso si originalmente no queríamos incluir esa información en la presentación. Te ayuda a estar preparado para dar más detalles sobre tu proceso, pero solo si alguien pregunta. De cualquier forma, sus comentarios pueden ayudarte a llevar tu presentación al siguiente nivel. Luego, es útil comenzar sin hacer suposiciones. No asumas que tu público ya está familiarizado con la jerga, los acrónimos, los eventos anteriores o cualquier otra información de contexto necesaria. Intenta explicar eso en la presentación y prepárate para dar más explicaciones si te lo piden. Cuando le mostramos la presentación a nuestro colega, accidentalmente asumimos que ya sabía cómo se medían la salud y la felicidad, y dejamos eso fuera de nuestra presentación original. Ahora, miremos nuestra segunda visualización de datos. El gráfico muestra la relación entre la salud, la riqueza y la felicidad, pero incluye el PBI para medir la economía. No queremos asumir que nuestro público sabe lo que eso significa, así que durante la presentación incluiremos una definición del PBI. En las notas del orador hemos agregado producto bruto interno: valor monetario o de mercado total de todos los bienes y servicios terminados que se producen dentro de las fronteras de un país durante un plazo específico. Explicaremos lo que significa PBI en cuanto aparezca este gráfico; así, ningún integrante del público se confundirá con ese acrónimo. Trabajar con tu equipo te ayuda a anticipar preguntas y ensayar respuestas. Juntos, podrán incluir sus perspectivas y coordinar respuestas para que todos los integrantes de tu equipo estén preparados y listos para compartir sus conocimientos únicos con los interesados. El equipo que trabaja en el proyecto de felicidad mundial contigo probablemente tenga muchos conocimientos geniales sobre los datos, como la forma en que se recopilaron o lo que puede estar faltando. Ponte en contacto con ellos para no perderte su perspectiva. Finalmente, prepárate para considerar y describir a los interesados cualquier limitación que puedan tener tus datos. Puedes hacerlo analizando críticamente los patrones que has descubierto en tus datos para la integridad. Por ejemplo, las correlaciones que encontraste, ¿pueden explicarse como una coincidencia? Además de eso, utiliza tu comprensión sobre las fortalezas y las debilidades de las herramientas que utilizas en tu análisis para detectar cualquier limitación que podrían haber introducido. Aunque probablemente no tengas el poder de predecir el futuro, puedes acercarte bastante a predecir las preguntas de los interesados y del público si haces unas pocas cosas clave. Recuerda centrarte en las expectativas de los interesados y en los objetivos del proyecto, identificar posibles preguntas con tu equipo, revisar tu presentación sin suposiciones y tener en cuenta las limitaciones de tus datos. Sin embargo, a veces, el público puede formular objeciones a los datos antes y después de tu presentación. A continuación, hablaremos sobre el tipo de objeciones que pueden tener y cómo puedes responder.
+
+______________________________________
+
+Preparate a considerar cualquier limitación de tus datos por:
+
+-> Analizarlo criticamente las correlaciones.
+-> Buscar el contextos.
+-> Tu comprensión sobre las fortalezas y debilidades de las herramientas.
+
+______________________________________
+
+¿Qué puedes evaluar si llevas a cabo una prueba con un colega? 
+La prueba con el colega te ayuda a saber qué preguntas pueden hacer los interesados, qué suposiciones tienen y qué partes de la presentación pueden no estar del todo claras.
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Prepárate para la sección de preguntas y respuestas
+
+Cuando trabajas en un proyecto, es importante entender desde el comienzo qué esperan los interesados de ti. Este artículo se centra en preparar las preguntas que quieres hacer antes de planificar cómo recopilarás y presentarás los datos.
+
+Hay muchas cosas a tener en cuenta antes de formular preguntas posibles y responderlas, como cuál es el objetivo, cuáles son las expectativas de los interesados y si hay alguna limitación. Asegúrate de tener todo bajo control antes de comenzar. La lista de verificación a continuación detecta diez tareas que deberías llevar a cabo para estar bien preparado para la sección de preguntas y respuestas:
+Antes de la presentación
+
+    Arma y prepara tus preguntas.
+
+    Charla sobre la presentación con tu gerente, otros analistas u otros contactos con quienes tengas una buena relación en la empresa.
+
+    Pídele al gerente o a otros analistas que te cuenten qué tipo de preguntas surgieron de esa audiencia específica anteriormente.
+
+    Pide comentarios, opiniones y preguntas sobre la presentación o el documento de análisis.
+
+    Al menos 24 horas antes de la presentación, intenta pensar sobre algunas preguntas complejas o partes poco claras que puedan surgir. Así, evitarás cualquier sorpresa.
+
+    Nunca está de más practicar lo que vas a presentar para ver si falta algo de información o solo calmar los nervios.
+
+Durante la presentación
+
+    Prepárate para responder las preguntas que surjan y explica de forma efectiva y precisa tus resultados.
+
+    Aborda cualquier pregunta que pueda surgir.
+
+    Evita que una sola pregunta te desvíe del tema de la presentación. En cambio, propón seguir
+
+     charlando después de la presentación.
+
+    Coloca un apéndice con visualizaciones y contenido extra para ayudar a responder las preguntas.
+
+A practicar
+
+No tiene por qué intimidarte una presentación o una reunión. Si dedicas tiempo a conocer a tu audiencia, redactar notas, hacer la investigación necesaria y organizar tus datos, entonces tu audiencia no tiene por qué no interesarse en tu presentación. Hasta puede que se sorprendan.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Manejar las objeciones
+
+hablaremos sobre cómo puedes manejar las objeciones a los datos que estás presentando. Los interesados pueden formular objeciones durante o luego de tu presentación. A menudo, esas objeciones son sobre los datos, tu análisis o tus resultados. Comenzaremos por pensar qué preguntas están haciendo estas objeciones y luego hablaremos sobre cómo responder. 
+
+Las objeciones a los datos pueden querer decir cosas distintas. A veces, los interesados podrían preguntar de dónde obtuviste los datos y de qué sistemas provinieron, o quizás quieran conocer las transformaciones que sufrieron antes de que trabajaras con ellos, o qué tan actualizados están y qué tan precisos son. 
+Puedes incluir toda esta información al principio de tu presentación para configurar el contexto de datos. Puedes agregar un desglose más detallado en el apéndice, en caso de que haya más preguntas. Cuando hablamos sobre limpieza de datos, dijimos que era útil mantener un registro detallado de las transformaciones de los datos. Ese registro te puede ayudar a responder las preguntas de las que estamos hablando aquí y, si lo tienes en el apéndice de la presentación, será fácil hacer referencia a él si alguno de los interesados quiere más detalles durante las preguntas y respuestas. 
+
+Ahora bien, el público también podría tener preguntas u objeciones a tu análisis. Quizás quieran saber si tu análisis es reproducible, así que es útil tener un registro de cambio que documente los pasos que diste. De esa forma, otra persona podría continuar y reproducir tu proceso. Incluso puedes agregar una diapositiva en la sección apéndice de tu presentación donde expliques estos pasos, si crees que sería necesario. 
+Y puede ser útil tener una versión en limpio de tu guion si estás trabajando con un lenguaje de programación como SQL o R, que aprenderemos más adelante. También es bueno estar bien preparado para responder preguntas como "¿quién te brindó retroalimentación durante este proceso?" Esto es muy importante cuando tu análisis revela conocimientos que son opuestos a los presentimientos de tu público sobre los datos. Si te aseguras de incluir muchas perspectivas en tu proceso de análisis, podrás respaldar tus resultados durante la presentación. 
+
+Finalmente, puedes encontrarte con objeciones a los resultados mismos. Muchas veces serán preguntas como "¿estos resultados también se encuentran en períodos anteriores o controlaste las diferencias en tus datos?" El público quiere asegurarse de que tus resultados finales tienen en cuenta cualquier inconsistencia posible y de que son precisos y útiles. Ahora que conoces algunos tipos de objeciones posibles que tu público podría formular, pasemos a cómo puedes pensar en responder. Primero, puede ser útil comunicar cualquier suposición sobre los datos, tu análisis o tus resultados que podría ayudar a responder sus preguntas. Por ejemplo, ¿tu equipo limpió y formateó los datos antes del análisis? Dile al público que puedes despejar cualquier duda que podrían tener. Segundo, explica por qué tu análisis podría ser diferente a lo esperado. Recorre con tu público las variables que cambiaron los resultados para ayudarles a comprender cómo llegaste allí. Y tercero, algunas objeciones tienen su mérito, en especial si muestran algo en lo que no habías pensado antes. Si eso es cierto, puedes reconocer que esas objeciones son válidas y dar los pasos necesarios para investigar más a fondo. También es genial hacer un seguimiento más detallado luego. Y ahora conoces las objeciones básicas con las que podrías encontrarte. Saber que el público podría tener preguntas acerca de tus datos, tu análisis o tus resultados puede ayudarte a preparar respuestas con anticipación, y recorrer con el público las posibles suposiciones sobre los datos o los resultados inesperados son excelentes enfoques para responder. A continuación, conoceremos más prácticas recomendadas para responder preguntas durante la sesión de preguntas y respuestas.
+
+________________________________
+
+Tipos de objeciones:
+-> Acerca de los datos.
+-> Acerca del analisis.
+-> Acerca de los resultados.
+
+Responder posibles objeciones.
+-> Comunicar con suposiciones
+-> Explicar porque tu analisis podria ser diferente que el esperado
+-> Reconocer que esas objeciones son validas y toman pasos necesarios para investigar mas a fondo.
+
+Cuando das una presentación, es posible que los interesados objeten ciertos datos, tu análisis o tus resultados. ¿Cuál es la mejor forma de prepararte para posibles objeciones? 
+
+Una buena forma de prepararte para posibles objeciones es incluir un apéndice para brindar información extra respecto del proceso analítico. También puedes explicar las fuentes de los datos al comienzo de tu presentación y brindar recursos para que los interesados exploren más los datos.
+
+Estás dando una presentación y, al final, un interesado tiene una objeción. ¿Qué pasos debes realizar durante tu respuesta?
+Si uno de los interesados está preocupado respecto de un problema que tú no detectaste, puedes reconocer la objeción y prometer que vas a dar los pasos necesarios para investigar más a fondo.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Mejores practicas para la seccion de preguntas y respuestas
+
+Anteriormente hablamos acerca de algunas formas en las que puedes responder a las objeciones durante o después de tus presentaciones. En este vídeo, quiero compartir algunas prácticas recomendadas más sobre las sesiones de preguntas y respuestas. Volvamos a nuestro ejemplo de la presentación sobre la felicidad mundial. Imagina que terminamos de prepararnos para una sesión de preguntas y respuestas, y llegó el momento de responder realmente algunas de las preguntas del público. Veamos algunas formas en las que podemos estar seguros de que estamos respondiendo las preguntas de manera eficaz. Comenzaremos por algo muy simple: escucha toda la pregunta. Sé que esto suena obvio, pero puede ser muy tentador comenzar a pensar en la respuesta antes de que la persona a la que le estás hablando haya terminado de hacer la pregunta. En la diapositiva 11 de la presentación esbozamos nuestras conclusiones. Luego de explicarlas, uno de los interesados pregunta: "¿Cómo se midió la felicidad en este proyecto?" Es importante escuchar toda la pregunta y esperar a que haya terminado de hablar para responder. Tómate un momento para repetir la pregunta. Repetir la pregunta resulta útil por una serie de razones. En primer lugar, te ayuda a estar seguro de que entendiste la pregunta. En segundo lugar, le permite a la persona que hizo la pregunta corregirte, si no era eso lo que quería preguntar. Si alguien no había escuchado la pregunta ahora ya sabe lo que se preguntó. Además, te da un tiempo para que pienses qué responder. Luego de escuchar la pregunta y de repetirla para asegurarte de que la entendiste, puedes explicar que se les dio a los participantes de diferentes países una encuesta en la que se les pedía que evaluaran su felicidad, y, así de fácil, el público tiene una mejor comprensión del proyecto porque te tomaste el tiempo de escuchar con atención. Ahora que saben de la encuesta, están interesados en saber más. En este punto, podemos dar más detalles sobre los datos. Aquí tenemos una diapositiva denominada apéndice. Este es un buen lugar para guardar la información extra que quizás no sea necesaria en nuestra presentación pero que podría ser útil para responder preguntas más adelante. Este también es un buen lugar en donde tener información más detallada sobre los datos de la encuesta, así podemos hacer referencia a ellos de forma más simple. Como siempre, asegúrate de entender el contexto en el que se hacen las preguntas. Piensa en quiénes integran tu público y en qué tipo de inquietudes o de antecedentes podrían tener. Recuerda los objetivos del proyecto y lo que buscan en ellos los interesados, y trata de que tus respuestas sean relevantes para ese contexto específico, así como te aseguraste de que tu presentación fuera relevante para los interesados. Tenemos esta diapositiva con datos acerca de la esperanza de vida como una métrica para la salud. Si estás presentando para un grupo de interesados que se encuentran en la industria del cuidado de la salud, quizás estarán más interesados en los datos médicos y en la relación entre la salud en general y la felicidad. Si sabes esto, puedes adaptar tus respuestas para que estén enfocadas en sus intereses y, así, la presentación sea relevante y útil para ellos. Cuando respondes, trata de hacer participar a todo el público. No estás teniendo una conversación individual con la persona que hizo la pregunta; estás presentando para un grupo de personas que quizás también tienen la misma pregunta o necesitan saber cuál es la respuesta. Es importante evitar excluir accidentalmente a otros miembros del público. También puedes incluir otras voces. Si hay alguien de tu público o de tu equipo que podría saber la respuesta, pídele su opinión. Mantén tus respuestas cortas y específicas. Comienza con una respuesta de una línea que les dé la respuesta básica a los interesados. Luego, si tienen más preguntas, puedes brindarles más detalles. Esto puede ser difícil para un analista de datos. Tienes toda la información previa y quieres compartir tu arduo trabajo, pero no quieres perder a tu público con una respuesta larga y posiblemente confusa. Mantente enfocado en la pregunta misma. Por eso es tan importante escuchar toda la pregunta. Para mantener el foco en esa pregunta específica. Responde la pregunta de la manera más directa posible y utiliza la menor cantidad de palabras que puedas. A partir de allí, puedes expandir tu respuesta o agregarle los colores, los contextos y los detalles que sean necesarios. Como cuando uno de nuestros interesados preguntó cómo se recopilaron los datos que medían la felicidad. Comenzamos por decirles que se utilizó una encuesta para medir la felicidad de un individuo, y solo cuando estén interesados en escuchar más acerca de la encuesta, les brindaremos más detalles. Para recapitular, cuando estés respondiendo preguntas durante una sesión de preguntas y respuestas en una presentación, recuerda escuchar toda la pregunta, repetir la pregunta si es necesario, entender el contexto, involucrar a todo el público y mantener tus respuestas cortas. Recuerda que no es necesario responder cada pregunta en el acto. Si es una pregunta difícil que requerirá un análisis o una investigación adicional, está bien hacerle saber a tu público que luego le darás una respuesta; solo recuerda responder de manera oportuna. Estos consejos te facilitarán las respuestas de preguntas y harán que te veas preparado y profesional. Ahora que estás listo para presentar, es el momento del cierre. Ya sabes mucho sobre cómo tener en cuenta las preguntas antes de una sesión de preguntas y respuestas, sobre cómo manejar distintos tipos de objeciones, y sobre algunas prácticas recomendadas que puedes utilizar en tu próxima presentación.
+_______________________________________________________
+
+-> Escuchar la pregunta entera
+-> Repetir la pregunta (Si es necesario)
+-> Entender el contexto 
+-> Involucrar a la audiencia entera
+-> Mantener tus respuestas cortas y especificas
+
+______________________________________
+
+¿Qué tácticas puedes usar para garantizar que le respondas a un miembro de la audiencia de forma adecuada?
+Garantiza que tu respuesta para el miembro de la audiencia sea adecuada: escucha la pregunta, repítela y comprende su contexto.
+
+¿Es bueno hacer partícipe a toda la audiencia mientras respondes las preguntas?
+Es bueno hacer partícipe a toda la audiencia mientras respondes las preguntas. Así, toda la audiencia se involucra en el debate.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Convertirse en un traductor experto de datos
+
+En mi recorrido he descubierto algo que quizás tú también descubras a medida que avances en tu carrera en el análisis computacional de datos, y es que los datos en sí no son realmente importantes para la empresa, sino que la comprensión de los datos y el impacto que puedan tener lo son. Muchos líderes empresariales no tienen la experiencia técnica para comprender los datos sin procesar, así que tú, como analista, eres el traductor. Entonces, la parte más importante de los datos eres tú, ya que traduces los datos para los líderes empresariales. Y a lo largo de mi carrera he descubierto que presentar los datos es probablemente el aspecto más importante de ser un analista de datos, porque no importa qué tan convincente o preciso sea el análisis; si las personas no lo entienden, entonces no tiene valor para la empresa y no le ofrece valor a nadie. He dedicado mucho tiempo y gran parte de mi trabajo actual es ayudar a los líderes empresariales a comprender sus datos y simplificar aquello que es demasiado técnico para que las personas puedan comprender lo que significa y cómo pueden utilizarlo para que impacte en su empresa. Es una forma de arte, es una destreza poder tomar algo que es muy técnico y simplificarlo para que todos los asistentes de la reunión comprendan lo que se está diciendo y cómo utilizarlo. Muchas veces, cuando estoy mirando la presentación de alguien o haciendo la mía, un aspecto muy importante para incluir en una presentación es la definición del propósito. Definir exactamente sobre qué tema vas a hablar y por qué es importante. ¿Por qué están todas esas personas en la sala y qué van a aprender de esta presentación? El siguiente aspecto de una presentación realmente buena es que sea concisa. No es bueno utilizar demasiadas palabras. Tampoco que haya demasiado texto en la pantalla ni que la presentación sea demasiado larga. Esto no quiere decir que los asistentes estén demasiado ocupados como para estar en la reunión, sino que quieres asegurarte de que estás presentando tu argumento sin perder la atención de las personas. Otro aspecto a tener en cuenta es que tu presentación debe tener un flujo lógico. No es bueno que la atención de los oyentes salte de una idea a otra mientras estás intentando exponer tu argumento. Es mejor que el flujo sea conciso y lógico para que los asistentes sepan lo que viene a continuación y lo que estás diciendo en ese momento. El siguiente aspecto a tener en cuenta es que la presentación sea visualmente convincente. Es importante que las personas sepan lo que están viendo y lo comprendan. Así que los elementos gráficos que elijas y el tema que vas a tratar en la presentación general tienen que ser atractivos, y deben llamar la atención de las personas para que sepan exactamente qué van a aprender en esta presentación. Todas estas cosas se resumen en el concepto principal que deberías tener en cuenta a la hora de hacer una presentación, que es ¿qué tan fácil es de comprender? Estás intentando hacer de un análisis de datos muy técnico algo más simple, de manera que no importen los conocimientos técnicos, o incluso los conocimientos de negocios que tenga una persona, sino que comprenda lo que estás intentando explicarle.
+
+<----------------------------------------------------------------------------------------------------------------------->

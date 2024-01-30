@@ -1,0 +1,66 @@
+Descubrimientos de las destrezas relacionadas.
+
+consta de cinco destrezas en total, estas son las siguientes:
+
+1 - Habilidades analiticas: Son cualidades y caracteristicas asociadas con la resolucion de problemas usando los hechos.
+
+A - Curiosidad : La constante busqueda de nuevos desafios y experiencias,averiguar y estudiar algo para sacear la curiosidad misma.
+B - Comprension del contexto :  Condicion en que algo existe o sucede, comprender patrones o entornos ya sean por orden en series de sucesos, entornos fuera de contexto.
+C - Mentalidad tecnica : Referencia a la habilidad de poder dividir cosas en pequeños pasos o piezas y trabajar con ellos de una menera logica y ordenada.
+D - Diseño de datos : Forma de COMO organizar la informacion. tu decides la manera de plasmar los datos ya clasificados ya sea por orden alfabetico o orden de fecha, orden mediante nombres de mails por orden ascendente o descendente. 
+E - Estrategia de datos : Es la administracion de personas procesos y herramientas usadas en el analisis de datos. Lo seria como simplemente tomar en serio el manual de instrucciones de un producto en concreto.
+
+
+Destreza
+Cualidades y características asociadas al uso de hechos para resolver problemas
+Destrezas analíticas
+
+Destreza
+La destreza analítica que implica desglosar los procesos en pasos más pequeños y trabajar con ellos de manera ordenada y lógica
+Mentalidad técnica
+
+Destreza
+La destreza analítica que implica la forma en que organizas la información
+Diseño de datos
+
+Destreza
+La destreza analítica que tiene que ver con cómo agrupas los elementos en categorías
+Comprender el contexto
+
+Destreza
+La destreza analítica que implica gestionar los procesos y las herramientas utilizadas en el análisis de datos
+Estrategia de datos
+
+Pensamiento analitico
+
+concepto que abarca la resolucion y definicion del problema, y tras la resolucion del problema utiliza los datos paso a paso de manera organizada.
+
+5 aspectos clave del pensamiento analitico
+
+Visualizacion :Representacion grafica de la informacion
+
+Estrategia : Ser estrategico, con los datos tener una mentalidad estratégica
+es fundamental para permanecer centrado y mantener el rumbo.
+
+Orientacion del problema: con esta cualidad poseen un enfoque  orientado hacia los problemas para identificarlos, describirlos y resoolverlos. Se trata de mantener el problema en el todo el proyecto
+
+Correlacion: Relacion entre los datos, Ejemplo entre el shampoo y la longitud del cabello esto incluye que la correlacion no equivale a la causalidad.
+
+Pensamiento con perspectiva global orientado hacia los detalles: Implica ser capaz de ver el panorama general asi como los detalles, ejeplo mas simple seria como tener la capacidad de ver un rompecabezas completo.
+
+Panorama general Incorrecto
+
+Para ejecutar un plan mediante un pensamiento orientado hacia los detalles, un analista de datos tiene en cuenta los detalles. El pensamiento con perspectiva global significa ver el panorama general y los detalles.
+
+causa madre del planteamiento de los problemas.
+
+Causa raiz: Es la raiz de lo que produce los problemas problemas
+
+El analisis de deficit: Permite examinar el funcionamiento actual de un proceso, para llegar a donde se quiere estar en el futuro.mejora los productos o eficiencia son algunos de los objetivod de este analisis.
+
+¿que es los no hemos considerado antes?
+
+
+
+
+

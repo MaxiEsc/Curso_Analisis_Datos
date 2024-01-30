@@ -1,0 +1,913 @@
+Preguntas como los datos potencian las decisiones - Preguntas
+
+video : 
+
+Hemos hablado mucho sobre qué son los datos y cómo influyen en la toma de decisiones. ¿Qué sabemos hasta ahora? Bueno, sabemos que los :
+
+Datos son una colección de hechos. 
+
+También sabemos que el análisis de datos revela importantes patrones y conocimientos sobre dichos datos. Por último, sabemos que el 
+
+Análisis de datos nos puede ayudar a tomar decisiones más informadas. 
+
+Ahora, veremos cuál es la función de los datos en el proceso de toma de decisiones y echaremos un vistazo rápido a las diferencias entre las decisiones basadas en datos y las decisiones inspiradas en datos. Veamos un ejemplo de la vida real. Piensa en la última vez que buscaste "restaurantes cercanos" y ordenaste los resultados por calificación para ayudarte a decidir cuál era el mejor. Fue una decisión que tomaste usando datos. Las empresas y otras organizaciones utilizan datos para tomar mejores decisiones todo el tiempo. Existen dos formas para hacer esto: 
+
+Toma de decisiones basada en datos 
+o 
+Toma de decisiones inspirada en datos.
+
+ Hablaremos más sobre la toma de decisiones inspirada en datos luego, pero aquí tenemos una definición rápida por ahora. 
+
+La Toma de decisiones inspirada en datos explora diferentes fuentes de datos para averiguar qué tienen en común o (La toma de decisiones inspirada en datos explora diferentes fuentes de datos para encontrar similitudes.). 
+
+Aquí, en Google, usamos datos todos los días, de formas muy sorprendentes también. Por ejemplo, usamos datos para ayudar a reducir la cantidad de energía gastada para refrigerar tus centros de datos. Después de analizar años de datos recopilados con inteligencia artificial, pudimos tomar decisiones que ayudan a reducir la energía que usamos para refrigerar nuestros centros de datos por encima del 40%. El equipo de Operaciones de personal de Google también usa datos para mejorar la manera en que contratamos nuevos Googlers y en que hacemos que empiecen con el pie derecho. Queríamos asegurarnos de que no estábamos pasando por alto a ningún candidato talentoso y que hacíamos lo más fluida posible la transición hacia sus nuevas funciones. Después de analizar los datos sobre las solicitudes, las entrevistas y los nuevos procesos de orientación en contrataciones, empezamos a usar un algoritmo. 
+
+Un algoritmo es un proceso o un conjunto de reglas que se deben seguir para una tarea específica. 
+
+Con este algoritmo, revisamos a los solicitantes que no pasaron el proceso de selección inicial para encontrar buenos candidatos. Los datos también nos ayudaron a determinar la cantidad ideal de entrevistas para tomar las mejores decisiones de contratación posibles. Hemos creado nuevas agendas de incorporación para ayudar a los nuevos empleados a comenzar en sus nuevos trabajos. Hay datos en todas partes. Hoy en día, creamos tantos datos que los científicos estiman que el 90% de los datos de todo el mundo se crearon solo en los últimos años. Piensa en el potencial que hay aquí. Cuantos más datos tengamos, podremos resolver problemas más grandes y crear mejores soluciones. Sin embargo, recopilar datos de manera responsable es solo una parte del proceso. También tenemos que convertir los datos en conocimiento que nos ayude a crear mejores soluciones. Voy a dejar que mi compañero Googler, Ed, hable más sobre eso. Tener toneladas de datos no es suficiente. Tenemos que hacer algo significativo con esto. Los datos en sí no proporcionan mucho valor. Jack Dorsey, el fundador de Twitter y Square, dijo "Cada acción que hacemos en este mundo desencadena una cierta cantidad de datos, y la mayoría de esos datos no tienen sentido hasta que alguien agrega alguna interpretación de ellos o alguien agrega una narrativa en torno a ellos". Los datos son sencillos, son hechos recopilados en un conjunto, son valores que describen algo. Cada punto de datos se vuelve más útil cuando se recopila y estructura, pero aun así carece de sentido por sí mismo. Debemos interpretar los datos para convertirlos en información. Por ejemplo, el tiempo de Michael Phelps en una carrera de natación individual de 200 metros, 1 minuto, 54 segundos, no nos dice mucho. Sin embargo, cuando lo comparamos con los tiempos de su competidor en la carrera, podemos ver que Michael llegó en primer lugar y ganó la medalla de oro. En este caso, nuestro análisis tomó datos de una lista de las carreras y los tiempos de Michael y los convirtió en información comparándolos con otros datos. El contexto es importante. Necesitábamos saber que esta carrera fue una final olímpica y no una carrera cualquiera para determinar que se trataba de una medalla de oro, pero esto sigue sin ser conocimiento. En el momento en el que consumimos, entendemos y aplicamos información, los datos son más útiles. En otras palabras, Michael Phelps es un nadador veloz. Es genial cómo podemos convertir los datos en conocimiento que nos ayuda de todas las formas posibles, ya sea para encontrar el restaurante perfecto o hacer cambios amigables con el medio ambiente. Ahora, ten en cuenta que existen limitaciones para el análisis de datos. A veces no tenemos acceso a todos los datos que necesitamos, o los datos se miden diferente en distintos programas, lo que puede dificultar la búsqueda de ejemplos concretos. Luego los abordaremos con más detalle, pero es importante que empieces a pensar en ellos ahora. Ahora que sabes cómo los datos impulsan la toma de decisiones, sabes cuán valiosa es tu función como analista de datos para el negocio. Los datos son una herramienta poderosa para la toma de decisiones, y puedes ayudar a brindar a las empresas la información que necesitan para resolver problemas y tomar nuevas decisiones, pero antes de eso, deberás aprender un poco más sobre los tipos de datos con los que trabajarás y cómo los manejarás.
+
+<-_________________________________________________________________________________________->
+
+Pruebas de datos y triunfos
+
+Esta lectura se centra en por qué la interpretación exacta de los datos es clave para las decisiones basadas en datos. Has aprendido por qué los datos son una herramienta empresarial tan poderosa y cómo los analistas de datos ayudan a sus empresas a tomar decisiones basadas en datos para obtener excelentes resultados. Como recordatorio rápido, el objetivo de todos los analistas de datos es usar datos para sacar conclusiones exactas y hacer buenas recomendaciones. Todo eso empieza con tener datos completos, correctos y relevantes.
+
+This illustration shows a magnifying glass viewing binary numbers and the word ERROR.
+
+Sin embargo, ten en cuenta que es posible tener datos sólidos y aun así tomar decisiones equivocadas. Depende de los analistas de datos interpretar los datos con exactitud. Cuando los datos se interpretan incorrectamente, pueden provocar enormes pérdidas. Considera los ejemplos a continuación:
+Fracaso del lanzamiento de Coca-Cola
+
+En 1985, se lanzó New Coke y reemplazó la fórmula clásica de Coca-Cola. La empresa había llevado a cabo pruebas de sabor con 200,000 personas y descubrió que los sujetos de la prueba preferían el sabor de New Coke a Pepsi, bebida que se había convertido en una fuerte competidora. Basándose solamente en estos datos, se retiró del mercado la Coca-Cola clásica y se la reemplazó por New Coke. Esto se consideró la solución para recuperar la participación en el mercado que había perdido frente a Pepsi.
+
+Sin embargo, resulta que New Coke fue un fracaso masivo y la empresa terminó perdiendo decenas de millones de dólares. ¿Cómo pudo suceder esto con datos que parecían correctos? Esto se debe a los que los datos no eran completos, lo que los hacía inexactos. Los datos no consideraron cómo se sentirían los clientes acerca de que New Coke reemplace la Coca-Cola clásica. La decisión de la empresa de retirar la Coca-Cola clásica fue una decisión basada en datos incompletos.
+Pérdida del orbitador de Marte
+
+En 1999, la NASA perdió el Mars Climate Orbiter de USD 125 millones, a pesar de que tenía buenos datos. La nave espacial se quemó en pedazos debido a la falta de colaboración y comunicación. El equipo de navegación del orbitador usaba el SI o sistema métrico (newtons) para sus cálculos de fuerza, pero los ingenieros que construyeron la nave espacial usaron el sistema de unidades inglesas de ingeniería (libras) para los cálculos de fuerza.
+
+Nadie se dio cuenta de que existía un problema hasta que el orbitador se prendió fuego en la atmósfera marciana. Más adelante, una junta de revisión de la NASA que investigaba la causa raíz del problema descubrió que la cuestión se relacionaba con el software que controlaba los propulsores. Un programa calculó la fuerza de los propulsores en libras; otro programa que analizaba los datos supuso que estaba en newtons. Los controladores del software estaban tomando decisiones basadas en datos para ajustar el empuje con base en datos 100% precisos, pero estas decisiones fueron incorrectas debido a suposiciones inexactas al interpretarlas. Una conversión de los datos de un sistema de medición a otro podría haber evitado la pérdida.
+This illustration shows a file icon with a checkmark to the right.
+
+Cuando los datos se utilizan estratégicamente, las empresas pueden transformar y aumentar sus ingresos. Considera los ejemplos a continuación:
+Crate and Barrel
+
+En Crate and Barrel, las ventas en línea aumentaron más del 40% gracias a los pedidos del tipo quedate en casa para combatir la pandemia mundial. Actualmente, las ventas en línea constituyen más del 65% de su negocio general. Usan la información de los datos para acelerar su transformación digital y reunir lo mejor de las experiencias en línea y fuera de línea para los clientes.
+
+BigQuery le permite a Crate and Barrel "recurrir a diez veces [más] fuentes de información (en comparación con hace unos años) que luego se analizan y transforman en información procesable que se puede utilizar para influir en la próxima interacción con el cliente. Y esto, a su vez, impulsa los ingresos".
+
+Lee más sobre la estrategia de datos de Crate and Barrel en Cómo la estrategia de datos de un minorista impulsa experiencias perfectas para el cliente
+
+.
+PepsiCo
+
+Desde el momento del lanzamiento de New Coke, las cosas cambiaron drásticamente para las empresas de bebidas y otros bienes de consumo envasados (CPG).
+
+PepsiCo "contrató talento analítico y estableció flujos de trabajo multifuncionales en torno a una infraestructura diseñada para priorizar las necesidades de los consumidores. Luego, [ellos] configuraron los procesos correctos para tomar decisiones críticas basadas en datos y casos de uso de tecnología. Finalmente, [ellos] invirtieron en la pila de tecnología y las plataformas adecuadas para que los datos pudieran fluir a un núcleo central basado en la nube. Esto es fundamental. Cuando los datos se unen, [ellos] desarrollan una comprensión holística del consumidor y sus viajes".
+
+Lee sobre cómo PepsiCo brinda una experiencia más personal y valiosa a los clientes usando datos en Cómo uno de los vendedores más grandes del mundo descartó su manual de jugadas y aprendió a anticipar la intención de las jugadas
+
+.
+Habilidades clave para obtener resultados exitosos
+
+Como analista de datos, tus propias habilidades y conocimientos serán la parte más importante de cualquier proyecto de análisis. Es fundamental que tengas una mentalidad basada en datos, hagas muchas preguntas, experimentes muchas posibilidades diferentes y uses tanto la lógica como la creatividad en el camino. Luego, estarás preparado para interpretar tus datos con los niveles más altos de cuidado y exactitud. Ten en cuenta que hay una diferencia entre tomar una decisión con datos incompletos y tomar una decisión con una pequeña cantidad de datos. Aprendiste que tomar una decisión con datos incompletos es peligroso, pero, a veces, los datos exactos provenientes de una pequeña prueba pueden ayudarte a tomar una buena decisión. Debes estar atento. Aprenderás sobre la cantidad de datos a recopilar más adelante en el programa.
+
+<-_________________________________________________________________________________________->
+
+Datos cualitativos
+
+Cuando se trata de la toma de decisiones, los datos son clave. Sin embargo, también aprendimos que hay muchos tipos de preguntas diferentes que los datos podrían ayudarnos a responder, y estas preguntas diferentes crean distintos tipos de datos. Hay dos tipos de datos de los que hablaremos en este video: cuantitativos y cualitativos. 
+
+Los datos cuantitativos son las medidas específicas y objetivas de hechos numéricos. (Los datos cuantitativos son una medida específica y objetiva, como un número, cantidad o rango.)
+
+A menudo, eso puede ser cuál es el problema, cuántas veces se repite y qué frecuencia tiene. En otras palabras, cosas que puedes medir, como cuántos viajeros toman el tren para ir a trabajar cada semana. Como analista financiera, trabajo con muchos datos cuantitativos. Amo la certeza y la precisión de los números. Por otra parte, 
+
+los datos cualitativos describen medidas subjetivas o explicativas de cualidades y características, o cosas que no se pueden medir con datos numéricos, como el color de tu cabello. 
+
+Los datos cualitativos son geniales ya que nos ayudan a responder las preguntas de "por qué". Por ejemplo, por qué a la gente le puede gustar cierta celebridad o cierto bocadillo más que otros. Con los datos cuantitativos, podemos ver los números representados en cuadros o gráficos. Los datos cualitativos pueden brindarnos un entendimiento de más alto nivel de por qué los números son como son. Esto es muy importante, porque nos ayuda a agregarle contexto a un problema. Como analista de datos, usarás ambos: el análisis cuantitativo y el análisis cualitativo, dependiendo de tu tarea empresarial. Las reseñas son un gran ejemplo de esto. Piensa en un momento en el que usaste reseñas para decidir si querías comprar algo o ir a algún lugar. Es probable que estas reseñas te hayan dicho a cuántas personas no les gusta tal cosa y por qué. Las empresas también leen estas reseñas, pero usan los datos de formas diferentes. Veamos un ejemplo de una empresa que usa datos provenientes de reseñas de los clientes para ver los datos cualitativos y cuantitativos en acción. Ahora, supongamos que una heladería local ha empezado a usar sus reseñas en línea para interactuar con sus clientes y construir su marca. Estas reseñas le dan a la heladería información sobre las experiencias de sus clientes, las cuales pueden usar para informar su toma de decisiones. El propietario nota que su calificación bajó. Descubre que últimamente su heladería recibió más reseñas negativas. Quiere saber por qué. Entonces, empieza a hacer preguntas. Primero, están las preguntas mensurables. 
+¿Cuántas reseñas negativas hay? 
+¿Cuál es la calificación promedio? 
+¿Cuántas de estas reseñas usan las mismas palabras claves? 
+
+Estas preguntas generan datos cuantitativos, resultados numéricos que ayudan a confirmar que sus clientes no están satisfechos. Estos datos pueden llevarlos a hacer diferentes preguntas. 
+¿Por qué los clientes no están satisfechos? 
+¿Cómo podemos mejorar su experiencia? 
+Estas son las preguntas que conducen a datos cualitativos. Después de analizar las reseñas, el dueño de la heladería ve un patrón: 17 reseñas negativas usan la palabra "frustrado". Este es un dato cuantitativo. Ahora podemos empezar a recopilar datos cualitativos preguntando por qué se repite esta palabra. Descubre que los clientes se sienten frustrados porque la heladería se queda sin los sabores populares antes de terminar el día. Sabiendo esto, la heladería puede cambiar su orden semanal para garantizar que haya suficiente de lo que quieren los clientes. Gracias a los datos tanto cuantitativos como cualitativos, el dueño de la heladería pudo darse cuenta de que sus clientes estaban descontentos y comprender por qué. Tener ambos tipos de datos hizo que él pudiera hacer los cambios correctos y mejorar su negocio. Ahora que conoces la diferencia entre los datos cuantitativos y los datos cualitativos, sabes cómo conseguir diferentes tipos de datos haciendo diferentes preguntas. Como detective de datos, tu trabajo es saber qué preguntas hacer para encontrar la solución adecuada. Entonces, puedes empezar a pensar en maneras interesantes y creativas para ayudar a los interesados a comprender mejor los datos. Por ejemplo, paneles interactivos, de los cuales hablaremos pronto.
+<-_________________________________________________________________________________________->
+
+sta lectura profundiza en el significado de cualitativo versus cuantitativo.
+
+Tal como has aprendido, hay dos tipos de datos: cualitativos y cuantitativos. 
+
+Herramientas de datos cualitativos
+	
+
+Herramientas de datos cuantitativos
+
+	
+
+Podemos echar un vistazo más de cerca a los tipos de datos y las herramientas de recopilación de datos. Imagina que eres un analista de datos de una cadena de salas de cine. Tu gerente quiere que realices un seguimiento de las tendencias de los siguientes aspectos:
+
+    Asistencia al cine a lo largo del tiempo
+
+    Rentabilidad del puesto de concesión
+
+    Preferencias de la audiencia nocturna 
+
+En nuestro caso, suponemos que ya existen datos cuantitativos para monitorear las tres tendencias. 
+Asistencia al cine a lo largo del tiempo
+
+Image of a progress measuring meter
+
+Comenzando con los datos históricos que el cine tiene mediante su programa de lealtad y recompensas, tu primer paso es investigar qué información puedes obtener de esos datos. Observas la asistencia de los últimos 3 meses. Sin embargo, debido a que los últimos 3 meses no incluyeron ningún día festivo importante, decides que es mejor mirar el valor de los datos de un año completo. Como sospechabas, los datos cuantitativos confirmaron que la asistencia promedio era de 550 por mes, pero luego aumentó a un promedio de 1,600 por mes en los meses con feriados. 
+
+Los datos históricos satisfacen tus necesidades para el proyecto, pero también decides que reanudarás el análisis nuevamente en unos meses después de que el cine aumente los precios de las entradas para los horarios de los espectáculos nocturnos. 
+Rentabilidad del puesto de concesión
+
+Image of a stack of money and coins. There is a clock in the background
+
+La ganancia se calcula restando el costo de los ingresos por ventas. Los datos históricos muestran que, si bien el puesto de concesión era rentable, los márgenes de ganancia eran muy estrechos, de menos del 5%. Viste que las compras promedio totalizaron USD 20 o menos. Decides que seguirás monitoreando esto de manera continua. 
+
+Sobre la base de tu comprensión de las herramientas de recopilación de datos, sugerirás una encuesta en línea para los clientes para que puedan comentar sobre la comida del puesto de concesión. Esto te permitirá recopilar aún más datos cuantitativos para renovar el menú y, potencialmente, aumentar las ganancias. 
+Preferencias de la audiencia nocturna
+Image of a person sitting across a group of people
+
+Tu análisis de los datos históricos muestra que el horario del espectáculo de las 7:30 a.m. fue el más popular y tuvo la mayor asistencia, seguido por los horarios de los espectáculos de las 7:15 p.m. y las 9:00 p.m. Puedes sugerir reemplazar el horario actual de las 8:00 p.m. que tiene una asistencia más baja con el horario del espectáculo de las 8:30 p.m. Sin embargo, necesitas más datos para respaldar tu corazonada de que es más probable que las personas asistan al espectáculo posterior.
+
+Los espectadores nocturnos son la mayor fuente de ingresos para el cine. Por lo tanto, también decides incluir una pregunta en tu encuesta en línea para obtener más información. 
+Datos cualitativos para las tres tendencias más los precios de las entradas
+
+Dado que sabes que el cine planea aumentar los precios de las entradas para los espectáculos nocturnos en unos pocos meses, también incluirás una pregunta en la encuesta para tener una idea de la sensibilidad de los clientes en cuanto a los precios. 
+
+Tu encuesta final en línea podría incluir estas preguntas para obtener datos cualitativos:
+
+    ¿Qué influyó en tu decisión de ver una película hoy en nuestro cine? (asistencia al cine)
+
+    ¿Qué opinas sobre la calidad y el valor de tus compras en el puesto de concesión? (rentabilidad del puesto de concesión)
+
+    ¿Qué horario de espectáculo prefieres, 8:00 p.m. u 8:25 p.m., y por qué prefieres ese horario? (preferencias de los espectadores nocturnos)
+
+    ¿Bajo qué circunstancias elegirías una matiné en lugar de una presentación nocturna? (aumento del precio de la entrada)
+
+Resumen
+
+Por lo general, los analistas de datos usarán ambos tipos de datos en su trabajo. A menudo, los datos cualitativos pueden ayudar a los analistas a comprender mejor sus datos cuantitativos al proporcionar una razón o una explicación más completa. En otras palabras, los datos cuantitativos suelen mostrar el qué, y los datos cualitativos suelen mostrar el por qué. Mediante el uso de datos cuantitativos y cualitativos, podemos aprender cuándo a las personas les gusta ir al cine y por qué eligen el cine. Tal vez realmente les gusten las sillas reclinables, por lo que tu gerente puede comprar más sillas reclinables. Tal vez el cine es el único que sirve cerveza de raíz. Tal vez un espectáculo en un horario posterior les da más tiempo para conducir hasta el cine desde donde se encuentran los restaurantes populares. Tal vez van a las matinés porque tienen hijos y quieren ahorrar dinero. No habríamos descubierto esta información analizando solo los datos cuantitativos de asistencia, ganancias y horarios de exhibición.
+
+<-_________________________________________________________________________________________->
+
+Video: Gran revelacion - compartir los hallazgos
+
+Los datos son geniales, pero si no podemos contar la historia de los datos, no son útiles para nadie. Necesitamos maneras de organizar los datos que nos ayuden a convertirlos en información. Existen todo tipo de herramientas para ayudarte a visualizar y compartir tus análisis de datos con los interesados. A continuación, hablaremos de dos herramientas de presentación de datos: informes y paneles. Tanto los informes como los paneles son útiles para la visualización de datos, pero cada uno tiene sus pros y sus contras. 
+
+Un informe es una recopilación estática de datos que se entrega periódicamente a los interesados. 
+
+Un panel(Dashboard), por otro lado, monitorea los datos entrantes en vivo. 
+Ejemplo para el panel (Un panel sería útil para monitorear los datos a medida que estén disponibles).
+
+Hablemos primero de los informes. 
+
+Pros informes
+-Los informes son excelentes para brindar imágenes de los datos históricos de alto nivel para una organización. Por ejemplo, las ventas mensuales de una empresa financiera. 
+-Los informes también tienen muchos beneficios. Se pueden diseñar y enviar periódicamente, a menudo de forma semanal o mensual, como información organizada y de fácil referencia. 
+-Son rápidos de diseñar y fáciles de usar siempre que los mantengas continuamente. 
+-Por último, debido a que los informes usan datos estáticos o datos que no cambian una vez registrados, reflejan datos que ya se han limpiado y ordenado. 
+
+También existen algunas desventajas a tener en cuenta. 
+
+Desventajas
+-Los informes necesitan un mantenimiento regular 
+-No son visualmente atractivos. Dado que no son automáticos ni dinámicos. 
+-Los informes no muestran datos en vivo ni en evolución. 
+
+Para obtener una reflexión en vivo de los datos entrantes, deberás diseñar un panel. 
+Los paneles son geniales por muchas razones: 
+
+Ventajas
+
+-Le dan a tu equipo más acceso a la información registrada, puedes interactuar a través de los datos jugando con los filtros y, debido a que son dinámicos, tienen un valor a largo plazo. 
+-Si los interesados necesitan acceder continuamente a la información, un panel puede ser más eficiente que tener que generar informes una y otra vez, lo cual hace que ahorres mucho tiempo. 
+-Son agradables a la vista. 
+
+Sin embargo, los paneles también tienen algunos contras. 
+
+-Mucho tiempo para diseñarlos y pueden ser menos eficientes que los informes si no se usan con mucha frecuencia. 
+-Si la tabla base se rompe en algún momento, necesita mucho mantenimiento para volver a funcionar. 
+-Los paneles también pueden abrumar a las personas con información. 
+
+Si no sueles buscar datos en un panel, es posible que te pierdas en él. Como analista de datos, necesitas decidir la mejor manera de comunicar la información a tus interesados. Por ejemplo, ¿qué pasa si tus interesados quieren que la empresa participe en las redes sociales? ¿Sería útil un informe mensual que les diga la cantidad de nuevos seguidores de su página? ¿O un panel que monitorea la participación en vivo en las redes sociales en varias plataformas? Más adelante, crearás tus propios informes y paneles para practicar usar estas herramientas. Pero, por ahora, quiero mostrarte cómo se verían un informe y un panel. Comenzaremos usando una herramienta con la que ya estamos familiarizados: las hojas de cálculo. Veamos una manera de visualizar los datos de una hoja de cálculo en un informe. Esta hoja de cálculo tiene un conjunto de datos con los detalles del pedido de una empresa mayorista. Eso es mucha información. Desde los encabezados, podemos ver diferentes cosas registradas aquí, como la fecha del pedido, el vendedor, el precio unitario y los ingresos para cada transacción registrada. Todo es información útil, pero un poco difícil de entender. Queremos un informe, ya que es más fácil de leer. Digamos que tus interesados quieren un vistazo rápido de los ingresos por vendedor. Usando los datos, puedes generar una tabla dinámica con un gráfico que muestre esa información. 
+
+Una tabla dinámica es una herramienta de resumen de datos utilizada en el procesamiento de datos. 
+
+Las tablas dinámicas se usan para resumir, ordenar, reorganizar, agrupar, contabilizar, totalizar o promediar los datos almacenados en una base de datos. Permite que los usuarios transformen las columnas en filas y las filas en columnas. De hecho, aprenderemos más sobre las tablas dinámicas luego. Pero te mostraré una muy rápida. Seleccionaremos el menú Datos y haremos clic en el botón Tabla dinámica. Eso te permite extraer los datos de esta tabla. Podemos simplemente presionar Crear, lo cual generará una nueva hoja de cálculo. Aquí, nos muestra los campos de la tabla dinámica que podemos elegir. Haremos clic en seleccionar, vendedor e ingresos. Así de simple, hizo un gráfico para nosotros. En este momento, puedes jugar con el aspecto del gráfico, pero toda la información está ahí. Pasemos a los paneles. Si necesitas una manera más dinámica de compartir información con tus interesados, los paneles te serán útiles. Podrías crear algo como este panel de Tableau, que tiene gráficos interactivos que muestran varias vistas de los datos. Con esto, los usuarios pueden cambiar la ubicación, el período o cualquier otro aspecto de los datos que están viendo haciendo clic en los diferentes elementos del panel. Suena genial, ¿verdad? Más adelante en este programa, veremos cómo puedes crear tus propias visualizaciones de datos. Tenemos mucho que aprender antes de llegar a eso. Espero que esto haya sido un emocionante primer vistazo a las diferentes herramientas de visualización que utilizarás como analista de datos.
+
+<-_________________________________________________________________________________________->
+
+Video : Datos contra metricas
+
+En uno de nuestros ejemplos, la empresa quería ver los ingresos por ventas de cada vendedor. Esa medición específica de datos se realiza usando métricas. Ahora, quiero contarte un poco más sobre la diferencia entre los datos y las métricas. Y cómo se pueden usar las métricas para convertir los datos en información útil. 
+
+Una métrica es un tipo único y cuantificable de datos que pueden utilizarse para la medición.
+
+ Piénsalo de esta manera. Los datos empiezan como una colección de hechos sin procesar, hasta que los organizamos en métricas individuales que representan un único tipo de datos. Las métricas también se pueden combinar en fórmulas en las que puedes conectar tus datos numéricos. En nuestro ejemplo anterior de ingresos por ventas, todos esos datos no significan mucho a menos que usemos una métrica específica para organizarlos. Por lo tanto, usemos los ingresos por cada vendedor como nuestra métrica. Ahora podemos ver de quién son las ventas que generaron los mayores ingresos. Las métricas suelen implicar matemáticas simples. Por ejemplo, los ingresos son la cantidad de ventas multiplicadas por el precio de venta. Elegir la métrica correcta es clave. Los datos contienen muchos detalles sin procesar sobre el problema que exploramos. Sin embargo, necesitamos las métricas correctas para obtener las respuestas que buscamos. Las diferentes industrias usarán todo tipo de métricas para medir las cosas de un conjunto de datos. Veamos algunas formas más en las que las empresas de diferentes industrias utilizan las métricas para que puedes ver cómo podrías aplicar las métricas a tus datos recopilados. 
+
+¿Has oído hablar del ROI? Las empresas utilizan esta métrica todo el tiempo. 
+El ROI, o el retorno de la inversión, es esencialmente una fórmula diseñada usando métricas que permiten que una empresa sepa qué tan bien funciona una inversión. 
+El ROI se compone de dos métricas: el beneficio neto durante un período de tiempo y el costo de la inversión. 
+
+Al comparar estas dos métricas, beneficio y costo de la inversión, la empresa puede analizar los datos que tiene para ver qué tan bien funciona su inversión. Esto puede ayudarles a decidir cómo invertir en el futuro y qué inversiones priorizar. Vemos que las métricas también se utilizan en marketing. 
+
+Por ejemplo, 
+las métricas se pueden usar para ayudar a calcular las tasas de retención de los clientes o la capacidad de una empresa para mantener a sus clientes a lo largo del tiempo. 
+
+Las tasas de retención de los clientes pueden ayudar a la empresa a comparar la cantidad de clientes al principio y al final de un período para ver sus tasas de retención. De esta manera, la empresa sabe qué tan exitosas son sus estrategias de marketing y si necesita investigar nuevos enfoques para atraer a más clientes habituales. Las diferentes industrias usan todo tipo de métricas diferentes, pero hay una cosa que todas tienen en común: todas intentan alcanzar un objetivo específico midiendo datos. 
+
+Este objetivo métrico es un conjunto de objetivos medibles establecido por una empresa y evaluado mediante métricas. 
+
+Y así como existen muchas métricas posibles, también existen muchos objetivos posibles. Tal vez una organización quiera alcanzar una cierta cantidad de ventas mensuales o quizás un cierto porcentaje de clientes habituales. Al usar las métricas para enfocarte en cada aspecto de tus datos, puedes empezar a ver la historia que tus datos cuentan. Las fórmulas y los objetivos de las métricas son excelentes formas de medir y comprender los datos, pero no son las únicas. Hablaremos más sobre cómo interpretar y comprender los datos a lo largo de este curso.
+
+
+<-_________________________________________________________________________________________->
+
+La belleza de los paneles
+
+Los paneles son poderosas herramientas visuales que te ayudan a contar tu historia de datos. Un panel organiza la información de varios conjuntos de datos en una ubicación central, lo que ofrece un gran ahorro de tiempo. Los analistas de datos utilizan paneles para rastrear, analizar y visualizar datos a fin de responder preguntas y resolver problemas. Para tener una idea básica de cómo se ven los paneles, consulta este artículo: 6 ejemplos del mundo real de paneles de inteligencia empresarial
+
+. Tableau es una herramienta que se utiliza para crear paneles que analizaremos más adelante en el programa.
+
+En la siguiente tabla, se resumen las ventajas de utilizar un panel tanto para los analistas de datos como para sus interesados.
+
+<-_________________________________________________________________________________________->
+
+Diseñar paneles atractivos
+
+* Es importante recordar que los datos modificados se introducen automáticamente en los paneles solo si la estructura de datos es la misma. Si la estructura de datos cambia, debes actualizar el diseño del panel antes de que los datos puedan actualizarse en vivo.
+Creación de un panel
+
+Aquí hay un proceso que puedes seguir para crear un panel:
+
+1. Identificar a los interesados que necesitan ver los datos y cómo los usarán
+
+Para empezar con esto, debes hacer preguntas efectivas. Consulta esta Hoja de trabajo para la recopilación de requisitos
+
+ para explorar una amplia gama de buenas preguntas que puedes hacer para identificar a los interesados relevantes y sus necesidades de datos. Este es un gran recurso para guiarte a través de este proceso una y otra vez.
+
+2. Diseñar el panel (lo que se debe mostrar)
+
+Sigue estos consejos para que el diseño de tu panel sea claro, fácil de seguir y simple:
+
+    Usa un encabezado claro para etiquetar la información
+
+    Agrega descripciones de texto cortas a cada visualización
+
+    Muestra la información más importante en la parte superior
+
+3. Crea prototipos si lo deseas
+
+Esto es opcional, pero a muchos analistas de datos les gusta esbozar sus paneles antes de crearlos. 
+
+4. Selecciona las visualizaciones que utilizarás en el panel
+
+Aquí tienes muchas opciones y todo depende de la historia de datos que cuentes. Si necesitas mostrar un cambio de valores a lo largo del tiempo, los gráficos de líneas o gráficos de barras podrían ser la mejor opción. Si tu objetivo es mostrar cómo cada parte contribuye a la cantidad total que se informa, un gráfico circular o de torta probablemente sea la mejor opción.
+
+Para obtener más información sobre cómo elegir las visualizaciones correctas, consulta el breve curso de Looker sobre cómo diseñar excelentes paneles
+
+. Simplemente regístrate y podrás acceder al tutorial completo de forma gratuita. También puedes visitar las galerías de Tableau:
+
+    Para obtener más muestras de gráficos de área, gráficos de columnas y otras visualizaciones, visita la Galería de visualizaciones de Tableau
+
+. Esta galería está repleta de buenos ejemplos que fueron creados usando datos reales; explora este recurso por tu cuenta para obtener algo de inspiración.
+
+Explora la Visualización del día de Tableau
+
+     para ver las visualizaciones seleccionadas por la comunidad. Estas son visualizaciones creadas por usuarios de Tableau y son una excelente manera de obtener más información sobre cómo otros analistas de datos utilizan las herramientas de visualización de datos. 
+
+5. Crea filtros según sea necesario
+
+Los filtros muestran ciertos datos mientras ocultan el resto de los datos de un panel. Esto puede ser de gran ayuda para identificar patrones mientras se mantienen intactos los datos originales. Es común que los analistas de datos usen y compartan el mismo panel, pero administren su parte con un filtro. Para profundizar en los filtros y encontrar un ejemplo de filtros en acción, puedes visitar la página de Tableau en Acciones con filtros
+
+. Este es un recurso útil para que guardes y vuelvas a verlo cuando empieces a practicar el uso de los filtros en Tableau por tu cuenta.
+Los paneles forman parte de un viaje de negocios
+
+Al igual que el panel de un avión le muestra al piloto su trayectoria de vuelo, tu panel hace lo mismo para tus interesados. Les ayuda a navegar por la ruta del proyecto dentro de los datos. Si agregas marcadores claros y resaltas los puntos importantes en tu panel, los usuarios entenderán hacia dónde se dirige tu historia de datos. Luego, pueden trabajar juntos para asegurarse de que la empresa llegue a donde debe ir. 
+
+<-_________________________________________________________________________________________->
+
+Conecta con los puntos de los datos
+
+Video: Pensamiento Matematico
+
+Hasta ahora, aprendiste mucho sobre cómo pensar como un analista de datos. Exploramos algunas formas diferentes de pensar. Y ahora, quiero dar un paso más al utilizar un enfoque matemático para la resolución de problemas. 
+
+El pensamiento matemático es una habilidad poderosa que puedes usar para ayudarte a resolver problemas y crear nuevas soluciones. 
+
+Entonces, tomémonos un tiempo para hablar sobre qué es el pensamiento matemático y cómo puedes empezar a usarlo. Usar un enfoque matemático no significa que de repente tengas que convertirte en un genio de las matemáticas. Significa mirar un problema y desglosarlo lógicamente paso a paso, para que puedas ver la relación de los patrones en tus datos y usar eso para analizar tu problema. Este tipo de pensamiento también puede ayudarte a encontrar las mejores herramientas para el análisis porque nos permite ver los diferentes aspectos de un problema y elegir el mejor enfoque lógico. Hay muchos factores que debes considerar al momento de elegir la herramienta más útil para tu análisis. Una forma de decidir qué herramienta usar es según el tamaño de tu conjunto de datos. Cuando trabajes con datos, encontrarás que hay datos grandes y pequeños. 
+
+Los datos pequeños pueden ser realmente pequeños. 
+Estos tipos de datos tienden a estar compuestos por conjuntos de datos relacionados con métricas específicas durante un período de tiempo corto y bien definido, tal como la cantidad de agua que bebes al día. 
+Los datos pequeños pueden ser útiles para tomar decisiones diarias, como decidir beber más agua. 
+Sin embargo, no tienen una gran repercusión en frameworks más grandes como las operaciones empresariales. Puedes utilizar hojas de cálculo para organizar y analizar conjuntos de datos más pequeños cuando recién comiences. 
+
+Por otro lado, los macrodatos tienen conjuntos de datos menos específicos que abarcan un período de tiempo más largo. Por lo general, es necesario desglosarlos para analizarlos. 
+Los macrodatos son útiles para analizar cuestiones y problemas a gran escala, y ayudan a las empresas a tomar decisiones importantes. 
+Cuando trabajas con datos a mayor escala, puedes cambiar a SQL. 
+Veamos un ejemplo de cómo un analista de datos que trabaja en un hospital podría usar el pensamiento matemático para resolver un problema con las herramientas adecuadas. Es probable que el hospital descubra que tienen un problema con el uso excesivo o insuficiente de sus camas. Basándose en eso, el hospital podría hacer que la optimización de camas sea un objetivo. Quieren asegurarse de que las camas estén disponibles para los pacientes que las necesitan, pero sin desperdiciar recursos hospitalarios como espacio o dinero en el mantenimiento de las camas vacías. Usando el pensamiento matemático, puedes dividir este problema en un proceso paso a paso para ayudarte a encontrar patrones en tus datos. Hay muchas variables en este caso. Pero, por ahora, mantengamos las cosas simples y concentrémonos solo en algunas de las claves. Hay métricas relacionadas con este problema que pueden mostrarnos patrones en los datos: por ejemplo, tal vez la cantidad de camas vacías y la cantidad de camas ocupadas durante un período de tiempo. De hecho, ya existe una fórmula para esto. Se llama tasa de ocupación de camas y se calcula usando la cantidad total de días de internación y la cantidad total de camas disponibles durante un período de tiempo determinado. Lo que queremos hacer ahora es tomar nuestras variables claves y ver cómo la relación entre ellas puede mostrarnos los patrones que pueden ayudar al hospital a tomar una decisión. Para hacer eso, tenemos que elegir una herramienta que sea útil para esta tarea. Los hospitales generan una gran cantidad de datos de pacientes durante un largo período de tiempo. Entonces, lógicamente, una herramienta que sea capaz de manejar grandes conjuntos de datos es imprescindible. SQL es una gran elección. En este caso, descubres que el hospital siempre tiene camas sin usar. Sabiendo eso, pueden optar por deshacerse de algunas camas, lo que hace que ahorren espacio y dinero que pueden usar para comprar y almacenar equipos de protección. Al considerar lógicamente cada parte de este problema, el pensamiento matemático nos ayudó a ver nuevas perspectivas que nos llevaron a una solución. Muy bien, eso es todo por ahora. ¡Buen trabajo! Ya has cubierto mucho material. Aprendiste cuánto poder pueden otorgar los datos otorgar los datos en la toma decisiones, la diferencia entre el análisis cuantitativo y cualitativo, el uso de informes y paneles para la visualización de datos, las métricas y el uso de un enfoque matemático para la resolución de problemas. A continuación, abordaremos los conceptos básicos de las hojas de cálculo. Podrás poner en práctica lo que aprendiste y aprender a usar una nueva herramienta que te ayudará a lo largo del proceso de análisis de datos. Nos vemos pronto.
+
+
+<-_________________________________________________________________________________________->
+
+Macrodatos y microdatos
+
+
+Como analista de datos, trabajarás con macrodatos y microdatos. Ambos tipos de datos son valiosos, pero desempeñan papeles muy diferentes. 
+Image of two gears, one small and one large. Each gear has a person icon inside
+
+Ya sea que trabajes con macrodatos o microdatos, puedes usarlos para ayudar a los interesados a mejorar los procesos comerciales, responder preguntas, crear nuevos productos y mucho más. Pero hay ciertos desafíos y beneficios que vienen con los macrodatos, y la siguiente tabla explora las diferencias entre los macrodatos y los microdatos.
+
+Desafíos y beneficios
+
+Estos son algunos de los desafíos que puedes enfrentar al trabajar con macrodatos:
+
+    Muchas organizaciones se enfrentan a la sobrecarga de muchos datos e información sin importancia o irrelevante. 
+
+    Los datos importantes se pueden ocultar en el fondo con todos los datos no importantes, lo que hace que sea más difícil encontrarlos y usarlos. Esto puede provocar plazos de toma de decisiones más lentos e ineficientes.
+
+    Los datos que necesitas no siempre son fácilmente accesibles. 
+
+    Las herramientas y soluciones tecnológicas actuales todavía luchan por proporcionar datos medibles que se puedan informar. Esto puede conducir a un sesgo algorítmico injusto. 
+
+    Hay brechas en muchas soluciones empresariales de macrodatos.
+
+¡Ahora vienen las buenas noticias! Aquí hay algunos beneficios que vienen con los macrodatos:
+
+    Cuando se pueden almacenar y analizar grandes cantidades de datos, esto puede ayudar a las empresas a identificar formas más eficientes de hacer negocios y ahorrar mucho tiempo y dinero.
+
+    Los macrodatos ayudan a las organizaciones a detectar las tendencias de los patrones de compra de los clientes y los niveles de satisfacción, lo cual puede ayudarlas a crear nuevos productos y soluciones que harán felices a los clientes.
+
+    Al analizar los macrodatos, las empresas obtienen una comprensión mucho mejor de las condiciones actuales del mercado, lo cual puede ayudarlas a mantenerse por delante de la competencia.
+
+    Al igual que en nuestro ejemplo anterior de las redes sociales, los macrodatos ayudan a las empresas a realizar un seguimiento de su presencia en línea, en especial de los comentarios, tanto buenos como malos, de los clientes. Esto les da la información que necesitan para mejorar y proteger su marca.
+
+Las tres (o cuatro) palabras V para los macrodatos
+
+Al pensar en los beneficios y desafíos de los macrodatos, es útil pensar en las tres V: volumen, variedad y velocidad. El volumen describe la cantidad de datos. La variedad describe los diferentes tipos de datos. La velocidad describe qué tan rápido se pueden procesar los datos. Algunos analistas de datos también consideran una cuarta V: veracidad. La veracidad se refiere a la calidad y fiabilidad de los datos. Todas estas son consideraciones importantes relacionadas con el procesamiento de conjuntos de datos enormes y complejos. 
+
+Volumen
+
+La cantidad de datos	
+
+Variedad
+	
+Los diferentes tipos de datos 
+
+Velocidad
+	
+Qué tan rápido se pueden procesar los datos
+
+Veracidad
+
+La calidad y fiabilidad de los datos
+
+<-_________________________________________________________________________________________->
+
+MODULO 3
+
+VIDEO: Hoja de calculo
+
+En esta parte del programa, revisaremos la hoja de cálculo. Las hojas de cálculo son una herramienta poderosa y versátil, por lo que son una gran parte de casi todo lo que hacemos como analistas de datos. Existe una buena posibilidad de que una hoja de cálculo sea la primera herramienta a la que recurras cuando intentes responder preguntas basadas en datos. Una vez que hayas definido lo que debes hacer con los datos, recurrirás a las hojas de cálculo para ayudar a generar evidencia que luego podrás visualizar y utilizar para respaldar tus hallazgos. Las hojas de cálculo suelen ser los héroes olvidados del mundo de los datos. No siempre obtienen el reconocimiento que se merecen, pero como detective de datos, definitivamente las querrás en tu kit de recolección de evidencia. Sé que las hojas de cálculo me han salvado más de una vez. Agregué datos para órdenes de compra en una hoja, configuré fórmulas en una pestaña y las mismas fórmulas hicieron el trabajo por mí en otras pestañas. Esto me da tiempo para trabajar en otras cosas durante el día. No me puedo imaginar sin usar hojas de cálculo. Las matemáticas son una parte fundamental del trabajo de todo analista de datos, pero no todos los analistas lo disfrutan. Afortunadamente, las hojas de cálculo pueden hacer que los cálculos sean más agradables y, con eso, me refiero a que sean más fáciles. Veamos cómo. Las hojas de cálculo pueden realizar cálculos básicos y complejos de forma automática. Esto no solo te ayuda a trabajar de manera más eficiente, sino que también te permite ver los resultados y comprender cómo los obtuviste. Aquí hay un vistazo rápido de algunas de las funciones que utilizarás al realizar cálculos. También se pueden utilizar muchas funciones como parte de una fórmula matemática. Las funciones y fórmulas también tienen otros usos, y también las veremos. Llevaremos las cosas un paso más allá con ejercicios que utilizan datos reales de bases de datos. Esta es tu oportunidad de reorganizar una hoja de cálculo, realizar análisis de datos reales y divertirte con los datos.
+
+<-_________________________________________________________________________________________->
+
+Video: Comenzar con la hoja de calculos
+
+Los analistas de datos pasan mucho tiempo organizando datos y realizando cálculos. Afortunadamente, hay muchas herramientas diferentes para ayudarlos a hacer precisamente eso, incluidas las hojas de cálculo. En este video, veremos algunas de las formas en que los analistas de datos usan hojas de cálculo para ayudarlos con sus responsabilidades diarias. Más adelante, podrás probar algunas de estas cosas tu mismo, pero por ahora, comencemos con un vistazo rápido a cómo los analistas de datos usan las hojas de cálculo para hacer su trabajo. Esto cambiará según el trabajo que necesites llevar a cabo. Pero aquí hay una descripción general de algunas de las tareas principales. Imagina que trabajas para una empresa de construcción. 
+Tu empresa necesita tus habilidades con las hojas de cálculo para analizar algunos datos sobre sus gastos, por lo que puedes acceder a los datos apropiados y agregarlos a tu hoja de cálculo. No cubriremos todos los detalles de este proyecto por el momento, pero tendrás la oportunidad de ver muchas características de la hoja de cálculo de cerca y de manera personal a medida que avancemos. ¿Qué haces con los datos ahora que están en tu hoja de cálculo? Nuevamente, esto será diferente para cada trabajo, pero puedes empezar organizando tus datos con la tarea que se te ha asignado. Por ejemplo, puedes colocar los datos en una tabla dinámica. 
+Hemos hablado acerca de las tablas dinámicas antes. 
+
+En este curso las cubriremos con más detalle más adelante, pero por ahora, solo piensa en ellas como tablas bien organizadas y muy útiles. A continuación, puedes filtrar los datos de la tabla dinámica. 
+Ordenar y filtrar los datos es una parte frecuente de la mayoría de los trabajos. Esto te permite concentrarte solo en los datos que necesitarás para tu análisis. En nuestro ejemplo, tal vez solo necesites los gastos para un período de tiempo determinado, como los últimos tres meses después de filtrar tus datos. Podrías realizar algunos cálculos para obtener más información al respecto. Tal vez necesites averiguar qué proyectos de construcción terminaron costando más dinero. Aquí es donde las fórmulas y funciones son realmente útiles. Hablaremos de ellas en un momento, pero las fórmulas y funciones son excelentes para hacer cálculos rápidos, especialmente cuando te quedas sin dedos de las manos y de los pies con los que contar. Ahora has visto algunas de las formas en que los analistas de datos utilizan las hojas de cálculo en su trabajo diario para muchas tareas diferentes, incluida la organización de sus datos y la realización de cálculos. Antes de que te des cuenta, estarás trabajando en tus propias hojas de cálculo.
+__________________________________
+Para hacer cálculos en una hoja de cálculo, los analistas de datos usan fórmulas y funciones, como SUMAR, PROMEDIO y CONTAR.
+__________________________________
+¿Cuáles son los primeros pasos que da un analista de datos cuando trabaja con datos en una hoja de cálculo?
+
+Los primeros pasos que da un analista de datos cuando trabaja con datos en una hoja de cálculo son ordenar y filtrar los datos.
+
+
+<-_________________________________________________________________________________________->
+
+Hojas de cálculo y el ciclo de vida de los datos.
+
+Para entender mejor los beneficios de usar hojas de cálculo en el análisis de datos, exploremos cómo se relacionan con cada fase del ciclo de vida de los datos: planificar, capturar, administrar, analizar, archivar y destruir.
+
+    Planifica respecto de los usuarios que trabajarán dentro de una hoja de cálculo mediante el desarrollo de estándares organizacionales. Esto puede significar formatear sus celdas, los encabezados que elijas resaltar, el esquema de color y la forma en que ordenas tus puntos de datos. Cuando te tomas tu tiempo para establecer estos estándares, mejoras la comunicación, garantizas la coherencia y ayudas a las personas a ser más eficientes con su tiempo.
+
+    Captura los datos según su fuente mediante la conexión de hojas de cálculo a otras fuentes de datos, como una aplicación de encuestas en línea o una base de datos. Estos datos se actualizarán automáticamente en la hoja de cálculo. De esa manera, la información es siempre lo más actual y precisa posible.
+
+    Administra diferentes tipos de datos con una hoja de cálculo. Esto puede implicar almacenar, organizar, filtrar y actualizar la información. Las hojas de cálculo también te permiten decidir quién puede acceder a los datos, cómo se comparte la información y cómo mantener tus datos seguros y protegidos. 
+
+    Analiza los datos en una hoja de cálculo para ayudar a tomar mejores decisiones. Algunas de las herramientas de análisis de hojas de cálculo más comunes incluyen fórmulas para agregar datos o crear informes, y tablas dinámicas para imágenes claras y fáciles de entender. 
+
+    Archiva las hojas de cálculo que no uses con frecuencia, pero que es posible que debas consultar más adelante con herramientas integradas. Esto te servirá, especialmente, si deseas almacenar datos históricos antes de que se actualicen. 
+
+    Destruye tu hoja de cálculo cuando estés seguro de que nunca la volverás a necesitar; si tienes mejores copias de seguridad, o por motivos legales o de seguridad. Ten en cuenta que muchas empresas deben seguir ciertas reglas o tomar medidas para asegurarse de que los datos se destruyan correctamente.
+
+Recursos
+
+Los accesos directos a las hojas de cálculo pueden ayudarte a ser más eficiente con ellas. Si deseas obtener más información, puedes investigar sobre la colección de accesos directos de Google Sheets
+ o, si usas Excel, puedes visitar la página de accesos directos de Microsoft Excel
+. Ambos recursos contienen una lista de accesos directos de hojas de cálculo que puedes guardar y consultar a medida que trabajes más seguido con hojas de cálculo.
+
+<-_________________________________________________________________________________________->
+
+video: guia paso a paso en hojas de calculo
+
+Hemos hablado sobre cómo las hojas de cálculo son excelentes para organizar datos y realizar cálculos. Ahora es el momento de poner manos a la obra y empezar a crear una hoja de cálculo real. En este video, voy a demostrar algunas tareas básicas para las que los analistas de datos usan hojas de cálculo, incluida el ingreso y la organización de datos. Empezaremos con un proceso paso a paso para mostrarte algunas herramientas para organizar tus datos en una hoja de cálculo. Considera estos pasos como lo básico. No siempre tendrás que usarlos cuando trabajes con un conjunto de datos, pero si tus datos están un poco desordenados cuando los obtienes, estos pasos pueden ayudarte a prepararlos para el análisis. Empecemos por abrir una nueva hoja de cálculo. Como analista de datos, es posible que no empieces con una hoja de cálculo en blanco, pero es bueno saber cómo hacerlo, por si acaso. Empieza abriendo Excel, Google Sheets o cualquier software de hojas de cálculo que estés usando, luego selecciona un nuevo archivo en blanco. 
+
+Lo primero que harás cuando abras una nueva hoja de cálculo es darle un título. Aquí tienes un consejo profesional. Haz que su título sea breve, claro y que indique exactamente de qué se tratan los datos en la hoja de cálculo. 
+
+Confía en mí, harás que la búsqueda sea mucho más fácil. Crear una carpeta en tu computadora específicamente para hojas de cálculo y archivos relacionados también puede facilitar su búsqueda. Esta hoja de cálculo, ya está guardada en nuestra unidad. Entonces abriremos nuestro menú de Archivo para hacer clic en Mover. Luego crearemos una nueva carpeta que llamaremos "Datos de población" y trasladaremos la hoja de cálculo allí. Nuestra hoja de cálculo ahora tiene una nueva ubicación. Esto te ahorrará muchos clics innecesarios y dolores de cabeza al buscar este archivo. Hay algunas formas diferentes en las que los analistas de datos obtienen los datos con los que trabajan. Dependiendo del trabajo, puedes utilizar datos provenientes de una fuente abierta; es posible que se te proporcionen los datos con los cuales trabajar o que se te pida que busques tus propios datos. Experimentarás todo esto más adelante en el programa. Hay muchas fuentes de datos abiertas en línea, donde los datos se ponen a disposición del público. Por ejemplo, usaremos datos de worldbank.org, que ya están en hojas de cálculo. Los datos muestran la población de los países de América Latina y del Caribe de 2010 a 2019. Abramos esta hoja de cálculo. Es hora de obtener los datos listos para el análisis. Empezaremos por seleccionar toda la hoja y ensanchar nuestras columnas arrastrando el límite de una de las columnas. Esto nos ayudará a ver los datos con claridad, luego podremos ajustar las columnas individuales que lo necesiten. También puedes hacer que las columnas sean más anchas de otras formas, pero esto funcionará por ahora. La primera fila de la hoja de cálculo es para los atributos o las variables de datos. Básicamente es etiquetar el tipo de datos en cada columna. Hagamos que los atributos se destaquen del resto de las filas seleccionándolos y llenándolos de color. También haremos que las etiquetas estén en negrita. Si queremos agregar otro atributo de datos entre dos de los otros atributos, siempre podemos agregar una nueva columna. Simplemente haz clic en cualquier celda dentro de una columna y usa el menú de Insertar para agregar una nueva. Aparecerá junto a la columna en la que hiciste clic originalmente, bastante simple. Eliminar una columna es igual de simple. Para eliminar, haz clic con el botón derecho en una de las celdas de la columna que deseas eliminar. Los pasos que mostramos pueden ser diferentes según el programa de hoja de cálculo que estés utilizando, pero deberían ser bastante similares. Agreguemos una cosa más a nuestra tabla de datos: bordes. Esto puede ayudarte a ver cada dato con mayor claridad. Para agregar bordes, empieza haciendo clic en el botón Seleccionar todo en la esquina superior izquierda de tu hoja de cálculo. Es como un botón mágico porque puedes hacer clic en él siempre que necesites realizar cambios en cada celda de tu hoja de cálculo. Luego, haz clic en el botón Borde en el menú y elige el tipo de borde que desees. Para mantener nuestras hojas de cálculo uniformes, elegiremos bordes para todas las celdas. Así de simple, hemos pasado de crudo a refinado. Ahora nuestra hoja de cálculo está llena de datos y también es agradable de ver. El uso de estas herramientas de organización antes de analizar puede ayudarte a concentrarte en los datos una vez que empieces tu análisis. Ahora que hemos repasado algunas formas en las que se pueden usar las hojas de cálculo para organizar los datos, estás listo para empezar a trabajar en ellas tu mismo. Más adelante, aprenderás más sobre las hojas de cálculo, incluidos algunos errores frecuentes y cómo solucionarlos.
+
+
+<-_________________________________________________________________________________________->
+
+Más información sobre los conceptos básicos de las hojas de cálculo.
+
+A continuación, encontrarás una lista que cubre dos tipos de programas de hojas de cálculo: Microsoft Excel y Google Sheets. La lista incluye guías de inicio rápido, tutoriales y más. En los ejemplos de este curso, se usa Google Sheets; pero puedes seguir usando Excel o cualquier otra aplicación de hojas de cálculo. La interfaz de usuario podría diferir un poco; pero debería verse y funcionar de manera similar. 
+An image of 3 spreadsheets side by side. The spreadsheet in the middle is slightly faded.
+Microsoft Excel
+
+    Inicios rápidos de Office
+
+: Desplaza el cursor hacia abajo hasta la sección Guías descargables para descargar la Guía de inicio rápido de Excel: Esta guía en PDF empieza con un mapa etiquetado de Excel que puede guiarte a través de las tareas básicas que puedes realizar en Excel. Para obtener consejos sobre cómo iniciar y abrir Excel, esta página de Soporte técnico de Microsoft
+
+ te mostrará cómo empezar un nuevo libro.
+
+Capacitación en video de Excel
+
+: Esta es una colección de videos paso a paso para usar varios tipos de características de Excel, como la adición y el trabajo dentro de filas, columnas y celdas; el formateo; el uso de fórmulas y funciones, y la adición de gráficos y tablas dinámicas. 
+
+Cómo ordenar datos en un intervalo o tabla
+
+: Esta página te guía a través de todos los pasos que necesitarás para ordenar los datos por número, texto y color. También tendrás la opción de ordenar por lista personalizada para que puedas personalizar aquello que desees ordenar con exactitud.
+
+Cómo filtrar los datos de una tabla o un intervalo
+
+: Este artículo tiene instrucciones paso a paso sobre cómo filtrar una hoja de cálculo de Excel para mostrar solo los datos que deseas ver. También puedes usar operadores de comparación integrados, como “mayor que“ y “10 mejores" para revelar solo los datos más relevantes.
+
+Cómo aplicar formato a una hoja de cálculo
+
+    : La guía te ayudará a elegir y darle formato a tu hoja de cálculo de Excel y luego cambiar los bordes, el sombreado, los colores y el texto. Esto puede ayudar a mejorar la legibilidad de tu hoja de cálculo.
+
+Consejo experto: Si buscas información sobre el uso de opciones personalizables, consulta las Directrices para organizar y dar formato a datos en una hoja de cálculo
+
+ de Microsoft. En este artículo, se proporcionan métodos claros para crear hojas de cálculo fáciles de leer.
+Google Sheets
+
+    Hoja de referencia de Google Sheets
+
+    : La hoja de referencia reúne todos los conceptos básicos de Sheets en una sola página para facilitar su consulta. Aquí, aprenderás a personalizar tu hoja de cálculo y los datos que contiene; a trabajar con filas, columnas y celdas; a compartir tu hoja de cálculo con otras personas; a crear diferentes versiones y copias de una hoja de cálculo, y más.
+
+    Empezar a usar Sheets
+
+: Cómo crear e importar archivos
+
+: Esta es una guía paso a paso para trabajar con Sheets. Empiezas con aprender a abrir una hoja de cálculo y, luego, pasas a agregar datos.
+
+Cómo ordenar y filtrar tus datos
+
+: Este recurso puede ayudarte a organizar tus datos en Sheets. Usa esta guía para ordenar toda la hoja de cálculo o una parte. Puedes ordenar por texto, número y color. Luego, aprende a crear filtros para mostrar solo algunos datos determinados mientras ocultas el resto. Por último, el artículo incluye información sobre cómo crear, guardar y eliminar una vista de filtro. 
+
+Cómo editar una hoja de cálculo y aplicarle formato
+
+    : Esto te ayudará a crear hojas de cálculo fáciles de leer. Aprenderás a asignar colores, personalizar los bordes alrededor de las celdas y cambiar la apariencia del texto. Si quieres proporcionarle un tema a tu hoja de cálculo, desplaza el cursor hasta la parte inferior de la página y encontrarás cómo aplicarlo a ciertas partes de tu hoja de cálculo.
+
+Consejo: Microsoft Excel y Google Sheets son muy parecidos en cuanto a cálculos, fórmulas, funciones y muchas otras características. No obstante, hay algunas diferencias que pueden dificultar la transición de uno a otro. Si pasarás de usar Excel a Google Sheets, encuentra una lista rápida de las diferencias entre los dos tipos de aplicaciones de hoja de cálculo en Resumen de las diferencias entre Sheets y Excel.
+
+<-_________________________________________________________________________________________->
+
+Video: Formulas para el exito
+
+hemos cubierto cómo empezar una nueva hoja de cálculo, ingresar datos y hacer que parezca refinada y esté lista para un análisis serio. Ahora aprenderemos cómo realizar cálculos en tu hoja de cálculo. Es posible que debas calcular todo, desde sumas y promedios, hasta encontrar cantidades mínimas y máximas. Utilizarás cálculos para muchos tipos diferentes de tareas. En este video, nos enfocaremos en el aprendizaje de los conceptos básicos y luego harás un poco de matemáticas con algunos datos de ventas para practicar. Hablemos primero de las fórmulas. Quizás recuerdes que una 
+
+fórmula es un conjunto de instrucciones que realizan un cálculo específico. 
+
+Básicamente, las fórmulas pueden hacer los cálculos por ti. Ahora, no solo hacen matemáticas, pueden hacer mucho más. Pronto aprenderás diferentes formas en que puedes usarlas a lo largo de los procesos del análisis de datos. Las fórmulas se basan en 
+
+operadores que son símbolos que nombran el tipo de operación o cálculo a realizar. 
+
+Por ejemplo, el signo más es un operador común. Las fórmulas que utilizas como analista de datos generalmente incluirán al menos un operador. Ahora, hablemos de las expresiones o ecuaciones matemáticas. Estas pueden tomar varias formas diferentes, pero es posible que ya estés familiarizado con ellas. 3 menos 1, 15 más 8 dividido entre 2, 846 veces 513. Todos estos son ejemplos de expresiones. ¿Esto te trae recuerdos de la escuela primaria? Bueno, en la clase de matemáticas, probablemente aprendiste a completar una expresión al incluir un signo igual y la solución. Con las hojas de cálculo es ligeramente diferente. Cuando creas una fórmula usando una expresión en una hoja de cálculo, empieza la fórmula con un signo igual. Por ejemplo, si queremos restar, escribimos un signo igual seguido de la expresión resta sin espacios en la fórmula. Ahora probemos con una expresión que sea un poco más desafiante. Escribiremos 31982, luego un guión para el signo menos, luego 17795. Para calcular, pulsamos "Enter". Lo más probable es que uses fórmulas de esta forma cuando trabajes con números grandes o expresiones con varios pasos. Estos son los operadores que usarás para completar las fórmulas. El signo más para la suma, el menos o el guión para la resta, el asterisco para la multiplicación y la barra inclinada para la división. Los símbolos de división y multiplicación pueden ser diferentes a los que estás acostumbrado. Pequeños cambios, pero importantes a tener en cuenta. Si ya tiene datos en tu hoja de cálculo, puedes usar referencias de celda en tus fórmulas. 
+
+Una referencia de celda es una celda única o un rango de celdas en una hoja de trabajo que se puede usar en una fórmula. 
+
+Las referencias de celda contienen la letra de la columna y el número de la fila donde están los datos. 
+
+Un rango de celdas es una colección de dos o más celdas. Un rango puede incluir celdas de la misma fila o columna, o de diferentes columnas y filas juntas. 
+Te mostraremos un ejemplo en un próximo video. Ahora apliquemos lo que acabamos de aprender a algunos datos de ventas. Si queremos agregar estas cifras para conocer las ventas totales de la primera fila de datos, puedes hacer clic en la "celda F2". A partir de ahí, empezaremos con un signo igual y usaremos las referencias de celda para ingresar valores en tu expresión. Empezamos con la celda B2 porque el año en A2 no es un valor que queramos agregar al total. Luego, presiona "Enter". Así, las ventas totales se calcularon para ti, pero ¿qué pasa si te das cuenta de que uno de los valores en tus datos es incorrecto? No hay problema. Puedes cambiar el valor en cualquier celda utilizando la fórmula y el total se actualizará automáticamente. Lo mejor de usar referencias de celda es que también se actualizan automáticamente cuando se copia una fórmula en una nueva celda. Esto hace que ahorres tiempo. En lugar de ingresar la misma fórmula nuevamente para cada nuevo conjunto de referencias de celda, simplemente copia la fórmula usando el menú o un atajo de teclado como Control + C. Luego pega la fórmula donde quieras aplicarla usando Control + V. ¡Y listo! La fórmula actualiza correctamente todas las nuevas celdas y los valores. Ahora digamos que tú también quieres buscar el promedio de ventas. Para ello, creas una nueva fórmula en una celda diferente. Para agrupar valores en una fórmula, usas el paréntesis. Esto permite que tu hoja de cálculo sepa qué valores calcular juntos y el orden de las operaciones a realizar. Por ejemplo, abre paréntesis, luego B2 + C2 + D2 + E2, y cierra los paréntesis, luego divide el valor de todo esto escribiendo barra inclinada cuatro. Estás sumando los valores en las cuatro celdas juntas y luego usando la barra inclinada para dividir el total entre cuatro, y tal como la última vez, podemos copiar y pegar la fórmula. Aquí hay otra fórmula que puedes usar si deseas encontrar el cambio porcentual en las ventas entre junio y julio. Una vez que una fórmula calcula el valor, puedes usar el botón de porcentaje para cambiar el valor a porcentaje. Al aplicar la fórmula a las otras filas, tanto la fórmula como el porcentaje se actualizarán automáticamente. Esa no parece la respuesta correcta. Parece que tenemos un error. No te preocupes. Los errores pueden ocurrir en cualquier etapa del análisis de datos, y eso incluye cuando usas las hojas de cálculo. Una fórmula tiene que ser hermética. Si hay algo incorrecto con una de las referencias de celda, no funcionará. Entonces, ¿cuál es nuestro error? Bueno, podemos ver que falta el valor en la celda D4. Podría tomar un poco de tiempo e investigación de tu parte para encontrar el valor correcto, pero vale la pena. Deseas que tu análisis sea lo más preciso posible. Cuando agregas el valor, la fórmula se encarga del resto. Eso fue suficiente por ahora. Gracias por quedarte conmigo. Podrás aplicar lo que aprendiste aquí sobre fórmulas y más adelante en el programa harás que tu análisis y tu trabajo sean más eficientes, un poco más fáciles, y pronto trabajarás en tu propia hoja de cálculo
+
+En las hojas de cálculo, los símbolos usados en una fórmula para hacer un cálculo específico se denominan operadores.
+
+<-_________________________________________________________________________________________->
+
+Referencia rápida: Fórmulas en hojas de cálculo
+Image of a person sitting at a desk typing. There are 4 large monitors on the desk.
+
+Has aprendido mucho sobre las hojas de cálculo y los distintos tipos de cálculos que ahorran tiempo, así como las características organizacionales que ofrecen. Una de las características más valiosas de la hoja de cálculo es la fórmula. Como recordatorio rápido, una fórmula es un conjunto de instrucciones que hace un cálculo específico usando los datos de una hoja de cálculo. Las fórmulas permiten a los analistas de datos hacer cálculos complejos de forma automática, lo que les ayuda a analizar los datos de manera más efectiva. A continuación, se muestra una guía de referencia rápida para ayudarte a aprovechar las fórmulas al máximo.
+Fórmulas
+Conceptos básicos
+
+    Cuando escribes una fórmula en matemáticas, generalmente, termina con un signo igual (2 + 3 = ?). Pero, en el caso de las fórmulas en hojas de cálculo, siempre empiezan con un signo igual (=A2+A3). El signo igual le dice a la hoja de cálculo que lo que sigue es parte de una fórmula, no solo una palabra o un número en una celda. 
+
+    Después de escribir el signo igual, la mayoría de las aplicaciones de hoja de cálculo muestran un menú de autocompletar que enumera fórmulas, nombres y cadenas de texto válidos. Esta es una excelente manera de crear y editar fórmulas, al tiempo que se evitan errores de escritura y sintaxis.
+
+    Una manera entretenida de aprender nuevas fórmulas consiste, simplemente, en escribir un signo igual y una sola letra del alfabeto. Elige una de las opciones que aparecen para saber lo que hace esa fórmula.
+
+Operadores matemáticos
+
+    Los operadores matemáticos usados en las fórmulas de hoja de cálculo incluyen:
+
+    Resta: signo menos (-)
+
+    Suma: signo más (+)
+
+    División: barra diagonal (/)
+
+    Multiplicación: asterisco (*)
+
+Llenado automático
+
+La esquina inferior derecha de cada celda tiene un controlador de relleno. Es un pequeño cuadro verde en Microsoft Excel y un pequeño cuadro azul en Google Sheets.
+
+    Haz clic en el controlador de relleno de una celda y arrástralo hacia abajo en una columna para rellenar automáticamente otras celdas de la columna con el mismo valor o fórmula en esa celda. 
+
+    Haz clic en el controlador de relleno de una celda y arrástralo por una fila para rellenar automáticamente otras celdas de la fila con el mismo valor o fórmula en esa celda. 
+
+    Si quieres crear una secuencia numérica en una columna o fila, haz lo siguiente: 1) Completa los dos primeros números de la secuencia en dos celdas adyacentes; 2) elige la opción para resaltar las celdas, y 3) arrastra el controlador de relleno hasta la última celda para rellenar la secuencia de números. Por ejemplo, para insertar una secuencia del 1 al 100 en cada fila de la columna A, escribe 1 en la celda A1 y 2 en la celda A2. Luego, elige la opción para resaltar ambas celdas, haz clic en el controlador de relleno de la celda A2 y arrástralo hacia abajo hasta la celda A100. Esto rellena automáticamente los números de manera secuencial para que no tengas que escribirlos en cada celda.
+
+Referencia absoluta
+
+    La referencia absoluta está marcada por un signo de dólar ($). Por ejemplo, =$A$10 tiene referencia absoluta tanto para la columna como para el valor de la fila.
+
+    Las referencias relativas (que es lo que normalmente se hace, p. ej., “=A10”) cambiarán cada vez que se copie y pegué la fórmula. Están relacionadas con el lugar donde se encuentra la celda a la que se hace referencia. Por ejemplo, si copias "=A10" en la celda de la derecha, se convertirá en “=B10”. Si se copia la referencia absoluta “=$A$10” en la celda de la derecha, quedará “=$A$10”. Pero si copias $A10 en la celda de abajo, cambiará a $A11 porque el valor de la fila no es una referencia absoluta.
+
+    Las referencias absolutas no cambiarán al copiar y pegar la fórmula en una celda diferente. La celda a la que se hace referencia es siempre la misma.
+
+    Para cambiar fácilmente entre referencias absolutas y relativas en la barra de fórmulas, resalta la referencia que deseas cambiar y presiona la tecla F4; por ejemplo, si deseas cambiar la referencia absoluta, $A$10, en tu fórmula a una referencia relativa, A10, resalta $A$10 en la barra de fórmulas y, luego, presiona la tecla F4 para hacer el cambio.
+
+Intervalo de datos
+
+    Al hacer clic en tu fórmula, los intervalos de colores te permiten ver qué celdas se están usando en tu hoja de cálculo. Hay diferentes colores para cada intervalo individual en tu fórmula.
+
+    En muchas aplicaciones de hojas de cálculo, puedes presionar la tecla F2 (o Enter) para resaltar el intervalo de datos de la hoja de cálculo al que se hace referencia en una fórmula. Haz clic en la celda con la fórmula y, luego, presiona la tecla F2 (o Enter) para resaltar los datos de la hoja de cálculo.
+
+Combinación con funciones
+
+    CONTAR.SI() es una fórmula y una función. Esto significa que la función se ejecuta con base en los criterios establecidos por la fórmula. En este caso, CONTAR es la fórmula; se ejecutará SI las condiciones que creas son verdaderas. Por ejemplo, podrías usar =CONTAR.SI(A1:A16, “7”) para contar solo las celdas que contenían el número 7. La combinación de fórmulas y funciones te permite hacer más con un solo comando.
+
+
+<-_________________________________________________________________________________________->
+
+Video y correcciones de una hoja de calculo
+
+Recientemente hemos estado aprendiendo sobre fórmulas. A veces, los analistas de datos encontramos un problema con nuestras fórmulas y obtenemos un error. Todos hemos estado allí y puede ser frustrante. Pero existen soluciones y eso es lo que vamos a explorar en este video. Un error que puedes encontrar es el error DIV. El error DIV ocurre cuando una fórmula intenta dividir un valor en una celda por cero o por una celda vacía. En esta hoja de cálculo, los valores de porcentaje Completos en la columna C se calculan al dividir los valores en la columna Tareas completadas por los valores en la columna Tareas requeridas. Observa que la columna C ya tiene el formato de porcentaje. 
+
+El error DIV está en la celda C4 porque estamos dividiendo por cero el valor en la celda A4. 
+Para evitar este problema, podemos hacer que esta hoja de cálculo ingrese automáticamente no aplicable siempre que una celda en la columna A contenga un cero, lo cual causaría el error. 
+Para ello, usaremos la función SI.ERROR. Si encuentra un error DIV causado por una celda que contiene cero, se insertará la frase "No aplicable". También podemos copiar la fórmula al resto de las celdas de la columna C para que compruebe si alguna otra celda contiene cero. 
+
+Ahora pasemos a ERROR. En Google Sheets, ERROR nos dice que la fórmula no se puede interpretar tal como se ingresa. Esto también se conoce como un error de análisis. 
+
+Digamos que queremos contar la cantidad total de tareas en las columnas B y C, usamos la función SUMA, pero la fórmula igual suma B2 a B6, C2 a C6 causa un error. Al examinar esto más de cerca, vemos que falta una coma entre los rangos de las celdas B2 a B6 y C2 a C6. Podemos solucionar esto si insertamos una coma entre los rangos de celdas para indicar el final de cada ítem de datos. Esto se denomina delimitador, del cual pronto aprenderás más. Ahora, la fórmula puede calcular correctamente la cantidad total de tareas como 25. Otro tipo de error es N/A. 
+
+El error N/A te indica que la hoja de cálculo no puede encontrar los datos de tu fórmula. Generalmente, esto significa que los datos no existen. 
+
+Este error ocurre con mayor frecuencia cuando se utilizan funciones como BUSCARV, que busca un determinado valor en una columna para devolver la información correspondiente. Aquí, vemos una lista maestra de frutos secos y sus precios. Con BUSCARV, la hoja de cálculo busca precios en la lista y luego calcula los precios para cada tienda mediante el margen asignado. Pero tenemos un error N/A en las celdas B49 y C49. La fórmula de BUSCARV es correcta, entonces, ¿qué está pasando? Bueno, si miramos con atención el nombre de la nuez, "almendra", no tiene coincidencias en la tabla de búsqueda, donde, en cambio, se usa el plural "almendras". Así que cambiamos almendra por almendras, y con ese error tipográfico corregido, se completan los precios correctos. Ya que hablamos de errores tipográficos, a veces, un error tipográfico puede causar el error NOMBRE. Un error NOMBRE puede ocurrir cuando el nombre de una fórmula no se reconoce o no se entiende. Supongamos que vemos un error NOMBRE en la hoja de cálculo de precios de nueces. Si miramos con atención, la función BUSCARV en la celda B21 está mal escrita, tiene una O adicional; esto provoca un error NOMBRE tanto para el precio como para el cálculo del margen de beneficio resultante para la tienda. Para corregir este error, podemos eliminar la O adicional en BUSCARV. Perfecto. A veces, un error se debe a datos inconsistentes o incorrectos. Por ejemplo, el error NUM nos dice que el cálculo de una fórmula no se puede realizar según lo especificado por los datos. Los datos no tienen sentido para ese cálculo. Esto es lo que quiero decir. Supongamos que estamos trabajando en un gran proyecto de construcción y usamos una hoja de cálculo para realizar un seguimiento de cuántos meses se necesitan para alcanzar hitos clave. Podemos usar la función SIFECHA para calcular la cantidad de meses entre las fechas de inicio y finalización. La función requiere que la fecha de inicio esté en la primera celda a la que se hace referencia y que la fecha de finalización esté en la segunda celda a la que se hace referencia. En nuestro caso, las celdas B2 y C2 respectivamente. La M representa meses, ya que queremos que esta hoja de cálculo calcule la cantidad de meses entre nuestras fechas de inicio y finalización. Pero obtenemos un error NUM en la celda D6. Notamos que la fecha de finalización es anterior a la fecha de inicio, por lo que la función SIFECHA no puede calcular la cantidad de meses entre ellas. Es probable que las fechas de inicio y finalización se hayan intercambiado por accidente. Podemos solicitar la verificación de los datos para estar seguros. Mientras tanto, vamos a invertir el orden de las celdas en la fórmula para evitar temporalmente el error. Ahora, el resultado es nueve meses. ¿Qué pasa si el nombre del cliente se insertó accidentalmente en la fecha de inicio en la hoja de cálculo? Lo has adivinado, obtenemos un error. 
+
+El error VALOR puede indicar un problema con una fórmula o con las celdas a las que se hace referencia. 
+
+A menudo, no está claro cuál es el problema inmediatamente, por lo que este error puede requerir un poco más de esfuerzo para solucionarlo. En este caso, se ingresó John Welty como la fecha de inicio, lo que imposibilitó el cálculo para la función SIFECHA en la celda D6. Simplemente reemplazamos el texto, John Welty, con la fecha de inicio correcta que es 1 de septiembre de 2016. 
+
+El último es el error REF, que a menudo aparece cuando las celdas a las que se hace referencia en una fórmula se han eliminado, lo que hace que la fórmula no pueda realizar el cálculo. 
+
+Aquí hay una hoja de cálculo que se usa para calcular la cantidad de asientos disponibles para un almuerzo empresarial. Digamos que la empresa decidió no habilitar el segundo piso, por lo que eliminamos la fila 4. Esto da como resultado un error REF al calcular el total de asientos disponibles en la celda B5. Para solucionar esto, podemos cambiar la fórmula para agregar los valores en las celdas B2 y B3. Además, en este caso, podríamos haber evitado el error REF con la función SUMA y un rango de celdas en lugar de agregar el valor de la celda por referencia directa. Ahora, si eliminamos la fila 10, la función SUMA calcula el total de asientos disponibles. Ahí lo tienes. Ahora hemos corregido algunos de los errores más frecuentes de las hojas de cálculo. Cuando los vuelvas a ver, sabrás lo que significan. La resolución de problemas es una parte importante del análisis de datos, por lo que poder encontrar soluciones es una habilidad clave para los analistas de datos.
+
+
+<-_________________________________________________________________________________________->
+
+Más información sobre errores y correcciones de hojas de cálculo
+
+El archivo PDF del adjunto a continuación incluye temas y contenido tanto del video complementario como de esta lectura. Puedes guardar este archivo para consultarlo en el futuro.
+
+Cuando eres nuevo en el análisis de datos (a veces, incluso, cuando no lo eres), las dificultades de las hojas de cálculo son reales. Es muy incómodo escribir una fórmula o función cuando estás seguro de que es perfecta solo para obtener un mensaje de error. Entender los errores y saber cómo solucionarlos es esencial para mantener tus datos limpios; por ello, es importante aprender a abordar los problemas tan pronto como surgen y, sobre todo, no desanimarse.
+
+Recuerda que incluso los usuarios de hojas de cálculo más avanzados tienen problemas de vez en cuando.  
+This illustration shows one nervous woman handing another woman a stack of papers with a question mark on them. 
+
+Como seguimiento de lo que aprendiste en el video anterior, a continuación, se brindan algunas prácticas recomendadas y consejos útiles. Para empezar, estas estrategias te ayudarán a evitar errores en las hojas de cálculo, lo que hará que tu vida en el análisis de datos sea mucho más fácil:
+
+    Filtra datos para que tu hoja de cálculo sea menos compleja y esté menos ocupada.
+
+    Usa y congela los encabezados para que sepas lo que hay en cada columna, incluso cuando te desplazas con el cursor.
+
+    Cuando multipliques números, usa un asterisco (*) en vez de una X.
+
+    Empieza cada fórmula y función con un signo igual (=).
+
+    Cada vez que uses un paréntesis abierto, asegúrate de que haya un paréntesis cerrado en el otro extremo para que coincida.
+
+    Cambia la fuente por otra que sea más fácil de leer.
+
+    Configura los colores de los bordes a blanco para trabajar en una hoja en blanco. 
+
+    Crea una pestaña solamente con los datos sin procesar y otra que tenga únicamente los datos que necesitas.
+
+Ahora que aprendiste algunas formas básicas de evitar errores, puedes concentrarte en qué hacer cuando aparezca esa aterradora ventana emergente. Puedes usar la siguiente tabla como referencia para buscar errores comunes de hoja de cálculo, así como ejemplos de cada uno. Para no tener tanto miedo de cometer errores, es importante saber lo que significan.
+
+Error
+	
+
+Descripción
+	
+
+Ejemplo
+
+#DIV/0!
+	
+
+Una fórmula está tratando de dividir un valor de una celda por 0 (o una celda vacía sin valor)
+	
+
+=B2/B3, cuando la celda B3 contiene el valor 0
+
+#ERROR!
+	
+
+(Solo para Google Sheets) Algo no se puede interpretar de la manera en que se ingresó. Esto también se conoce como error de análisis.
+	
+
+=COUNT(B1:D1 C1:C10) no es válido porque los rangos de celdas no están separados por una coma.
+
+#N/A
+	
+
+Una fórmula no puede encontrar los datos
+	
+
+No se puede encontrar la celda a la que se hace referencia
+
+#NAME?
+	
+
+No se reconoce el nombre de una fórmula o función utilizada.
+	
+
+El nombre de una función está mal escrito.
+
+#NUM!
+	
+
+La hoja de cálculo no puede hacer un cálculo de fórmula porque una celda tiene un valor numérico no válido.
+	
+
+=DATEDIF(A4, B4, "M") no puede calcular el número de meses entre dos fechas porque la fecha de la celda A4 es posterior a la fecha de la celda B4
+
+#REF!
+	
+
+Una fórmula hace referencia a una celda que no es válida.
+	
+
+Una celda usada en una fórmula estaba en una columna que se eliminó.
+
+#VALUE!
+	
+
+Un error general que indica un problema con una fórmula o con celdas a las que se hace referencia.
+	
+
+Podría haber problemas con los espacios, el texto o las celdas a las que se les hace referencia en una fórmula; es posible que tengas que trabajar más
+
+ para hallar el origen del problema.
+
+Si estás trabajando con Microsoft Excel, la página interactiva Cómo corregir un error de #VALUE!
+
+ puede ayudarte a reducir la causa del error. En una lista desplegable, puedes elegir una función específica para mostrar un enlace a consejos a fin de corregir el error cuando se usa esa función.
+Consejo experto: detección de errores en hojas de cálculo con formato condicional
+
+Se puede usar el formato condicional para resaltar celdas con colores diferentes en función de su contenido. Esta característica puede ser extremadamente útil cuando quieres buscar todos los errores en una hoja de cálculo grande. Por ejemplo, con el formato condicional, puedes resaltar en amarillo todas las celdas que contienen un error y, luego, trabajar en corregirlas.
+Formato condicional en Microsoft Excel
+
+Si deseas configurar el formato condicional en Microsoft Excel para resaltar todas las celdas que contienen errores en una hoja de cálculo, sigue estos pasos:
+
+    Haz clic en el triángulo gris que está arriba de la fila número 1 y a la izquierda de la columna A para elegir todas las celdas de la hoja de cálculo.
+
+    En el menú principal, haz clic en Inicio y, luego, en Formato condicional para elegir Reglas para resaltar celdas > Más reglas.
+
+    En Seleccionar un tipo de regla, elige Utilizar una fórmula que determine las celdas para aplicar formato.
+
+    En Dar formato a los valores donde esta fórmula sea verdadera, escribe =ISERROR(A1).
+
+    Haz clic en el botón Formato, elige la pestaña Relleno, elige “amarillo” (o cualquier otro color) y, luego, haz clic en Aceptar.
+
+    Haz clic en Aceptar para cerrar la ventana de regla de formato.
+
+Para quitar el formato condicional, haz clic en Inicio y elige Formato condicional; luego, haz clic en Administrar reglas. Busca la regla de formato en la lista, haz clic en Eliminar regla y, a continuación, haz clic en Aceptar.
+Formato condicional en Google Sheets
+
+Si deseas configurar el formato condicional en Google Sheets para resaltar todas las celdas que contienen errores en una hoja de cálculo, sigue estos pasos:
+
+    Haz clic en el rectángulo vacío que está arriba de la fila número 1 y a la izquierda de la columna A para elegir todas las celdas de la hoja de cálculo. En el Video paso a paso para hojas de cálculo
+
+    , esto se llamaba el botón Seleccionar todo.
+
+    En el menú principal, haz clic en Formato y elige Formato condicional para abrir el panel de Reglas de formato condicional a la derecha.
+
+    Una vez que estás en la pestaña Un color, usa el menú desplegable que está debajo de Reglas de formato para elegir Fórmula personalizada es, escribe =ISERROR(A1), elige el color amarillo (o cualquier otro) para el estilo de formato y, a continuación, haga clic en Hecho.
+
+Para eliminar el formato condicional, haz clic en Formato y elige Formato condicional; luego, haz clic en el ícono Papelera de la regla de formato.
+Recursos de errores de hoja de cálculo
+
+Para obtener más información y leer sobre más ejemplos de errores y soluciones, explora estos recursos:
+
+    Fórmulas y funciones de Microsoft
+
+: En este recurso, se describe cómo evitar fórmulas rotas y cómo corregir errores en Microsoft Excel. Esta es una referencia útil de conservar en caso de que te encuentres con un error específico y necesites hallar soluciones rápidamente mientras trabajas en Excel. 
+
+Cuando tu fórmula no funciona
+: errores de análisis de fórmula en Google Sheets
+
+    : Este recurso es una guía para encontrar y corregir algunos errores comunes en Google Sheets. Si estás trabajando con Google Sheets, puedes usar esto como referencia rápida para resolver problemas que puedes encontrar cuando trabajes por tu cuenta.
+
+Con un poco de práctica y determinación en la investigación, manejarás los errores en las hojas de cálculo con mayor eficiencia. Cada error que detectes y corrijas hará que tus datos sean más claros, más limpios y más útiles.
+
+
+<-_________________________________________________________________________________________->
+
+Video: Funciones basicas 
+
+Las fórmulas son una excelente manera de ser más eficiente al usar hojas de cálculo, especialmente cuando agregas atajos como copiar y pegar, en la mezcla. A medida que progreses como analista de datos, lo más probable es que aprendas más atajos que te ayudarán en tu proceso. Pero ahora es el momento de pasar a las funciones. Si bien están estrechamente relacionadas con las fórmulas, no son exactamente iguales. Al final de este video, comprenderás la diferencia y sabrás cuándo usar ambas. En el mundo de las hojas de cálculo, 
+una función es un comando preestablecido que realiza automáticamente un proceso o tarea específicos usando datos. Quizás recuerdes algunos de los atajos que aprendimos que se pueden usar con fórmulas. 
+Piensa en las funciones como los atajos más útiles. La buena noticia es que muchas funciones de la hoja de cálculo tienen nombres que te indican lo que hacen. Existen infinidad de funciones disponibles. A medida que continúes trabajando con hojas de cálculo, descubrirás que a algunas de ellas las usas mucho, y otras, rara vez o nada. Por ahora, echemos un vistazo a algunas de las funciones que podemos aplicar a nuestros datos de ventas del video anterior. Empezaremos con las ventas totales. Para ello, usemos la función SUMA en la celda F2. Los primeros pasos son bastante similares a los que hicimos en el último video. Primero, seleccionaremos la celda donde queremos que aparezca el cálculo. Escribe el signo igual, luego agrega la palabra SUMA como nuestra función. Una de las mejores cosas de las funciones es que no siempre necesitan operadores, como un signo más para sumar. En este caso, después de abrir paréntesis, puedes continuar y seleccionar el rango de celdas que estás sumando. El signo de dos puntos entre las referencias de celda muestra que estás usando un rango. En este caso, el rango incluye celdas de la misma fila. Después de cerrar paréntesis, presionamos Enter. Así, aparece nuestra cantidad total de ventas. Al igual que la fórmula que usamos antes, las funciones se pueden copiar y pegar en otras celdas de la misma columna. Pero deshagamos ese paso para que puedas ver otra forma de copiar una función o fórmula. Las hojas de cálculo tienen algo llamado controlador de relleno. Es una pequeña caja que aparece en la esquina inferior derecha cuando haces clic en una celda. Si apoyas el cursor en la caja, puedes arrastrar el controlador de relleno a las otras cajas de la misma fila o columna. Cualquier fórmula o función en esa celda se agregará automáticamente a las celdas que llenaste y, además, el controlador de relleno actualizará la fórmula para que las referencias de celda coincidan con la fila de las columnas de las celdas que completaste. Esto significa que la fórmula se calcula en función de los datos de cada fila o columna por separado. El llenado no funcionará en todas las situaciones, pero sigue siendo un truco bastante bueno. Ahora averigüemos la venta promedio para cada mes usando la función PROMEDIO. Diferentes funciones realizan diferentes cálculos, pero funcionan de la misma manera. Ten en cuenta que no todos los cálculos con los que te encuentres tienen su propia función para ayudarte. Por ejemplo, para buscar el cambio porcentual en las ventas entre junio y julio, deberías usar la misma fórmula que usaste en el video anterior. Supongamos que se te pide que averigües las ventas mensuales más bajas en este conjunto de datos. Existe una función para eso. Se llama función MIN, que significa mínimo. Así es como funciona. Supongamos que necesitas buscar las ventas mensuales más bajas para todo el conjunto. Todo lo que tienes que hacer es configurar la función. Luego, después de abrir paréntesis, selecciona los valores de las tres filas. Esta podría ser información importante para tus partes interesadas. Agreguemos color a la celda con ese valor, en su conjunto de datos para que se destaque. En este caso, haz clic en la celda D2 y luego completa el ícono de relleno de color, que parece una lata de pintura, luego elige un color. Usaré amarillo aquí. Puedes seguir los mismos pasos para las ventas más altas utilizando la función MAX. Parece que tenemos un mensaje de error. ¿Qué podría estar mal? Olvidamos abrir un paréntesis después de la función. No te preocupes, hay una solución rápida. Pero este es un buen recordatorio para verificar continuamente el formato de tus funciones y fórmulas a medida que las usas. Más adelante aprenderemos más sobre los mensajes de Error y cómo trabajar con ellos. Eso está mejor. Ahora también le agregaremos color a la celda con las ventas más altas. Esta es solo una forma de resaltar los datos clave. Descubrirás algunas otras más adelante. Ahora has echado un vistazo a algunas formas de agregar y organizar los datos en una hoja de cálculo. También has visto lo poderosas que pueden ser las fórmulas y funciones cuando se aplican a los datos del mundo real. Como analista de datos, este es solo el comienzo de tu experiencia con las hojas de cálculo. Pronto descubrirás cuánto más pueden ofrecer las hojas de cálculo. Mientras tanto, puedes practicar algunas de estas fórmulas, funciones y otros procesos por tu cuenta. Puede ser divertido experimentar y ver todo lo que pueden hacer las hojas de cálculo. Pronto, pasarás de las hojas de cálculo al pensamiento estructurado. Las piezas del análisis de datos están empezando a encajar. Se avecinan cosas emocionantes. Así que quedate cerca.
+
+<-_________________________________________________________________________________________->
+
+Referencia rápida: Funciones en hojas de cálculo
+
+Como repaso rápido, una función es un comando preestablecido que ejecuta automáticamente un proceso o tarea específicos mediante el uso de los datos de una hoja de cálculo. Las funciones ofrecen a los analistas de datos la capacidad de hacer cálculos, que pueden variar desde la aritmética simple hasta ecuaciones complejas. Usa esta lectura para ayudarte a llevar un registro de algunas de las opciones más útiles.
+Funciones
+Conceptos básicos
+
+    Al igual que las fórmulas, inicia todas tus funciones con un signo igual; por ejemplo, =SUMA. El signo igual le dice a la hoja de cálculo que lo que sigue es parte de una función, no solo una palabra o un número en una celda. 
+
+    Después de escribir el signo igual, la mayoría de las aplicaciones de hoja de cálculo muestran un menú de autocompletar que enumera funciones, nombres y cadenas de texto válidos. Esta es una excelente manera de crear y editar funciones, al tiempo que se evitan errores de escritura y sintaxis.
+
+    Una manera entretenida de aprender nuevas fórmulas consiste, simplemente, en escribir un signo igual y una sola letra del alfabeto. Elige una de las opciones que aparecen para saber lo que hace esa función.
+
+Diferencia entre fórmulas y funciones
+
+    Una fórmula es un conjunto de instrucciones que se usa para hacer un cálculo usando los datos de una hoja de cálculo.
+
+    Una función es un comando preestablecido que ejecuta automáticamente un proceso o tarea específicos mediante el uso de los datos de una hoja de cálculo.
+
+Funciones populares
+
+Muchas personas no se dan cuenta de que los atajos de teclado, como cortar, guardar y buscar, son, en realidad, funciones. Estas funciones están integradas en una aplicación y ahorran tiempo de una manera increíble. El uso de atajos te permite hacer más trabajo con menos esfuerzo. Pueden hacerte más eficiente y productivo porque no estás buscando el mouse y navegando por los menús de manera continua. En la siguiente tabla, se muestran algunos de los accesos directos más populares para Chromebook, PC y Mac:
+
+Tabla en tabla PNG
+
+Llenado automático
+
+La esquina inferior derecha de cada celda tiene un controlador de relleno. Es un pequeño cuadro verde en Microsoft Excel y un pequeño cuadro azul en Google Sheets.
+
+    Haz clic en el controlador de relleno de una celda y arrástralo hacia abajo en una columna para rellenar automáticamente otras celdas de la columna con el uso de la misma fórmula o función en esa celda. 
+
+    Haz clic en el controlador de relleno de una celda y arrástralo por una fila para rellenar automáticamente otras celdas de la fila con el uso de la misma fórmula o función en esa celda. 
+
+Referencias relativas, absolutas y mixtas
+
+    Las referencias relativas (celdas a las que se hace referencia sin un signo de dólar, como A2) cambiarán cuando copies y pegues la función en una celda diferente. Con las referencias relativas, la ubicación de la celda que contiene la función determina las celdas usadas por la función.
+
+    Las referencias absolutas (celdas a las que se hace referencia por completo con un signo de dólar, como $A$2) no cambiarán cuando copies y pegues la función en otra celda. Con las referencias absolutas, siempre se hace referencia a las mismas celdas.
+
+    Las referencias mixtas (celdas a las que se hace referencia parcialmente con un signo de dólar, como $A2 o A$2) cambiarán cuando copies y pegues la función en otra celda. Con las referencias mixtas, la ubicación de la celda que contiene la función determina las celdas usadas por la función; pero solo puede ser relativa la fila o la columna (no ambas).
+
+    En las hojas de cálculo, puedes presionar la tecla F4 para alternar entre las referencias relativas, absolutas y mixtas en una función. Haz clic en la celda que contiene la función, resalta las celdas a las que se hace referencia en la barra de fórmulas y, luego, presiona F4 para alternar y elegir referencias relativas, absolutas o mixtas.
+
+Intervalos de datos
+
+    Al hacer clic en una celda que contiene una función, los intervalos de datos de color de la barra de fórmulas indican qué celdas se están usando en la hoja de cálculo. Hay diferentes colores para cada intervalo individual en una función.
+
+    Los intervalos de datos de colores evitan que te pierdas en funciones complejas.
+
+    En las hojas de cálculo, puedes presionar la tecla F2 para resaltar el intervalo de datos usados por una función. Haz clic en la celda que contiene la función, resalta el intervalo de datos usado por la función en la barra de fórmulas y, luego, presiona F2. La hoja de cálculo se dirigirá a las celdas especificadas por el intervalo y las resaltará.
+
+Intervalos de datos evaluados para una condición
+
+CONTAR.SI es un ejemplo de una función que devuelve un valor basado en una condición para la que se evalúa el intervalo de datos. La función cuenta el número de celdas que cumplen los criterios. Por ejemplo, en una hoja de cálculo de gastos, usa CONTAR.SI para contar el número de celdas que contienen un reembolso por “pasaje aéreo”.
+
+Para obtener más información, consulta:
+
+    Página de Soporte técnico de Microsoft para CONTAR.SI
+
+Documentación del Centro de ayuda de Google para CONTAR.SI,
+ donde puedes copiar una hoja con ejemplos de CONTAR.SI
+
+     (haz clic en “Usar plantilla” si eliges el enlace de CONTAR.SI que se proporciona en esta página).
+
+Conclusión
+
+Hay muchas más funciones que pueden ayudarte a aprovechar tus datos al máximo. Este es solo el principio. Puedes continuar aprendiendo a usar funciones que te ayudarán a resolver problemas complejos, de manera eficiente y precisa, a lo largo de toda tu carrera.
+Accesos directos del teclado
+
+Puedes guardar estas funciones para futuras referencias. Puedes descargar una versión en PDF de las siguientes funciones de manera gratuita:
+
+<-_________________________________________________________________________________________->
+
+Video: antes de resolver un problema, entiendelo
+
+Albert Einstein dijo una vez: "Si me dieran una hora para salvar el planeta, dedicaría 59 minutos a definir el problema y un minuto a resolverlo". 
+
+Ahora, eso puede parecer extremo pero nos muestra lo importante que es definir los problemas antes de intentar resolverlos. Muchas veces, los equipos se lanzan directamente al análisis de datos antes de darse cuenta, después de unos meses, de que están resolviendo el problema incorrecto o de que no tienen los datos correctos. En este video, aprenderemos cómo desarrollar un enfoque estructurado para definir el dominio del problema. Esto es importante porque si defines el problema claramente desde el principio, será más fácil de resolver, lo que ahorra mucho tiempo, dinero y recursos. En el mundo de los datos, llamamos a esta primera pieza 
+
+el dominio del problema: el área específica de análisis que abarca todas las actividades que afectan o se ven afectadas por el problema. 
+
+Antes de hacer cualquier otra cosa, necesitamos comprender el dominio del problema y todas sus partes y relaciones para poder descubrir la historia completa. En realidad, llamarlo la primera pieza me hace pensar en un rompecabezas. Digamos que tienes un rompecabezas. Pensemos en ese rompecabezas como nuestro dominio del problema. Tienes las 500 piezas pero perdiste la caja. Entonces no sabes qué imagen revelará el rompecabezas. ¿Será un animal? ¿Una cascada? ¿Un cuenco con naranjas? Sea lo que sea, será difícil intentar armarlo sin una imagen de referencia. Incluso el mayor experto en rompecabezas de la galaxia necesitaría un nuevo proceso y mucho tiempo para completar ese rompecabezas. Los analistas de datos también enfrentan los mismos desafíos. Quizás recuerdes que a los analistas de datos no siempre se les entrega la imagen completa al inicio de un proyecto. Una gran parte de su trabajo consiste en desarrollar un enfoque estructurado y utilizar el pensamiento crítico para encontrar la mejor solución. Eso empieza con la comprensión del dominio del problema. Aquí es donde entra en juego el pensamiento estructurado. Para resolver con éxito un problema como analista de datos, necesitas entrenar tu cerebro para pensar de manera estructurada.
+
+
+<-_________________________________________________________________________________________->
+
+Video : Alcance del trabajo y pensamiento estructurado
+
+Anteriormente te dije que definir cuidadosamente un problema empresarial puede, en última instancia, ahorrar tiempo, dinero y recursos. Todo esto se logra mediante un pensamiento estructurado. 
+
+El pensamiento estructurado es el proceso de reconocer el problema o la situación actual, organizar la información disponible, revelar las brechas y oportunidades e identificar las opciones. 
+
+En otras palabras, es una forma de estar súper preparado. Es tener una lista clara de dónde se espera que entregues, un cronograma para las principales tareas y actividades, y puntos de control para que el equipo sepa que estás progresando. En este video, veremos cómo el pensamiento estructurado nos ayuda a ahorrar tiempo y esfuerzo, pero también facilita nuestro trabajo como analistas de datos porque nos permite comprender mejor el trabajo que estamos haciendo. En el mundo empresarial, es frecuente que los equipos dediquen horas de tiempo valioso a tratar de resolver un problema importante, solo para terminar donde empezaron. No solo no resuelven el problema inicial, sino que han pasado horas sin resolverlo. Este resultado te afecta negativamente a ti, a tu equipo y a la organización en su conjunto. Pero, por lo general, se puede prevenir. Muchas veces la situación es el resultado de no comprender completamente el problema. El pensamiento estructurado te ayudará a comprender los problemas a un alto nivel para que puedas identificar las áreas que necesitan una investigación y comprensión más profundas. 
+
+El punto de partida para el pensamiento estructurado es el dominio del problema, que quizás lo tengas presente de antes. Una vez que conozcas el área específica de análisis, puedes establecer tu base y plantear todos tus requisitos e hipótesis antes de empezar a investigar. 
+
+Con una base sólida establecida, estarás listo para enfrentar cualquier obstáculo que surja. ¿Qué tipo de obstáculos? Bueno, digamos que te piden que predigas el valor futuro de un edificio de departamentos en función de un conjunto de datos determinado. Tienes cientos de variables y cada una es crucial para tu análisis. Pero, ¿qué pasa si una variable se omite accidentalmente, como los pies cuadrados, por ejemplo? Tendrías que volver atrás y rehacer todo el arduo trabajo. Eso es porque las variables faltantes pueden conducir a conclusiones inexactas. Otra forma en que puedes practicar el pensamiento estructurado y evitar errores es utilizando un alcance del trabajo. 
+
+Un alcance del trabajo o SOW es un esquema acordado del trabajo que vas a realizar en un proyecto. 
+
+Para muchas empresas, esto incluye cosas como detalles del trabajo, cronogramas e informes que el cliente puede necesitar. Ahora, como analista de datos, tu alcance del trabajo será un poco más técnico e incluirá los ítems básicos que acabamos de mencionar, pero también se enfocará en cosas como la preparación de datos, la validación, el análisis de conjuntos de datos cuantitativos y cualitativos, los resultados iniciales, y tal vez incluso algunas imágenes para que realmente se entienda el punto. Hagamos realidad un alcance del trabajo con un ejemplo sencillo. Digamos que una pareja ha contratado a una organizadora de bodas. Nos centraremos en una sola tarea: las invitaciones de boda. 
+
+Esto es lo que podría estar en el alcance del trabajo: entregables, cronograma, hitos e informes. 
+
+Vamos a desglosar solo uno de estos, entregables. La planificadora de bodas y la pareja deberán decidir sobre la invitación, hacer una lista de personas a invitar, recopilar sus direcciones, imprimir las invitaciones, dirigir los sobres, colocarles estampillas y enviarlos por correo. Ahora vamos a verificar las líneas de tiempo. Notarás que las fechas y los hitos nos mantienen en el camino correcto. Por último, tenemos los informes, que le dan a nuestra pareja un poco de tranquilidad diciéndoles cuándo se completó cada paso. Un alcance del trabajo puede ser una herramienta sencilla pero potente. Con un alcance del trabajo sólido, podrás abordar cualquier confusión, contradicción o pregunta sobre los datos desde el principio y asegurarte de que estos contratiempos sorpresivos no se interpongan en tu camino. Este es un ejemplo sencillo de cómo se vería un alcance del trabajo. Pero más tarde, podrás practicar cómo construir el tuyo propio. A continuación en nuestro alcance, analizaremos los contratiempos desde un ángulo diferente al aprender la importancia de contextualizar los datos y evitar sesgos. Espero poder compartir contigo algunas ideas interesantes.
+________________
+
+En este punto, intenta no confundir declaración de trabajo con alcance del trabajo,puesto que ambos que se abrevian como SOW. Aunque ambos se usan para definir entregables y un cronograma, no son lo mismo y no deben usarse indistintamente.
+
+Una declaración de trabajo es un documento que identifica claramente los productos y servicios que un proveedor o contratista proporcionará a una organización. Incluye objetivos, directrices, entregables, programa y costos.
+
+Un alcance del trabajo se basa en proyectos y establece las expectativas y los límites de un proyecto. Se puede incluir un alcance del trabajo en una declaración de trabajo para ayudar a definir los resultados del proyecto.
+
+Como analista de datos junior, es probable que se pida que crees de un alcance del trabajo que una declaración de trabajo. 
+_______________________________________________________________________________________________
+
+Los analistas de datos usan el pensamiento estructurado para reconocer la situación actual, organizar la información e identificar oportunidades.  
+
+<-_________________________________________________________________________________________->
+
+Video: Mantener objetividad
+
+exploraremos la importancia de contextualizar los datos y reconocer el sesgo de los datos. ¡Empecemos! Los datos no residen en un vacío, necesitan un contexto. Anteriormente, aprendimos que el 
+contexto es la condición en la que algo existe o sucede. 
+
+Las acciones pueden ser apropiadas en algunos contextos, pero inapropiadas en otros, por ejemplo, gritar para que alguien se mueva, es de mala educación en un contexto, si tu amigo está parado frente al televisor, pero es completamente apropiado en otro, si ese amigo está a punto de ser golpeado por un niño en un triciclo. ¿Ves la diferencia? En el mundo de los datos, los números no significan mucho sin contexto. Dejaré que mi colega Googler Ed, te cuente un poco más sobre eso a medida que tengamos más y más datos disponibles para nosotros. Podemos aprovechar esos datos de formas cada vez más sofisticadas y generar información más poderosa a partir de ellos. Usamos datos en muchos niveles diferentes. A veces nuestros datos son descriptivos y responden preguntas como: ¿cuánto gastamos en viajes el mes pasado? Los datos se vuelven más valiosos a medida que generamos conocimientos de diagnóstico y predictivos, como comprender por qué el gasto en viajes aumentó el mes pasado. Sin embargo, los datos son más valiosos cuando podemos generar conocimientos prescriptivos. Por ejemplo, ¿cómo podemos aprovechar los datos para incentivar viajes más eficientes? Averiguar qué significan los datos es tan importante como recopilarlos. Como analista de datos, gran parte de tu trabajo es poner los datos en contexto. También depende de ti ser objetivo y reconocer todas las facetas de un argumento antes de sacar conclusiones. Lo que pasa con el contexto, es que es muy personal. Si dos personas crean el mismo conjunto de datos, y siguen las mismas instrucciones, existe la posibilidad de que obtengan resultados diferentes. ¿Por qué? Porque no existe un conjunto universal de interpretaciones contextuales. Cada uno aborda los datos a su manera. Incluso si el proceso de recopilación de datos es correcto, el análisis puede malinterpretarse. Las conclusiones pueden verse influenciadas por tus propios prejuicios conscientes y subconscientes, que se basan en normas culturales, sociales y de mercado. Por ejemplo, si le preguntas a un residente de Boston qué equipo de béisbol es el mejor, lo más probable es que responda Boston Red Sox. Lo que nos lleva a una gran limitación del análisis de datos. Si el análisis no es objetivo, las conclusiones pueden ser engañosas. 
+
+Para comprender realmente de qué se tratan los datos, debes pensar en quién, qué, dónde, cuándo, cómo y por qué. Es bueno hacerse preguntas como: ¿Quién recopiló los datos? ¿Y de qué se tratan? ¿Qué representan los datos en el mundo y cómo se relacionan con otros datos? ¿Cuándo se recopilaron los datos? Los datos fueron recopilados hace un tiempo. Tenemos ciertas limitaciones, dada la situación actual. 
+
+Por ejemplo, si recopilamos números de teléfono durante el siglo pasado, en algún momento, se habrían introducido los teléfonos móviles, lo que habría llevado a la necesidad de un campo adicional para los números de teléfono. También deberías pensar, ¿dónde se recopilaron los datos? Muchas cosas pueden cambiar de una ciudad a otra, de un estado a otro y de un país país a otro en cómo se recopilaron. Una encuesta puede no ser tan efectiva como una entrevista en persona, por ejemplo. Por supuesto, ahí está el por qué. El por qué puede tener una relación particularmente fuerte con el sesgo. ¿Por qué? Porque a veces, los datos se recopilan, o incluso se inventan, para cumplir con una agenda. Lo mejor que puedes hacer por la equidad y precisión de tus datos es asegurarte de empezar con una representación precisa de la población y recopilar los datos de la manera más apropiada y objetiva. Luego, tendrás los hechos y podrás transmitirlos a tu equipo. Espero que ahora entiendas la importancia de los datos justos y objetivos, y lo importante que es un contexto, cuando se trata de comprenderlos e interpretarlos. A continuación, descubriremos cómo podemos darles vida.
+
+__________________________________________________________
+
+Un analista de datos pregunta quién, qué, cuándo, dónde, por qué y cómo para poner la información en contexto.
+
+<-_________________________________________________________________________________________->
+
+La importancia del contexto
+
+El contexto es la condición en la que algo existe o sucede. El contexto es importante en el análisis de datos porque te ayuda a examinar enormes cantidades de datos desorganizados, y a convertirlos en algo significativo. La realidad es que los datos tienen poco valor si no tienen relación con el contexto.
+Image of a hand putting the final puzzle piece in a 4-piece puzzle
+
+Comprender el contexto detrás de los datos puede ayudarnos a hacerlos más significativos en cada etapa del proceso de análisis de datos. Por ejemplo, es posible que puedas hacer algunas conjeturas sobre lo que ves en la siguiente tabla, pero no estarás lo suficientemente seguro sin más contexto. 
+
+Por otro lado, si la primera columna se etiquetó para representar los años en que se realizó una encuesta y, en la segunda columna, se mostró el número de personas que respondieron a esa encuesta, la tabla comenzaría a tener mucho más sentido. Lleva esto al siguiente paso y te darás cuenta de que la encuesta se realiza cada 5 años. Este contexto adicional te ayudará a entender por qué hay brechas de cinco años en la tabla. 
+
+El contexto puede convertir los datos sin procesar en información significativa. Es muy importante que los analistas de datos contextualicen sus datos. Esto significa dar la perspectiva de los datos al definirlos. Para lograr esto, debes identificar:
+
+    Quién: La persona u organización que creó, recopiló y/o financió la recopilación de datos.
+
+    Qué: Las circunstancias en las cuales los datos podrían tener un impacto en cualquier parte del mundo.
+
+    Dónde: El origen de los datos.
+
+    Cuándo: El momento en que se crearon o recopilaron los datos.
+
+    ¿Por qué? La motivación detrás de la creación o recopilación.
+
+    Cómo: El método que se usó para crearlos o recopilarlos.
+
+La comprensión e inclusión del contexto es importante durante cada paso de tu proceso de análisis, por lo que es importante que te familiarices con él desde el inicio de tu carrera. Por ejemplo, cuando recopiles los datos, querrás hacer preguntas sobre el contexto para asegurarte de que entiendes el negocio y el proceso empresarial. Durante la organización, el contexto es importante para tus convenciones de nomenclatura, cómo eliges mostrar las relaciones entre las variables y lo que eliges conservar u omitir. Y, finalmente, cuando presentes, es importante que incluyas información contextual para que tus interesados entiendan tu análisis.
+
+<-_________________________________________________________________________________________->
+

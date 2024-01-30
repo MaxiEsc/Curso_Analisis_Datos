@@ -1,0 +1,532 @@
+Modulo 4 - Calculo de los datos
+
+A continuación, haremos un repaso de algunos conceptos familiares y, luego, los utilizaremos para explorar conceptos nuevos. Como analista de datos, utilizarás herramientas y procesos clave una y otra vez, pero también aprenderás cosas nuevas a medida que crezcas en tu trabajo. Podría ser cualquier cosa, desde crear un nuevo tipo de análisis hasta inventar un atajo que ahorre tiempo. Cuando llegué a Google, confiaba en muy pocos programas y herramientas para acceder a los datos y hacer mi análisis. Pero pronto me di cuenta de que no estaba trabajando tan eficientemente como quería. Cuando me sentí más cómodo extrayendo datos y analizándolos con SQL, pude ser mucho más eficiente que antes. Y a medida que mejoraba utilizando SQL y extrayendo los datos de las tablas de datos, completaba mi análisis con mayor rapidez. Me enganché. En los próximos videos, te mostraré algunas maneras de ser lo más eficiente posible a la hora de realizar cálculos durante tu análisis. Comenzaremos por revisar las hojas de cálculo, donde observaremos las fórmulas de los cálculos básicos. Luego, pasaremos a las fórmulas condicionales que utilizan la función IF para verificar si se cumple una condición a través de un cálculo. Después exploraremos la función multifuncional SUMPRODUCT. ¡Intenta decir esa función rápidamente cinco veces! SUMPRODUCT suma y multiplica todo en un solo paso, así que es muy útil. Luego, echaremos otro vistazo a las tablas dinámicas. Si te has salteado una parte y es la primera vez que escuchas hablar de ellas, aprenderás todo sobre las tablas dinámicas. Tienen un montón de usos, que incluyen la organización de tus cálculos. Y pasaremos dinámicamente a SQL (un juego de palabras). Te mostraremos cómo las consultas y los cálculos van de la mano en SQL. También echaremos un vistazo a las tablas temporales en SQL, que son útiles para almacenar temporalmente tus datos durante el análisis. Cubriremos un montón de conceptos nuevos en estos videos, así que siéntete libre de presionar el botón de pausa en cualquier momento para analizar el problema o probar los pasos por tu cuenta. Y siempre puedes volver a ver los videos la cantidad de veces que necesites. Entonces, para recapitular, haremos una breve revisión y, luego, aprenderemos conceptos totalmente nuevos relacionados con los cálculos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Formulas de calculos comunes
+
+Para calcular cuánta propina le das a alguien o para realizar un balance de tu presupuesto. Quizás realices algunos de estos cálculos mentalmente, con papel y lápiz, o con la calculadora de tu teléfono. Es posible que incluso utilices atajos para realizar los cálculos de manera más sencilla. También realizarás muchos cálculos como analista de datos. Pero involucrarán más números en un rango más amplio de cálculos. Allí es donde pondrás en práctica tus herramientas como analista de datos. Te mostraremos cómo puedes utilizar fórmulas en una hoja de cálculo para realizar algunos de los cálculos más básicos. Las fórmulas son uno de los muchos atajos que utilizan los analistas de datos. Pero quédate tranquilo, que aunque sean atajos realizan los cálculos con una precisión absoluta. Hemos cubierto muchos de estos cálculos anteriormente en el programa. Pero si te salteaste esa parte y quieres un recordatorio, los repasaremos aquí. Estos cálculos también serán más avanzados que los que hemos cubierto hasta ahora. Pero también se acercarán más a los que utilizarás en el trabajo. En este video usaremos Google Sheets, pero también puedes usar Excel. Los pasos pueden verse un poco diferentes en Excel, pero los resultados serán los mismos. Probemos algunos cálculos con datos de ventas de una cadena de tiendas de descuento. Observaremos los datos de una de las tiendas de la cadena. Nuestro objetivo: utilizar los datos de ventas existentes para encontrar cualquier tendencia. Esta es una excelente manera de ver muchas de las formas en que puedes usar las fórmulas en tu análisis. Comenzaremos por buscar las ventas anuales a lo largo de los años 2011-2020. Estos datos ya están organizados en columnas por mes y en filas por año. Pero todavía no tenemos las ventas totales para cada año. Podemos usar la función SUM para ayudarnos a averiguarlo. Primero sumaremos las ventas de 2011. Agregaremos un encabezado en la columna de ventas anuales, y, luego, podemos escribir nuestra función SUM y una fórmula. Todas las fórmulas comienzan con el signo igual. Lo escribiremos primero, seguido de SUM, y luego abriremos paréntesis. Después de abrir paréntesis, necesitamos indicarle a la fórmula qué ventas estamos sumando. En este caso, necesitamos datos de toda la fila que empieza en la celda B2. B2 es la referencia de celda que utilizaremos. En lugar de escribir cada celda, una por una, podemos agregarlas rápidamente a la fórmula seleccionando la celda B2 y arrastrando el controlador de relleno por toda la fila hasta la última celda con datos de ventas, M2. Ahora completaremos la fórmula cerrando el paréntesis y presionando Enter. Así, hemos calculado las ventas totales de 2011. Este es otro atajo con el que trabajamos en un video anterior. El controlador de relleno es una pequeña casilla en la esquina de cada venta. Puedes utilizarla para muchas cosas, por ejemplo, para seleccionar muchas ventas para una fórmula o para continuar un patrón a lo largo de muchas ventas; el controlador de relleno definitivamente califica como un atajo. Podemos usar la fórmula que creamos para calcular las ventas totales de los otros años del conjunto de datos. Lo único que tenemos que hacer es arrastrar el controlador de relleno hacia abajo, por todas las otras ventas de la columna de ventas anuales y obtendremos los datos de las ventas totales para el resto de los años del conjunto de datos. Digamos que también necesitamos averiguar el crecimiento de las ventas anuales de un año a otro. Este sería un buen momento para pensar en el problema antes de intentar resolverlo. ¿Tenemos los datos que necesitamos para resolverlo? Todavía no. Pensar en retrospectiva, como ahora, nos ayuda a planificar los pasos para avanzar. Lo primero que necesitamos hacer es calcular las ventas totales por año. Después mediremos la tasa de cambio entre los años. Empezaremos por etiquetar una nueva columna. En este caso, no necesitaremos usar una función o un paréntesis, ya que solo estamos utilizando datos de dos ventas. Podemos usar el nombre de esas ventas, escribir un signo igual y luego hacer clic en la "Celda N3", que automáticamente rellena la venta en la fórmula. Luego, agregaremos un signo menos a la fórmula porque estamos restando para averiguar la diferencia entre dos años consecutivos. Hacer clic en la "Celda N2" nos da el total desde 2011, que luego podemos restar del total de 2012. Luego presionamos Enter y obtenemos el crecimiento de ventas de 2011-2012. Definitivamente estamos obteniendo datos muy útiles aquí. Sigamos adelante. También podemos utilizar nuestro crecimiento de ventas para calcular la tasa de crecimiento entre los dos años. La mostraremos como un porcentaje. Encabezaremos nuestra columna con el signo de porcentaje y el crecimiento. Para hacer esto, dividiremos el total de la celda O3 por las ventas anuales de 2011 de la celda N2. La barra es el símbolo que una fórmula reconoce como división, así que la colocaremos entre las dos referencias de celda y listo, allí está la tasa de crecimiento. Las tasas de crecimiento suelen aparecer como porcentajes, que pueden ser más fáciles de leer y de comprender que un decimal. Cambiemos este número por un porcentaje. Es hora de otro atajo. Lo único que tenemos que hacer es hacer clic en el botón de estilo porcentual y nuestra tasa de crecimiento se convertirá en un porcentaje. Podemos seleccionar las ventas del crecimiento total y de la tasa de crecimiento para rellenar el resto de las dos columnas. Hay algunos números negativos, pero eso solo significa que hubo un crecimiento negativo de un año al siguiente. Solo nos queda calcular algunas cosas para nuestros interesados. El siguiente paso es calcular el promedio de ventas. Queremos comparar las ventas entre los meses para averiguar si hay una tendencia. Agregaremos esto en una fila en lugar de una columna. Esto alineará nuestros promedios debajo de cada mes. Para averiguar nuestros promedios, calcularemos el total y, luego, dividiremos el total por el número de valores agregados para obtenerlo. Podemos hacerlo usando la función AVERAGE. Entre paréntesis, seleccionaremos las celdas que contengan los datos de ventas para enero, de B2 a B11. Duplicaremos esa fórmula por toda la fila de diciembre para buscar tendencias. De inmediato, sabemos que los meses de verano y diciembre tienen los mayores promedios de ventas. Dado que los interesados querrán comprender nuestros hallazgos de forma rápida y sencilla, agregaremos una pequeña visualización a los datos con un formato condicional. Pronto aprenderás más sobre la visualización de datos, como el formato condicional. Pero aquí tienes un adelanto. 
+
+El formato condicional es una herramienta de la hoja de cálculo que cambia la forma en que aparecen las celdas cuando los valores cumplen ciertas condiciones. 
+
+Apliquemos el formato condicional a las celdas con los promedios de ventas por mes. Utilizaremos una escala de colores para mostrar el rango de promedios. Bueno, dejaremos el mes con el promedio más bajo de color blanco y aplicaremos tonalidades de verde al resto de los valores. Cuanto más brillante sea el verde, más alto será el promedio. Cuando compartamos nuestro análisis con los interesados, podrán ver de inmediato qué meses tienen los mayores promedios de ventas. Solo nos quedan unos pasos para terminar nuestro análisis. Ahora necesitamos encontrar el promedio mínimo y máximo de las ventas mensuales. Con un conjunto de datos tan pequeño, tendría que ser fácil calcular los valores mínimo y máximo sin una fórmula, pero también es bueno poner una en práctica. Además, una fórmula nos ayuda a evitar errores humanos. Confiaremos de nuevo en las fórmulas con Funciones para realizar estos cálculos; comenzaremos con el mes con el promedio mensual más bajo. Aquí nuestra función es MIN, seguida de las celdas con el promedio mensual B2 a M2. Después de presionar Enter, aparece el cálculo del promedio mensual más bajo. Podemos repetir los mismos pasos para calcular el promedio mensual más alto; en esta fórmula, usaremos los mismos datos, pero reemplazaremos MIN por MAX, por máximo. Para la ubicación de esta tienda, las ventas son mayores en diciembre y menores en enero. Podremos compartir estos resultados con los interesados si cumplen con los objetivos. Si no lo hacen, tendremos que continuar con nuestro análisis. De todas formas, espero que hayas aprendido que las fórmulas de las hojas de cálculo pueden ser herramientas valiosas cuando realizas cálculos. A continuación, aprenderemos más fórmulas.
+_________________
+Estás calculando la suma de un rango de celdas desde A2 hasta F2. ¿Cuál es la sintaxis correcta para este cálculo?
+Para calcular la suma de un rango de celdas desde A2 hasta F2, la sintaxis correcta es =SUM(A2:F2). Las fórmulas comienzan con el signo igual. A2:F2 son las referencias de las celdas que se deben sumar. Y los dos puntos entre las dos referencias de celda indican que es un rango de celdas.
+Estás analizando los resultados de los cálculos de ventas minoristas. Si haces clic en la celda H10, encontrarás la siguiente fórmula: =H9/G9. ____________________
+¿Qué operación ocurre en esta celda?
+En la fórmula =H9/G9, la operación es la división. El operador para la división es una barra inclinada (/).
+<----------------------------------------------------------------------------------------------------------------------->
+
+Funciones y condiciones 
+
+Uno de los primeros cálculos que la mayoría de los niños aprende a hacer es contar. Luego, aprenden a sumar y nunca lo olvidan. Sin importar la edad que tengamos, siempre estamos contando o sumando algo, ya sea el cambio en una tienda de comestibles o las medidas en una receta. Los analistas de datos también cuentan y suman mucho. Y con la cantidad de datos con la que te cruzarás como analista de datos, estarás agradecido de tener funciones que puedan contar y sumar por ti. 
+Aprendamos cómo las funciones COUNTIF y SUMIF pueden ayudarte a realizar los cálculos de tu análisis de manera más simple y exacta. 
+Sintaxis -> COUNTIF(rango,"valor") , 
+Comenzaremos con la función COUNTIF. Quizás recuerdes COUNTIF de algunos videos anteriores sobre limpieza de datos. COUNTIF muestra el número de celdas que coinciden con un valor específico. Ya hemos visto cómo COUNTIF puede utilizarse para encontrar y contar errores en un conjunto de datos. Aquí solamente contaremos. A modo de recordatorio, aunque no buscaremos activamente errores en este video, de todas maneras tendremos cuidado con cualquier dato que no parezca correcto mientras realizamos nuestro análisis. Como analista de datos, buscarás y corregirás errores a cada paso del camino. En este ejemplo, observaremos una muestra de datos de un minorista en línea de suministros para cocina. Nuestros interesados nos pidieron respuestas a algunas preguntas sobre los datos para comprender mejor las transacciones de los clientes, incluso los ingresos que están aportando. Hemos añadido las preguntas que debemos responder a la hoja de cálculo. Configuraremos... 
+
+Una tabla de resumen simple, que es una tabla que se utiliza para resumir información estadística sobre los datos. 
+
+Utilizaremos las preguntas para crear los atributos de la columna de nuestra tabla: recuento, ingreso total e ingresos promedio por transacción. Cada pregunta pide información sobre transacciones con un ítem o transacciones con más de un ítem, así que esas serán las observaciones para nuestras filas. Le pondremos Cantidad al encabezado de nuestras observaciones. También agregaremos bordes para que nuestra tabla de resumen se vea bien y sea clara. La primera pregunta dice: ¿Cuántas transacciones incluyen exactamente un ítem? Para responderla, agregaremos una fórmula con la función COUNTIF en la celda G11. Comenzaremos con un signo igual, COUNTIF y abriremos paréntesis. La columna B tiene datos sobre cantidad. Así que seleccionaremos desde la celda B3 hasta la B50 y, luego, pondremos una coma. Luego, tenemos que decirle a la fórmula el valor que estamos buscando en las celdas que seleccionamos. Queremos que los datos cuenten el número de transacciones si son iguales a 1. En este caso, entre comillas, escribiremos un signo igual y el número 1 porque ese es el valor exacto que necesitamos contar. Cuando cerremos el paréntesis y presionemos Enter, obtendremos el recuento total de las transacciones con un solo ítem, que es 25. Podemos seguir los mismos pasos para contar valores mayores que uno. Pero esta vez, ya que solo queremos valores mayores que 1, escribiremos el signo mayor que en nuestra fórmula dentro de un signo igual. Esta información nos ayuda a comparar los datos sobre la cantidad. De acuerdo, ahora necesitamos averiguar el ingreso total que cada tipo de transacción generó. Dado que los datos no están organizados por cantidad, utilizaremos... 
+
+La función SUMIF para que nos ayude a sumar los ingresos de las transacciones con un ítem y con más de un ítem, por separado. SUMIF es una función que suma datos numéricos basados en una condición. 
+
+-> Sintaxis =SUMIF(rango, criteria/condicion, [rango de la suma])
+
+Crear una fórmula con SUMIF es un poco diferente que crear una con COUNTIF. Ambas empiezan de la misma manera, con un signo igual y la función, pero una fórmula SUMIF contiene el rango de celdas que van a ser evaluadas por tus criterios, y los criterios. Es decir, SUMIF tiene una lista de celdas para verificar en base a los criterios que configuraste en la fórmula. Luego, colocamos el rango donde queremos sumar los números en la fórmula, en caso de que ese rango sea diferente del rango que estamos evaluando. Hay comas entre cada una de estas partes. Agregar un espacio luego de cada coma es opcional. Hagamos una prueba. Escribiremos nuestra fórmula en la celda H11. El rango que vamos a evaluar está en la columna B, así que seleccionaremos esas celdas. La condición que queremos que los datos cumplan es que los valores de la columna sean igual a uno. Entonces, escribiremos una coma y luego, entre comillas, un signo igual y el número uno. Luego, seleccionaremos el rango a sumar si los datos de nuestro primer rango son iguales a uno. Este rango está en la columna C, que contiene los ingresos de cada transacción. Así, cada cantidad de ingresos recaudados de una transacción con un solo ítem será sumada de forma conjunta. Y así obtendremos el total. Como estos son ingresos, cambiaremos el formato de números a moneda, para que nos muestre dólares y centavos. Entonces, las transacciones con exactamente un ítem recaudaron ingresos por USD 1,555.00. Veamos cuánto recaudaron las transacciones con más de un ítem. Echemos un vistazo a los resultados. Al igual que en nuestros ejemplos con COUNTIF, la segunda fórmula SUMIF será igual a la primera, excepto por la condición, que será mayor que uno. Cuando ejecutamos la fórmula, descubrimos que el ingreso total es mucho mayor: USD 4,735.00. Eso tiene sentido porque los ingresos vienen de transacciones con más de un ítem. Buenas noticias. Para completar nuestro objetivo, haremos dos cálculos rápidos más. Primero, averiguaremos los ingresos promedio por transacción dividiendo cada total por su recuento. Esto mostrará a nuestros interesados la diferencia de ingresos que hay por transacción entre transacciones con un ítem y transacciones con muchos ítems. Esa información puede ser útil por muchas razones. Por ejemplo, para averiguar si es conveniente agregar un descuento en compras de más de un ítem para alentar a los clientes a comprar más. Pondremos estos cálculos en la última columna de nuestra tabla de resumen. Quizás recuerdes que utilizamos una barra en una fórmula como operador para los cálculos de divisiones. Los ingresos promedio de las transacciones con un ítem son USD 62.20. Y los ingresos promedio de las transacciones con más de un ítem son USD 205.87. Y así termina nuestro análisis. Ahora nuestra tabla de resumen ofrece a los interesados y a los miembros del equipo una instantánea del análisis que es fácil de comprender. Las funciones COUNTIF y SUMIF tuvieron un papel importante. El uso de estas funciones para realizar cálculos, sobre todo en conjuntos de datos grandes, puede ayudarnos a acelerar nuestro análisis. También pueden hacer que sea más interesante contar y sumar. No hay nada malo en eso. Y a continuación, exploraremos más funciones para que realices tus cálculos sin problemas.
+____________________________
+Un analista de datos utiliza la siguiente fórmula: =COUNTIF(C2:C50, “=100”). ¿Qué parte de la fórmula nombra la condición que deben cumplir los datos para que puedan contarse?
+En la fórmula =COUNTIF(C2:C50, “=100”), “=100” nombra la condición que deben cumplir los datos para que puedan contarse. En esta fórmula, las celdas desde C2 hasta C50 se contarán si su valor equivale a 100.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Funciones con varias condiciones
+
+En esta lectura, aprenderás más sobre las funciones condicionales y sobre cómo crear funciones con varias condiciones. Recuerda que las funciones y las fórmulas condicionales realizan cálculos en función de condiciones específicas. Anteriormente, aprendiste cómo utilizar funciones como SUMIF y COUNTIF que tienen una condición. Puedes utilizar las funciones SUMIFS y COUNTIFS si tienes dos o más condiciones. Aprenderás la sintaxis básica en Google Sheets. 
+
+Puedes consultar los recursos al final de esta lectura acerca de funciones similares en Microsoft Excel.
+SUMIF o SUMIFS
+
+La sintaxis básica de una función SUMIF es: =SUMIF(rango, criterio, rango_suma)
+
+Pero, podrías crear también varias condiciones utilizando la función SUMIFS. SUMIF y SUMIFS son muy similares, pero SUMIFS puede incluir varias condiciones.
+
+La sintaxis básica es:  =SUMIFS(rango_suma, rango_criterios1, criterio1, [rango_criterios2, criterio2, ...])
+
+Los corchetes indican que se trata de un campo opcional. Los puntos suspensivos al final de la instrucción te permiten saber que puedes tener tantas repeticiones de estos parámetros como sea necesario. 
+
+COUNTIF o COUNTIFS
+
+Al igual que la función SUMIFS, COUNTIFS te permite crear una función COUNTIF con varias condiciones.
+
+La sintaxis básica para COUNTIF es: =COUNTIF(rango, criterio)
+
+Al igual que SUMIF, configuras el rango y luego la condición que se debe cumplir. Por ejemplo, si quisieras contar la cantidad de veces que aparecía Food (Comida) en la columna de Gastos, podrías utilizar la función COUNTIF de la siguiente manera:
+
+COUNTIFS tiene la misma sintaxis básica que SUMIFS: =COUNTIFS(rango_criterios1, criterio1, [rango_criterios2, criterio2, ...])
+
+rango_criterios y criterio están en el mismo orden, y puedes agregar más condiciones al final de la función. 
+
+Para obtener más información
+
+SUMIFS y COUNTIFS son solo dos ejemplos de funciones con varias condiciones. Ayudan a demostrar cómo es posible crear varias condiciones en la sintaxis básica de una función. Pero, existen otras funciones con varias condiciones que puedes utilizar en tu análisis de datos. Existen muchos recursos disponibles en línea que pueden ayudarte a avanzar con estas otras funciones:
+
+    Cómo utilizar la función IFS de Excel
+
+: Este recurso incluye una explicación y un ejemplo de la función IFS de Excel. Esta es una gran referencia si estás interesado en aprender más sobre la función IFS. El ejemplo es una manera útil de entender esta función y cómo puede utilizarse. 
+
+VLOOKUP en Excel con varios criterios
+
+: Similar al recurso anterior, este recurso especifica en más detalle más cómo utilizar VLOOKUP con varios criterios. Tener la capacidad de aplicar VLOOKUP con varios criterios será una habilidad útil, por eso consulta este recurso para obtener una mayor orientación sobre cómo comenzar a utilizarlo en los datos de tu propia hoja de cálculos.  
+
+INDEX y MATCH en Excel con varios criterios
+
+    : Este recurso explica cómo utilizar las funciones INDEX y MATCH con varios criterios. Incluye además un ejemplo que ayuda a demostrar cómo trabajan estas funciones con varios criterios y datos reales. 
+
+    Cómo utilizar las funciones IF con AND, OR y NOT en Excel
+
+    : Este recurso combina las funciones IF con AND, OR y NOT para crear funciones más complejas. Al combinar estas funciones, puedes realizar las tareas de manera más eficiente y abarcar más criterios de inmediato. 
+
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Funciones compuestas
+
+A los analistas de datos les encanta descubrir nuevas formas de trabajar en su análisis, en especial, cuando esas nuevas formas simplifican su trabajo. Sé que soy una gran fanática de aprender nuevos trucos para realizar tareas complicadas. En lugar de intentar encontrar una nueva manera de hacer algo cada vez que realizo un análisis, intento aprender de otras personas, haciéndoles preguntas y pidiéndoles ayuda cuando la necesito. A las personas con las que trabajo les gusta usar la expresión "robar con orgullo". Esto quiere decir que no deberías avergonzarte de utilizar un proceso en tu análisis que hayas aprendido de otra persona o en otro lugar. Otros miembros del equipo, publicaciones en foros, búsquedas en línea; utilicé todos estos recursos para obtener ideas. ¡Con orgullo! Por supuesto, siempre cito mis fuentes cuando las utilizo. Ese es un paso muy importante para recordar. 
+La función SUMPRODUCT también es uno de esos trucos que los analistas descubren por su cuenta o por otro lado. 
+También puedes considerarla un atajo para hacer cálculos más complejos. Te mostraremos cómo funciona SUMPRODUCT y cuándo podrías utilizarla para facilitar tu vida laboral. 
+
+SUMPRODUCT es una función que multiplica las matrices y muestra el resultado de la suma de esos productos. 
+
+Sintaxis SUMPRODUCT(arreglo1,arreglo2,...)
+
+Así se ve la fórmula SUMPRODUCT: signo igual, SUMPRODUCT seguido de un paréntesis abierto, y las matrices multiplicadas y luego sumadas. Cada matriz está separada por una coma. 
+
+Una matriz es como un rango en una hoja de cálculo. 
+Pero recuerda que una matriz es una recolección de los valores de las celdas, no las celdas en sí. 
+
+Cuando se la agrega a una fórmula, la función SUMPRODUCT multiplica cada valor en dos o más matrices. Por ejemplo, cada valor en la matriz de las celdas B3 a B7 puede multiplicarse por su valor correspondiente en la matriz de las celdas C3 a C7. B3 por C3, B4 por C4, y así sucesivamente. Luego, dará como resultado la suma de todas esas multiplicaciones. Veamos un ejemplo utilizando los datos de una empresa de suministros para cocina. Quizás recuerdes este ejemplo del video de COUNTIF y SUMIF. Nos han brindado algunos datos sobre el pedido de productos, que incluyen la cantidad de cada producto que se vendió en el pedido y el precio por unidad, que indica cuánto cuesta cada uno de los productos. Nuestro trabajo es utilizar los datos de estas dos columnas para averiguar el ingreso total de este pedido. Y aquí es donde aparece SUMPRODUCT. Para averiguar el ingreso total, necesitamos realizar cálculos de suma y multiplicación. Primero, necesitamos calcular los ingresos que cada ítem generó por separado. Si hiciéramos esto sin SUMPRODUCT, tendríamos que multiplicar cada cantidad por su precio unitario: 50 por USD 1.25, 25 por USD 5, y así sucesivamente. Luego, tendríamos que sumar todos esos ingresos para obtener el ingreso total. Afortunadamente, la función SUMPRODUCT hace todo eso por nosotros. Agreguemos la etiqueta Ingreso Total en la celda G5 y, luego, hagamos clic en G6 para ingresar la fórmula. Luego, comenzaremos nuestra fórmula con un signo igual y la función seguida de un paréntesis abierto. Es bueno recordar que las matrices que agreguemos a nuestra fórmula siempre deben ir entre paréntesis. A continuación, seleccionaremos las celdas B3 a B7 para la primera matriz y, luego, escribiremos una coma. La coma funciona como un separador entre las dos matrices y la fórmula. Después, seleccionaremos las celdas C3 a C7 para la segunda matriz y cerraremos el paréntesis para completar nuestra fórmula. No tendremos que incluir corchetes en esta fórmula. Los incluimos en el ejemplo de sintaxis para definir con claridad cada matriz. Luego presionamos Enter para obtener el ingreso total. Como estamos trabajando con ingresos, aplicaremos a los números el formato de moneda. Así, averiguamos que el ingreso total es USD 655. Pero esa no es la ganancia real de las ventas de estos suministros para cocina porque no hemos incluido el margen de beneficio en estos cálculos. 
+
+El margen de beneficio es un porcentaje que indica cuántos centavos de beneficio se generaron por cada dólar de venta. 
+
+En nuestro conjunto de datos, el producto número 789 tiene un margen de beneficio del 20%, lo que quiere decir que cada producto vendido obtiene un beneficio total de USD 0.20 por cada dólar. Y como ocurrió con el cálculo para los ingresos, podemos ahorrar tiempo si averiguamos el margen de beneficio con la función SUMPRODUCT. Solo hay una diferencia entre la fórmula para el margen de beneficio y los ingresos en esta hoja de cálculo. Pero es una diferencia importante. Para comenzar, en la celda G7 escribimos la misma primera parte de la fórmula. Luego, incluimos las dos matrices de la misma manera. Pero en lugar de terminar nuestra fórmula, agregamos otra coma seguida de otra matriz. Esta vez seleccionaremos las celdas con un margen de beneficio, D3 a D7. Terminaremos nuestra fórmula y nuestro cálculo estará listo. La función SUMPRODUCT nos ahorra tener que multiplicar cada cantidad de ingresos individual por cada porcentaje de margen de beneficio, y, luego, sumar cada cantidad de margen de beneficio. Utilizar SUMPRODUCT para realizar cálculos nos ahorra tiempo y nos ayuda a evitar errores. Definitivamente, es un truco que vale la pena recordar, y, a continuación, verás que hay mucho más que vale la pena tener en mente a la hora de realizar cálculos.
+_______________
+Deseas calcular los ingresos anuales de una empresa mediante el uso de datos financieros. Utilizas la función SUMPRODUCT para multiplicar cada uno de los valores en los conjuntos B3:B7 y C3:C7, luego los sumas. ¿Cuál es la sintaxis correcta para completar este cálculo?
+
+La sintaxis correcta es =SUMPRODUCT(B3:B7,C3:C7). Mediante esta sintaxis se multiplica cada valor en el primer rango por su valor correspondiente en el segundo rango. Luego, los valores se suman.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Comienza a trabajar con tablas dinamicas
+
+Ahora ya sabes mucho sobre funciones y fórmulas. Son herramientas muy útiles para tu caja de herramientas y son geniales para encontrar atajos para realizar cálculos. Pero hay otra herramienta que hace las mismas cosas en una hoja de cálculo: la tabla dinámica. A modo de recordatorio.... 
+
+Las tablas dinámicas te permiten ver los datos de varias formas para hallar conclusiones y tendencias. 
+
+Ya hemos visto cómo las tablas dinámicas te ayudan a limpiar y organizar datos, incluso a ordenar y agrupar los datos. Pero las tablas dinámicas también ayudan a realizar cálculos. Por ejemplo, son geniales para calcular rápidamente sumas y promedios. Regresemos a nuestro conjunto de datos sobre películas para ver cómo las tablas dinámicas y los cálculos fueron de la mano. Anteriormente, resumimos y organizamos los datos en tablas dinámicas. También lo haremos aquí. Pero en este caso, la organización es algo más que logras cuando usas las tablas dinámicas para realizar cálculos. También puedes seguir estos pasos en Excel, aunque algunos podrían verse diferentes. Si estás utilizando Excel, puedes revisar la lectura luego de este video para ver más detalles sobre las tablas dinámicas y las hojas de cálculo de Excel. En este ejemplo, tu superior te pide que encuentres algunas tendencias para ayudarle a pensar nuevas ideas para una película, utilizando los cálculos de ingresos. Esta hoja de cálculo tiene datos sobre películas de hace algunos años. Así que posiblemente no sea tan útil en este momento. No obstante, los pasos que seguiremos para analizar los datos aplican tanto entonces como ahora. Comencemos. Primero, necesitamos averiguar cuántos ingresos se generaron cada año. Una tabla dinámica es una buena manera de organizar esto. Crearemos una tabla dinámica para ilustrarlo. En nuestra tabla dinámica también podemos encontrar los ingresos promedio por película. Luego, podemos verificar nuestros hallazgos en busca de posibles tendencias. Comenzaremos por buscar los ingresos generados cada año. Esto nos brinda la fecha de estreno de cada película en la columna B y los ingresos de taquilla en la columna N. En lugar de organizar la tabla por año y crear una fórmula para calcular los ingresos por año, crearemos una tabla dinámica. En la tabla dinámica, en una nueva hoja, mantendremos el rango de datos de la celda A1 hasta la celda N509. Agregar una nueva hoja es muy útil en especial cuando trabajas con un conjunto de datos grande, como este. Te ayuda a mantener tus cálculos juntos en un mismo lugar, y separados del resto de tus datos. Le cambiaremos el nombre a esta hoja por el de ingresos para destacar dónde están nuestros cálculos, en caso de que nosotros o cualquier persona del equipo necesite nuestro análisis. Ahora podemos crear nuestra tabla dinámica, comenzando por las filas. Ordenaremos las filas por fecha de estreno para averiguar los ingresos de cada año. Puedes ver que esto crea una fila para cada fecha en que una o más películas de este conjunto de datos se estrenaron. Como solo necesitamos los años, haremos clic con el botón derecho del mouse en una de las celdas de la columna de las fechas de estreno para crear un grupo de fechas dinámico agrupado por año. Ahora tenemos una fila por cada año en que estas películas se estrenaron. A continuación, queremos trabajar con los valores. Colocaremos los datos de los ingresos de taquilla aquí. Esto completa las columnas que están al lado de las fechas de estreno con los ingresos totales de taquilla y de cada año. Estos cálculos son automáticos porque la tabla dinámica ya está configurada para resumir los datos utilizando la función SUM. Así que no es necesario cambiar esta configuración. Aunque hay otras funciones y las resumidas en el menú, como MIN para la cantidad mínima de ingresos de cada año y contar para el número de películas que generaron ingresos cada año. De acuerdo, veamos qué obtuvimos aquí. Estos datos muestran que los ingresos más altos ocurrieron en 2014, mientras que los más bajos en 2016. Esta información podría ser útil, pero sería mucho más probable que fuera más útil encontrar los ingresos promedio por película, ya que hubo un número diferente de películas que se estrenaron cada año. Así que agregaremos otra columna para los ingresos promedio obtenidos por película en cada año. Podemos hacerlo en la misma tabla dinámica. Agregaremos otro valor y cambiaremos la función que usamos para resumir de SUM a AVERAGE. La función AVERAGE nos da los ingresos promedio por año para las películas del conjunto de datos. Podemos ver que los ingresos promedio en 2015 fueron mucho más bajos que en otros años. Como estos datos se destacan demasiado, sigamos explorando para encontrar la razón. Llevar tu análisis a otro nivel, como estamos haciendo, es un signo de que eres un gran analista. Cuando estás haciendo tu trabajo, quieres responder las preguntas que tu superior y los interesados formulan. Pero también quieres responder aquellas preguntas que surgen mientras estás realizando tu análisis. Así que tratemos de averiguar esto. Primero, averiguaremos cuántas películas de cada año se incluyeron en el conjunto de datos, agregaremos un nuevo valor y utilizaremos la función COUNT esta vez. Esto nos muestra que hay más películas en el conjunto de datos de 2015 que en cualquier otro año. Pero 2015 está en el segundo lugar de los ingresos totales de taquilla más bajos. Esto puede querer decir algunas cosas. Es probable que muchas de las películas de 2015 no hayan generado muchos ingresos en comparación con otros años, lo que bajaría los ingresos promedio totales. Incluso si los ingresos totales permanecieran equitativos con los de los otros años. Aquí solo exploraremos esta posibilidad. Pero siempre puedes seguir explorando cuando analices los datos en tu propio trabajo. Dependerá de tus objetivos y de las respuestas que necesites responder. Por ahora, copiaremos y pegaremos nuestra tabla dinámica para poder probar nuestra hipótesis. Cambiaremos los nombres de las columnas y de nuestra tabla copiada para diferenciarla de la tabla original. Le pondremos nombre en base a los datos que estamos buscando, que explicaré en el siguiente video. Ahora nuestra tabla dinámica copiada está lista para que probemos nuestra hipótesis. A continuación, utilizaremos filtros para averiguar cómo muchas películas generaron ingresos por menos de 10 millones de dólares en 2015. Luego crearemos un campo calculado para determinar qué porcentaje del total de películas de ese año representan. Estaré aquí cuando estés listo para aprender más sobre tablas dinámicas.
+_____________________________________________
+
+Pasos para el analisis
+
+-> Cuantos ingresos se generaron en cada año
+-> Crear una tabla dinamica para ilustrar los ingresos por año
+-> Encontrar los ingresos promedios por pelicula
+-> Observar hallazgos pata encontrar tendencias posibles
+
+________________________________
+
+Cuando utilizas el menú Valores en una tabla dinámica, ¿qué hace el menú desplegable por Resumir?
+
+El menú desplegable Resumir por cambia la función aplicada a los valores. La función SUM es la función predeterminada, pero existen otras opciones, tales como COUNT.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Tablas dinamicas (Continuacion)
+
+creamos una tabla dinámica sobre los datos de una película y sobre los cálculos de los ingresos para ayudar a que nuestro gerente piense nuevas ideas para una película. Utilizamos nuestra tabla dinámica para hacer algunas observaciones iniciales sobre los ingresos anuales. También descubrimos que los ingresos promedio de 2015 fueron más bajos que los de otros años, aunque se estrenaron más películas durante ese año. Nuestra hipótesis fue que esto se debió a que la mayoría de las películas que recaudaron menos de 10 millones de dólares de ingresos se estrenaron en 2015. Para probar esta teoría, creamos una copia de nuestra tabla dinámica original. Ahora aplicaremos filtros en los campos calculados para explorar más a fondo estos datos. ¡Empecemos! Recordarán que la opción de filtrado nos permite ver solamente los valores que necesitamos. Seleccionaremos una celda en nuestra copia de la tabla dinámica y agregaremos un filtro en la columna de los ingresos de taquilla. Luego aplicaremos el filtro a toda la tabla. Cuando abrimos el menú de estado, podemos elegir filtrar los datos para que muestren valores específicos. Sin embargo, en nuestro caso, queremos filtrar por condición, para poder averiguar cuántas películas recaudaron menos de 10 millones de dólares en cada año. La condición que utilizaremos en nuestro filtro es menor que y el valor será 10 millones de dólares, por eso ya habíamos cambiado el nombre de estas columnas previamente. Escribiremos el número en un formato de dólares y centavos para que la condición coincida con los datos de nuestra tabla dinámica. Quizás esto no sea necesario, pero evita que sucedan posibles errores. Ahora sabemos que 20 películas que se estrenaron en 2015 recaudaron menos de 10 millones de dólares. Parece un número enorme en comparación a otros años. Pero ten en cuenta que había más películas en nuestro conjunto de datos que se estrenaron en 2015. Antes de continuar, utilicemos un campo calculado para verificar nuestro promedio porque lo habíamos copiado de otra tabla dinámica antes de filtrarlo. De esa forma podemos verificar que es correcto. Crearemos una columna personalizada denominada campo calculado, utilizando nuestro menú de valores. 
+
+Un campo calculado es un campo nuevo en una tabla dinámica que realiza ciertos cálculos en base a los valores de otros campos. 
+
+También puedes realizarlo en Excel, utilizando las configuraciones de campo y el menú para crear fórmulas. Para la fórmula en nuestro campo calculado, utilizaremos la función de suma y dividiremos la suma de los datos de los ingresos de taquilla de nuestra tabla original por el recuento de los mismos datos. Como ya habíamos aplicado nuestro filtro a esta tabla dinámica, esta fórmula solo nos brindará los ingresos promedio de películas por debajo de 10 millones de dólares. Eso funcionó. Pudimos verificar la exactitud de algunos datos antes de analizarlos. Eso siempre es bueno. Pero todavía es difícil saber el impacto que tuvieron estas películas de pocas ganancias en los ingresos promedio. Ejecutaremos una fórmula rápida para averiguar el porcentaje de películas para cada año en que la recaudación fue inferior a 10 millones de dólares. Esto hará que sea más fácil comparar un año con otro. En lugar de agregar un campo calculado, agregaremos esto como una fórmula en una columna nueva; de ese modo, podemos extraer datos de ambas tablas dinámicas. Pondremos un encabezado en nuestra tabla, en la celda G10, y lo denominaremos porcentaje de películas totales. Luego, agregaremos nuestra fórmula a la siguiente celda de la columna. Dividiremos el número de películas de la tabla que copiamos por el número de películas de la tabla original. Luego, utilizaremos el controlador de relleno en la celda con la fórmula y la arrastraremos para aplicar la fórmula al resto de los años. Finalmente, formatearemos estos números como porcentajes. Ahora nuestro análisis muestra que el 16% de las películas estrenadas en 2015 recaudó menos que 10 millones de dólares de ingresos. Los otros años están cerca del 10%. Esa es una posible explicación de por qué los ingresos promedio son comparativamente bajos en 2015. En la vida real, es posible que tengamos que hacer un análisis más exhaustivo, según nuestros objetivos. Pero, por ahora, estamos listos. Has aprendido cómo puedes utilizar las tablas dinámicas para hacer cálculos de datos. Requiere práctica, pero las tablas dinámicas lo valen porque hacen mucho más que calcular. También organizan y filtran los datos. Juntos hemos cubierto funciones, fórmulas y tablas dinámicas. Herramientas geniales para usar en el análisis. Con práctica y experiencia, sentirás que las has utilizado siempre. Solo tómate tu tiempo para conocer cómo funcionan. Sigue explorando estos videos y las lecturas.
+__________________________________
+
+¿Un campo calculado dentro de una tabla dinámica se utiliza para realizar cálculos basados en qué?
+
+Un campo calculado dentro de una tabla dinámica se utiliza para realizar cálculos basados en los valores de otros campos. El campo calculado se añade como una fila o columna adicional en una tabla dinámica.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Elementos de una tabla dinámica
+
+Anteriormente, aprendiste que una tabla dinámica es una herramienta que se utiliza para ordenar, reorganizar, agrupar, contar, totalizar o promediar datos en las hojas de cálculo. En esta lectura, aprenderás más sobre las partes de una tabla dinámica y cómo los analistas de datos las utilizan para resumir datos y responder las preguntas sobre sus datos.
+
+Las tablas dinámicas posibilitan el hecho de ver los datos de varias maneras a fin de identificar las conclusiones y las tendencias. Pueden ayudarte a que rápidamente encuentres sentido a conjuntos de datos más grandes comparando la métrica, realizando cálculos y generando informes. También son útiles para responder preguntas específicas sobre tus datos. 
+
+Una tabla dinámica tiene cuatro partes básicas: filas, columnas, valores y filtros.
+
+Las filas de una tabla dinámica organizan y agrupan los datos que seleccionas horizontalmente. Por ejemplo, en el video de Cómo trabajar con tablas dinámicas,
+ los valores de la fecha de lanzamiento se utilizaron para crear filas que agrupen los datos por año.
+
+Las columnas organizan y muestran verticalmente los valores de tus datos. Al igual que las filas, las columnas se pueden extraer directamente del conjunto de datos o se pueden crear utilizando valores. Los valores se utilizan para calcular y contar datos. Aquí es donde ingresas las variables que deseas medir. Esto es también cómo creas los campos calculados en tu tabla dinámica. A modo de repaso, un campo calculado es un campo nuevo dentro de una tabla dinámica que realiza ciertos cálculos en función de los valores de otros campos.
+
+En el ejemplo anterior de datos de películas, el editor de Valores creó columnas para la tabla dinámica, que incluye las columnas SUMA de la recaudación de taquilla, el PROMEDIO de la recaudación de taquilla y el CONTEO de la recaudación de taquilla.
+
+Por último, la sección de filtros de una tabla dinámica te permite aplicar filtros en función de criterios específicos; simplemente como filtros en hojas de cálculo habituales. Por ejemplo, se agregó un filtro a la tabla dinámica de datos de películas para que solo incluya películas que generaron menos que 10 millones de dólares en ingresos.
+
+Poder utilizar las cuatro partes del editor de la tabla dinámica te permitirá comparar las diferentes métricas de tus datos y realizar cálculos, que te ayudarán a obtener conclusiones valiosas.
+Cómo utilizar las tablas dinámicas para el análisis
+
+Las tablas dinámicas pueden ser una herramienta útil para responder preguntas específicas acerca de un conjunto de datos para que puedas compartir rápidamente respuestas con los interesados. Por ejemplo, a un analista de datos que trabaja en una tienda departamental le solicitan determinar las ventas totales para cada departamento y el número de productos que vende cada uno. También estaba interesado en conocer con exactitud qué departamento generó más ingresos.
+
+En lugar de hacer cambios en los datos de la hoja de datos original, utilizó una tabla dinámica para responder esas preguntas y comparar fácilmente los ingresos de las ventas y el número de productos vendidos por cada departamento.
+
+Utilizó el departamento como las filas para esta tabla dinámica para agrupar y organizar el resto de los datos de las ventas. Luego, escribió dos valores como columnas: la SUMA de las ventas y un recuento de los productos vendidos. También ordenó los datos en la columna SUMA de ventas a fin de determinar qué departamento generó más ingresos.
+
+Ahora sabe que el departamento Juguetes generó la mayor cantidad de ingresos. 
+
+Las tablas dinámicas son una herramienta eficaz para los analistas de datos que trabajan con hojas de cálculos porque destacan las conclusiones clave de los datos de la hoja de cálculo sin tener que hacerle cambios. Próximamente, crearás tu propia tabla dinámica para analizar los datos e identificar tendencias que serán muy valiosas para los interesados. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Cómo utilizar las tablas dinámicas para el análisis
+
+En esta lectura, aprenderás cómo crear y utilizar las tablas dinámicas para el análisis de datos. También obtendrás algunos recursos sobre las tablas dinámicas que puedes guardar para tu propia referencia cuando comiences a crear las tablas dinámicas tú mismo. Las tablas dinámicas son una hoja de cálculo que te permite ver los datos de varias maneras para hallar conclusiones y tendencias. 
+
+Las tablas dinámicas te permiten encontrarle el sentido a los conjuntos de datos grandes, ya que te proporcionan herramientas para comparar fácilmente las métricas, realizar cálculos rápidos y generar informes legibles. Puedes crear una tabla dinámica que te ayude a responder preguntas específicas sobre tus datos. Por ejemplo, si tuvieras que analizar datos de ventas, podrías utilizar tablas dinámicas para responder preguntas como: “¿En qué mes se obtuvieron las mayores ventas?” y “¿Qué productos generaron más ingresos este año?” Cuando necesitas respuestas a preguntas sobre tus datos, las tablas dinámicas pueden ayudarte a simplificar el desorden y a centrarte solo en los datos necesarios. 
+Cómo crear tu tabla dinámica
+
+Antes de que puedas analizar los datos con las tablas dinámicas, deberás crear una tabla dinámica con tus datos. A continuación se incluyen los pasos para crear una tabla dinámica en Google Sheets, pero la mayoría de los programas de hojas de cálculo tendrán herramientas similares. 
+
+Primero, abrirás el menú Datos desde la barra de herramientas; habrá una opción para la Tabla dinámica.
+
+Aparecerá este menú emergente:
+
+Hay una opción para seleccionar Hoja nueva u Hoja existente y un botón Crear
+
+Generalmente, querrás crear una hoja nueva para tu tabla dinámica para mantener separados los datos sin procesar y tu análisis. También puedes almacenar todos tus cálculos en un lugar para fácil referencia. Una vez que hayas creado tu tabla dinámica, habrá un editor de tabla dinámica al que puedes acceder en la parte derecha de tus datos.
+
+Aquí es donde podrás personalizar tu tabla dinámica, inclusive cuántas variables deseas incluir para el análisis. 
+Cómo utilizar tu tabla dinámica para el análisis
+
+Puedes realizar una amplia variedad de tareas de análisis con tus tablas dinámicas para sacar conclusiones significativas rápidamente a partir de tus datos, incluida la realización de cálculos, la ordenación y el filtrado de los datos. A continuación, hay una lista de recursos en línea que te ayudarán a aprender a realizar cálculos básicos en tablas dinámicas, además de recursos para aprender a ordenar y filtrar datos en tus tablas dinámicas.
+
+Cómo realizar cálculos
+
+Las tablas dinámicas son una herramienta poderosa que puedes utilizar para realizar cálculos rápidamente y obtener conclusiones significativas en tus datos directamente desde el archivo de la hoja de cálculo en la que estás trabajando. Al utilizar las herramientas de la tabla dinámica para calcular, ordenar y filtrar tus datos, puedes hacer observaciones de alto nivel de inmediato acerca de tus datos que puedes compartir con los interesados en los informes. 
+
+Pero, como la mayoría de las herramientas que hemos abordado en este curso, la mejor manera de aprender es mediante la práctica. Esto fue simplemente una pequeña muestra de lo que puedes hacer con las tablas dinámicas, pero cuanto más trabajes con las tablas dinámicas, más información descubrirás.  
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Consultas y Calculos
+
+Ya debes saber que hay más de una manera de hacer la tarea diaria de un analista de datos. Los cálculos no son una excepción. Como hemos visto en videos anteriores, puedes realizar los mismos cálculos de muchas formas diferentes en las hojas de cálculo. También puedes realizarlos utilizando SQL. En este video, te daremos una descripción general de cómo difieren los cálculos en SQL de los cálculos en hojas de cálculo. Echemos un vistazo a los operadores aritméticos que se utilizan tanto en las hojas de cálculo como en SQL.
+
+Un operador es un símbolo que designa el tipo de operación o cálculo a realizarse en una fórmula. 
+
+Como ya aprendiste antes, los cuatro operadores aritméticos básicos en las fórmulas de las hojas de cálculo son el signo más para la suma, el menos o el guion para la resta, el asterisco para la multiplicación y la barra inclinada para la división. Estos operadores calculan los datos de la misma manera cuando escribimos consultas en SQL. Los operadores están integrados en las consultas cuando extraes datos de una base de datos. Al igual que en las fórmulas de las hojas de cálculo, hay algunas formas diferentes para realizar cálculos utilizando consultas. Echemos un vistazo a la sintaxis de una posible consulta. La sintaxis de una consulta es su estructura. Debería incluir todos los detalles específicos de los datos que quieres extraer a una nueva tabla donde esos detalles deben colocarse. Si quieres sumar valores de dos columnas de una tabla, comienzas con el comando SELECT, seguido del nombre de la primera columna y, luego, el nombre de la segunda columna. Luego agregas los nombres de ambas columnas con un signo más entre ellas. Luego, escribirás AS seguido del nombre que te gustaría darle a la columna con los totales sumados. Finalmente, realizas tu consulta escribiendo FROM y, luego, el nombre de la tabla de la que estás extrayendo los datos. Realizar esta consulta dará como resultado una tabla en la que se verán las dos columnas con sus valores sumados y, además, una nueva columna con las sumas de esos valores. El operador en esta consulta es un signo más, dado que los valores se están sumando. Si necesitaras restar, multiplicar o dividir, seguirías los mismos pasos y utilizarías los operadores correspondientes. Si necesitas utilizar más de un operador aritmético en un cálculo, usarás paréntesis para controlar el orden de los cálculos. Si incluyéramos la columna C en nuestra consulta, podríamos colocar paréntesis que encierren la columna A más la columna B. Si estamos multiplicando, agregamos un asterisco seguido de la columna C. Esta consulta dará como resultado una nueva columna con la suma de los valores de las columnas A y B, multiplicados por los valores de la columna C. Ahora bien, digamos que solo querías el resto de un cálculo de división. Necesitas un operador diferente para esto, el operador de módulo. 
+
+El operador de módulo está representado por el símbolo de porcentaje. Este es un operador que da como resultado el resto cuando se divide un número por otro. 
+
+En una hoja de cálculo, puedes realizar el mismo cálculo con la función MOD. Esto muestra otra similitud entre los cálculos en hojas de cálculo y en SQL. Muchas veces puedes utilizar funciones en lugar de operadores para realizar cálculos. Por ejemplo, la función SUM puede resolver problemas de suma en hojas de cálculo y en SQL. La función AVERAGE de una hoja de cálculo es igual a la función AVG en SQL. Ambas dan como resultado el valor promedio de un conjunto de números. En SQL, estas funciones son consideradas funciones de agregado porque realizan un cálculo con uno o más valores y dan como resultado un único valor. Pronto aprenderás más sobre cómo se utilizan con el comando GROUP BY en una consulta. Esos son los conceptos básicos sobre los cálculos en SQL. Saber cómo escribir una consulta para un cálculo es un buen primer paso. Sigue con nosotros y aprenderás más sobre los cálculos en SQL.
+___________________________
+Un analista de datos escribe una consulta de SQL. ¿Qué comandos debería utilizar para primero multiplicar los valores de una tabla y, luego, colocar los productos resultantes en una nueva columna? 
+
+Utiliza los comandos SELECT, FROM y AS en una consulta para primero multiplicar los valores de una tabla y, luego, colocar los productos resultantes en una nueva columna. Esto SELECCIONARÁ los valores DE una tabla y les colocará un nombre nuevo COMO el nombre de la columna con los valores calculados.
+
+____
+
+Para hallar el promedio de un conjunto de valores, un analista de datos puede escribir AVERAGE en ambas hojas de cálculo y en SQL. 
+es incorrecto el razonamiento
+La función AVERAGE calcula el promedio de un conjunto de valores en las hojas de cálculo. Cuando se utiliza SQL, la función es AVG. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Como insertar calculos simples en SQL
+
+Anteriormente hemos visto cómo realizar cálculos en SQL. Aunque existen diferentes modos de realizarlos, uno muy útil es incluirlos en las consultas. Cuando incluyes un cálculo en una consulta con otros comandos, puedes realizar más trabajo de manera más rápida. Aquí hay una sintaxis de consulta básica de la que ya hemos hablado. Comenzamos con SELECT y los nombres de las columnas que queremos utilizar en nuestros cálculos. Luego, agregamos los detalles del cálculo, incluso un operador, como una barra inclinada para la división. A continuación, escribimos AS seguido del nombre de la nueva columna para etiquetar la columna con los valores calculados. Por último, terminamos nuestra consulta con el comando FROM y el nombre de la tabla de la que estamos extrayendo los datos. Ahora, pasemos al siguiente nivel con algunos cálculos integrados que utilizan una sintaxis como esta. O, aún mejor, haremos esto con algunos datos sobre aguacates. Lo lamento por aquellos que no aman los aguacates como yo. ¡Empecemos! Siéntete libre de seguir mirando mientras te mostramos los pasos en BigQuery. Si te estás sumando ahora, abre tu herramienta preferida para usar SQL. Asegúrate de leer las instrucciones de la lectura antes de ver el video para que te ayuden a empezar. Los datos siempre están cargados, así que podemos empezar ya mismo. Nuestro objetivo es encontrar el número total de bolsas de aguacates que se vendieron cada día en cada ubicación con estos datos. Ya hay una columna que nos muestra el total, pero queremos asegurarnos de que comprendemos cómo se calculó ese total. Queremos asegurarnos de que la columna del total es la suma de las bolsas pequeñas, grandes y extragrandes. Sumaremos los valores de esas tres columnas juntas en nuestra consulta y, luego, los compararemos con la columna de las bolsas totales del conjunto de datos. Comenzaremos con el comando SELECT, que utilizaremos para extraer ciertas columnas de la tabla. Estamos seleccionando varias columnas, así que presionaremos Enter luego de SELECT y, luego, agregaremos una coma después de cada nombre de columna. A continuación, escribiremos esos nombres de columnas: Date, Region, Small_bags, Large_bags, XLarge_Bags y Total_Bags. 
+
+Los guiones bajos son las líneas que se usan para subrayar palabras y conectar caracteres de texto. 
+
+No utilizamos espacios porque pueden ser confusos para algunos servidores y aplicaciones. En cambio, los guiones bajos ayudan a evitar posibles problemas y permiten leer correctamente los nombres. Ahora agregaremos el cálculo a la consulta con los nombres de las tres columnas con signos más entre ellas: bolsas pequeñas más bolsas grandes más bolsas extragrandes. Como queremos este cálculo en una nueva columna, utilizaremos el comando AS para nombrar la columna Total_Bags_Calc. Agregamos la palabra "Calc" para poder comparar las columnas una vez que hayamos obtenido los resultados. Ahora, terminaremos nuestra consulta con FROM y el nombre del conjunto de datos y del subconjunto del que estamos extrayendo los datos: avocado_data.avocado_prices. Vamos a ejecutar la consulta. En la columna "Total Bags Calc", los datos muestran la suma de cada fecha para el número de bolsas pequeñas, grandes y extragrandes de aguacates que se vendieron en cada ubicación. Si comparamos rápidamente las dos columnas con el número total de bolsas, veremos que los valores son los mismos. Esto nos permite saber que los datos que queremos usar son los correctos. Ahora que hemos verificado el número total de bolsas, podemos utilizar esos valores en otra consulta. Necesitamos averiguar qué porcentaje del número total de bolsas era de bolsas pequeñas. Averiguar esto podría ayudar a los interesados a tomar decisiones sobre cómo empaquetar los aguacates o en qué tamaño de bolsa organizar la venta. Nuestro trabajo es obtener esa información para los interesados. Así que configuraremos una nueva consulta. Seleccionaremos las columnas de Date, Region, Total Bags y Small Bags para esta consulta. A continuación, configuraremos una nueva columna para comenzar con nuestro cálculo. Para averiguar el porcentaje de bolsas pequeñas, primero necesitamos dividir el número de bolsas pequeñas por el número de bolsas totales utilizando una barra como operador. Pondremos esta parte del cálculo entre paréntesis para indicarle al servidor que este cálculo debe realizarse primero. Luego, multiplicaremos este total por 100, utilizando un asterisco como operador. Multiplicar por 100 nos da un valor que es un porcentaje en lugar de un decimal. Los porcentajes suelen facilitar y agilizar la comprensión cuando compartes los resultados con otras personas. Utilizaremos el comando AS para nombrar esta nueva columna "Small Bags Percent". Luego, agregaremos FROM y el nombre del conjunto del que estamos extrayendo, y ejecutaremos nuestra consulta. Obtuvimos un error en nuestros resultados. Dice que no podemos dividir por cero. Como estamos buscando porcentajes, dividir por cero no funcionará. Esto quiere decir que en algún lugar del conjunto de datos hay un total de bolsas igual a cero. Tendremos que arreglar esto en nuestra consulta. Podemos hacerlo utilizando el comando WHERE. WHERE nos permite agregar una condición a nuestro cálculo. Luego de escribir WHERE; escribiremos Total_Bags seguido por un signo menor que y, luego, un signo mayor que. Estos símbolos le indican al servidor que los valores que estamos calculando no deben ser iguales al valor que especificamos. En este caso, ese valor es cero. Así que agregaremos un cero a nuestra consulta. Ahora, cuando ejecutemos la consulta, notaremos que nuestra nueva columna muestra el porcentaje de bolsas pequeñas en el recuento de bolsas totales. Obtendremos el mismo resultado si usamos un signo de exclamación seguido de un signo igual en lugar de los signos menor que y mayor que. Esta es una manera de hacerlo. Pero hay funciones como SAFE_DIVIDE que también te permiten evitar este error. Estos son solo algunos ejemplos para que vayas comenzando. Con SQL, puedes realizar casi cualquier cálculo que quieras durante tu análisis. Incluir los cálculos en tus consultas te ayudará a mantenerte organizado mientras obtienes tus resultados. Los métodos de cálculo que te mostramos aquí son solo el comienzo.
+
+__________________________
+
+Al utilizar SQL, ¿cuál de los siguientes son motivos para utilizar guiones bajos en los nombres de las columnas?
+
+Utilizar guiones bajos en lugar de espacios ayuda a evitar posibles problemas con los servidores y las aplicaciones. También ayuda a mantener los nombres de la columna legibles.
+__________________
+
+¿Qué aparecerá en la columna Total_Small_Bags_Cost luego de la ejecución de la siguiente consulta?
+
+El producto de los valores en las columnas Small_Bags y Small_Bags_Cost aparecerá en la columna Total_Small_Bags_Cost. La consulta multiplicará los valores en las dos columnas.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Calculo con otras instrucciones 
+
+Como analista de datos, verás que tus cálculos aparecen en distintas formas y tamaños. Anteriormente te mostramos como hacer algunos de los cálculos más básicos en SQL. Aunque los cálculos básicos son fantásticos, algunas veces necesitarás agrupar los datos antes de completar los cálculos. Los comandos GROUP BY y ORDER BY te ayudarán a hacerlo. Generalmente estos comandos están combinados con funciones agregadas como SUM o COUNT. Te mostraremos cómo usar estos comandos y funciones para calcular y resumir datos de grupos de filas de una tabla. Exploremos primero el comando GROUP BY. 
+
+GROUP BY es un comando que agrupa filas que tienen los mismos valores de una tabla en filas de resumen. 
+
+El comando GROUP BY se usa con instrucciones SELECT. En una consulta básica SELECT FROM o SELECT-FROM-WHERE, GROUP BY aparece al final de la consulta. Muy bien, probemos usar GROUP BY. Trabajaremos con una base de datos, con datos de un sistema de bicicletas compartidas. Queremos averiguar cuántos paseos se realizaron en esas bicicletas por año. Estos datos contienen varias columnas, pero, para esta tarea, solo necesitamos la columna de la hora de inicio. Dado que estos datos no están organizados por fecha, y la columna de la hora de inicio no está organizada por año, tendremos que incluir pasos en nuestro código para organizarlo. También queremos obtener el total de paseos de cada año. De modo que tendremos que incluir un cálculo en nuestra consulta para esto. Y dependiendo de las preguntas que debemos responder, esto podría ser el primer paso de muchos otros en nuestro análisis. Comenzaremos nuestra consulta con el comando SELECT. Luego, agregaremos EXTRACT a nuestra consulta. 
+
+El comando EXTRACT nos permite extraer una parte de una fecha dada para usar. Extraeremos el año de la columna de la hora de inicio. 
+
+Para ello, agregaremos un paréntesis abierto, seguido por YEAR, que le permite al servidor saber qué parte de la fecha necesitamos. Luego agregaremos el comando FROM y STARTIME de modo que podemos obtener el año de todas las horas de inicio en esa columna. Cerraremos el paréntesis y, luego, usaremos AS y la palabra año para nombrar la columna que estamos creando. En la línea siguiente de la consulta, usaremos la función de agregado COUNT seguida por un asterisco entre paréntesis. Esto contará los paseos en bicicleta en la columna de la hora de inicio. Usar el asterisco asegura que todas las horas de inicio se cuenten en los datos. Luego, nombraremos nuestra columna número de paseos con un guion bajo entre cada palabra en lugar de espacios. Agregaremos FROM en la base de datos que extraemos en la línea siguiente. En este caso, es bigquery-public-data.new_york.citybike_trips. Y aquí está nuestro comando GROUP BY. Lo usaremos para agrupar los datos por año. De esta manera, escribiremos GROUP BY seguido del año. Podemos seguir organizando nuestros resultados mediante el uso del comando ORDER BY. Agregar esto después de GROUP BY ordena los resultados. Agregaremos el año para ordenar los datos por año. Es bueno tener en cuenta que, de manera predeterminada, ORDER BY organiza los datos en orden ascendente. Ahora podemos ejecutar nuestra consulta para obtener los resultados. Los años se ordenan con inicio en 2013 y finalización en 2016. Si deseamos cambiar a orden descendente, podemos agregar la palabra clave DESC al final de la consulta y volver a ejecutar. Pero independientemente del orden usado, los comandos GROUP BY y ORDER BY son fantásticos para ayudarnos a completar y organizar los cálculos para nuestro análisis. Esta es una forma de incluir cálculos cuando agregamos datos. Y es solo una de las muchas maneras en que SQL ayuda a que su análisis funcione sin problemas y siga adelante. Aún hay más por venir sobre cálculos y SQL.
+______________________________________
+
+¿Cuál de las siguientes opciones se obtendrán con esta consulta?
+
+Esta consulta devolverá la diferencia cuando las respuestas con "Sí" se resten del número total de respuestas. El cálculo aparecerá en una columna nueva denominada No_Responses. El operador de la división (/) podría utilizarse para dividir estos valores.
+_____________________________________
+
+¿Cuál es el propósito del comando EXTRACT en una consulta? 
+
+El propósito del comando EXTRACT en una consulta es extraer una parte de una fecha dada. El comando EXTRACT puede extraer cualquier parte de un valor de fecha/hora. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Se pueden descubrir muchísimos patrones, los operadores multiples te pueden permitir hacer calculos desde la categorias de las hojas de calculo de google o el EXCEL de Microsoft. por lo que tenemos una importante potencia en las bases de datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Comprueba una y otra vez 
+
+Anteriormente hemos visto la validación de datos, una función de la hoja de cálculo que agrega listas desplegables a las celdas. Usar la validación de datos te permite controlar lo que se puede o no ingresar en tu hoja de cálculo. Uno de sus usos es proteger datos y fórmulas estructurados en las hojas de cálculo. Pero por más útil que sea... 
+
+La función de validación de datos es solo una parte de un proceso más grande de validación de datos. Este proceso implica comprobar y volver a comprobar la calidad de tus datos para que sean completos, precisos, seguros y coherentes. 
+
+Aunque el proceso de validación de datos es una forma de limpieza de datos deberías usarlo a lo largo de tu análisis. Si todo esto te resulta familiar, es bueno. Asegurarte de tener buenos datos es sumamente importante. Y, en mi opinión, es bastante divertido porque puedes combinar tu conocimiento del negocio con tus habilidades técnicas. Esto te ayudará a entender tus datos, a verificar que estén limpios y a asegurarte de que los estás alineando con tus objetivos comerciales. En otras palabras, es lo que haces para asegurarte de que tus datos tengan sentido. Ten en cuenta que construirás tu conocimiento sobre tu negocio con tiempo y experiencia. Aquí tienes un consejo profesional. Hacer tantas preguntas como sea posible siempre que lo necesites hará que esto sea mucho más fácil. Muy bien, digamos que estamos analizando datos para un minorista de muebles. Queremos verificar que los valores en la columna de precio de compra sean siempre iguales al número de artículos vendidos por el precio del producto. De modo que agregaremos una fórmula en una columna nueva para recalcular los precios de compra mediante el uso de una fórmula de multiplicación. Ahora, al comparar los totales, hay al menos un valor que no coincide con el valor de la columna de precio de compra. Tenemos que encontrar una respuesta para ayudarnos a continuar con nuestro análisis. Investigando un poco y haciendo preguntas, descubrimos que hay un descuento del 30% cuando los clientes compran cinco o más artículos determinados. Si no hubiésemos hecho esta comprobación, podríamos haberlo pasado por alto completamente. Como analista, has aprendido que los cálculos son una gran parte de tu trabajo. De modo que es importante que siempre que hagas cálculos, compruebes que los has hecho de la forma correcta. Algunas veces se realizan comprobaciones de validación de datos que son comprobaciones de sentido común. Por ejemplo, digamos que estás trabajando en un análisis para averiguar la eficacia de las promociones en las tiendas para un negocio que está abierto únicamente los días de semana. Compruebas para asegurarte de que no hay datos de ventas para el sábado y el domingo. Si tus datos muestran ventas durante el fin de semana, podría no ser un problema con los datos en sí. Podría ni siquiera ser un problema. Tiene que haber una buena razón. Tal vez la empresa organice eventos especiales los sábados y domingos. Entonces, tendrías ventas en esos fines de semana. Aun así, es posible que quieras dejar de lado las ventas del fin de semana en tu análisis si tu objetivo es únicamente ver los días de semana. Pero hacer esta validación de datos podría salvarte de los errores de cálculo y de otros errores en tu análisis. Siempre debes hacer una validación de los datos independientemente de la herramienta de análisis que utilices. En un video anterior, usamos SQL para analizar algunos datos sobre aguacates. Una de las consultas era una comprobación para asegurar que los datos que mostraban la cantidad total de bolsas correspondía a la suma de las bolsas pequeñas, grandes y extragrandes. Al ejecutar esa consulta, pudimos determinar que la columna de la cantidad total era exacta. Comparamos nuestras dos columnas brevemente en ese video. Pero para estar absolutamente seguros de que no hay problemas con los valores de los datos en esas columnas, también podríamos haber ejecutado otra consulta. En esta consulta, seleccionaríamos todo mediante el uso del asterisco, y FROM el conjunto de datos de los precios del aguacate. En nuestra cláusula WHERE, escribiríamos dónde nuestro total calculado no es igual a la columna de total de bolsas. Si no se devuelve ningún valor, podemos estar seguros de que los valores en la columna del total de bolsas son precisos. Y eso nos lleva a continuar con nuestro análisis. Pero cuando intentamos averiguar qué porcentaje del número total de bolsas era pequeño, nos encontramos con un pequeño problema. Recibimos un mensaje de error sobre la división por cero. Corregimos ese error al ajustar nuestra consulta. Si hubiéramos vinculado esa consulta a la presentación que enviamos a nuestros interesados, nos mostraría el error de dividir por cero en lugar de las cifras que queríamos. Al incorporar este tipo de comprobaciones como parte de tu proceso de validación de datos, puedes evitar errores en tus análisis y completar tus objetivos empresariales para dejar a todos felices. Y créeme. Se siente muy bien cuando lo haces. Y otra gran sensación es saber que completaste otro video y aprendiste algo nuevo.
+______________________________
+
+El proceso de validación de datos es una forma de limpieza de datos. Durante este proceso, el analista de datos comprueba la calidad de sus datos para asegurarse de que estén completos, sean precisos, seguros y coherentes.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Tipos de validación de datos
+
+La siguiente tabla describe el propósito, los ejemplos y las limitaciones de los seis tipos de validación de datos. Los primeros cinco son tipos de validación asociados con los datos (tipo, rango, limitación, coherencia y estructura) y el sexto tipo se centra en la validación del código de aplicación que se utiliza para aceptar los datos a partir del aporte del usuario. 
+
+Como analista de datos junior, es posible que no tengas que realizar todas estas validaciones. Pero podrías consultar si los datos se validaron y de qué manera antes de comenzar a trabajar con un conjunto de datos. La validación de datos ayuda a garantizar la integridad de los datos. Además, te proporciona confianza en cuanto a que los datos que estás utilizando están limpios. La siguiente lista describe los seis tipos de validación de datos y el propósito de cada uno e incluye ejemplos y limitaciones.
+1) Tipo de datos
+
+    Propósito: Comprobar que los datos coincidan con el tipo de datos definido para un campo.
+
+    Ejemplo: Los valores de los datos para los grados escolares de 1 a 12 deben ser del tipo de datos numéricos.
+
+    Limitaciones: El valor de datos 13 pasaría la validación del tipo de datos pero sería un valor inaceptable. En este caso, la validación del rango de datos también es necesaria.
+
+2) Rango de datos
+
+    Propósito: Comprobar que los datos se ubiquen dentro de un rango de valores aceptable definido por el campo.
+
+    Ejemplo: Los valores de datos para los grados escolares deben ser valores entre 1 y 12.
+
+    Limitaciones: El valor de datos 11.5 estaría dentro del rango de datos y también sería aceptable como un tipo de dato numérico. Sin embargo, no sería aceptable porque no existen medios grados. En este caso, la validación de la limitación de datos también es necesaria.
+
+3) Limitaciones de datos
+
+    Propósito: Comprobar que los datos cumplan con ciertas condiciones o criterios para un campo. Esto incluye el tipo de datos ingresados además de otros atributos del campo como, por ejemplo, el número de caracteres.
+
+    Ejemplo: Restricción del contenido: Los valores de los datos para los grados escolares de 1 a 12 deben ser números enteros.
+
+    Limitaciones: El valor de datos 13 es un número entero y pasaría la validación de restricción de contenido. Sin embargo, no sería aceptable dado que 13 no es un grado escolar reconocido. En este caso, la validación del rango de datos también es necesaria.
+
+4) Coherencia de los datos
+
+    Propósito: Comprobar que los datos tienen sentido en el contexto de otros datos relacionados.
+
+    Ejemplo: Los valores de los datos para las fechas de envío del producto no pueden ser anteriores a las fechas de producción del producto.
+
+    Limitaciones: Los datos podrían ser coherentes pero son incorrectos o poco precisos. Una fecha de envío podría ser posterior a una fecha de producción y aun así ser incorrecta.
+
+5) Estructura de los datos
+
+    Propósito: Comprobar que los datos siguen o se ajustan a una estructura establecida.
+
+    Ejemplo: Las páginas web deben seguir una estructura prescrita para que se muestren adecuadamente.
+
+    Limitaciones: Una estructura de datos podría ser correcta siendo los datos incorrectos o poco precisos. El contenido de una página web podría mostrarse adecuadamente y aun así contener información incorrecta.
+
+6) Validación del código
+
+    Propósito: Comprobar que el código de aplicación realice sistemáticamente cualquiera de las validaciones antes mencionadas durante el ingreso de datos del usuario.
+
+    Ejemplo: Los siguientes son problemas comunes que se descubren durante la validación del código: más de un tipo de datos permitido, comprobación del rango de datos no realizada o finalización de cadenas de texto que no están bien definidas.
+
+    Limitaciones: La validación del código podría no validar todas las posibles variaciones con el ingreso de datos. 
+
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+El poder trabajar con muchas herramientas es muy util para la compatibilidad de campos que uno puede abarcar en la eficiencia de puestos laborales
+con respecto a las hojas de calculo y SQL. el trabajar con este ultimo lleva un poco mas de pensamiento mas logico computacional que con las hojas de calculo comun y corrientes. si bien los conceptos de SQL no son tan amplios como el nivel de ingieneria que muchos estiman, pero no obstante tiene sus cosas debido a que no es muy amigable que digamos
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Videos: Tablas temporales
+
+
+Las notas adhesivas son útiles e importantes, pero también son desechables ya que generalmente solo se necesitan por un corto período antes de reciclarlas. Los analistas de datos tienen su propia versión de las notas adhesivas cuando trabajan en SQL. Se llaman tablas temporales y estamos aquí para averiguar qué son. 
+
+Una tabla temporal es una tabla de una base de datos que se crea y existe de manera temporal en el servidor de la base de datos. 
+
+Las tablas temporales, como las llamamos, almacenan subconjuntos de datos de tablas de datos estándar durante un período determinado. Luego, se eliminan automáticamente cuando finalizas la sesión de la base de datos en SQL. 
+
+Dado que las tablas temporales no están almacenadas de manera permanente, son útiles solo cuando necesitas una tabla por poco tiempo para completar tareas de análisis, como los cálculos. Por ejemplo, puedes tener muchas tablas sobre las cuales estás haciendo cálculos al mismo tiempo. Si tienes una consulta que necesita unir siete u ocho tablas, podrías unir las dos o tres tablas que contengan la menor cantidad de filas y almacenar su resultado en una tabla temporal. Luego, podrías unir esta tabla temporal con una de las tablas más grandes. Otro ejemplo es cuando tienes muchas bases de datos diferentes en las cuales estás ejecutando consultas. Puedes ejecutar esas consultas iniciales en cada base de datos por separado y, luego, usar una tabla temporal para recopilar los resultados de todas esas consultas. La consulta del informe final se ejecutaría en la tabla temporal. Es posible que no puedas hacer uso de esta estructura de información sin las tablas temporales. También son útiles si tienes una gran cantidad de registros en una tabla y necesitas trabajar con un pequeño subconjunto de esos registros repetidamente para completar algunos cálculos u otros análisis. De modo que, en lugar de filtrar los datos una y otra vez para devolver el subconjunto, puedes filtrar los datos una vez y almacenarlos en una tabla temporal. Luego, puedes ejecutar tus consultas por medio del uso de la tabla temporal que creaste. Imagina que te pidieron que analices datos sobre el sistema de bicicletas compartidas que vimos anteriormente. Solo debes analizar los datos para paseos en bicicleta que tuvieron una duración de 60 minutos o más, pero tienes varias preguntas por responder sobre los datos específicos. Usar una tabla temporal te permitirá ejecutar varias consultas sobre estos datos sin tener que seguir filtrándolos. Hay distintas formas de crear tablas temporales en SQL, lo que dependerá de la base de datos relacional que estés utilizando. Pronto veremos más de estas opciones. Para este caso, usaremos BigQuery. Aplicaremos una cláusula WITH a nuestra consulta. 
+
+La cláusula WITH es un tipo de cláusula temporal que puedes consultar varias veces. La cláusula WITH se aproxima a una tabla temporal. 
+
+Básicamente, significa que crea algo que hace lo mismo que una tabla temporal. 
+Incluso si no agrega una tabla a la base de datos en la cual estás trabajando para que otros la vean, aún puedes ver los resultados y cualquiera que necesite revisar tu trabajo puede ver el código que lleva a tus resultados. Empecemos con la consulta. Comenzaremos esta consulta con el comando WITH. Entonces nombraremos nuestra tabla temporal trips, guion bajo, over, guion bajo, 1, guion bajo, hr. Luego, escribiremos el comando AS y un paréntesis abierto. En una nueva línea, utilizaremos la estructura SELECT-FROM-WHERE para nuestra subconsulta. Escribiremos SELECT seguido por un asterisco. Quizá recuerdes que el asterisco significa que estás seleccionando todas las columnas de la tabla. Ahora escribiremos el comando FROM y nombraremos la base de datos que estamos extrayendo de bigquery, guion, public, guion, data, punto, new, guion bajo, york, punto, citibike, guion bajo, trips. A continuación, agregaremos una cláusula WHERE con la condición de que la longitud de los paseos en bicicleta que necesitamos en nuestra tabla temporal sean mayores o iguales a 60 minutos. En la consulta queda así: trip duration, espacio, signo mayor que, signo igual, espacio, 60. Por último, agregaremos un paréntesis de cierre en una nueva línea para terminar nuestra subconsulta. Y eso configura nuestra tabla temporal. Ahora podemos ejecutar consultas que devolverán solo resultados para paseos que duraron 60 minutos o más. Probemos una más. Dado que estamos trabajando en nuestra versión de una tabla temporal, no necesitamos abrir una consulta nueva. En cambio, etiquetaremos nuestras consultas antes de agregar nuestro código para describir lo que estamos haciendo. Para esta consulta, escribiremos dos hashtags. Eso le indica al servidor que esta es una descripción y no parte del código. Luego, agregaremos la descripción de la consulta. Cuenta cuántos paseos exceden los 60 minutos. Luego, agregaremos nuestra consulta. SELECT, luego en una línea nueva COUNT con un asterisco entre paréntesis. As seguido de cnt para nombrar la columna con nuestro COUNT. Luego, agregaremos FROM y el nombre que estamos usando para nuestra versión de una tabla temporal: paseos de más de una hora. Cuando ejecutamos nuestra consulta, los resultados muestran el número total de paseos en bicicleta del conjunto de datos que duraron 60 minutos o más, Podemos continuar ejecutando consultas en esta tabla temporal una y otra vez siempre que busquemos analizar los paseos en bicicleta de 60 minutos o más. Y si necesitas terminar tu sesión e iniciar un nuevo tiempo de ejecución más tarde, la mayoría de los servidores almacenan el código usado en tablas temporales. Solo necesitas volver a crear la tabla ejecutando el código. Cuando usas tablas temporales, haces que tu trabajo sea más eficiente. Asignar nombres y usar tablas temporales puede ayudarte a manejar muchos datos de forma más ágil para que no te pierdas repitiendo consulta tras consulta con el mismo código que podrías incluir en una tabla temporal. Y aquí hay otra ventaja de usar tablas temporales: pueden ayudar también a los miembros de tu equipo. Con las tablas temporales tu código suele ser menos complicado y más fácil de leer y entender, ¡lo que tu equipo apreciará! Una vez que comiences a explorar las tablas temporales por ti mismo, es probable que no puedas parar. No digas que no te lo advertí. A continuación, exploraremos aún más cosas que puedes hacer con las tablas temporales.
+
+_____________________________________
+Un analista de datos tiene un gran número de registros de ventas en una tabla. Quiere realizar cálculos sobre un subconjunto pequeño de la tabla. En vez de filtrar los datos varias veces, ¿qué debería hacer? 
+
+Debería utilizar una tabla temporal. Una tabla temporal se crea y existe por un tiempo breve en el servidor de una base de datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+El concepto del join es importante para realizar un concepto de relacion con las tablas con el fin de comparar datos semejantes
+
+El beneficio de la tabla temporal es que en cuestion de espacio, no ocupa lugar en el espacio de almacienamiento del dispositivo en logico o en las nube, en cambio si ocupa lugar en la memoria del procesamiento del la base de datos como dato temporal, ya que no hay concepto de persistencia de datos en la memoria del procesador de la base de datos o dispositivo en concreto que este ejecutando el proceso.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Variaciones de varias tablas
+
+te presentamos las tablas temporales. Son un gran recurso para usar durante tu análisis porque te ayudarán a mantener tu código SQL organizado y eficiente. Aprendiste a usar una cláusula WITH para crear un tipo de tabla temporal. Ahora veremos otros modos para que puedas crear tablas temporales con los pros y contras que presentan. Esta es una de las grandes cosas acerca del análisis de datos. Casi siempre existe más de una forma de hacer tu análisis. 
+
+La instrucción SELECT INTO es un buen ejemplo de cómo hacer una tabla temporal. 
+
+Esta instrucción copia datos de una tabla en una tabla nueva, pero no agrega la tabla nueva a la base de datos. Es útil si quieres hacer una copia de una tabla con una condición específica, como una consulta con una cláusula WHERE. Hasta ahora, estuvimos usando BigQuery para mostrarte cómo funciona SQL. Pero BigQuery actualmente no reconoce el comando SELECT INTO. En cambio, aquí hay un ejemplo de cómo una instrucción SELECT INTO podría verse en otra RDBMS. En la instrucción, se crea una nueva tabla denominada Ventas de África usando datos de la base de datos de ventas globales sobre la región africana. 
+
+Usar SELECT INTO es una buena práctica cuando quieres conservar la base de datos despejada y no necesitas que otras personas usen la tabla. Ahora bien, si muchas personas van a usar la misma tabla, entonces, la instrucción CREATE TABLE podría ser una mejor opción. Esta instrucción agrega la tabla a la base de datos. Si todo el mundo necesita acceso a la tabla de Ventas de África, tu consulta comenzará con CREATE TABLE, seguida por la misma consulta SELECT-FROM-WHERE que en la instrucción SELECT INTO. En la mayoría de las bases de datos relacionales o RDBMS, puedes agregar metadatos para describir los datos contenidos en la tabla que creaste. Esto puede ayudar a hacer la tabla más fácil de entender para cualquier usuario. La instrucción CREATE TABLE también es útil para tablas que son más complejas. Por ejemplo, si es difícil replicar el código, hacer una tabla temporal de esta manera significa que será más seguro para ti para acceder más tarde. La forma en que creas una tabla temporal usando la cláusula WITH o una instrucción SELECT INTO o CREATE TABLE suele depender de ti y de tus necesidades. Cuanto más trabajes en SQL, más puedes tener preferencias también, especialmente dado que existe más de una forma de crear tablas temporales. También puedes darte cuenta de que estás trabajando en una RDBMS que usa una sintaxis diferente. Por ejemplo, podrías necesitar usar una instrucción CREATE TEMP TABLE en lugar de CREATE TABLE. Aquí hay buenas noticias. La sintaxis que necesitas para cada RDBMS única es generalmente bastante fácil de encontrar con una búsqueda rápida en línea. Pero no importa cómo o dónde crees tablas temporales, no presentan muchos problemas. Sin embargo, es bueno destacar que a veces crear una tabla temporal puede interrumpir tu flujo de trabajo. De nuevo, eso dependerá de tus objetivos y tus preferencias. Puedes repetir tu código una y otra vez en lugar de hacer una tabla temporal pero eso generalmente deja tus consultas menos legibles y más vulnerables a los errores ortográficos. A medida que continúas explorando el mundo del análisis computacional de datos, verás que las tablas temporales son solo uno de los muchos recursos que podrás usar. Cuanto más los uses, más fácil te resultará navegar por ese mundo.
+_________________________
+La forma en que creas una tabla temporal 
+-> la cláusula WITH 
+-> La instrucción SELECT INTO 
+-> La instrucción CREATE TABLE
+-> La instrucción CREATE TEMP TABLE 
+
+¿Cuál de los siguientes son métodos para crear una versión de una tabla temporal utilizando SQL? Selecciona todas las opciones que correspondan.
+
+Las cláusulas WITH, las instrucciones CREATE TABLE y las instrucciones CREATE TEMP TABLES todas crean tablas temporales en las consultas.
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Cómo trabajar con tablas temporales
+
+Las tablas temporales son exactamente lo que parecen ser: tablas temporales en una base de datos de SQL que no se almacenan permanentemente. En esta lectura, aprenderás sobre los métodos para crear tablas temporales mediante el uso de comandos SQL. También aprenderás algunas prácticas recomendadas para cuando trabajes con las tablas temporales. 
+Un repaso rápido de los conocimientos que adquiriste sobre las tablas temporales
+
+    Se eliminan automáticamente de la base de datos cuando finalizas la sesión en SQL.
+
+    Se pueden utilizar como área de contención para almacenar valores si estás realizando una serie de cálculos. A veces, esto se denomina preprocesamiento de datos.
+
+    Pueden recopilar los resultados de consultas múltiples o individuales. A menudo, esto se conoce como almacenamiento provisional de datos. El almacenamiento provisional de datos es útil si necesitas realizar una consulta sobre los datos recopilados o fusionar los datos recopilados.
+
+    Pueden almacenar un subconjunto filtrado de la base de datos. No necesitas seleccionar ni filtrar los datos cada vez que trabajes con ellos. Además, utilizar menos comandos de SQL te ayuda a mantener limpios los datos.
+
+Es importante señalar que cada base de datos tiene su conjunto de comandos único para crear y gestionar tablas temporales. Estuvimos trabajando con BigQuery, por eso nos centraremos en los comandos que funcionan bien en ese entorno. El resto de esta lectura examinará las maneras en las que se pueden crear tablas temporales principalmente en BigQuery.
+
+
+Vídeo: VídeoTablas temporales
+. Duration: 6 minutos6 min
+Cuestionario práctico: Actividad práctica: Crear tablas temporales
+Comenzado
+Vídeo: VídeoVariaciones de varias tablas
+. Duration: 3 minutos3 min
+Lectura: LecturaCómo trabajar con tablas temporales
+. Duration: 10 minutos10 min
+Lectura: LecturaTu guía intermedia para SQL
+. Duration: 10 minutos10 min
+
+    Cuestionario práctico: Pon a prueba tus conocimientos sobre el uso de SQL con tablas temporales
+    . Duration: 6 minutos6 min
+
+Módulo 4
+
+    Cómo trabajar con tablas temporales 
+
+Cómo trabajar con tablas temporales
+
+Las tablas temporales son exactamente lo que parecen ser: tablas temporales en una base de datos de SQL que no se almacenan permanentemente. En esta lectura, aprenderás sobre los métodos para crear tablas temporales mediante el uso de comandos SQL. También aprenderás algunas prácticas recomendadas para cuando trabajes con las tablas temporales. 
+Un repaso rápido de los conocimientos que adquiriste sobre las tablas temporales
+
+    Se eliminan automáticamente de la base de datos cuando finalizas la sesión en SQL.
+
+    Se pueden utilizar como área de contención para almacenar valores si estás realizando una serie de cálculos. A veces, esto se denomina preprocesamiento de datos.
+
+    Pueden recopilar los resultados de consultas múltiples o individuales. A menudo, esto se conoce como almacenamiento provisional de datos. El almacenamiento provisional de datos es útil si necesitas realizar una consulta sobre los datos recopilados o fusionar los datos recopilados.
+
+    Pueden almacenar un subconjunto filtrado de la base de datos. No necesitas seleccionar ni filtrar los datos cada vez que trabajes con ellos. Además, utilizar menos comandos de SQL te ayuda a mantener limpios los datos.
+
+Es importante señalar que cada base de datos tiene su conjunto de comandos único para crear y gestionar tablas temporales. Estuvimos trabajando con BigQuery, por eso nos centraremos en los comandos que funcionan bien en ese entorno. El resto de esta lectura examinará las maneras en las que se pueden crear tablas temporales principalmente en BigQuery.
+An image of 3 data tables. The table in the middle is faded surrounded by dotted lines
+Creación de tablas temporales en BigQuery
+
+Las tablas temporales se pueden crear utilizando diferentes cláusulas. En BigQuery, la cláusula WITH se puede utilizar para crear una tabla temporal. 
+
+Si dividimos esta consulta un poco, observa lo siguiente:
+
+    La instrucción comienza con la cláusula WITH seguida del nombre de la nueva tabla temporal que deseas crear.
+
+    La cláusula AS aparece luego del nombre de la tabla nueva. Esta cláusula le indica a la base de datos que coloque todos los datos identificados en la siguiente parte de la instrucción en la nueva tabla. 
+
+    El paréntesis de apertura luego de la cláusula AS crea la subconsulta que filtra los datos de una tabla existente. La subconsulta es una instrucción SELECT habitual junto con una cláusula WHERE para especificar los datos que se filtrarán. 
+
+    El paréntesis de cierre finaliza la subconsulta creada por la cláusula AS.
+
+Cuando la base de datos ejecute esta consulta, primero completará la subconsulta y asignará los valores resultantes de esa subconsulta a “new_table_data,” que es la tabla temporal. Luego, puedes ejecutar varias consultas en estos datos filtrados sin tener que filtrar los datos todas las veces. 
+Creación de la tabla temporal en otras bases de datos (no admitidas en BigQuery)
+
+BigQuery no admite el siguiente método, pero la mayoría de las demás versiones de las bases de datos de SQL lo admiten, incluido SQL Server y mySQL. Mediante SELECT e INTO, puedes crear una tabla temporal basada en condiciones definidas por una cláusula WHERE para localizar la información que necesitas para la tabla temporal. 
+
+ELECT * INTO AfricaSales FROM GlobalSales WHERE Region = "Africa"
+
+Esta instrucción SELECT utiliza las cláusulas estándar como FROM y WHERE, pero la cláusula INTO le indica a la base de datos que almacene los datos que se solicitan en una nueva tabla temporal denominada, en este caso, “AfricaSales.” 
+Creación de tablas temporales gestionadas por el usuario 
+
+Hasta ahora, hemos explorado las maneras de crear tablas temporales que la base de datos debe gestionar. Sin embargo, también puedes crear tablas temporales que tú puedes gestionar como usuario. Como analista, podrías decidir crear una tabla temporal para tu análisis que puedas gestionar por tu cuenta. Utilizarías la instrucción CREATE TABLE para crear este tipo de tabla temporal. Una vez que hayas terminado de trabajar con la tabla, luego podrías eliminarla o quitarla de la base de datos al finalizar la sesión.
+
+Nota: BigQuery utiliza CREATE TEMP TABLE en lugar de CREATE TABLE.
+
+CREATE TABLE table_name ( column1 datatype, column2 datatype, column3 datatype, .... )
+
+Una vez que hayas terminado de trabajar con tu tabla temporal, puedes eliminar la tabla de la base de datos mediante la cláusula DROP TABLE. 
+
+Prácticas recomendadas para trabajar con tablas temporales
+
+    Tablas temporales locales frente a tablas temporales globales: Las tablas temporales globales están a disposición de todos los usuarios de la base de datos y se eliminan cuando todas las conexiones que las utilizan se cierran. Las tablas temporales locales están a disposición solo del usuario cuya consulta o conexión estableció la tabla temporal. Es probable que trabajes con tablas temporales locales. Si creaste una tabla temporal local y eres la única persona que la utiliza, puedes eliminar la tabla temporal una vez que dejes de utilizarla.
+
+    Cómo eliminar las tablas temporales luego de utilizarlas: Eliminar una tabla temporal es un poco diferente a borrar una tabla temporal. Eliminar una tabla temporal no solo quita la información contenida en las filas de la tabla, sino que además quita las definiciones de la variable de la tabla (columnas) mismas. Borrar una tabla temporal quita las filas de la tabla, pero conserva la definición de la tabla y las columnas quedan listas para volver a utilizarse. Si bien las tablas temporales se eliminan luego de que finaliza la sesión en SQL, es posible que no ocurra inmediatamente. Si hay bastante procesamiento en la base de datos, eliminar tus tablas temporales luego de utilizarlas es una buena práctica para mantener la base de datos funcionando sin inconvenientes. 
+
+Para obtener más información
+
+    Documentación de BigQuery para tablas temporales
+
+: La documentación contiene la sintaxis para crear tablas temporales en BigQuery
+
+Cómo utilizar las tablas temporales mediante WITH en BigQuery de Google
+
+: El artículo describe cómo utilizar WITH 
+
+Introducción a las tablas temporales en SQL Server
+
+: El artículo describe cómo utilizar SELECT INTO y CREATE TABLE 
+
+Tablas temporales en SQL Server
+
+: El artículo describe la creación y eliminación de la tabla temporal
+
+Elegir entre las variables de la tabla y las tablas temporales
+
+    : El artículo describe las diferencias entre pasar las variables en las instrucciones de SQL frente a utilizar las tablas temporales
+

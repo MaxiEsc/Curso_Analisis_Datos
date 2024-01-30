@@ -1,0 +1,669 @@
+Modulo 4 - Visualizaciones con R
+
+A esta altura, ya manejas R y RStudio y estás familiarizado con algunos conceptos básicos de programación. Además, aprendiste cómo limpiar y organizar datos en R. Has asumido el desafío de aprender a programar y desarrollado nuevas destrezas para el análisis de datos. Buen trabajo. Ahora aprenderás a usar código para visualizar tus datos. La visualización de datos es una de las partes más importantes del análisis de datos. Las visualizaciones potentes muestran a los interesados qué significan tus datos de una manera clara y atractiva y destacan conclusiones clave. Las visualizaciones ayudan a dar vida a la historia de tus datos y hacen que esa historia sea más fácil de comprender. Quizás recuerdes el anticipo que te di de los poderes de visualización de datos de R. Creé esas visualizaciones con ggplot2, uno de los paquetes centrales de tidy verse. ggplot2 es el paquete de visualización más popular de R, y con mucha razón: es una herramienta de visualización de datos potente y fácil de usar. A continuación, aprenderás a escribir y ejecutar todo el código que vimos anteriormente. Aprenderás a usar ggplot2 para crear diversos diagramas, organizar y representar diferentes variables en tu conjunto de datos y a personalizar la apariencia de tus visualizaciones. Trabajar con ggplot2 puede ayudarte a sacarle el máximo provecho a tus datos. Tus nuevas destrezas de visualización de datos también harán que sea más fácil aprender otras partes de R. De ahora en adelante, podrás visualizar mejor los resultados de cualquier modificación que realices a tus datos. Además, obtienes un resultado inmediato de todo tu arduo trabajo, lo que es una de mis partes favoritas de crear diagramas en ggplot2: simplemente ingresas un código, lo ejecutas y sale una visualización genial que te ayuda a ti y ayuda a otras personas a comprender tus datos. La visualización es una parte clave del flujo de trabajo de los analistas de datos. R te permite alternar entre el análisis y la visualización de una manera rápida y fácil. No veo la hora de mostrarte lo que puede hacer ggplot2.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Elementos básicos de visualización en R y tidyverse
+
+nos enfocaremos en ggplot2. Aprenderemos sobre sus características y funciones principales y cómo puede ayudarte a visualizar tus datos. Primero, hablemos acerca de algunos paquetes de visualización diferentes que puedes usar con R. Base R tiene su propio paquete y existen otros paquetes útiles que puedes agregar. Te ayudan a hacer casi cualquier cosa que quieras con tus datos, desde hacer gráficos circulares simples hasta crear representaciones visuales más complejas como gráficos y mapas interactivos. Los paquetes de uso general como Plotly te dejan realizar una gran variedad de funciones de visualización. Otros como RGL se enfocan en soluciones específicas como visualizaciones 3D. 
+
+Algunos de los más populares incluyen: 
+ggplot2. 
+Plotly. 
+Lattice. 
+RGL. 
+Dygraphs. 
+Leaflet. 
+Highcharter. 
+Patchwork. 
+gganimate. 
+ggridges. 
+
+Personalmente, ggplot2 es mi favorito para el análisis de datos. Es potente y flexible a la vez. Con un poco de código, puedes crear muchos tipos de diagramas diferentes. Puedes usar ggplot2 solo o extender sus poderes con otros paquetes. Además, es el paquete de visualización más popular en R. Muchos analistas de datos prefieren usar ggplot2, por eso usamos ggplot2 aquí. Ggplot2 originalmente fue creado por el estadístico y desarrollador Hadley Wickham en 2005. La inspiración de Wickham para crear ggplot2 provino del libro de 1999 The Grammar of Graphics, un estudio académico sobre la visualización de datos, escrito por el científico de la computación Leland Wilkinson. Las primeras dos letras de ggplot2 de hecho significan grammar of graphics. Y del mismo modo en que la gramática de los idiomas humanos nos da normas para armar cualquier tipo de oración, la gramática de los gráficos nos da normas para armar cualquier tipo de visualización. Entonces ggplot2 tiene algunos bloques de construcción básicos que puedes usar para crear diagramas. En otras palabras, cuando aprendes los pasos básicos para crear un diagrama en ggplot2, puedes reutilizar esos pasos para crear muchos tipos de diagramas diferentes. Además, puedes agregar o quitar capas de detalles a tu diagrama sin cambiar su estructura básica o los datos subyacentes. Esto hace que ggplot2 sea realmente poderoso. En nuestro próximo vídeo, veremos estos pasos uno a uno. Ggplot2 también tiene muchos otros beneficios. 
+
+Ggplot2 también tiene muchos otros beneficios:
+->Puedes crear todo tipo de diagramas diferentes, entre ellos, diagramas de dispersión, gráficos de barras, diagramas de línea, y muchos más.
+->Puedes cambiar los colores, el diseño y las dimensiones de tus diagramas y agregar elementos de texto como títulos, leyendas y etiquetas.
+->Con solo un poco de código puedes crear representaciones visuales de alta calidad. 
+->Permite combinar manipulación y visualización de datos usando el operador de canalización. 
+
+Ggplot2 también tiene muchísimas funciones que satisfacen todas tus necesidades de visualización de datos. Para darte una idea, mira la hoja de referencia de ggplot2, que es una guía de referencia popular. Puedes aprender más acerca de la hoja de referencia de ggplot2 en una próxima lectura. No es importante aprender todas estas funciones de inmediato o siquiera saber qué son. Con el tiempo, a medida que empieces a hacer un análisis de datos más avanzado, puedes aprender sobre nuevas funciones a medida que las necesites. Simplemente debes saber que si necesitas encontrar una función para algo, ggplot2 seguramente la tenga. Y como comentamos, aun las funciones básicas de ggplot2 te dejan hacer muchas cosas. 
+
+Nos enfocaremos en algunos conceptos centrales en ggplot2: 
+-Estética 
+-Fguras geométricas. 
+-Facetas. 
+-Etiquetas.  
+-Aanotaciones. 
+
+Quizás estos sean nuevos conceptos para ti y no hay problema. Los aprenderemos juntos y pronto los exploraremos todos en detalle. Por ahora, un pequeño adelanto. En ggplot2, 
+
+una estética(R) es una propiedad visual de un objeto de tu diagrama. 
+
+Por ejemplo, en un diagrama de dispersión la estética incluye cosas como el tamaño, la forma y el color de tus puntos de datos. Piensa en una estética como una conexión o mapeo entre una característica visual en tu diagrama y una variable en tus datos. Más adelante, hablaremos de mapeo. 
+
+Una figura geométrica(R) se refiere al objeto geométrico usado para representar tus datos. 
+
+Por ejemplo, puedes usar puntos para crear un diagrama de dispersión, barras para crear un gráfico de barras o líneas para crear un diagrama de líneas. Puedes elegir una figura geométrica que se adapte al tipo de datos que tienes. Los puntos muestran la relación entre dos variables cuantitativas. Las barras muestran una variable cuantitativa que varía entre diferentes categorías. A continuación, hablaremos sobre la función facet. 
+
+Las facetas(R) te permiten mostrar grupos más pequeños, o subconjuntos, de datos. 
+
+Con las facetas, puedes crear diagramas separados para todas las variables en tu conjunto de datos.  
+
+Las funciones label y annotate(R) te dejan personalizar tu diagrama. Puedes agregar texto como títulos, subtítulos y leyendas para comunicar el propósito de tu diagrama o destacar datos importantes.
+___________________________________________________________
+
+En ggplot2, una estética es una propiedad visual de un objeto de tu diagrama.
+
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Los conceptos básicos de ggplot2
+
+El paquete ggplot2 te permite crear diagramas personalizables de alta calidad con tus datos. A modo de repaso, ggplot2 se basa en la gramática de los gráficos, que es un sistema para describir y desarrollar visualizaciones de datos. La idea principal detrás de la gramática de los gráficos es que puedes crear cualquier diagrama a partir de los mismos componentes básicos, como bloques de construcción.
+
+Estos bloques de construcción incluyen:
+
+Un conjunto de datos
+
+Un conjunto de figuras geométricas: Una figura geométrica se refiere al objeto geométrico usado para representar tus datos. Por ejemplo, puedes usar puntos para crear un diagrama de dispersión, barras para crear un gráfico de barras, líneas para crear un diagrama de líneas, etc.
+
+Un conjunto de atributos estéticos: Una estética es una propiedad visual de un objeto de tu diagrama. Puedes concebir la estética como una conexión, o mapeo, entre una característica visual en tu diagrama y una variable en tus datos. Por ejemplo, en un diagrama de dispersión, la estética incluye cosas como el tamaño, la forma, el color o la ubicación (eje X, eje Y) de tus puntos de datos.
+
+Para crear un diagrama con ggplot2, primero eliges un conjunto de datos. Luego determinas cómo organizar tus datos visualmente en un sistema de coordenadas eligiendo una figura geométrica para representar tus puntos de datos y estética para mapear tus variables. 
+
+Preparar tus datos
+
+El paquete ggplot2 te permite usar código R para especificar el conjunto de datos, la figura geométrica y la estética de tu diagrama.
+
+Para hacerlo, primero elige un conjunto de datos con el que trabajar. Para esta actividad, usarás los datos de Palmer Penguins que ya conoces de vídeos anteriores. Sin embargo, también puedes usar otro conjunto de datos.
+
+Una vez que decidas tu conjunto de datos, abre RStudio y sigue estos pasos:
+
+1. Si aún no lo hiciste, usa la función install.packages() para instalar ggplot2 y el conjunto de datos Palmer Penguins. Escribe install.packages(“ggplot2”) e install.packages(“palmerpenguins”), luego haz clic en Ejecutar.
+
+2. Carga ggplot2 y el conjunto de datos usando la función library(). Escribe library(ggplot2) y library(palmerpenguins).
+
+3. Ahora examina el marco de datos para los datos de pingüinos. Para hacerlo, usa las funciones data() y View(). Usa una “V” mayúscula para la función View(), ya que las funciones en R distinguen entre mayúsculas y minúsculas. Escribe data(penguins) y View(penguins), luego haz clic en Ejecutar.
+
+Las primeras 10 filas del marco de datos deberían aparecer así:
+
+El conjunto de datos de pingüinos contiene mediciones de tamaño de tres especies de pingüinos (Adelie, Chinstrap y Gentoo) que viven en el archipiélago Palmer en la Antártida. Las columnas incluyen información como masa corporal, longitud de las aletas y longitud del pico.
+
+Crear un diagrama en ggplot2
+
+Supongamos que quieres modelar la relación entre masa corporal y longitud de aletas en las tres especies de pingüino. Puedes elegir una figura geométrica específica que se adapte al tipo de datos que tienes. Los puntos muestran la relación entre dos variables cuantitativas. Un diagrama de dispersión de puntos sería una manera eficaz de mostrar la relación entre las dos variables. Puedes colocar longitud de aleta en el eje X y masa corporal en el eje Y.
+
+Escribe el siguiente código para crear el diagrama. Pero antes de ejecutarlo, revisa el código parte por parte:
+
+ggplot(data = penguins) +geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+ggplot(data = penguins):En ggplot 2, comienzas un diagrama con la función ggplot(). La función ggplot() crea un sistema de coordenadas al que puedes agregar capas. El primer argumento de la función ggplot() es el conjunto de datos a usar en el diagrama. En este caso, es “penguins”.
+
++: Luego agregas un símbolo “+” para agregar una nueva capa a tu diagrama. Completas el diagrama agregando una o más capas a ggplot().
+
+geom_point(): Luego eliges una figura geométrica agregando una función geométrica. La función geom_point() usa puntos para crear diagramas de dispersión, la función geom_bar usa barras para crear gráficos de barras, etc. En este caso, elige la función geom_point para crear un diagrama de dispersión de puntos. El paquete ggplot2 viene con muchas funciones geométricas diferentes. Obtendrás más información sobre figuras geométricas más adelante en este curso.
+
+(mapping = aes(x = flipper_length_mm, y = body_mass_g)): Cada función geométrica en ggplot2 toma un argumento de mapeo. Esto define cómo se aplican variables de tu conjunto de datos a propiedades visuales. El argumento de mapeo siempre se utiliza en conjunto con la función aes(). Los argumentos X e Y de la función aes() especifican qué variables aplicar al eje X y al eje Y del sistema de coordenadas. En este caso, quieres aplicar la variable “flipper_length_mm” al eje X y la variable “body_mass_g” al eje Y.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Crear tu propio diagrama
+
+Para crear tu propio diagrama usando código, sigue estos tres pasos:
+
+1. Comienza con la función ggplot() y elige un conjunto de datos con el que trabajar.
+
+2. Agrega una función geom_ para mostrar tus datos.
+
+3. Aplica las variables que quieres modelar en los argumentos de la función aes().
+
+Intenta modelar con diferentes conjuntos de datos usando diferentes figuras geométricas y argumentos de mapeo. Más adelante en este curso, aprenderás aún más sobre el proceso de creación de un diagrama. Además, tendrás la oportunidad de trabajar con el conjunto de datos sobre pingüinos para crear muchos diagramas diferentes en ggplot2.
+
+Consejo profesional: Puedes escribir la misma sección de código que aparece arriba usando una sintaxis diferente con el argumento de mapeo dentro de la llamada de ggplot(): ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) + geom_point()
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Introduccion a ggplot()
+
+En este vídeo, usaremos los datos de los pingüinos de Palmer para aprender a crear un diagrama en ggplot2. Anteriormente, usamos estos datos para anticiparte lo que puede hacer ggplot2. Como quizás recuerdes, el conjunto de datos de pingüinos contiene mediciones de tres especies de pingüinos que viven en el archipiélago Palmer en la Antártida. El conjunto de datos incluye variables como masa corporal, longitud de aleta y longitud de pico. Ahora, aprenderemos a usar código para crear esas visualizaciones. Haremos el proceso de crear un diagrama paso a paso. Además, repasaremos algunos consejos generales sobre cómo escribir código en ggplot2, y veremos algunos recursos de ayuda útiles. Primero, iniciemos sesión en RStudio Cloud. A medida que avancemos, te animo a que te sumes y pruebes todo el código en RStudio. Siéntete libre de pausar el vídeo cada vez que lo necesites. Asumimos que ya tienes instalados los paquetes de tidyverse. Si no es así, consulta un vídeo anterior o ejecuta install.packages("tidyverse"). Comencemos cargando el paquete de ggplot2 y el conjunto de datos de pingüinos. Ahora, echemos un vistazo al diagrama que muestra la relación entre masa corporal y longitud de aleta en las tres especies de pingüinos. El diagrama muestra una relación positiva entre dos variables. Es decir, cuanto más grande es el pingüino, más larga es la aleta. Ahora, echemos un vistazo al código. El código usa funciones de ggplot2 para modelar la relación entre masa corporal y longitud de aleta. Para repasar rápidamente, en R una función es un nombre seguido de un par de paréntesis. Muchas funciones requieren información especial para hacer su trabajo. Tú escribes la información que se llama argumento de la función entre los paréntesis. Las tres funciones en el código son la función ggplot, la función geom_point y la función aes. Cada diagrama de ggplot2 comienza con la función ggplot. El argumento de la función ggplot le indica a R qué datos usar para tu diagrama. Por lo tanto, lo primero que hay que hacer es elegir un marco de datos para trabajar. Puedes armar el código de la siguiente manera: dentro de los paréntesis de la función escribe la palabra data, después un signo igual, después penguins. Este código inicializa o comienza el diagrama. Si nos detenemos aquí y ejecutamos el código, el resultado será un diagrama vacío. Probemos. Este es solo el primer paso para crear un diagrama. Lo siguiente que quizás observes en este código es el signo más al final de la primera línea. El signo más se usa para agregar capas a tu diagrama. En ggplot2, los diagramas se construyen mediante combinaciones de capas. Primero, comenzamos con nuestros datos. Después agregamos una capa a nuestro diagrama eligiendo una figura geométrica para representar nuestros datos. La función geom_point le indica a R que usa puntos para representar nuestros datos. Ten en cuenta que el signo más debe colocarse al final de cada línea para agregar una capa. Agregar una función geom es el segundo paso en la creación de un diagrama. 
+
+Como recordatorio, una figura geométrica(R) es el objeto geométrico usado para representar tus datos. 
+
+Las figuras geométricas incluyen puntos, barras, líneas, etc. En nuestro código, la función geom_point le indica a R que use puntos y cree un diagrama de dispersión. Aprenderemos más sobre figuras geométricas más adelante. Luego debemos elegir variables específicas de nuestro conjunto de datos y decirle a R cómo queremos que luzcan estas variables en nuestro diagrama. En ggplot2, la apariencia de una variable se llama estética. 
+
+A modo de recordatorio rápido, una estética(R) es una propiedad visual de un objeto en tu diagrama, como su posición, color forma o tamaño. 
+
+La parte del código “mapping equals aes” le indica a R qué estética usar para el diagrama. Usas la función aes para definir el mapeo entre tus datos y tu diagrama. 
+
+Mapear(R) significa emparejar una variable específica en tu conjunto de datos con una estética específica. 
+
+Por ejemplo, puedes mapear una variable al eje X de tu diagrama o puedes mapear una variable al eje Y de tu diagrama. En un diagrama de dispersión, también puedes mapear una variable al color, el tamaño y la forma de tus puntos de datos. En breve, aprenderemos más sobre estética. Aplicar estética a variables es el tercer paso en la creación de un diagrama. En nuestro código, aplicamos la variable longitud de aleta al eje X y la variable masa corporal al eje Y. Dentro de los paréntesis de la función aes, escribimos el nombre de la estética y después el signo igual, luego el nombre de la variable. Escribimos el código y R se ocupa del resto. Usando los datos de los pingüinos, R crea un diagrama de dispersión, coloca la variable masa corporal en el eje Y y la variable longitud de aleta en el eje X. Nuestro código sigue la secuencia común para crear diagramas en ggplot2. Anteriormente, hablamos de la gramática de los gráficos, una serie de pasos para hacer todo tipo de diagramas diferentes. También puedes concebir esta secuencia como la gramática básica para crear diagramas en ggplot2. 
+
+Para crear un diagrama, sigue estos tres pasos: 
+-> Comienza con la función ggplot y elige un conjunto de datos con el que trabajar. 
+-> Agrega una función geom_ para mostrar tus dato. 
+-> Aplica las variables que quieres modelar en el argumento de la función aes. 
+
+Asimismo, podemos convertir nuestro código en una plantilla reutilizable para crear diagramas en ggplot2. Para hacer un diagrama, reemplaza las secciones de código entre paréntesis con un conjunto de datos, una función geom_ o un grupo de mapeos estéticos. 
+
+ggplot(datos  = <DATOS> ) + <FUNCION_GEOMETRICA> (mapping = aes( <MAPEO DE ESTETICA> ))
+
+Podemos armar muchos tipos de diagramas diferentes usando esta plantilla. Por ejemplo, en vez de modelar la relación entre masa corporal y longitud de aleta, podríamos usar dos variables diferentes en el conjunto de datos de pingüinos. 
+
+Ejemplo :
+
+ggplot(data=penguins) + 
+  geom_point(mapping = aes(x = bill_length_mm , y = bill_depth_mm))
+
+X = longitud de pico , Y = profundidad de pico.
+
+Probemos con longitud de pico y profundidad de pico. Podemos colocar longitud de pico en el eje X y profundidad de pico en el eje Y. Ejecutemos el código y observemos este nuevo diagrama de dispersión. A medida que aprendes a escribir código en R o cualquier otro lenguaje de programación, te enfrentarás a problemas. ¡Le pasa a todo el mundo! Hace años que trabajo en R y aún escribo código que tiene errores. Muchas veces estos errores son menores y son fáciles de solucionar. Ayuda prestarles atención a los detalles. Por ejemplo, R distingue entre mayúsculas y minúsculas, si usas mayúsculas accidentalmente en la primera letra de una determinada función, eso podría afectar tu código. Además, asegúrate de que cada paréntesis de apertura de tu función coincida con un paréntesis de cierre. Observa cómo este código no se ejecutará correctamente, pero este código sí. Un problema común al trabajar con ggplot2 es acordarse de colocar el signo más en el lugar correcto al agregar una capa en tu diagrama. Siempre debes colocar el signo más al final de una línea de código. Es fácil olvidarse y colocarlo al principio de la línea. O quizás usas accidentalmente una canalización en vez de un signo más. Todos cometemos errores. Eso forma parte del proceso de aprendizaje. La buena noticia es que podemos probar muchas veces antes de acertar. Además, hay muchos recursos para ayudarte. Para aprender más acerca de cualquier función de R, simplemente ejecuta el código signo de pregunta(?) nombre de función. 
+
+Por ejemplo, si quieres aprender más acerca de la función geom_point, escribe ?geom_point. Como alguien que se inicia, quizás no comprendas todos los conceptos en la página de ayuda. En la parte inferior de la página, puedes encontrar ejemplos específicos de código que pueden mostrarte cómo resolver tu problema. Si aún no encuentras lo que buscas, no dudes en pedir ayuda en la comunidad R en línea. Como mencionamos anteriormente, hay muchos recursos excelentes en línea para R. Lo más probable es que otra persona haya tenido el mismo problema. Eso es todo por ahora.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Los errores de código son una parte inevitable de escribir código, especialmente cuando estás comenzando a aprender un nuevo lenguaje de programación. En esta lectura, aprenderás a reconocer errores de código comunes al crear visualizaciones usando ggplot2. Además, encontrarás enlaces a algunos recursos que puedes usar para ayudarte a abordar cualquier problema de código que puedas encontrar de aquí en adelante.
+Errores de código comunes en ggplot2
+
+Al trabajar con código R en ggplot2, muchos de los errores de código más comunes incluyen problemas con la sintaxis, como caracteres mal ubicados. Es por eso que prestar atención a los detalles es una parte tan importante de escribir código. Cuando existe un error en tu código que R logra detectar, generará un mensaje de error. Los mensajes de error pueden ayudar a orientarte en la dirección correcta, pero no siempre te ayudarán a descubrir el problema exacto.
+
+Exploremos algunos de los errores de código más comunes que podrías encontrar con ggplot2.
+Distinción entre mayúsculas y minúsculas 
+
+El código R distingue entre mayúsculas y minúsculas. Si utilizas accidentalmente mayúsculas en la primera letra de una determinada función, podría afectar tu código. Aquí hay un ejemplo: 
+
+Glimpse(penguins)
+
+El mensaje de error te avisa que R no puede encontrar una función llamada “Glimpse”:
+
+Error in Glimpse(penguins) : could not find function "Glimpse"
+
+Pero sabes que la función glimpse (con “g” minúscula) sí existe. Observa que el mensaje de error no explica exactamente qué está mal, pero sí te señala en una dirección. 
+
+Basado en eso, puedes descifrar que este es el código correcto: 
+
+glimpse(penguins) 
+Equilibrar paréntesis y comillas 
+
+Otro error común al programar en R involucra los paréntesis y las comillas. En R, debes asegurarte de que cada paréntesis de apertura de tu función tenga un paréntesis de cierre y de que cada comilla de apertura tenga una comilla de cierre. Por ejemplo, si ejecutas el siguiente código, no sucede nada. R no crea el diagrama. Eso se debe a que a la segunda línea de código le faltan dos paréntesis de cierre: 
+
+ggplot(data = penguins) + 
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g
+
+RStudio sí te alerta que existe un problema. A la izquierda de la línea de código en tu editor de código fuente de RStudio, quizás observes un círculo rojo con una “X” blanca en el centro. Si pasas el cursor por encima del círculo, 
+
+RStudio te avisa que tienes un paréntesis de apertura suelto. Entonces, para corregir el código, sabes que tienes que agregar un paréntesis de cierre para cada paréntesis de apertura. 
+
+Este es el código correcto:
+
+ggplot(data = penguins) + 
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+Uso del signo más para agregar capas 
+
+En ggplot2, necesitas agregar un signo más (“+”) a tu código cuando agregas una nueva capa a tu diagrama. Colocar el signo más en el lugar incorrecto es un error común. El signo más siempre debería colocarse al final de una línea de código, no al principio de la línea.
+
+Este es un ejemplo de código que incluye una ubicación incorrecta del signo más:
+
+ggplot(data = penguins) 
+
+  + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+En este caso, el mensaje de error de R identifica el problema y te indica que lo corrijas: 
+
+Error: Cannot use `+.gg()` with a single argument. Did you accidentally put + on a new line? 
+
+Este es el código correcto: 
+
+ggplot(data = penguins) + 
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Además, puedes usar accidentalmente una canalización en vez de un signo más para agregar una nueva capa a tu diagrama, así:
+
+ggplot(data = penguins)%>%   
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Luego recibes el siguiente mensaje de error: 
+
+Error: `data` must be a data frame, or other object coercible by `fortify()`, not an S3 object with class gg/ggplot
+
+Este es el código correcto: 
+
+ggplot(data = penguins) + 
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Tener estos temas en cuenta y prestar atención a los detalles al escribir código te ayudará a reducir errores y ahorrar tiempo, para que puedas mantenerte enfocado en tu análisis. 
+Recursos de ayuda
+
+Todos cometen errores al escribir código; simplemente forma parte del proceso de aprendizaje. Por suerte, existen muchos recursos útiles disponibles en RStudio y en línea. 
+Documentación sobre R
+
+R tiene documentación integrada para todas las funciones y paquetes. Para aprender más acerca de cualquier función de R, simplemente ejecuta el código ?function_name. Por ejemplo, si quieres aprender más acerca de la función geom_bar, escribe:
+
+?geom_bar
+
+Cuando ejecutas el código, aparece una entrada sobre “geom_bar” en el visor de Ayuda en el panel inferior derecho de tu espacio de trabajo de RStudio. 
+
+El sitio web RDocumentation -> https://www.rdocumentation.org/
+
+ contiene mucho del mismo contenido con un formato ligeramente diferente, con ejemplos y enlaces adicionales.
+Documentación de ggplot2
+
+La página de ggplot2 -> https://ggplot2.tidyverse.org/
+
+, que forma parte de la documentación oficial de tidyverse, es un gran recurso para todo lo relacionado con ggplot2. Incluye entradas sobre temas clave, ejemplos útiles de código y enlaces a otros recursos útiles. 
+Búsqueda en línea
+
+Hacer una búsqueda en línea del mensaje de error que aparece (e incluir “R” y el nombre de la función o el paquete en tus términos de búsqueda) es otra opción. Hay grandes probabilidades de que alguien ya se haya topado con el mismo error y lo haya publicado en línea. 
+La comunidad de R
+
+Si los otros recursos no ayudan, puedes intentar conectarte con la comunidad de R en línea. Existen muchos foros en línea y sitios web útiles en los que la gente pide y ofrece ayuda, entre ellos:
+
+R for Data Science Online Learning Community -> https://www.rfordatasci.com/
+
+RStudio Community -> https://community.rstudio.com/
+
+Stackoverflow -> http://stackoverflow.com/
+
+Twitter (#rstats) -> https://twitter.com/hashtag/rstats?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1229486581620367361%7Ctwgr%5Eshare_3&ref_url=https%3A%2F%2Fwww.t4rstats.com%2F&src=hashtag_click
+
+Aplicaste columnas a los ejes X e Y de un diagrama de dispersión. ¿Qué sintaxis usaste para hacerlo?
+La sintaxis correcta para aplicar columnas a ejes en esta actividad es aes(x = stays_in_weekend_nights, y = children). De aquí en adelante, puedes usar el conocimiento de mapeo y del paquete ggplot2 para crear muchos tipos de visualizaciones en RStudio.
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Trayectoria profesional hacia el analisis de personas
+
+Como analista de personal, mi trabajo consiste en trabajar con ejecutivos y socios de negocios de RR.HH. para usar datos para tomar decisiones informadas sobre el personal. Mi trayectoria hasta llegar a ser analista de personal es bastante singular. Viniendo de una escuela pública de NYC en Nueva York y yendo a una escuela privada en Siracusa, la tradición era muy diferente en cuanto al rigor académico y también en cuanto al nivel social con el que competía. Y siendo totalmente honesto, sentía que no pertenecía allí. Sentía el síndrome del impostor absolutamente todos los días. Y en mi primer semestre, luchaba a nivel académico porque me faltaba una base sólida. Cada vez que terminaba mis clases, buscaba oportunidades de tutoría. Entonces trabajaba el triple o el cuádruple que mis pares. Pero a la larga, de hecho llegó un momento en que me iba mucho mejor que a mis pares. Y era yo quien de hecho les enseñaba y también les ofrecía tutorías para sus tareas. Cuando entré a la universidad, en mi primer año tenía ganas de elegir ingeniería informática como especialidad. Pero lamentablemente, como venía de una familia de inmigrantes que no sabía qué era la ingeniería informática, ni había visto a alguien de nuestra comunidad que realmente hubiera tenido éxito en ese campo, ellos realmente me desalentaron de seguir este camino, nuevamente porque no querían arriesgarse. Lamentablemente, cambié mi especialización de ingeniería a “indeciso”. Por fortuna para mí, dos años después, encontré a otro amigo negro mío que también era un inmigrante africano que se estaba especializando en tecnología de la información. Y solo por aprender de su experiencia y de las clases que estaba tomando, realmente me empecé a interesar mucho en el campo. Tomé una de las clases introductorias y verdaderamente me fue bien. Antes de Google, trabajaba en una empresa llamada Accenture, donde me desempeñaba como asesor haciendo analítica de clientes. Y hacia el final de mi segundo año en la empresa, fui a una feria de trabajo en la que Google estaba reclutando. Entonces hablé con la reclutadora y ella me comentó de una nueva práctica llamada analítica de personal, que es algo muy parecido a lo que yo estaba haciendo en Accenture. Simplemente volví a casa, investigué, y me interesó mucho este espacio en el que quería desarrollar plenamente mi carrera. Entonces desde que comencé en Google, y también diré honestamente que fue muy desafiante para mí en cuanto al rigor y la dificultad del trabajo que hacemos... entonces lo primero que hice fue buscar mentores. Sabía que me interesaba mi desarrollo profesional y también en abogar por mí mismo. Así que hablando con ellos y simplemente aprendiendo algunas lecciones de ellos, como la manera de manejarse mejor en este espacio, primero adquirí mucho coraje y también obtuve la motivación para incluso aprender más allá del entorno laboral. Lo segundo que hice fue asegurarme de estar aprendiendo constantemente y también aprovechar a mis pares como recurso. Entonces siempre que hago un análisis en el que necesito una segunda opinión, recurro a mis compañeros de equipo y me aseguro de que me den el aliento que necesito o una segunda opinión para mejorar aún más mi análisis. Y creo que lo tercero que siempre hago es buscar oportunidades de desarrollo, ¿no? Entonces, por ejemplo, si sé que hay un espacio en el que me falta y que necesito desarrollar, me aseguro de preguntarle a mi gerente: "Sé que este espacio me cuesta. ¿No te parece que podría desarrollar concretamente esta área si me dieras más trabajo que me permitiera desarrollar ese conjunto de destrezas?". Entonces diría que es una mezcla de reconocer que notas una brecha en tu desarrollo personal y también trabajar para mejorar eso aprovechando los recursos que te rodean. Y simplemente trabajar en pos de ese objetivo para lograr mejorar todos y cada uno de los días y también año a año.
+
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Mejora a visualizaciones en R
+
+aprenderás cómo modificar la estética de tus representaciones visuales, que puede ayudarte a presentar tus datos de una manera más atractiva. Con la estética, puedes destacar puntos claves de tus datos y comunicarte con mayor claridad y efectividad con tus interesados. Anteriormente, aprendimos que... 
+
+Una estética(R) es una propiedad visual de un objeto en tu diagrama. 
+
+Por ejemplo, en un diagrama de dispersión la estética incluye el tamaño, la forma y el color de tus puntos de datos. Puedes mostrar un punto de diferentes maneras modificando su estética o su apariencia. Puedes hacer que un punto sea pequeño, triangular o azul o una combinación de estas opciones. Volvamos al conjunto de datos de pingüinos y revisemos el código de nuestro diagrama que muestra la relación entre masa corporal y longitud de aleta. Para repasar rápidamente, la parte del código que dice mapping igual a aes le indica a R qué estética usar para el diagrama. Se usa la función aes para definir el mapeo entre tus datos y tu diagrama. Mapeo significa emparejar una variable específica en tu conjunto de datos con una estética específica. Por ejemplo, puedes aplicar una variable al eje X de tu diagrama o puedes aplicar una variable al eje Y de tu diagrama. Para mapear o aplicar una estética a una variable, coloca el nombre de la estética que equivale al nombre de la variable dentro de los paréntesis de la función aes. Nuestro código le indica a R que aplique la longitud de aleta al eje X y masa corporal al eje Y. Iniciemos sesión en RStudio Cloud y ejecutemos el código. A modo de recordatorio rápido, comencemos cargando el paquete de ggplot2 y el conjunto de datos de pingüinos. R colocará automáticamente la etiqueta correspondiente en cada eje de nuestro diagrama de dispersión. Después de que apliques una variable a una estética, R se encarga del resto. También puedes aplicar datos a otras estéticas, como color, tamaño y forma. En este momento, nuestro diagrama está en blanco y negro. Claramente muestra la relación positiva entre las dos variables. A medida que los valores en el eje X suben, los valores en el eje Y suben. Pero también tiene algunas limitaciones. Por ejemplo, no podemos saber qué puntos de datos se refieren a cada una de las tres especies de pingüinos. Para resolver este problema, podemos aplicar una nueva variable a una nueva estética. Agreguemos una tercera variable a nuestro diagrama de dispersión aplicándola a nueva estética. Aplicaremos la variable species a la estética color agregando código dentro de los paréntesis de la función aes. Agregaremos una coma después de la variable masa corporal y escribiremos color signo igual species.
+
+#Añadiendole color
+ggplot(data = penguins) +geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species))
+
+ Nuestro código le indica a R que asigne un color diferente a cada especie de pingüino. Vamos a revisarlo. La especie Papúa (Gentoo) es la más grande de las tres especies de pingüino. La leyenda apenas a la derecha del diagrama nos muestra que los puntos azules se refieren a los pingüinos Papúa. R no solo aplica automáticamente diferentes colores a cada punto de datos, sino que también crea una leyenda para mostrarnos los códigos de color. Eso es lo que me encanta de R. Con solo darle un poco de código, hace el máximo esfuerzo para ayudarte. También podemos usar la forma para resaltar las diferentes especies de pingüinos. Apliquemos la variable species a la estética shape. Para hacerlo, podemos modificar el código de color signo igual species a shape signo igual species. En vez de puntos de color, R asigna diferentes formas a cada especie. 
+
+#Añadiendole forma
+ggplot(data = penguins) +geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, shape=species))
+
+Ahora la leyenda nos muestra un círculo para la especie Adelia (Adelie), un triángulo para los Barbijo (Chinstraps) y un cuadrado para los Papúa. Quizás notes que nuestro diagrama está en blanco y negro nuevamente porque eliminamos el código para color. Volvamos a darle color a nuestro diagrama. Si queremos, podemos aplicar más de una estética a la misma variable. Apliquemos tanto color como forma a las especies. Agregaremos el código color signo igual species mientras mantenemos el código shape signo igual species. 
+
+#Añadiendole forma y color
+ggplot(data = penguins) +geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, shape=species, color=species))
+
+
+Ahora nuestro diagrama muestra un color diferente y una forma diferente para cada especie. Podemos seguir avanzando. Agreguemos tamaño también y apliquemos tres estéticas a las especies. Si agregamos size signo igual species, cada forma coloreada también tendrá un tamaño diferente. Usar más de una estética también puede ser una manera de hacer que tus elementos visuales sean más accesibles porque le da a tu público más de una manera de entender tus datos. También podemos mapear especies a la estética alfa, que controla la transparencia de los puntos. Nuestro primer diagrama mostró la relación entre masa corporal y longitud de aleta en blanco y negro. Luego aplicamos la variable species a la estética color para mostrar la diferencia entre cada una de estas especies de pingüino. Si queremos dejar nuestro gráfico en blanco y negro, podemos aplicar la estética alfa a especies. Esto hará que algunos puntos sean más transparentes, o traslúcidos, que otros. Esto nos da otra manera de representar cada especie de pingüino. Probemos. Alfa es una buena opción cuando tienes un diagrama denso con muchos puntos de datos. También puedes fijar la estética por separado de una variable específica. Digamos que queremos cambiar el color de todos los puntos a violeta. Aquí no queremos aplicar color a una variable específica como especie. Solo queremos que cada punto en nuestro diagrama de dispersión sea violeta. Entonces necesitamos colocar nuestro nuevo trozo de código fuera de la función aes y usar comillas para nuestro valor de color. Esto se debe a que todo el código dentro de la función aes le indica a R cómo aplicar estética a variables. Por ejemplo, aplicar la estética color a la variable species. Si queremos modificar la apariencia de nuestro diagrama general sin tener en cuenta las variables específicas, escribimos código fuera de la función aes. Escribamos el código y ejecutémoslo. Eso es todo por ahora. 
+
+Acabamos de aprender acerca de las estéticas más comunes para puntos: x, y, color, forma, tamaño y alfa. 
+
+También descubrimos cómo las estéticas pueden modificar la apariencia de nuestro diagrama y destacar datos importantes. Ya hemos abarcado mucho material y aprendido muchísimos conceptos nuevos. Lleva tiempo procesar nueva información y aprender nuevas destrezas, así que siéntete libre de volver a mirar cualquiera de estos vídeos si necesitas hacer un repaso o si quieres practicar en RStudio.
+
+________________________________________________________________
+
+En ggplot2, ¿cuáles de los siguientes conceptos hace referencia a la forma, el color y el tamaño de puntos de datos en un diagrama?  
+En ggplot2, la forma, el color y el tamaño de los puntos de datos en un diagrama hace referencia al concepto de estética.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Atributos estéticos
+
+En esta lectura, aprenderás acerca de tres atributos estéticos básicos a tener en cuenta al crear visualizaciones ggplot2 en R: color, tamaño y forma. Estos atributos son herramientas esenciales para crear visualizaciones de datos con ggplot2 y se incorporan directamente a su código.
+
+Estética en ggplot2
+
+Ggplot2 es un paquete de R que te permite crear diferentes tipos de visualizaciones de datos directamente en tu lugar de trabajo R. En ggplot2, una estética se define como una propiedad visual de un objeto de tu diagrama. 
+
+Existen tres atributos estéticos en ggplot2:
+
+    Color: te permite modificar el color de todos los puntos de tu diagrama o el color de cada grupo de datos
+
+    Tamaño: te permite modificar el tamaño de los puntos de tu diagrama por grupo de datos
+
+    Forma: te permite modificar la forma de los puntos de tu diagrama por grupo de datos
+
+Este es un ejemplo de cómo se muestran los atributos estéticos en R:
+
+ggplot(data, aes(x=distance, y= dep_delay, color=carrier, size=air_time, shape = carrier)) +
+
+      geom_point()
+
+Al aplicar estos atributos estéticos a tu trabajo con ggplot2, puedes crear visualizaciones de datos en R que comunican tendencias con claridad en tus datos. 
+Recursos adicionales
+
+Para obtener más información sobre atributos estéticos, consulta estos recursos:
+
+    Hoja de referencia de visualización de datos con ggplot2
+
+https://ggplot2.tidyverse.org/ : La hoja de referencia de RStudio es una guía excelente que puedes usar mientras trabajas con ggplot2. Tiene muchísima información útil, que incluye explicaciones sobre cómo usar figuras geométricas en las diferentes visualizaciones que puedes crear. 
+
+Introducción a R de Stats Education
+
+http://statseducation.com/Introduction-to-R/modules/graphics/aesthetics/ : Este recurso es una gran manera de aprender los conceptos básicos de ggplot2 y cómo aplicar atributos estéticos a tus diagramas. Puedes volver a este tutorial a medida que trabajas más con ggplot2 y tus propios datos. 
+
+Función aes en RDocumentation
+https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3/topics/aes : Esta guía describe la sintaxis de la función aes y explica qué hace cada argumento. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Hacer mas cosas con ggplot
+
+aprenderemos cómo usar diferentes funciones geométricas para crear diferentes tipos de diagramas, como diagramas de dispersión y gráficos de barras. Hay muchas figuras geométricas disponibles. Puedes elegir una figura geométrica específica según cómo quieras representar tus datos y tus objetivos para comunicarlos. Esto te permite contar la historia de tus datos de diferentes maneras y comunicarte de manera eficaz con diferentes públicos. Comencemos con dos visualizaciones. Ambas representaciones visuales contienen la misma variable X y la misma variable Y. Ambas usan los mismos datos, pero cada diagrama utiliza un objeto visual diferente para representar los datos. Uno usa puntos. El otro usa una línea suave. En otras palabras, usan diferentes figuras geométricas. 
+
+En ggplot2, una figura geométrica(R) es un objeto geométrico usado para representar tus datos. 
+
+Las figuras geométricas incluyen: 
+->Puntos 
+->Barras 
+->Líneas
+->etc. 
+
+La función geom_point usa puntos para crear diagramas de dispersión. 
+La función geom_bar usa barras para crear gráficos de barras. 
+La función geom_line usa puntos para crear gráficos de lineales. 
+
+Y así sucesivamente. Para modificar la figura geométrica en nuestro diagrama, necesitamos modificar la función geom en nuestro código. Por ejemplo, tomemos el diagrama que muestra la relación entre masa corporal y longitud de aleta. El código usa geom guion bajo point para crear un diagrama de dispersión. Iniciemos sesión en RStudio Cloud y veamos qué pasa cuando cambiamos figuras geométricas. Primero, carguemos el paquete ggplot2 y el conjunto de datos de pingüinos. Ahora podemos colocar geom guion bajo smooth en vez de geom guion bajo point. Seguimos teniendo los mismos datos, pero ahora los datos tienen una apariencia visual diferente. 
+
+#Cambiando el grafico el diagrama de dispersion mas uno lineal 
+ggplot(data = penguins) + geom_smooth(mapping = aes(x = flipper_length_mm, y = body_mass_g)) 
+
+
+En vez de puntos, hay una línea suave que representa los datos. La función geom guion bajo smooth es útil para mostrar tendencias generales en nuestros datos. La línea muestra con claridad la relación positiva entre masa corporal y longitud de aleta. Cuando más grande es el pingüino, más larga es la aleta. Hasta podemos usar dos figuras geométricas en el mismo diagrama. Digamos que queremos mostrar la relación entre la línea de tendencia y los puntos de datos con mayor claridad. Podemos combinar el código para geom guion bajo point y el código para geom guion bajo smooth agregando un símbolo más después de geom guion bajo smooth. Escribamos el código y ejecutémoslo. 
+
+#Cambiando el grafico el diagrama de dispersion mas uno lineal 
+ggplot(data = penguins) + geom_smooth(mapping = aes(x = flipper_length_mm, y = body_mass_g)) + 
+                          geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Digamos que queremos modelar una línea separada para cada especie de pingüino. Podemos agregar la estética de tipo de línea a nuestro código y aplicarla a la variable species. Geom guion bajo smooth dibujará una línea diferente con un tipo de línea diferente para cada especie de pingüino. La leyenda muestra cómo cada tipo de línea coincide con cada especie. El diagrama muestra claramente la tendencia para cada especie. Por último, echemos un vistazo a la función geom guion bajo jitter. 
+
+#Cambiando con geom_jitter
+ggplot(data = penguins) + geom_jitter(mapping = aes(x = flipper_length_mm, y = body_mass_g,), color = "purple")
+
+La función geom guion bajo jitter crea un diagrama de dispersión y luego agrega una pequeña cantidad de ruido aleatorio a cada punto del diagrama. Jitter nos ayuda a lidiar con el trazado excesivo, que sucede cuando los puntos de datos en un diagrama se superponen unos con otros. El uso de jitter hace que los puntos sean más fáciles de encontrar. Te mostraré a qué me refiero. Reemplacemos geom guion bajo point con geom guion bajo jitter. Ahora que ya vimos qué puede hacer ggplot2 con los diagramas de dispersión, exploremos los gráficos de barras. Usaremos el conjunto de datos de diamantes que ya conoces. Esto incluye datos como la calidad, la claridad y el corte de más de 50,000 diamantes. Este conjunto de datos viene con el paquete ggplot2, entonces ya está cargado. Para hacer un gráfico de barras, usamos la función geom guion bajo bar. Escribamos un código que trace un gráfico de barras de la variable cut en el conjunto de datos de diamantes. Cut se refiere a las proporciones, la simetría y el pulido del diamante. 
+
+#Viendo con el marco de datos de diamonds los graficos en barras con cut
+ggplot(data=diamonds) + geom_bar(mapping = aes(x = cut))
+
+Observa que no indicamos una variable para el eje Y. Cuando usas geom guion bajo bar, R cuenta automáticamente cuántas veces aparece cada valor X en los datos y luego muestra los recuentos en el eje Y. La opción predeterminada para geom guion bajo bar es contar filas. Pero esa es solo una de las diversas aplicaciones para gráficos de barras. 
+
+#Viendo con el marco de datos de diamonds los graficos en barras mas estableciendo los colores con cut
+ggplot(data=diamonds) + geom_bar(mapping = aes(x = cut, color = cut))
+
+Por ejemplo, el eje X de nuestro diagrama muestra cinco categorías de calidad de corte: regular, buena, muy buena, <i>premium</i> e ideal. El eje Y muestra el número de diamantes en cada categoría. Más de 20,000 diamantes tienen un valor de ideal, que es el tipo de corte más común. Geom guion bajo bar utiliza diversas estéticas que ya conoces, como color, tamaño y alfa. Agreguemos la estética color a nuestro diagrama y apliquémosla a la variable cut. Escribimos el código de la misma manera que lo hicimos con los diagramas de dispersión y agreguemos color signo igual cut después de x signo igual cut. No te olvides de colocar una coma después de x signo igual cut para agregar una nueva estética. La estética color agrega color al contorno de cada barra. R también produce una leyenda para mostrarnos los códigos de color. Digamos que queremos destacar la diferencia entre cortes con aun mayor claridad para que nuestro diagrama sea más fácil de entender. Podemos usar la estética fill para agregar color al interior de cada barra. En nuestro código, colocamos fill signo igual cut en vez de color signo igual cut. R elige automáticamente los colores y produce una leyenda. 
+
+#Viendo con el marco de datos de diamonds los graficos en barras mas estableciendo con fill en cut
+ggplot(data=diamonds) + geom_bar(mapping = aes(x = cut, fill = cut))
+
+Se ve genial. Realmente me encanta usar la estética fill. Si aplicamos fill a una nueva variable, geom guion bajo bar mostrará lo que se llama un gráfico de barras apiladas. Apliquemos fill a clarity en vez de cut. 
+
+#Viendo con el marco de datos de diamonds los graficos en barras mas estableciendo con fill en clarity es interesante
+ggplot(data=diamonds) + geom_bar(mapping = aes(x = cut, fill = clarity))
+
+Nuestro diagrama ahora muestra 40 combinaciones diferentes de corte y claridad. Cada combinación tiene su propio rectángulo coloreado. Los rectángulos que tienen el mismo valor de corte están apilados uno encima del otro en cada barra. El diagrama organiza los datos complejos. Ahora sabemos la diferencia en volumen entre cortes y podemos averiguar la diferencia en claridad dentro de cada corte. Este es solo el inicio de lo que puedes hacer con figuras geométricas. Ggplot2 tiene más de 30 funciones de figuras geométricas que puedes usar para hacer diagramas, y los paquetes de extensión te ofrecen aún más opciones. La hoja de referencia de ggplot2 es un gran recurso para aprender más acerca de figuras geométricas. A medida que sigas avanzando y realices análisis de datos más avanzado, encontrarás muchas nuevas figuras geométricas con las que trabajar. Hasta ese momento, las figuras geométricas que acabamos de ver te mantendrán ocupado y te dejarán hacer muchas cosas con tus datos.
+____________________________________________________
+
+¿Cuáles de los siguientes elementos puedes crear con la función geom_point()?
+Puedes crear un diagrama de dispersión con la función geom_point().
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Suavizado
+
+En esta lectura, aprenderás sobre el suavizado en ggplot2 y cómo puede usarse para hacer que tus visualizaciones de datos en R sean más claras y fáciles de seguir. A veces, puede ser difícil comprender tendencias en tus datos solo a través de diagramas de dispersión. El suavizado permite detectar una tendencia de datos aun cuando no puedes notar con facilidad una tendencia en los puntos de datos graficados. La funcionalidad de suavizado de ggplot2 es útil porque suma una línea de suavizado como otra capa en un diagrama; la línea de suavizado ayuda a que un observador casual entienda el sentido de los datos.
+
+Código de ejemplo
+
+ggplot(data, aes(x=distance, 
+y= dep_delay)) +
+    geom_point() +
+    geom_smooth()
+
+
+Dos tipos de suavizado
+
+Tipo de suavizado			
+Descripción
+	
+Tipo de suavizado
+Suavizado LOESS
+	
+Descripción
+El proceso de suavizado LOESS es óptimo para suavizar diagramas con menos de 1000 puntos.
+	
+Código de ejemplo
+ggplot(data, aes(x=, y=))+ 
+  geom_point() +       
+  geom_smooth(method="loess")
+
+Tipo de suavizado
+Suavizado GAM
+	
+Descripción
+El suavizado con GAM, o suavizado con modelos aditivos generalizados, es útil para suavizar diagramas con un gran número de puntos. 
+	
+Código de ejemplo
+ggplot(data, aes(x=, y=)) + 
+  geom_point() +        
+  geom_smooth(method="gam", 
+formula = y ~s(x))
+
+La funcionalidad de suavizado en ggplot2 ayuda a que los diagramas de datos sean más legibles, para que puedas reconocer mejor las tendencias de datos y sacar conclusiones clave. El primer diagrama que aparece debajo son los datos antes de suavizar y el segundo diagrama son los mismos datos después de suavizar.
+
+Recurso adicional
+
+Para obtener más información sobre suavizado, consulta la sección de Suavizado en el curso Introducción a R de Stats Education -> http://statseducation.com/Introduction-to-R/modules/graphics/smoothing/
+
+-Incluye descripciones y ejemplos detallados de cómo usar los diferentes tipos de suavizado en ggplot2. Además, incluye enlaces a otras lecciones sobre ggplot2. Puedes explorarlas para familiarizarte más con el trazado de datos en R.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Estetica y facetas
+
+Aprenderemos a usar las funciones de facetas de ggplot2 para mostrar nuestros datos de nuevas maneras. 
+
+Las funciones de facetas(R) te dejan mostrar grupos más pequeños, o subconjuntos, de datos.
+ 
+Una faceta es una cara o una sección de un objeto, como las caras de una piedra preciosa. Las facetas muestran diferentes caras de tus datos colocando cada subconjunto en su propio diagrama. El uso de facetas te ayudará a descubrir nuevos patrones en tus datos y enfocarte en relaciones entre diferentes variables. Por ejemplo, digamos que estás observando datos de ventas de una empresa de indumentaria. Quizás quieras separar tus datos por categoría para mostrar tendencias específicas: ropa infantil versus ropa de adulto, o moda de primavera versus moda de otoño. O si estás realizando una encuesta de participación de empleados, quizás quieras separar tus datos por antigüedad y comparar empleados antiguos con empleados nuevos. 
+
+Ggplot2 tiene dos funciones para facetas: 
+-facet_wrap() 
+-facet_grid(). 
+
+Exploremos ambas. 
+Comenzaremos con facet_wrap(). Para facetar tu diagrama según una sola variable, usa facet_wrap(). Digamos que queremos enfocarnos en los datos para cada especie de pingüino. 
+
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species)) + facet_wrap(~species)
+
+Tomemos nuestro diagrama que muestra la relación entre masa corporal y longitud de aleta en cada especie de pingüino. La función facet guion bajo wrap nos deja crear un diagrama separado para cada especie. Para agregar una nueva capa a nuestro diagrama, agregaremos un símbolo más a nuestro código. Luego dentro de los paréntesis de la función facet guion bajo wrap escribe un símbolo de virgulilla, seguido del nombre de la variable. Iniciemos sesión en RStudio Cloud y echémosle un vistazo. Como recordatorio, comenzaremos cargando el paquete de ggplot2 y el conjunto de datos de pingüinos. Puedes encontrar el símbolo de virgulilla en la esquina superior izquierda de tu teclado, justo debajo de la tecla escape. Ahí está. Los diagramas separados muestran la relación entre masa corporal y longitud de aleta dentro de cada especie de pingüino. Genial, ¿verdad? Las facetas nos ayudan a enfocarnos en partes importantes de nuestros datos que quizás no notemos en un solo diagrama. Si tu visualización es muy cargada, por ejemplo, si tiene demasiadas variables o niveles dentro de las variables, el uso de facetas puede ser una buena opción. Intentemos facetar el conjunto de datos de diamantes. Anteriormente, hicimos un gráfico de barras que mostraba el número de diamantes para cada categoría de corte. 
+
+#Probando las facetas con aes fill = cut y wrap con cut en el marco de datos de diamonds
+ggplot(data = diamonds) + geom_bar(mapping = aes(x = color, fill=cut)) + facet_wrap(~cut)
+
+Regular, buena, muy buena, <i>premium</i> e ideal. Podemos usar facet guion bajo wrap en la variable cut para crear un diagrama separado para cada categoría de corte. Vamos a revisarlo. Para facetar tu diagrama con dos variables, usa la función facet guion bajo grid. Facet guion bajo grid separará el diagrama en facetas verticalmente según los valores de la primera variable y horizontalmente según los valores de la segunda variable. Por ejemplo, podemos tomar nuestro diagrama de pingüinos y usar facet guion bajo grid con las dos variables, sex y species. En el paréntesis después de la función facet guion bajo grid, escribimos sex, después el símbolo de virgulilla, después species. Vamos a ejecutar el código. Hay nueve diagramas separados, cada uno basado en una combinación de las tres especies de pingüino y tres categorías de sexo. Facet guion bajo grid te permite reorganizar y mostrar con rapidez datos complejos y hace que sea más fácil ver relaciones entre diferentes grupos. Si queremos, podemos enfocar nuestro diagrama en solo una de las dos variables. Por ejemplo, podemos indicarle a R que elimine sexo de la dimensión vertical del diagrama y solo muestre las especies. Vamos a revisarlo. Puedes ver fácilmente diferencias en la relación entre longitud de aleta y masa corporal entre las tres especies. De la misma manera, podemos enfocar nuestro diagrama en el sexo en lugar de las especies. Las facetas te permiten reorganizar tus datos para mostrar relaciones específicas entre variables y revelar patrones y tendencias importantes en subconjuntos de tus datos.
+___________________________________________
+
+Las funciones de facetas te permiten mostrar grupos más pequeños, o subconjuntos, de datos. 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Filtrado y diagramas
+
+A esta altura, probablemente descargaste al menos algunos paquetes a tu biblioteca R. Las herramientas incluidas en algunos de estos paquetes de hecho se pueden combinar y usar en conjunto para que sean aún más útiles. Esta lectura compartirá algunos recursos que te enseñarán cómo usar la función de filtrado de dplyr para hacer que los diagramas que crees con ggplot2 sean más fáciles de leer. 
+
+Ejemplo de filtrado de datos para el trazado
+
+Filtrar tus datos antes del trazado te permite enfocarte en subconjuntos específicos de tus datos y sacar conclusiones más dirigidas. Para hacerlo, usa la función dplyr filter() en tu sintaxis de ggplot. 
+
+Example code
+
+data %>%
+    filter(variable1 == "DS") %>%  
+    ggplot(aes(x = weight, y = variable2, colour = variable1)) +  
+    geom_point(alpha = 0.3,  position = position_jitter()) + stat_smooth(method = "lm")
+
+
+Recursos adicionales
+
+Para obtener más detalles sobre ggplot2 y filtrado con dplyr, consulta estos recursos:
+
+    Reunir todos los elementos: (dplyr+ggplot)
+
+https://rladiessydney.org/courses/ryouwithme/03-vizwhiz-1/#1-4-putting-it-all-together-dplyr-ggplot : El curso sobre R de las RLadies of Sydney utiliza datos reales para demostrar funciones de R. Esta lección se enfoca específicamente en la combinación de dplyr y ggplot para filtrar datos antes de trazarlos. El vídeo instructivo te guiará por cada paso del proceso mientras lo sigues con los datos que ellas te suministraron. 
+
+Transformación de datos
+
+ https://r4ds.had.co.nz/transform.html: Este recurso se enfoca en cómo usar la función filter() en R y demuestra cómo combinar filter() con ggplot(). Este es un recurso útil si te interesa aprender sobre cómo se puede usar filter() antes del trazado. 
+
+Visualización de datos con ggplot2
+
+https://datacarpentry.org/dc_zurich/R-ecology/05-visualisation-ggplot2.html : Esta guía integral incluye todo, desde los usos más básicos de ggplot2 hasta la creación de visualizaciones complejas. Incluye la función filter() en la mayor parte de los ejemplos para que puedas aprender a implementarla en R para crear visualizaciones de datos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Capa de anotaciones 
+Aprenderemos a personalizar la apariencia de nuestros diagramas usando las funciones label y annotate. 
+En el lenguaje cotidiano, anotar significa agregar notas a un documento o diagrama para explicarlo o comentarlo. 
+
+En ggplot2, agregar anotaciones a un diagrama puede ayudar a explicar el propósito del diagrama o a destacar datos importantes. Cuando presentas tus visualizaciones de datos a interesados, quizás no tengas mucho tiempo para reunirte con ellos. Las etiquetas y anotaciones dirigirán su atención a elementos clave y los ayudarán a comprender tu diagrama con rapidez. Comencemos con la función label. Es muy útil para agregar etiquetas informativas a un diagrama, como títulos, subtítulos y leyendas. 
+
+#Probando las facetas con species y las anotaciones
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species)) + labs(title = "Pinguinos: Masa corporal contra longitud de aletas")
+
+Por ejemplo, podemos agregar un título a nuestro diagrama que muestra la relación entre masa corporal y longitud de aleta en las tres especies de pingüino. Un título indicará con claridad el propósito del diagrama. Repasemos el código. Primero, agregamos un signo más para agregar una nueva capa a nuestro diagrama. Luego en los paréntesis, después de la función label, escribimos la palabra title, después un signo igual con el texto específico que queremos en nuestro título. Iniciemos sesión en RStudio Cloud y echémosle un vistazo. Primero, carguemos el paquete de ggplot2 y el conjunto de datos de pingüinos. Recuerda que debes colocar el signo más al final de una línea de código. Es fácil olvidarse. R muestra automáticamente el título en la parte superior del diagrama. Además, podemos agregar un subtítulo a nuestro diagrama para destacar información importante sobre nuestros datos. Para hacerlo, ingresamos el código para el subtítulo del mismo modo que lo hicimos para el título. Recuerda agregar una coma después del argumento title antes de agregar tu subtítulo. 
+
+#Probando las facetas con species y las anotaciones(subtitulos)
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species)) + 
+  labs(title = "Pinguinos: Masa corporal contra longitud de aletas", subtitle = "Muestra de animales")
+
+R muestra automáticamente el subtítulo justo debajo del título. Podemos agregar una leyenda a nuestro diagrama de la misma manera. Las leyendas nos permiten mostrar la fuente de nuestros datos. Los datos sobre pingüinos de Palmer fueron recolectados de 2007 a 2009 por la Dra. Kristen Gorman, miembro del programa de Investigación Ecológica a Largo Plazo de la Estación Palmer. Citemos a la Dra. Gorman en nuestra leyenda. R muestra la leyenda automáticamente en la esquina inferior derecha de nuestro diagrama. 
+
+#Probando las facetas con species y las anotaciones(subtitulos)
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species)) + 
+  labs(title = "Pinguinos: Masa corporal contra longitud de aletas", subtitle = "Muestra de animales", caption = "Datos trecolectados por la Dra. Kristen Gorman")
+
+Los títulos, los subtítulos y las leyendas son etiquetas que colocamos fuera de la cuadrícula de nuestro diagrama para indicar información importante. Si queremos colocar texto dentro de la cuadrícula para destacar puntos de datos específicos, podemos usar la función annotate. Por ejemplo, digamos que queremos destacar los datos sobre los pingüinos Papúa (Gentoo). Podemos usar la función annotate para agregar texto al lado de los puntos de datos que se refieren a los pingüinos Papúa. Este texto comunicará con claridad lo que muestra el diagrama y reforzará una parte importante de nuestros datos. Perfecto, ahora miremos el código. Dentro de los paréntesis de la función annotate, tenemos información sobre el tipo de etiqueta, la ubicación específica de la etiqueta y el contexto de la etiqueta. En este caso, queremos escribir una etiqueta de texto. También queremos colocarla cerca de los puntos de datos sobre pingüinos Papúa. Coloquémosla en las siguientes coordenadas: eje X equivale a 220 milímetros y eje Y equivale a 3,500 gramos. Por último, escribamos nuestro texto. Los Papúa son los más grandes. Ejecutemos eso. 
+
+#Probando las facetas con species y las anotaciones(subtitulos) mas leyenda y su edicion
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color=species)) + 
+  labs(title = "Pinguinos: Masa corporal contra longitud de aletas", subtitle = "Muestra de animales", caption = "Datos trecolectados por la Dra. Kristen Gorman") +
+annotate("text", x=215, y=3750, label = "Los pingüinos Papúa son mas grandes", color = "purple", fontface="bold", size = 3.5, angle = 25)
+
+
+Vamos a analizarlo. R coloca automáticamente la etiqueta de texto en las coordenadas correctas en tu diagrama. Podemos personalizar nuestra anotación aún más. Digamos que queremos cambiar el color de nuestro texto. Bueno, podemos agregar color signo igual seguido del nombre del color. Probemos con purple. También podemos modificar el estilo de fuente y el tamaño de nuestro texto. Usa font face y size para escribir el código. Coloquemos nuestro texto en negrita y hagámoslo un poco más grande. Hasta podemos modificar el ángulo de nuestro texto. Por ejemplo, podemos inclinar nuestro texto en un ángulo de 25 grados para que se alinee con nuestros puntos de datos. Probemos. Se ve genial. A esta altura, nuestro código se está alargando bastante. Si quieres usar menos código, puedes guardar tu diagrama como una variable en R. Como recordatorio rápido, para crear una variable en R, escribes el nombre de la variable, después un signo menor que, seguido de un guion. Probémoslo con el nombre de variable p. Ahora, en vez de volver a escribir todo el código, simplemente podemos decir p y agregarle una anotación como esta. Obtienes el mismo resultado. A algunas personas les gusta ver cada paso de su código indicado frente a sus ojos. Existen ventajas de hacerlo del modo más largo. Realmente queda a tu criterio. Solo quiero que sepas que tienes opciones. Espero que esto te de una idea de algunas de las maneras en que puedes personalizar tus diagramas. Las etiquetas y anotaciones pueden ser muy útiles a la hora de destacar partes importantes de tus datos y transmitir puntos clave.
+_________________________________________________________
+
+¿Qué hacen las funciones de etiquetar y anotar?
+Las funciones de etiquetar y anotar personalizan la apariencia de tus diagramas.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Dibujar flechas y formas en R
+
+Las anotaciones son una manera útil de agregar notas a tu diagrama. Te ayudan a explicar la finalidad del diagrama, destacar puntos de datos importantes o comentar cualquier tendencia o resultados de datos que ilustra el diagrama. Ya aprendiste cómo agregar notas como etiquetas, títulos y subtítulos. Además, puedes dibujar flechas o agregar formas a tu diagrama para generar mayor énfasis. Generalmente, agregas este tipo de anotaciones a tu aplicación de presentación después de haber guardado las visualizaciones. Pero ahora puedes agregar líneas, flechas y formas a tus diagramas usando ggplot2. 
+Recursos
+
+Consulta estos recursos para obtener más información:
+
+Cómo crear una capa de anotaciones
+
+https://ggplot2.tidyverse.org/reference/annotate.html: Esta guía explica cómo agregar una capa de anotaciones con ggplot2. Incluye un código de muestra y visualizaciones de datos con anotaciones creadas en ggplot2. 
+
+Cómo anotar un diagrama en ggplot2
+
+https://www.r-graph-gallery.com/233-add-annotations-on-ggplot2-chart.html : Este recurso incluye explicaciones sobre cómo agregar diferentes tipos de anotaciones a tus diagramas de ggplot2, y es una gran referencia si necesitas consultar rápidamente un tipo específico de anotación. 
+
+Anotaciones
+
+https://ggplot2-book.org/annotations.html : El capítulo ocho del manual en línea de ggplot2 se enfoca exclusivamente en las anotaciones. Ofrece explicaciones exhaustivas de los diferentes tipos de anotaciones, cómo se usan y ejemplos detallados. 
+
+Cómo anotar un diagrama
+
+https://www.r-bloggers.com/2017/02/how-to-annotate-a-plot-in-ggplot2/ : Este artículo de R-Bloggers incluye explicaciones sobre cómo anotar diagramas en ggplot2. Comienza con conceptos básicos y abarca información más complicada cuanto más sigas leyendo. 
+
+Anotaciones de texto
+
+https://viz-ggplot2.rsquaredacademy.com/textann.html : Este recurso se enfoca específicamente en agregar anotaciones de texto y etiquetas a visualizaciones en ggplot2.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Guarda tus visualizaciones
+
+aprenderemos cómo guardar nuestros diagramas. Guardar tu trabajo para que puedas acceder a él es importantísimo. Y te permite seguir trabajando o compartir tu trabajo con otros. Poder reproducir y compartir tu trabajo es una parte clave de tu futuro rol de analista porque te permite colaborar con compañeros de equipo. Ellos pueden volver a revisar tu trabajo y darte su opinión para ayudarte a mejorarlo. Entonces guardemos nuestros diagramas. Para hacerlo, usarás la opción Exportar en la pestaña de diagramas de RStudio o la función ggsave que ofrece el paquete ggplot2. Primero, guardaremos nuestros diagramas usando la opción Exportar. Luego usaremos la función ggsave. Iniciemos sesión en RStudio Cloud. Cargaremos el paquete de ggplot2 y el conjunto de datos de pingüinos. Para empezar, escribamos un código y creemos el diagrama que muestra la relación entre masa corporal y longitud de aleta en tres especies de pingüino. Usemos la opción Exportar en la pestaña diagramas para guardar nuestro diagrama. Podemos guardarlo como un archivo de imagen o un archivo PDF. Probemos guardarlo como imagen. Existen seis opciones diferentes para formato de imagen, entre ellas PNG y JPEG. Probemos PNG. Luego, nombramos nuestro archivo y hacemos clic en Guardar. Ahora, si hacemos clic en la pestaña archivos, encontraremos nuestro archivo en la lista. Abrámoslo. ¡Se ve genial! Eso abarca la opción exportar para guardar un diagrama. Ahora, echemos un vistazo a la función ggsave. Ggsave es una función útil para guardar un diagrama. De manera predeterminada, guarda el último diagrama que mostraste y usa el tamaño del dispositivo gráfico actual. Intentemos guardar nuestro diagrama como archivo PNG usando ggsave. Ggsave guardará automáticamente el diagrama que muestra la relación entre masa corporal y longitud de aleta porque este es el último diagrama que mostramos. Queremos darle un nombre al archivo e indicar como qué tipo de archivo queremos guardarlo. Escribamos el código. Dentro de los paréntesis de la función, comenzamos con comillas, seguidas del nombre del archivo. Pongámosle de nombre Three Penguin Species. Colocamos un punto después del nombre del archivo, luego el tipo de archivo que queremos, después comillas de cierre. Ejecutemos eso. Ahora, si hacemos clic en la pestaña archivos, encontraremos nuestro nuevo archivo en la lista. Abrámoslo. Nuevamente, se ve genial. 
+
+ggsave("Tres especies de pinguinos.png")
+
+Eso abarca los puntos básicos de guardar diagramas. Después de todo tu arduo trabajo creando diagramas en ggplot2, sin dudas deberías recordar guardarlos para que puedas acceder a ellos y compartirlos más adelante. Aquí termina nuestro trabajo sobre visualización de datos. Has tenido un gran inicio en la visualización de datos con ggplot2. Además, los conceptos que abarcamos son una gran base para aprender aun más sobre visualización de datos en R a medida que avances. Comenzamos aprendiendo los pasos básicos para crear diagramas en ggplot2. A partir de allí, aprendimos cómo las estéticas pueden modificar la apariencia de nuestros diagramas y destacar partes importantes de nuestros datos. Usamos diferentes figuras geométricas para crear diferentes tipos de diagramas, como diagramas de dispersión y gráficos de barras, y usamos funciones de facetas para guardar subconjuntos de datos. Después personalizamos nuestros diagramas con etiquetas y anotaciones. Por último, aprendimos a guardar todo nuestro arduo trabajo para poder acceder a él y compartirlo más adelante. Es mucho lo que hemos abarcado. Como siempre, eres libre de volver a ver los vídeos cada vez que quieras y de avanzar a tu propio ritmo. Lleva mucho tiempo y práctica familiarizarse con nuevos conceptos y desarrollar nuevas destrezas. Nadie acierta en todo la primera vez. Pero cuanto más practiques, más a gusto te empezarás a sentir en ggplot2. Si esto no siempre se siente fácil, está bien. Solo significa que tu mente se está expandiendo y que tu conjunto de destrezas está creciendo. Confía en mí, vale la pena. Aprender ggplot2 es un antes y un después para cualquier persona interesada en visualizar datos. Espero que lo hayas disfrutado tanto como yo. Me encanta crear visualizaciones en ggplot2.
+______________________________________________________
+
+¿En qué lugar de RStudio puedes encontrar el menú de exportación para guardar diagramas?
+En RStudio puedes encontrar el menú de exportación para guardar diagramas en la pestaña de diagramas.
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+
+Guardado de imágenes sin ggsave()
+
+En la mayoría de los casos, ggsave() es la manera más sencilla de guardar tu diagrama. Pero existen situaciones en las que quizás sea mejor guardar tu diagrama escribiéndolo directamente en un dispositivo gráfico. Esta lectura abarcará algunas de las diferentes maneras en que puedes guardar imágenes y diagramas sin ggsave() e incluye recursos adicionales para consultar si quieres obtener más información.
+
+Un dispositivo gráfico permite que un diagrama aparezca en tu computadora. Algunos ejemplos incluyen:
+
+    Una ventana en tu computadora (dispositivo de pantalla)
+
+    Un archivo PDF, PNG o JPEG (dispositivo de archivo)
+
+    Un archivo SVG, o gráfico de vector escalable (dispositivo de archivo)
+
+Cuando haces un diagrama en R, tiene que “enviarse” a un dispositivo gráfico específico. Para guardar imágenes sin usar ggsave(), puedes abrir un dispositivo gráfico R como png() o pdf(); estos te permitirán guardar tu diagrama como archivo .png o .pdf. También puedes optar por imprimir el diagrama y luego cerrar el dispositivo usando dev.off().
+
+Ejemplo de uso de png()
+	
+png(file = "exampleplot.png", bg = "transparent")
+plot(1:10)
+rect(1, 5, 3, 7, col = "white")
+dev.off()
+
+Ejemplo de uso de pdf()
+	
+pdf(file = "/Users/username/Desktop/example.pdf",    
+       width = 4,     
+       height = 4) 
+plot(x = 1:10,     
+        y = 1:10)
+abline(v = 0)
+text(x = 0, y = 1, labels = "Random text")
+dev.off()
+
+Para obtener más información sobre los diferentes procesos para guardar imágenes, consulta estos recursos: 
+
+Guardado de imágenes sin ggsave()
+
+https://ggplot2.tidyverse.org/reference/ggsave.html#saving-images-without-ggsave- : Este recurso está extraído directamente de la documentación de ggplot2 en tidyverse.org
+
+. Explora las herramientas que puedes usar para guardar imágenes en R e incluye varios ejemplos para seguir y aprender cómo guardar imágenes en tu propio espacio de trabajo en R. 
+
+Cómo guardar un ggplot
+
+https://www.datanovia.com/en/blog/how-to-save-a-ggplot/ : Este recurso abarca diversos métodos diferentes de guardado de ggplots. Además, incluye un código copiable con explicaciones sobre cómo se está usando cada función para que puedas entender mejor cada paso en el proceso.  
+
+Cómo guardar un diagrama en R
+
+https://www.datamentor.io/r-programming/saving-plot/ : Esta guía abarca múltiples formatos de archivo que puedes usar para guardar tus diagramas en R. Cada sección incluye un ejemplo con un diagrama concreto que puedes copiar y usar para practicar en tu propio espacio de trabajo en R. 

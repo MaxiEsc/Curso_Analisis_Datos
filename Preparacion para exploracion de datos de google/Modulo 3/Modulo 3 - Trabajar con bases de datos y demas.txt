@@ -1,0 +1,435 @@
+Modulo 3 - Trabajar con bases de datos
+
+Video - Todo sobre bases de datos 
+
+Hasta ahora, has visto cómo se pueden reunir y analizar los datos para resolver todo tipo de problemas. El siguiente paso es aprender todo sobre bases de datos a modo de repaso. 
+
+Una base de datos es un conjunto de datos almacenados en un sistema informático
+
+Pero el almacenamiento es solo el comienzo. Descubrirás cómo las bases de datos posibilitan encontrar la información exacta que necesitas para tu análisis. También aprenderás cómo ordenar los datos para acercar aquellos que necesites para generar informes perspicaces y mucho más. Luego profundizaremos estos temas muy, pero muy a fondo. Estoy hablando de metadatos. Es probable que hayas escuchado a alguien decir que algo es “autoconsciente” (en inglés, “meta”). En general, están hablando de algo que se refiere a sí mismo o que está siendo consciente de sí mismo. Por ejemplo, si el personaje de un libro sabe que está dentro de un libro, es autoconsciente.. Si realizas un documental sobre cómo hacer documentales, eso también es algo autoconsciente. Y aquí, en Google, constantemente analizo la forma en que analizo los datos. No hay duda de que eso es autoconsciente. Hago eso para que mi trabajo cuente con una revisión de calidad, para asegurarme de que mis métodos son justos. Y para asegurarme de que estoy prestando atención a cualquier sesgo que pueda afectar el resultado. Como analista, debes hacer esto también. A veces nos acercamos demasiado a nuestros datos. Y es clave tomar distancia y preguntarnos a nosotros mismos si nuestros procesos tienen sentido. Pero regresemos un poco hacia atrás y definamos metadatos. 
+
+Los metadatos son datos sobre los datos. 
+
+Como ya dije: es muy profundo. Los metadatos son muy importantes cuando trabajas con bases de datos. Piensa en ellos como una guía de referencia. Sin esa guía lo único que tienes es un montón de datos sin un contexto que explique lo que significan. Los metadatos indican de dónde vienen los datos, cuándo y cómo se crearon, y de qué se tratan. A continuación, aprenderás cómo tomar datos de una base de datos u otra fuente y agregarlos a una hoja de cálculo. Podrás hacer esto importando datos directamente o utilizando SQL para generar la solicitud. Y una vez que tengas los datos en una hoja de cálculo, las posibilidades son infinitas. Todo lo que estamos a punto de aprender es una parte muy importante de la fase de preparación del proceso de análisis de datos. Es cómo los analistas de datos descubren qué tipo de datos serán útiles para ellos. Si tienes los datos correctos, es muy probable que puedas resolver los problemas de tu empresa de forma exitosa. ¿Estás listo para aprovechar el increíble poder de las bases de datos? Empecemos.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Caracteristicas de los datos 
+
+Las bases de datos son herramientas esenciales para los analistas de datos. Yo las utilizo constantemente. Todos los datos a los que accedo están almacenados en bases de datos. Las bases de datos almacenan y organizan datos, lo que facilita la gestión y el acceso a la información por parte de los analistas de datos. Nos ayudan a obtener información de forma más rápida, a tomar decisiones basadas en datos y a resolver problemas. Ya has oído hablar un poco acerca de qué son las bases de datos y cómo las usan los analistas de datos. Ahora vamos a aprender más sobre las funciones y los componentes de las bases de datos. Aquí puedes ver una estructura simple de una base de datos. Contiene tablas con información sobre un fabricante de automóviles. El nivel superior incluye concesionarios de automóviles, detalles de productos y piezas de repuesto. Luego, si examinas a fondo el siguiente nivel tras seleccionar una de esas tablas, encontrarás detalles más específicos sobre cada una de ellas. Esto se denomina una base de datos relacional. 
+
+Una base de datos relacional es una base de datos que contiene una serie de tablas relacionadas que pueden conectarse mediante sus relaciones. Para que dos tablas tengan una relación, debe haber uno o más campos iguales dentro de ambas tablas. 
+
+Por ejemplo, en este caso, branch ID puede verse en esta tabla y en esta otra. Si existe el mismo campo en ambas tablas, podemos utilizarlo para conectar las dos tablas. El campo con branch ID es clave para conectar estas tablas. Hay dos tipos de claves. 
+
+Una clave primaria es un identificador que hace referencia a una columna en la que cada valor es único. 
+
+Puedes considerarla como un identificador único para cada fila de la tabla. Para nuestra tabla del concesionario, que contiene información sobre las distintas sucursales del concesionario, branch ID es la clave primaria. De manera similar, para la tabla que contiene detalles de los productos de cada automóvil, nuestra clave primaria es el número de inspección del vehículo (VIN). Como analista, es posible que necesites crear tablas. Si decides incluir una clave primaria, debe ser única, lo que quiere decir que no puede haber dos filas con la misma clave primaria. Tampoco puede tener un valor nulo o en blanco. También hay claves externas. 
+
+Una clave externa(Foreing key) es un campo en una tabla que es una clave primaria en otra tabla. 
+
+En otras palabras, una clave externa es cómo una tabla puede conectarse con otra. Dado que nuestra tabla con las piezas de repuesto contiene información sobre cada parte del automóvil, la clave primaria es part ID. Cada fila de nuestra tabla de piezas de repuesto representa una pieza única. Todas las otras claves de esta tabla, como el número de inspección del vehículo, son claves externas que permiten que la tabla de las piezas de repuesto esté conectada con las otras tablas. Como puedes ver, una tabla solo puede tener una clave primaria, pero puede contar con muchas claves externas. Comprender la clave primaria y las claves externas puede ser complicado, pero tendrás más oportunidades para practicarlas próximamente. A modo de resumen general, 
+
+Una clave primaria:
+
+->Una clave primaria se utiliza para asegurar que los datos de una columna específica son únicos. 
+->Solamente identifica un registro en una tabla de base de datos relacional. 
+->Solo se permite una clave primaria en una tabla y no puede contener valores nulos o en blanco. 
+
+Una clave externa: 
+->Es una columna o un grupo de columnas de una tabla de base de datos relacional que proporciona un enlace entre los datos y las dos tablas. 
+->Se refiere al campo de una tabla que es la clave primaria de otra tabla. 
+->Puede haber más de una clave externa en una tabla. 
+
+Puedes volver a mirar el video para que puedas estar seguro de que comprendes bien las claves primarias y externas. A continuación, comenzarás a practicar cómo acceder y analizar los datos de bases de datos reales. Será una gran oportunidad para mejorar tu comprensión de claves primarias y externas, la organización de la base de datos y cómo puedes utilizar las bases de datos en tu carrera como futuro analista.
+_________________________________________________________________
+Si creas una tabla de base de datos e incluyes una clave primaria en la tabla, ¿qué debes asegurar? 
+Si creas una tabla de base de datos con una clave primaria, esta debe ser única y su valor no debe ser nulo ni estar en blanco.
+Una tabla de una base de datos relacional solo puede tener una clave externa.
+Una tabla de una base de datos relacional puede tener varias claves externas.
+<----------------------------------------------------------------------------------------------------------------------->
+
+Bases de datos en el análisis computacional de datos.
+
+Las bases de datos permiten a los analistas manipular, almacenar y procesar datos. Esto les ayuda a buscar datos de manera mucho más eficiente para obtener la mejor información. 
+
+Bases de datos relacionales
+
+Una base de datos relacional es una base de datos que contiene una serie de tablas que se pueden conectar para mostrar relaciones. Básicamente, permiten a los analistas de datos organizar y vincular datos en función de lo que los datos tienen en común. 
+
+En una tabla no relacional, encontrarás todas las variables posibles que podría interesarte analizar agrupadas conjuntamente. Esto puede hacer que sean realmente difíciles de clasificar. Esa es una de las razones por las que las bases de datos relacionales son tan comunes en el análisis de datos: simplifican muchos procesos de análisis y hacen que los datos sean más fáciles de encontrar y de usar en toda una base de datos. 
+La clave de las bases de datos relacionales
+
+Las tablas de una base de datos relacional están conectadas por los campos que tienen en común. Es posible que recuerdes haber aprendido sobre las claves primarias y externas antes. Para repasar rápidamente, una clave primaria es un identificador que hace referencia a una columna en la que cada valor es único. En otras palabras, es una columna de una tabla que se utiliza para identificar de forma única cada registro dentro de esa tabla. El valor asignado a la clave primaria en una fila determinada debe ser único en toda la tabla. Por ejemplo, si customer_id es la clave primaria para la tabla del cliente, no puede haber dos clientes con el mismo customer_id. 
+
+Por el contrario, una clave externa es un campo en una tabla que es una clave primaria en otra tabla. Una tabla puede tener solo una clave primaria, pero puede tener varias claves externas. Esas claves son las que generan las relaciones entre las tablas en una base de datos relacional, lo que ayuda a organizar y conectar los datos entre varias tablas en la base de datos. 
+
+Algunas tablas no requieren una clave primaria. Por ejemplo, una tabla de ingresos puede tener muchas claves externas y ninguna clave primaria. Una clave primaria también puede construirse a partir de varias columnas de una tabla. Este tipo de clave primaria se denomina clave compuesta. Por ejemplo, si customer_id y location_id son dos columnas de una clave compuesta en la tabla de un cliente, los valores asignados a esos campos en cualquier fila dada deben ser únicos en toda la tabla.
+
+¿SQL? Estás hablando mi idioma 
+
+Las bases de datos utilizan un lenguaje especial para comunicarse denominado lenguaje de consulta. El lenguaje de consulta estructurado (SQL) es un tipo de lenguaje de consulta que permite a los analistas de datos comunicarse con la base de datos. De este modo, un analista de datos usará SQL para crear una consulta con el fin de ver los datos específicos que quiere visualizar en un conjunto más grande. En una base de datos relacional, los analistas de datos pueden escribir consultas para obtener información de las tablas relacionadas. SQL es una herramienta poderosa para trabajar con bases de datos; ¡por eso aprenderás más sobre esta herramienta a continuación! 
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Ejercicio conceptual 
+
+Una clave primaria es única y puede existir solo una vez dentro de una tabla determinada. No puede contener valores nulos o en blanco.
+Una clave externa es un campo que es una clave primaria en otra tabla. Las tablas pueden contener varias claves externas.
+Una clave primaria es única y puede existir solo una vez dentro de una tabla determinada. No puede contener valores nulos o en blanco.
+Una clave externa es un campo que es una clave primaria en otra tabla. Las tablas pueden contener varias claves externas.
+Tanto las claves primarias como las externas conectan tablas en bases de datos relacionales. Las tablas pueden tener solo una clave primaria, pero pueden tener varias claves externas.
+Una clave primaria es única y puede existir solo una vez dentro de una tabla determinada. No puede contener valores nulos o en blanco.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Explorar los metadatos
+
+Ahora que conoces las distintas formas de organizar datos en una base de datos, veamos cómo puedes describir esos datos. En este video comenzaremos a explorar los metadatos, que son un aspecto muy importante de la gestión de la base de datos. Sin embargo, el concepto “metadatos” es abstracto. Empecemos con un ejemplo simple y cotidiano. ¿Sabías que cada vez que tomas una fotografía con un teléfono inteligente se recopilan datos automáticamente y se almacenan junto con esa fotografía? Echa un vistazo. Elije cualquier fotografía de tu computadora. Aquí hay una linda toma de los perros de mi amigo, Rudy y Matilda. Haz clic con el botón derecho sobre tu fotografía y selecciona “Obtener información” o “Propiedades”. Así podrás ver los metadatos de tu fotografía, que te dirán el tipo de archivo que es, la fecha y la hora en que la tomaste, la geolocalización o dónde la tomaste, qué tipo de dispositivo utilizaste para tomarla y mucho más. Asombroso, ¿verdad? Aquí tienes otro ejemplo. Cada vez que envías o recibes un correo electrónico, los metadatos acompañan ese mensaje. Puedes encontrarlos haciendo clic en “Ver original” o “Ver detalles del mensaje”. Los metadatos de un correo electrónico incluyen su asunto, el remitente, el destinatario, y la fecha y la hora en que fue enviado. Los metadatos incluso saben qué tan rápido fue enviado una vez que el remitente presionó “Enviar”. 
+
+Los metadatos son información que se utiliza para describir los datos que algo contiene, como una fotografía o un correo electrónico. Recuerda que los metadatos no son los datos. 
+
+En cambio, son datos sobre datos. 
+
+"En el análisis computacional de datos, los metadatos ayudan al analista de datos a interpretar el contenido de los datos de una base de datos." 
+
+Por eso los metadatos son tan importantes cuando trabajas con bases de datos. Le indican al analista de qué se tratan los datos. Eso posibilita poner los datos a trabajar para resolver problemas y tomar decisiones basadas en datos. 
+
+Como analista de datos, hay tres tipos comunes de metadatos con los que te vas a cruzar: 
+->Descriptivos 
+->Estructurales  
+->Administrativos. 
+
+Los metadatos descriptivos son metadatos que describen una pieza de datos y pueden utilizarse para identificarla más adelante. 
+
+Por ejemplo, los metadatos descriptivos de un libro que se encuentra en una biblioteca incluirían el código que ves en el lomo, que se conoce como código normalizado internacional para libros, también denominado ISBN. También incluiría el autor y el título del libro. Luego pasamos a 
+
+Los metadatos estructurales, que son los metadatos que indican cómo se organiza un dato y si forma parte de una o más recopilaciones de datos. 
+
+Volvamos a la biblioteca. Un ejemplo de datos estructurales sería cómo se reúnen las páginas de un libro para crear los diferentes capítulos. Es importante dar cuenta de que los metadatos estructurales también hacen un seguimiento de la relación entre dos cosas. Por ejemplo, pueden mostrarnos que el documento digital del manuscrito de un libro era en realidad la versión original de un libro que hoy está impreso. Finalmente, tenemos los metadatos administrativos. 
+
+Los metadatos administrativos son metadatos que indican la fuente técnica de un recurso digital. 
+
+Cuando observamos los metadatos de la fotografía, esos eran metadatos administrativos. Te dirán el tipo de archivo que era, la fecha y la hora en que tomaste la fotografía, y mucho más. Aquí tienes una reflexión final que te ayudará a comprender los metadatos. Si estás yendo a la biblioteca a buscar un libro, podrías buscar el título de un libro, el autor, la extensión y la cantidad de capítulos. Esos son metadatos, y pueden decirte mucho sobre el libro, pero tendrás que leer realmente el libro para saber de qué se trata. Del mismo modo, puedes leer sobre análisis computacional de datos pero debes tomar este curso para obtener al certificado de Google Data Analytics. Sigue adelante para obtener esa nueva perspectiva.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Los metadatos son tan importantes como los datos en sí.
+
+El análisis computacional de datos es un campo que crece en base a la recolección y organización de datos. En esta lectura, aprenderás cómo analizar y comprender detalladamente cada aspecto de tus datos.
+
+Echa un vistazo a cualquier dato que encuentres. ¿Qué es? ¿De dónde provino? ¿Es útil? ¿Cómo lo sabes? Aquí es donde entran en juego los metadatos para proporcionar una mejor comprensión de los datos. En pocas palabras, los metadatos son datos sobre datos. En la gestión de la base de datos, proporcionan información sobre otros datos y ayudan a los analistas de datos a interpretar los contenidos de los datos en una base de datos.
+
+Independientemente de si estás trabajando con una gran cantidad de datos o con una pequeña, los metadatos son la marca de un equipo de análisis bien informado, que ayuda a comunicar datos a toda la empresa y a simplificar la reutilización de los datos. Básicamente, los metadatos informan el quién, qué, cuándo, dónde, cuál, cómo y por qué de los datos.
+Elementos de los metadatos
+
+Antes de mirar ejemplos de metadatos, es importante comprender qué tipo de información suelen proporcionar los metadatos.
+Título y descripción
+
+¿Cuál es el nombre del archivo o del sitio web que estás examinando? ¿Qué tipo de contenido tiene?
+Etiquetas y categorías
+
+¿Cuál es la descripción general de los datos que tienes? ¿Los datos están indexados o descriptos de algún modo específico? 
+Quién los creó y cuándo
+
+¿De dónde vinieron los datos y cuándo se crearon? ¿Son recientes o existen desde hace mucho tiempo?
+Quién los modificó por última vez y cuándo
+
+¿Se realizaron cambios en los datos?  De ser así, ¿las modificaciones eran recientes?
+Quién puede acceder a ellos o actualizarlos
+
+¿Este conjunto de datos es público? ¿Se necesitan permisos especiales para personalizar o modificar el conjunto de datos?
+Ejemplos de metadatos
+
+En el mundo digital actual, los metadatos están en todos lados y es una práctica cada vez más común brindar metadatos en muchos medios e información con la que interactúas. Aquí tienes algunos ejemplos de la vida real sobre dónde encontrar metadatos:
+Fotografías
+
+Cuando se toma una fotografía con una cámara, se recopilan y se guardan metadatos relacionados con el nombre del archivo en la cámara, la fecha, la hora y la geolocalización.
+Correos electrónicos
+
+Cuando envías o recibes un correo electrónico, hay muchos metadatos visibles, como la línea del asunto, el destinatario, y la fecha y la hora del envío. También hay metadatos ocultos que incluyen nombres de servidores, direcciones IP, formatos HTML y detalles de software.
+Hojas de cálculo y documentos
+
+Las hojas de cálculo y los documentos contienen una gran cantidad de datos, así que no resulta sorprendente que los metadatos también los acompañen. Los títulos, el autor, la fecha de creación, el número de páginas, los comentarios del usuario, así como los nombres de las pestañas, de las tablas y de las columnas son metadatos que pueden encontrarse en hojas de cálculo y en documentos. 
+Sitios web
+
+Cada página web tiene un número de campos de metadatos estándar; por ejemplo, etiquetas y categorías, nombre del creador del sitio, título y descripción de la página web, hora de creación y cualquier iconografía. 
+Archivos digitales
+
+Por lo general, si haces clic con el botón derecho en cualquier archivo de la computadora, verás sus metadatos. Pueden consistir en el nombre de un archivo, su tamaño, la fecha de creación y de modificación, y el tipo de archivo. 
+Libros
+
+Los metadatos no son solamente digitales. Cada libro tiene una cantidad de metadatos estándares en las tapas y en el interior que te informarán sobre el título, el nombre del autor, la tabla de contenidos, la información editorial, la descripción de copyright, el índice y una breve descripción de los contenidos del libro.
+Los datos como los conoces
+
+Conocer el contenido y el contexto de tus datos, así como la forma en la que están estructurados, es muy valioso en tu carrera como analista de datos. A la hora de analizar los datos, es importante que siempre entiendas el panorama general. No solo se trata de los datos que estás observando, sino de cómo se integran esos datos. Los metadatos garantizan que puedas encontrar, utilizar, preservar y reutilizar los datos en el futuro. Recuerda que será tu responsabilidad gestionar y utilizar los datos en su totalidad; los metadatos son tan importantes como los datos.
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video : Utilizar los metadatos como un analista
+
+Ahora que sabes qué son los metadatos, es hora de explorar por qué los analistas de datos los utilizan. Ya sabes que los datos necesitan ser identificados y descriptos antes de que puedan ayudarte a resolver un problema o a tomar una decisión efectiva para la empresa. Poner los datos en contexto es probablemente lo más valioso que hacen los metadatos, pero hay muchos más beneficios de utilizar metadatos. Este es uno de ellos. 
+
+"Los metadatos crean una única fuente de verdad al mantener las cosas coherentes y uniformes."
+
+ Nosotros, los analistas de datos, amamos la coherencia. Siempre buscamos este tipo de uniformidad en nuestros datos y en nuestras bases de datos. Después de todo, los datos que son uniformes pueden organizarse, clasificarse, almacenarse, accederse y utilizarse de manera efectiva. Además, cuando una base de datos es coherente, es mucho más fácil descubrir relaciones entre los datos que están dentro de ella y los datos que están en otro lugar. 
+
+Los metadatos también permiten que los datos sean más confiables al asegurar que sean exactos, precisos, relevantes y oportunos. 
+
+Eso hace que sea más fácil para los analistas de datos identificar las causas raíz de cualquier problema que pueda surgir. La conclusión es que, cuando los datos con los que trabajamos son de buena calidad, las cosas se vuelven más simples y mejoran los resultados. Una de las formas en que los analistas de datos se aseguran de que sus datos sean coherentes y confiables es mediante el uso de algo llamado repositorio de metadatos. 
+
+Un repositorio de metadatos es una base de datos creada específicamente para almacenar metadatos. 
+
+Los repositorios de metadatos pueden almacenarse en una locación física o pueden ser virtuales, como los datos que existen en la nube. Estos repositorios describen de dónde vienen los metadatos, los mantienen accesibles para que puedan ser utilizados de forma rápida y simple, y los mantienen en una estructura común para quienes necesiten utilizarlos. 
+
+"Los repositorios de metadatos hacen que sea más fácil y rápido reunir muchas fuentes para el análisis de datos." 
+
+Para hacer esto, 
+->Describen el estado y la ubicación de los metadatos. 
+->Describen como la estructura de las tablas que están formadas por dentro.  
+->Describen cómo fluyen los datos por el repositorio. 
+->Incluso registran quién accede a los metadatos y cuándo. 
+
+Aquí hay un ejemplo del mundo real. Como analista del cuidado de la salud en Google, utilizo datos de segunda y de tercera fuente. Como sabes, los datos de segunda fuente son datos que recopila un grupo directamente de su audiencia y que, luego, se venden. Los datos de tercera fuente vienen de fuentes externas que no son las recopiladoras originales de los datos. Los obtienen de páginas web o de programas que extraen los datos de distintas plataformas donde se generaron originalmente. Es un poco complejo, pero lo más importante es recordar que los datos de terceras partes no provienen del interior de tu propia empresa. Si mi equipo necesita trabajar con datos que no fueron creados en Google, eso quiere decir que a veces nosotros no sabemos demasiado sobre su calidad y credibilidad, pero necesitamos estar seguros de que nuestros datos pueden ser confiables y que se recopilaron de manera responsable. Después de todo, si los datos no son confiables, nuestros resultados tampoco serán confiables. Por eso es tan importante comprender los metadatos de la base de datos externa. Nos permite confirmar que los datos están limpios, son precisos, relevantes y oportunos. Eso es muy importante si los datos provienen de otra organización. Otro paso importante cuando uno trabaja con datos externos es confirmar que estamos autorizados a utilizarlos. Solemos contactar al dueño para asegurarnos de que podemos acceder a ellos o comprarlos. En resumen, los repositorios de metadatos son útiles por todas estas razones. Además, me ayudan a garantizar que mi equipo está extrayendo el contenido correcto para un proyecto particular y que lo está utilizando de forma apropiada. Podemos confirmar esto porque los metadatos describen de manera clara cómo y cuándo se recopilaron los datos, cómo están organizados y mucho más. Pronto aprenderás mucho más sobre el uso de metadatos en análisis computacional de datos, y si piensas que los metadatos son particularmente fascinantes, descubrirás algunas opciones profesionales muy emocionantes que se enfocan en los metadatos. Mantente atento.
+___________________________________________________________________
+¿Qué puede conseguir un analista de datos más fácilmente con un repositorio de metadatos?
+Gracias a un repositorio de metadatos, a un analista de datos le puede resultar más fácil reunir múltiples fuentes de datos, confirmar cómo o cuándo se recogieron los datos y verificar que los datos de una fuente externa se están utilizando adecuadamente.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Gestion de matadatos
+
+Los metadatos y los repositorios de metadatos son herramientas muy poderosas de la caja de herramientas de los analistas de datos. Como hemos visto anteriormente, los analistas de datos las utilizan para crear una única fuente de verdad, mantener la coherencia y uniformidad de los datos y asegurarse de que los datos con los que trabajamos sean exactos, precisos, relevantes y oportunos. Estas herramientas también facilitan el acceso a los datos y su utilización al estandarizar nuestros procesos. En este video, analizaremos más componentes sobre los metadatos y aprenderemos cómo trabajan los analistas de metadatos para mantener las cosas organizadas. Sabemos que la cantidad de datos que hay allí afuera continúa creciendo, pero muchas empresas no están usando sus datos. A veces, no saben lo que tienen; otras, no pueden encontrarlo; y otras, la empresa simplemente no confía en lo que tiene. Especialmente en las grandes empresas, los datos pueden abarcar numerosos procesos y sistemas diferentes. Y reunir datos de tantos lugares diferentes puede ser un gran desafío. Por ejemplo, digamos que una empresa comienza con un sistema de almacenamiento de datos tradicional en sus oficinas. Pero luego, a medida que la cantidad de datos que tiene continúa expandiéndose, también necesita almacenamiento en la nube. Además, esta empresa puede estar accediendo y utilizando datos de segundas y terceras partes de una organización asociada. Cada uno de estos sistemas tiene sus propias reglas y requisitos, de modo que cada uno organiza los datos de una forma completamente diferente, lo que le da incluso más complejidad. No es de extrañar que muchas organizaciones tengan dificultades para encontrar los datos correctos en el momento preciso. Por otro lado, 
+
+Los metadatos se almacenan en una ubicación única, central y le brindan a la empresa información estandarizada sobre todos sus datos.
+
+Eso se realiza de dos maneras. En primer lugar, los metadatos incluyen información sobre dónde está localizado cada sistema y dónde se ubican los conjuntos de datos dentro de esos sistemas. En segundo lugar, los metadatos describen cómo se conectan todos esos datos entre varios sistemas. Otro aspecto importante de los metadatos es algo llamado gobierno de datos. 
+
+El gobierno de datos es un proceso para asegurar la gestión formal de los recursos de datos de una empresa. 
+
+Eso le brinda a la organización un mejor control de sus datos y le ayuda a la empresa a gestionar problemas relacionados con la seguridad y privacidad de los datos, con la integridad y la facilidad de uso, y con los flujos de datos internos y externos. Es importante señalar que el gobierno de datos es más que solo la estandarización de terminología y de procedimientos. Se trata de las funciones y responsabilidades de las personas que trabajan todos los días con metadatos. Son especialistas en metadatos, y organizan y mantienen los datos de la empresa para asegurar que sean de la mejor calidad posible. Esas personas crean identificación de metadatos e información de descubrimiento básicas, describen la forma en la que los conjuntos de datos trabajan juntos, y explican los variados y diferentes tipos de recursos de datos. Los especialistas en metadatos también crean estándares muy importantes que todos siguen, y los modelos que se utilizan para organizar los datos. Hay una cosa que todos tienen en común. Ya sea que trabajen en una empresa de tecnología, una asociación sin fines de lucro o una institución financiera, los analistas de metadatos tienen un gran espíritu de equipo. Les apasiona que los datos sean accesibles y los comparten con colegas y otros interesados. Si estás buscando un puesto que te impulse a explorar todos los datos que el mundo digital tiene para ofrecer, seguir el camino para convertirte en un analista de metadatos puede ser la opción correcta para ti. Pero, de todas maneras, todo tipo de empresas enfrentan las tendencias del mercado y la competencia, y necesitan comprender la razón por la que un proceso funciona y otro no. El análisis computacional de datos les permite responder preguntas clave y seguir mejorando.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: Diversion con metadatos
+
+Básicamente, ayudo a desmitificar las mediciones y el análisis de datos para agencias publicitarias. Ya sean las personas a cargo de la ejecución de los planes de medios para los anunciantes como las personas interesadas en medir el impacto que tienen los medios para sus clientes. He estado haciendo esto durante unos 17 años y he visto la evolución en el espacio de la disponibilidad de datos, de diferentes técnicas de modelado que han avanzado y se han vuelto más accesibles y ha sido un viaje realmente interesante ver cómo ha evolucionado, cómo el análisis de datos se ha vuelto más masivo y cómo las personas están más entusiasmadas por ello. Los metadatos son básicamente la clave de tu conjunto de datos mayor. Esto ayuda a describir qué hay en las filas y las columnas de los datos con los que estarás trabajando. 
+
+"Los metadatos son una especie de taquigrafía o una versión de las guías de estudio CliffsNotes de un conjunto de información más complejo."
+
+Pueden ser útiles en el sentido de ayudarte a manejar el contenido de un solo conjunto de datos al que puedas tener acceso. Es una parte importante del proceso de descubrimiento de un proyecto de análisis de datos mientras trabajas con un cliente o un proveedor para comprender los recursos con los que contarás para resolver un problema y qué es lo que falta. Te da las claves para desbloquear los datos de modo simple y directo y es una gran herramienta de comunicación. Cuando estaba trabajando para un publicitario, una de las cosas que estábamos tratando de hacer era construir algo llamado lago de datos. En esencia, se trata de reunir todas las fuentes de datos que quieras utilizar en un análisis en un solo lugar, lo que puede resultar realmente riesgoso. Uno de los beneficios de los metadatos era imaginar que teníamos fuentes que podían superponerse, donde había fuentes de datos que tenían cosas en común. Y cuáles son las piezas únicas de información que estábamos obteniendo de cada uno de esos conjuntos de datos. De modo que al pensar cómo encarar este proyecto realmente enorme e importante 
+
+"pudimos utilizar los metadatos para alcanzar en forma rápida y fácil los constructos básicos que estamos tratando de manejar." 
+
+Cuando estás trabajando con personas que pueden no realizar análisis de datos en su trabajo normal llegar al momento en que dicen "claro", ayudarlos a entender cómo las herramientas de medición y análisis de datos pueden ayudarlos a lograr sus metas, es muy importante. Y darte cuenta de que hiciste algo que previamente era inaccesible un poco más accesible para el equipo y lo has convertirlo en algo más cómodo para poner en práctica es realmente importante y algo genial como resultado de una sociedad.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video: trabaja con mas fuentes de datos
+
+En este video, hablaremos sobre los diferentes lugares a los que van los analistas de datos para conectar con los datos. Hay muchos tipos de datos y es importante saber cómo acceder a ellos. Anteriormente, aprendiste que hay dos tipos básicos de datos que utilizan los analistas de datos: internos y externos. 
+
+Los datos internos son datos que están alojados en los sistemas propios de una empresa. 
+
+Normalmente, también son generados desde dentro de la misma empresa. Es posible que escuches que los datos internos son descriptos como datos primarios. 
+
+Los datos externos son datos que se alojan y son generados fuera de una organización. 
+
+Pueden venir de una variedad de lugares, incluso de otras empresas, fuentes gubernamentales, los medios, asociaciones profesionales, escuelas y muchos más. A veces, los datos externos son denominados datos secundarios. Reunir datos internos puede ser complicado. Según tu proyecto de análisis computacional de datos, puedes necesitar datos de muchas fuentes y departamentos diferentes, que pueden incluir ventas, marketing, gestión de las relaciones con los clientes, finanzas, recursos humanos e incluso archivos de datos. Pero el esfuerzo lo vale. Los datos internos tienen muchas ventajas para una empresa. Proporcionan información que es relevante para los problemas que estás tratando de resolver y son de acceso gratuito porque son de la empresa. Con los datos internos, los analistas pueden trabajar en todos los proyectos de datos sin siquiera salir de sus cuatro paredes. Pero, a veces, los datos internos no proporcionan un panorama general. En esos casos, los analistas de datos pueden recurrir a datos externos y aplicar esa información a sus análisis. Por ejemplo, como analista del cuidado de la salud, a menudo nos asociamos con otras organizaciones de cuidados de la salud o con organizaciones sin fines de lucro, y usamos sus datos para brindar un análisis más profundo y agregar una perspectiva que esté más al nivel de la industria. En un video anterior, aprendiste que la apertura ha creado muchos datos para analizar, en gran medida a través de iniciativas de datos abiertos. Como recordatorio,
+
+La apertura o datos abiertos se refiere al acceso, uso e intercambio libre de los datos. 
+
+Por ejemplo, el gobierno de los Estados Unidos crea cientos de miles de conjuntos de datos que están disponibles para el público en Data.gov. Esos conjuntos de datos contienen información sobre patrones climáticos, progresos de la educación, tazas de delincuencia, transportes y mucho más. Hay muchas razones para que existan estas iniciativas de datos abiertos. Una es otorgarle más transparencia a las actividades del gobierno, como permitir que el público vea dónde se gasta el dinero. También ayuda a educar a los ciudadanos en relación con la votación y a problemas locales. Los datos abiertos también mejoran el servicio público, ya que les brindan a las personas formas para ser parte de la planificación pública o de proporcionar retroalimentación al gobierno. Para finalizar, los datos abiertos conducen a la innovación y al crecimiento económico, al ayudar a las personas y a las empresas a comprender mejor sus mercados. Google almacena un montón de bases de datos públicos que brindan información sobre ciencia, transporte, economía, el clima y mucho más. Como ejemplo, una empresa de bicicletas de uso compartido podría usar datos sobre el tráfico que se encuentran en nuestra base de datos sobre transporte público para ver si hay mucho tráfico en las calles. Luego, podría elegir esas ubicaciones para colocar sus bicicletas con el fin de reducir los automóviles que hay en la calle y brindarles a las personas otra opción de transporte. Ya estás familiarizado con los datos internos y externos y cómo acceder a ellos. A continuación, aprenderemos cómo importar todos los datos que has recopilado de diferentes fuentes en una hoja de cálculo.
+
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+De una fuente externa a una hoja de cálculo
+
+Cuando trabajas con hojas de cálculo, hay algunas maneras diferentes de importar datos. En esta lectura encontrarás información sobre cómo importar datos de fuentes externas, específicamente:
+
+    Otras hojas de cálculo
+
+    Archivos CSV
+
+    Tablas HTML (en páginas web) 
+
+Importar datos de otras hojas de cálculo
+
+En muchos casos, es posible que tengas abierta una hoja de cálculo existente y necesites agregar datos adicionales desde otra hoja de cálculo. 
+Google Sheets
+
+En Google Sheets puedes utilizar la función IMPORTRANGE. Te permite especificar un rango de celdas en la otra hoja de cálculo para duplicarlo en la hoja de cálculo en la que estás trabajando. 
+
+Debes permitir el acceso a la hoja de cálculo que contiene los datos la primera vez que importes los datos. La URL que se muestra debajo es solamente para fines sintácticos. No la ingreses en tu hoja de cálculo. Reemplázala con una URL que te dirija a una hoja de cálculo que hayas creado para que puedas controlar el acceso a la misma al hacer clic en el botón Permitir acceso.
+
+This image shows an IMPORTRANGE formula in a cell and a #REF! error with the message "You need to connect these sheets."
+
+Para obtener más información sobre la sintaxis, consulta la página IMPORTRANGE
+ en el Centro de ayuda de Google. También hay un ejemplo para utilizar más adelante en el programa en Funciones avanzadas para una limpieza rápida de datos
+
+.
+Microsoft Excel
+
+Para importar datos desde otra hoja de cálculo, sigue las siguientes instrucciones: 
+
+Paso 1: Selecciona Datos en el menú principal.
+
+Paso 2: Haz clic en Obtener datos, selecciona Desde archivo, y luego selecciona Desde libro.
+
+Paso 3: Explora y selecciona el archivo de la hoja de cálculo y luego haz clic en Importar.
+
+Paso 4: En el navegador, selecciona la hoja de trabajo que quieres importar.
+
+Paso 5: Haz clic en Cargar para importar todos los datos en la hoja de trabajo; o haz clic en Transformar datos para abrir el Editor de Power Query para ajustar las columnas y las filas de los datos que quieres importar.
+
+Paso 6: Si hiciste clic en Transformar datos, haz clic en Cerrar y cargar y, luego, selecciona una de las dos opciones:
+
+    Cerrar y cargar para importar los datos a una hoja de cálculo nueva.
+
+    Cerrar y cargar a... para importar los datos a una hoja de cálculo existente. 
+
+Importar datos desde archivos CSV
+Google Sheets
+
+Paso 1: Abre el menú Archivo en tu hoja de cálculo y selecciona Importar para abrir la ventana que permite importar archivos. 
+
+Paso 2: Selecciona Cargar y luego selecciona el archivo CSV que quieres importar.
+
+Paso 3: A partir de aquí tendrás algunas opciones. Para Importar ubicación puedes elegir reemplazar la hoja de cálculo actual, crear una nueva, insertar los datos CSV como una nueva hoja, agregar los datos a la hoja de cálculo actual o reemplazar los datos en una celda específica. Los datos se insertarán como texto sin formato solo si desmarcas la casilla Convertir texto a números, fechas y fórmulas, que es la configuración predeterminada. A veces, un archivo CSV utiliza un separador, como un punto y coma, o incluso un espacio en blanco en lugar de una coma. En Tipo de separador puedes seleccionar Pestaña o Coma, o seleccionar Personalizar para ingresar otro carácter que se utilice como separador.
+
+Paso 4: Seleccione Importar datos. Se cargarán los datos del archivo CSV en tu hoja, ¡y ya puedes comenzar a usarlos!
+
+Nota: También puedes utilizar la función IMPORTDATA en la celda de una hoja de cálculo para importar datos utilizando la URL que te dirige a un archivo CSV. Para obtener más información y la sintaxis, consulta la página IMPORTDATA
+
+ del Centro de ayuda de Google. 
+Microsoft Excel
+
+Paso 1: Abre una hoja de cálculo nuevo o existente.
+
+Paso 2: Haz clic en Datos en el menú principal y selecciona la opción Desde texto/CSV.
+
+Paso 3: Explora y selecciona el archivo CSV y luego haz clic en Importar.
+
+Paso 4: A partir de aquí tendrás algunas opciones. Puedes cambiar el delimitador, y en vez de ser una coma puede ser cualquier otro carácter, como un punto y coma. También puedes habilitar o deshabilitar la detección automática de tipos de datos. Y, finalmente, puedes transformar tus datos haciendo clic en Transformar datos para abrir el Editor de Power Query.
+
+Paso 5: En la mayoría de los casos, acepta la configuración predeterminada en el paso anterior y haz clic en Cargar para cargar los datos que están en el archivo CSV a la hoja de cálculo. Se cargarán los datos del archivo CSV en la hoja de cálculo, ¡y ya puedes comenzar a trabajar con los datos!
+Importar tablas HTML desde páginas web 
+
+Importar tablas HTML es un método muy básico para extraer o “reunir” datos de páginas web públicas. Reunir datos de manera sencilla
+
+ explica cómo hacer esto con Google Sheets o con Microsoft Excel.
+Google Sheets
+
+En Google Sheets, puedes utilizar la función IMPORTHTML. Permite que importes datos de una tabla (o lista) HTML de una página web. 
+
+Para obtener más información sobre la sintaxis, consulta la página IMPORTHTML
+
+ del Centro de ayuda de Google. Si estás importando una lista, reemplaza “tabla” por “lista” en el ejemplo anterior. El número 4 es el índice que hace referencia al orden de las tablas en una página web. Es como un indicador que señala de qué tabla de la página quieres importar los datos. 
+
+¡Inténtalo tú mismo! En hojas de cálculo en blanco, copia y pega cada una de las siguientes funciones IMPORTHTML en la celda A1 y observa lo que ocurre. Estarás importando los datos de cuatro tablas HTML diferentes en un artículo de Wikipedia: La demografía de la India
+
+. Puedes comparar los datos importados con las tablas del artículo. 
+
+    =IMPORTHTML("http://en.wikipedia.org/wiki/Demographics_of_India","table",1)
+
+    =IMPORTHTML("http://en.wikipedia.org/wiki/Demographics_of_India","table",2)
+
+    =IMPORTHTML("http://en.wikipedia.org/wiki/Demographics_of_India","table",3)
+
+    =IMPORTHTML("http://en.wikipedia.org/wiki/Demographics_of_India","table",4)
+
+Microsoft Excel
+
+Puedes importar datos de páginas web utilizando la opción Desde web: 
+
+Paso 1: Abre una hoja de cálculo nueva o existente.
+
+Paso 2: Haz clic en Datos en el menú principal y selecciona la opción Desde web.
+
+Paso 3: Ingresa la URL y presiona Aceptar.
+
+Paso 4: En el navegador, selecciona la tabla que quieres importar.
+
+Paso 5: Haz clic en Cargar para cargar los datos de una tabla en tu hoja de cálculo.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Video:Importar hojas de calculo y bases de datos
+
+A esta altura, ya has aprendido todo sobre datos internos y externos, y cómo prepararlos para utilizarlos. Ahora comenzaremos el proceso de importación real de datos desde distintas fuentes. A veces quieres cargar una hoja de cálculo desde tus archivos, por ejemplo, un archivo CSV. 
+
+CSV significa valores separados por coma. Un archivo CSV guarda datos en formato de tabla. 
+
+Ahora traigamos ese archivo a una hoja de cálculo nueva. Comenzaremos por seleccionar un archivo y, luego, lo importaremos. A continuación, elegiremos cargar un archivo. Búscalo, ábrelo e insértalo como una hoja nueva. Los archivos CSV usan texto normal y están delineados por caracteres. Así que cada columna o campo es muy diferente de la otra a la hora de importar. Como sabes, los archivos CSV están separados por comas y, en general, la aplicación de la hoja de cálculo detectará automáticamente esas separaciones. Sin embargo, a veces, puedes necesitar indicar que un separador es otro carácter o un espacio, y para ello seleccionas las distintas opciones en esta ventana. Asimismo, si estás planificando trabajar con un conjunto de datos, en general, lo convertirías a texto, números u otras opciones desde aquí. Pero un texto normal está bien para los propósitos de un informe. Así que podemos dejar tranquilos esos campos. Finalmente, selecciona Importar datos. Ahora nuestro archivo CSV está listo para funcionar en nuestra hoja de cálculo. Paso la mayor cantidad de tiempo en el trabajo analizando hojas de cálculo llenas de información sobre cuidados de la salud. En general, comienzo por buscar en un conjunto de datos más grande. Luego, extraigo un subconjunto a una hoja de cálculo para poder trabajar con él. Quizás quiero analizar el crecimiento año por año en la demanda de usuario en Google Search para ciertos servicios de cuidado de la salud, como telemedicina. O quizás quiero mirar conjuntos de datos de organizaciones o agencias externas sobre cuidados de la salud para obtener más información sobre esta tendencia. Por ejemplo, con telemedicina quizás observaría una hoja de cálculo que enumera los proveedores de telemedicina. Hay muchas formas en que las hojas de cálculo pueden ayudarte a encontrar la información que necesitas. Una fuente que utilizo mucho es el repositorio de datos de la Organización Mundial de la Salud. En ese sitio cualquiera puede acceder a datos de fuente abierta. Como puedes ver, hay cientos de datos disponibles. Puedes buscar por tema, categoría, indicador y país. También puedes acceder a los metadatos de la Organización Mundial de la Salud si quieres aprender más sobre los datos en este repositorio. Para nuestro ejemplo, buscaremos doctores por país y año. Esa información será útil para un proyecto de análisis de datos que busque cuántos doctores están disponibles para tratar pacientes en una cierta población en comparación con otras poblaciones. Para obtener estos datos comenzaremos en esta página web, que contiene el conjunto de datos que queremos. Luego, descargaremos los datos como un archivo CSV. Después, abriremos una hoja de cálculo nueva e importaremos el archivo seleccionando Archivo, Importar. Luego, cargarás tu archivo y seleccionarás Importar datos. Tras revisar los datos para asegurarte de que se vean limpios, podemos ponerles un título y comenzar a trabajar. Sé que es demasiada información para recordar, pero te sentirás más cómodo a medida que vayas practicando. A continuación, aprenderemos cómo ordenar y filtrar tus datos para enfocarte en la información que te resulte pertinente.
+___________________________________________________
+Los archivos CSV utilizan texto sin formato y están delimitados por caracteres, como una coma. Un delimitador indica un límite o separación entre dos cosas.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+Explorar conjuntos de datos públicos
+
+Datos abiertos ayuda a crear muchos conjuntos de datos públicos a los que puedes acceder para tomar decisiones basadas en datos. Aquí hay algunos recursos que puedes utilizar para comenzar a buscar conjuntos de datos públicos por tu cuenta:
+
+    Los Conjuntos de datos públicos de Google Cloud
+
+ permiten a los analistas de datos acceder a conjuntos de datos públicos de gran demanda y facilitan el descubrimiento de información en la nube. 
+
+La Búsqueda de conjuntos de datos
+
+ puede ayudarte a encontrar conjuntos de datos disponibles en línea mediante la búsqueda de palabras clave. 
+
+Kaggle
+
+ tiene una función de búsqueda de Datos abiertos que puede ayudarte a encontrar conjuntos de datos para practicar.
+
+Por último, BigQuery
+
+     almacena más de 150 conjuntos de datos públicos a los que puedes acceder y utilizar. 
+
+Conjuntos de datos públicos sobre salud
+
+    Datos del Observatorio Mundial de la Salud
+
+: Puedes buscar conjuntos de datos en esta página o explorar las colecciones de datos destacadas de la Organización Mundial de la Salud.  
+
+El conjunto de datos del Archivo de imágenes de cáncer (TCIA)
+
+: Al igual que el conjunto de datos anterior, estos datos están almacenados en los conjuntos de datos públicos de Google Cloud y puedes cargarlos a BigQuery.
+
+1000 genomas
+
+    : Este es otro conjunto de datos de los recursos públicos de la Google Cloud que puedes cargar a BigQuery. 
+
+Conjuntos de datos públicos sobre el clima
+
+    Centro Nacional de Datos Climáticos
+
+: La página de enlaces rápidos del Centro Nacional de Datos Climáticos (NCDC) tiene una selección de conjuntos de datos que puedes explorar. 
+
+Galería del conjunto de datos públicos de la Asociación Nacional de Asuntos Oceánicos y Atmosféricos
+
+    : La Galería del conjunto de datos públicos de la Asociación Nacional de Asuntos Oceánicos y Atmosféricos (NOAA) contiene una colección de conjuntos de datos que puedes consultar.
+
+Conjuntos de datos públicos sobre política y sociedad
+
+    El Estado de la infancia a nivel mundial de UNICEF
+
+: El conjunto de datos de UNICEF incluye una colección de tablas que puedes descargar.
+
+Estadísticas del mercado laboral de la Encuesta continua de población
+
+: Esta página contiene enlaces hacia muchos conjuntos de datos disponibles que puedes explorar.
+
+El proyecto abierto sobre mantenimiento del orden en Stanford
+: Puedes descargar este conjunto de datos como un archivo .CSV para tu propio uso.
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+
+<----------------------------------------------------------------------------------------------------------------------->
+
+
+<----------------------------------------------------------------------------------------------------------------------->
